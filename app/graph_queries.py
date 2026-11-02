@@ -13,13 +13,18 @@ def search_entities(driver: Driver, text: str, limit: int) -> list[dict]:
 
 
 def _subgraph(driver: Driver, seed_query: str, depth: int, **params) -> dict:
-    """Nodes within `depth` typed hops of the seed entities, and the edges between them."""
+    """Nodes within `depth` typed hops of the seed entities, and the edges between them.
+
+    Seeds and neighbours are sorted by PageRank before the MAX_NODES cut, so a large
+    topic keeps its most central entities instead of an arbitrary subset."""
     records = driver.execute_query(
         f"""
         {seed_query}
+        WITH seed ORDER BY coalesce(seed.pagerank, 0) DESC
         WITH collect(DISTINCT seed) AS seeds
         UNWIND seeds AS seed
         OPTIONAL MATCH (seed)-[:{TYPED_RELATIONS}*1..{int(depth)}]-(other:Entity)
+        WITH seeds, other ORDER BY coalesce(other.pagerank, 0) DESC
         WITH seeds, collect(DISTINCT other) AS others
         WITH [n IN seeds + others WHERE n IS NOT NULL][..$max_nodes] AS nodes
         UNWIND nodes AS a
