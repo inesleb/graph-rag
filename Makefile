@@ -1,7 +1,7 @@
 PYTHON ?= .venv/bin/python
 
 .DEFAULT_GOAL := help
-.PHONY: help install run docker-run corpus test lint clean
+.PHONY: help install run docker-run corpus ingest ingest-cached topics test lint clean
 
 help: ## Show the available commands
 	@grep -E "^[a-z-]+:.*## " $(MAKEFILE_LIST) | awk -F ":.*## " '{printf "  %-12s %s\n", $$1, $$2}'
@@ -18,6 +18,15 @@ docker-run: ## Build and start Neo4j and the API with Docker Compose
 
 corpus: ## Download the Wikipedia corpus into data/raw
 	$(PYTHON) -m scripts.download_corpus
+
+ingest: ## Build the graph (LLM extraction, cached in data/extracted)
+	$(PYTHON) -m scripts.ingest --reset
+
+ingest-cached: ## Rebuild the graph from cached extractions only (no LLM, no API key for chat)
+	$(PYTHON) -m scripts.ingest --reset --no-llm
+
+topics: ## Detect topics with GDS (Louvain + PageRank)
+	$(PYTHON) -m scripts.topics
 
 test: ## Run the tests with coverage (fails under 60%)
 	$(PYTHON) -m pytest --cov=app --cov=scripts --cov-report=term-missing --cov-fail-under=60

@@ -1,0 +1,9 @@
+.venv
+.env
+neo4j_data
+data
+.git
+.pytest_cache
+.coverage
+htmlcov
+**/__pycache__

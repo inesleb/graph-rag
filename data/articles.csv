@@ -1,57 +1,57 @@
-title,kind
-Affaire McKinsey,affair
-Fonds Marianne,affair
-Affaire Bygmalion,affair
-Affaire Fillon,affair
-Affaire des écoutes (Sarkozy),affair
-Affaire Sarkozy-Kadhafi,affair
-Affaire des assistants parlementaires du Front national au Parlement européen,affair
-Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen,affair
-Affaires Benalla,affair
-Uber Files,affair
-Affaire des sondages de l'Élysée,affair
-Kazakhgate,affair
-Affaire Tapie - Crédit lyonnais,affair
-Affaire Karachi,affair
-Affaire des Mutuelles de Bretagne,affair
-Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017,affair
-Affaire Carlos Ghosn,affair
-Affaire Balkany,affair
-Affaire Business France,affair
-Affaire Alstom,affair
-Nicolas Sarkozy,context
-François Fillon,context
-Penelope Fillon,context
-Marine Le Pen,context
-Emmanuel Macron,context
-Alexis Kohler,context
-François Bayrou,context
-Claude Guéant,context
-Brice Hortefeux,context
-Ziad Takieddine,context
-Alexandre Djouhri,context
-Thierry Herzog,context
-Gilbert Azibert,context
-Jérôme Lavrilleux,context
-Patrick Balkany,context
-Isabelle Balkany,context
-Alexandre Benalla,context
-Richard Ferrand,context
-Jean-Luc Mélenchon,context
-Rachida Dati,context
-Carlos Ghosn,context
-Bernard Tapie,context
-Édouard Balladur,context
-Marlène Schiappa,context
-Patrick Buisson,context
-Muriel Pénicaud,context
-Parquet national financier,context
-Cour de justice de la République,context
-Mediapart,context
-Le Canard enchaîné,context
-Rassemblement national,context
-Les Républicains,context
-Mouvement démocrate,context
-La France insoumise,context
-McKinsey & Company,context
-Uber (entreprise),context
+title,kind,entity_type
+Affaire McKinsey,affair,Affair
+Fonds Marianne,affair,Affair
+Affaire Bygmalion,affair,Affair
+Affaire Fillon,affair,Affair
+Affaire des écoutes (Sarkozy),affair,Affair
+Affaire Sarkozy-Kadhafi,affair,Affair
+Affaire des assistants parlementaires du Front national au Parlement européen,affair,Affair
+Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen,affair,Affair
+Affaires Benalla,affair,Affair
+Uber Files,affair,Affair
+Affaire des sondages de l'Élysée,affair,Affair
+Kazakhgate,affair,Affair
+Affaire Tapie - Crédit lyonnais,affair,Affair
+Affaire Karachi,affair,Affair
+Affaire des Mutuelles de Bretagne,affair,Affair
+Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017,affair,Affair
+Affaire Carlos Ghosn,affair,Affair
+Affaire Balkany,affair,Affair
+Affaire Business France,affair,Affair
+Affaire Alstom,affair,Affair
+Nicolas Sarkozy,context,Person
+François Fillon,context,Person
+Penelope Fillon,context,Person
+Marine Le Pen,context,Person
+Emmanuel Macron,context,Person
+Alexis Kohler,context,Person
+François Bayrou,context,Person
+Claude Guéant,context,Person
+Brice Hortefeux,context,Person
+Ziad Takieddine,context,Person
+Alexandre Djouhri,context,Person
+Thierry Herzog,context,Person
+Gilbert Azibert,context,Person
+Jérôme Lavrilleux,context,Person
+Patrick Balkany,context,Person
+Isabelle Balkany,context,Person
+Alexandre Benalla,context,Person
+Richard Ferrand,context,Person
+Jean-Luc Mélenchon,context,Person
+Rachida Dati,context,Person
+Carlos Ghosn,context,Person
+Bernard Tapie,context,Person
+Édouard Balladur,context,Person
+Marlène Schiappa,context,Person
+Patrick Buisson,context,Person
+Muriel Pénicaud,context,Person
+Parquet national financier,context,Institution
+Cour de justice de la République,context,Institution
+Mediapart,context,Media
+Le Canard enchaîné,context,Media
+Rassemblement national,context,Party
+Les Républicains,context,Party
+Mouvement démocrate,context,Party
+La France insoumise,context,Party
+McKinsey & Company,context,Company
+Uber,context,Company

@@ -5,3 +5,6 @@ __pycache__/
 .coverage
 htmlcov/
 neo4j_data/
+data/cache/
+.DS_Store
+.claude/
