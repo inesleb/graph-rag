@@ -1,0 +1,182 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "dissimulation de revenus",
+   "type": "Offense"
+  },
+  {
+   "name": "fausses déclarations",
+   "type": "Offense"
+  },
+  {
+   "name": "sous-estimation de salaire",
+   "type": "Offense"
+  },
+  {
+   "name": "accord secret de retraite-chapeau non déclaré",
+   "type": "Offense"
+  },
+  {
+   "name": "Asahi Shinbun",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "il est suspecté de fausses déclarations auprès des autorités financières et boursières japonaises",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "dissimulation de revenus",
+   "evidence": "n’avoir pas déclaré trente millions d’euros de revenus entre 2010 et 2015 chez Nissan",
+   "confidence": 0.95,
+   "date": "2010-2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "sous-estimation de salaire",
+   "evidence": "d’avoir sous-estimé son salaire pour 25 millions d’euros pendant trois ans entre 2015 et 2016",
+   "confidence": 0.95,
+   "date": "2015-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "accord secret de retraite-chapeau non déclaré",
+   "evidence": "d’avoir signé un accord secret de retraite-chapeau à hauteur de 70 millions d’euros avec Nissan depuis 2010",
+   "confidence": 0.95,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "fausses déclarations",
+   "evidence": "ne pas l’avoir déclaré aux autorités boursières",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Son second et collaborateur, Greg Kelly, est poursuivi de complicité et de mêmes accusations",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "INDICTED_IN",
+   "target": "dissimulation de revenus",
+   "evidence": "Le 10 décembre 2018, Carlos Ghosn et Greg Kelly sont inculpés pour dissimulation de revenus entre 2010 et 2015",
+   "confidence": 1.0,
+   "date": "2018-12-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "dissimulation de revenus",
+   "evidence": "Le 10 décembre 2018, Carlos Ghosn et Greg Kelly sont inculpés pour dissimulation de revenus entre 2010 et 2015",
+   "confidence": 1.0,
+   "date": "2018-12-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "négligence",
+   "evidence": "Nissan pour négligence",
+   "confidence": 0.9,
+   "date": "2018-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "dissimulation de revenus",
+   "evidence": "il est suspecté de fausses déclarations... dissimulation de revenus entre 2010 et 2015",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "fausses déclarations",
+   "evidence": "il est suspecté de fausses déclarations auprès des autorités financières et boursières japonaises",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "sous-estimation de salaire",
+   "evidence": "d’avoir sous-estimé son salaire pour 25 millions d’euros pendant trois ans entre 2015 et 2016",
+   "confidence": 0.95,
+   "date": "2015-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "accord secret de retraite-chapeau non déclaré",
+   "evidence": "d’avoir signé un accord secret de retraite-chapeau à hauteur de 70 millions d’euros avec Nissan depuis 2010",
+   "confidence": 0.95,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Asahi Shinbun",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Selon le journal japonais Asahi Shinbun, il est suspecté de...",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

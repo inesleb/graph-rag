@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "déclarations mensongères sur son patrimoine",
+   "type": "Offense"
+  },
+  {
+   "name": "sous-évaluation manifeste de certains actifs et omission de biens mobiliers et immobiliers",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 12 mai 2015, la Haute Autorité pour la transparence de la vie publique (HATVP) avait saisi le parquet national financier au sujet de Patrick et Isabelle Balkany",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 12 mai 2015, la Haute Autorité pour la transparence de la vie publique (HATVP) avait saisi le parquet national financier au sujet de Patrick et Isabelle Balkany",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "déclarations mensongères sur son patrimoine",
+   "evidence": "Le maire de Levallois-Perret Patrick Balkany est mis en examen vendredi 15 janvier 2016 pour déclarations mensongères sur son patrimoine",
+   "confidence": 1.0,
+   "date": "2016-01-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "sous-évaluation manifeste de certains actifs et omission de biens mobiliers et immobiliers",
+   "evidence": "Les juges soupçonnent Patrick et Isabelle Balkany d'avoir [...] fourni une évaluation mensongère dans les déclarations",
+   "confidence": 0.85,
+   "date": "2011-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "sous-évaluation manifeste de certains actifs et omission de biens mobiliers et immobiliers",
+   "evidence": "Les juges soupçonnent Patrick et Isabelle Balkany d'avoir [...] fourni une évaluation mensongère dans les déclarations",
+   "confidence": 0.85,
+   "date": "2011-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "sous-évaluation manifeste de certains actifs et omission de biens mobiliers et immobiliers",
+   "evidence": "Ce type de délit peut entraîner 3 ans de prison et jusqu'à 45 000 euros d’amende, ainsi qu’une privation des droits civiques",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "WORKED_FOR",
+   "target": "Patrick Balkany",
+   "evidence": "Les déclarations auxquelles sont soumis les élus auprès de la Haute Autorité pour la transparence de la vie publique",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "WORKED_FOR",
+   "target": "Isabelle Balkany",
+   "evidence": "Les déclarations auxquelles sont soumis les élus auprès de la Haute Autorité pour la transparence de la vie publique",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "La Haute Autorité pour la transparence de la vie publique (HATVP) avait saisi le parquet national financier au sujet de Patrick et Isabelle Balkany",
+   "confidence": 0.95,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

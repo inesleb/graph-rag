@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "elle s'engage au sein du FN, dirigé par son père Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": "1986",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "Elle est la figure principale du Front national (FN) renommé Rassemblement national (RN), le principal parti d'extrême droite en France, qu'elle dirige de 2011 à 2021.",
+   "confidence": 1.0,
+   "date": "2011-2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Front national (FN) renommé Rassemblement national (RN)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Elle est la figure principale du Front national (FN) renommé Rassemblement national (RN)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "dirigé par son père Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": "1986",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle de 2012",
+   "evidence": "Elle arrive en troisième position au premier tour à l'élection présidentielle de 2012",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle de 2017",
+   "evidence": "elle perd au second tour à l'élection présidentielle de 2017 face à Emmanuel Macron",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Élections législatives de 2017",
+   "evidence": "Lors des élections législatives qui suivent, elle est élue députée dans le Pas-de-Calais",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

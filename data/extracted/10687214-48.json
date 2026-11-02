@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Riposte laïque",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Gérald Darmanin",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Suzanne Le Quéau",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Élection présidentielle de 2027",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Riposte laïque",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Des menaces de mort et une photographie de la procureure ont été postées dans la partie commentaires des articles qui traitent de l'affaire judiciaire.",
+   "confidence": 0.95,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Riposte laïque",
+   "type": "INVOLVED_IN",
+   "target": "Menaces envers magistrats",
+   "evidence": "Des menaces de mort et une photographie de la procureure ont été postées dans la partie commentaires des articles.",
+   "confidence": 0.95,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen et d'autres membres du RN, sont menacés nommément.",
+   "confidence": 0.9,
+   "date": "2025-03-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen et ses proches accusent la présidente du tribunal de vouloir l'empêcher de se présenter à l'élection présidentielle de 2027.",
+   "confidence": 0.7,
+   "date": "2025-04-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tribunal judiciaire de Paris",
+   "type": "CONVICTED_IN",
+   "target": "Marine Le Pen",
+   "evidence": "Les magistrats ayant rendu le jugement le 31 mars 2025, condamnant Marine Le Pen et d'autres membres du RN",
+   "confidence": 0.95,
+   "date": "2025-03-31",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Gérald Darmanin",
+   "type": "WORKED_FOR",
+   "target": "Ministère de la Justice",
+   "evidence": "le ministre de la Justice, Gérald Darmanin",
+   "confidence": 1.0,
+   "date": "2025-04-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérald Darmanin",
+   "type": "REVEALED",
+   "target": "Menaces envers magistrats",
+   "evidence": "« Les menaces proférées contre les magistrats du Tribunal judiciaire de Paris sont inacceptables dans une démocratie »",
+   "confidence": 0.95,
+   "date": "2025-04-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Suzanne Le Quéau",
+   "type": "WORKED_FOR",
+   "target": "Cour d'appel de Paris",
+   "evidence": "Marie-Suzanne Le Quéau, procureure générale près la cour d'appel de Paris",
+   "confidence": 1.0,
+   "date": "2025-04-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Suzanne Le Quéau",
+   "type": "REVEALED",
+   "target": "Menaces envers magistrats",
+   "evidence": "cinq auteurs de ces menaces sont identifiés et qu'ils seront jugés",
+   "confidence": 0.95,
+   "date": "2025-04-03",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

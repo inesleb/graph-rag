@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "Créative France",
+   "type": "Company"
+  },
+  {
+   "name": "Havas",
+   "type": "Company"
+  },
+  {
+   "name": "Matthias Fekl",
+   "type": "Person"
+  },
+  {
+   "name": "Cyrille Pierre",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "« été informée par la direction financière fin février 2016 »",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "« fait stopper tout paiement éventuel à l'agence de communication prestataire »",
+   "confidence": 0.95,
+   "date": "2016-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "« a demandé à ce qu'un audit interne et un audit externe [...] soit immédiatement diligenté »",
+   "confidence": 0.95,
+   "date": "2016-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "CONCERNS",
+   "target": "Affaire Business France",
+   "evidence": "« le comptable de Business France qui a refusé de payer la facture de 381 759 € »",
+   "confidence": 0.9,
+   "date": "2016-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Créative France",
+   "type": "WORKED_FOR",
+   "target": "Havas",
+   "evidence": "« la gestion de Créative France, confiée à Havas »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cyrille Pierre",
+   "type": "WORKED_FOR",
+   "target": "Matthias Fekl",
+   "evidence": "« le directeur de cabinet de Matthias Fekl »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Matthias Fekl",
+   "type": "WORKED_FOR",
+   "target": "Ministère du Commerce extérieur (France)",
+   "evidence": "« le secrétaire d’État chargé du Commerce extérieur »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cyrille Pierre",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "« critique la gestion de Créative France » et menace d’un « arrêt de cette campagne »",
+   "confidence": 0.9,
+   "date": "2016-03",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

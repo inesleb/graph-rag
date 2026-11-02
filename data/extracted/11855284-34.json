@@ -1,0 +1,226 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Strzoda",
+   "type": "Person"
+  },
+  {
+   "name": "François-Xavier Lauch",
+   "type": "Person"
+  },
+  {
+   "name": "GSPR",
+   "type": "Institution"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Diot",
+   "type": "Person"
+  },
+  {
+   "name": "Général Éric Bio-Farina",
+   "type": "Person"
+  },
+  {
+   "name": "Colonel Lionel Lavergne",
+   "type": "Person"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Le Journal du dimanche",
+   "type": "Media"
+  },
+  {
+   "name": "Le Parisien",
+   "type": "Media"
+  },
+  {
+   "name": "20 Minutes",
+   "type": "Media"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Alexandre Benalla intègre l'Élysée en qualité de chargé de mission",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Cabinet présidentiel dirigé par Patrick Strzoda",
+   "evidence": "Alexandre Benalla intègre l'Élysée en qualité de chargé de mission dans le cabinet présidentiel dirigé par le préfet Patrick Strzoda",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "François-Xavier Lauch",
+   "evidence": "devient l'un des dix adjoints du chef de cabinet François-Xavier Lauch",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "selon Le Monde, Le Journal du dimanche, Le Parisien, 20 Minutes",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "GSPR",
+   "evidence": "Benalla traite « d’égal à égal » avec les hommes du GSPR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Sécurité privée du président",
+   "evidence": "« C'est moi qui gère toute la sécurité privée »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Dispositif de sécurité d'Emmanuel Macron",
+   "evidence": "« participe au dispositif mais il n'en assure pas la responsabilité »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Diot",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "estime que le positionnement d'Alexandre Benalla visible sur des photographies proche du président est celui « d’un membre du GSPR »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Général Éric Bio-Farina",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "fait des déclarations lors de leurs auditions devant le Sénat",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François-Xavier Lauch",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "fait des déclarations lors de leurs auditions devant le Sénat",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Strzoda",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "affirme lors de son audition sous serment à la commission des Lois du Sénat",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Colonel Lionel Lavergne",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "déclare à la commission des Lois du Sénat",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "selon Le Monde, Benalla traite « d’égal à égal » avec les hommes du GSPR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Journal du dimanche",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "selon Le Journal du dimanche, Benalla répond : « C'est moi qui gère toute la sécurité privée »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Parisien",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "selon Le Parisien, Benalla est « chargé de mission pas tout à fait comme les autres »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "20 Minutes",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "selon 20 Minutes, Benalla est « toujours placé au plus près du président »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

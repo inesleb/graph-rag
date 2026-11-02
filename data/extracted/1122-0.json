@@ -1,0 +1,180 @@
+{
+ "entities": [
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Jordan Bardella",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Bousquet",
+   "type": "Person"
+  },
+  {
+   "name": "Léon Gaultier",
+   "type": "Person"
+  },
+  {
+   "name": "François Duprat",
+   "type": "Person"
+  },
+  {
+   "name": "Roger Holeindre",
+   "type": "Person"
+  },
+  {
+   "name": "Organisation de l'armée secrète (OAS)",
+   "type": "Institution"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Rassemblement national",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "Le Rassemblement national (RN) — précédemment Front national (FN) jusqu'en 2018 —",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "successivement présidé par Jean-Marie Le Pen (1972-2011)",
+   "confidence": 1.0,
+   "date": "1972-2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "successivement présidé [...] Marine Le Pen (2011-2021)",
+   "confidence": 1.0,
+   "date": "2011-2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "Jordan Bardella (depuis 2021)",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Le parti est fondé notamment par Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": "1972",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Bousquet",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "notamment par [...] les anciens Waffen-SS Pierre Bousquet et Léon Gaultier",
+   "confidence": 1.0,
+   "date": "1972",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Léon Gaultier",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "notamment par [...] les anciens Waffen-SS [...] Léon Gaultier",
+   "confidence": 1.0,
+   "date": "1972",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Duprat",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "des sympathisants néonazis tels que François Duprat",
+   "confidence": 1.0,
+   "date": "1972",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Roger Holeindre",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "des nostalgiques de l'Algérie française, tels que Roger Holeindre",
+   "confidence": 1.0,
+   "date": "1972",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Roger Holeindre",
+   "type": "MEMBER_OF",
+   "target": "Organisation de l'armée secrète (OAS)",
+   "evidence": "Roger Holeindre, membre de l'Organisation de l'armée secrète (OAS)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Front national",
+   "evidence": "Candidat à l'élection présidentielle à cinq reprises, Jean-Marie Le Pen parvient à accéder au second tour du scrutin de 2002",
+   "confidence": 0.9,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "INVOLVED_IN",
+   "target": "Front national",
+   "evidence": "Jean-Marie Le Pen parvient à accéder au second tour du scrutin de 2002 face à Jacques Chirac",
+   "confidence": 0.9,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Rassemblement national",
+   "evidence": "Marine Le Pen parvient également au second tour de l'élection présidentielle en 2017 puis en 2022",
+   "confidence": 0.9,
+   "date": "2017, 2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

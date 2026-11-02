@@ -1,0 +1,20 @@
+{
+ "entities": [
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaires Benalla",
+   "type": "ACQUITTED_IN",
+   "target": "dissimulation de preuves",
+   "evidence": "un non-lieu dans l'enquête portant sur une possible dissimulation de preuves",
+   "confidence": 0.95,
+   "date": "2024-08",
+   "stage": "investigation",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Patrice Amar",
+   "type": "Person"
+  },
+  {
+   "name": "Éliane Houlette",
+   "type": "Person"
+  },
+  {
+   "name": "Élisabeth Borne",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Dupond-Moretti",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil supérieur de la magistrature",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Conseil supérieur de la magistrature",
+   "type": "INVESTIGATED",
+   "target": "Patrice Amar",
+   "evidence": "Le Conseil estime que la demande n’est pas recevable. Le lendemain... à l'égard de deux des trois magistrats, dont Patrice Amar",
+   "confidence": 0.8,
+   "date": "2022-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil supérieur de la magistrature",
+   "type": "INVESTIGATED",
+   "target": "Éliane Houlette",
+   "evidence": "Le Conseil estime que la demande n’est pas recevable. Le lendemain... à l'égard de deux des trois magistrats, dont... son ancienne supérieure, l’ancienne cheffe du PNF Éliane Houlette",
+   "confidence": 0.8,
+   "date": "2022-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil supérieur de la magistrature",
+   "type": "ACQUITTED_IN",
+   "target": "Patrice Amar",
+   "evidence": "En octobre 2022, le CSM conclut que les deux magistrats n’ont « commis aucune faute disciplinaire »",
+   "confidence": 1.0,
+   "date": "2022-10",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Conseil supérieur de la magistrature",
+   "type": "ACQUITTED_IN",
+   "target": "Éliane Houlette",
+   "evidence": "En octobre 2022, le CSM conclut que les deux magistrats n’ont « commis aucune faute disciplinaire »",
+   "confidence": 1.0,
+   "date": "2022-10",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Élisabeth Borne",
+   "type": "WORKED_FOR",
+   "target": "Conseil supérieur de la magistrature",
+   "evidence": "la première ministre, Élisabeth Borne, à qui revenait la décision finale, met fin aux poursuites disciplinaires",
+   "confidence": 0.9,
+   "date": "2022-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "REVEALED",
+   "target": "Affaire des écoutes",
+   "evidence": "Dans le projet de loi pour la confiance dans l’institution judiciaire... il est proposé d'encadrer la durée des enquêtes préliminaires et de limiter le recours aux écoutes des avocats",
+   "confidence": 0.7,
+   "date": "2021-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "écoutes des avocats",
+   "evidence": "limiter le recours aux écoutes des avocats",
+   "confidence": 0.9,
+   "date": "2021-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

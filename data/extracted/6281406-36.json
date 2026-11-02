@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Cour pénale internationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Abdallah Senoussi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Pour ce qui est du soutien apporté à des personnalités occidentales pour leur permettre d'accéder au pouvoir, la somme de 5 millions d'euros a été versée pour la campagne du Président français Nicolas Sarkozy en 2006-2007\"",
+   "confidence": 0.95,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"la somme de 5 millions d'euros a été versée pour la campagne du Président français Nicolas Sarkozy\"",
+   "confidence": 0.95,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Intérieur",
+   "evidence": "\"Sarkozy était alors ministre de l'intérieur\"",
+   "confidence": 1.0,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"le nommé Takieddine\"",
+   "confidence": 0.9,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Intermédiaire français (directeur de cabinet du ministre de l'intérieur)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"via un intermédiaire français, en la personne du directeur de cabinet du ministre de l'intérieur\"",
+   "confidence": 0.9,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

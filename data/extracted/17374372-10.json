@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Frédéric Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "David Rothschild",
+   "type": "Person"
+  },
+  {
+   "name": "William Pomponi",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "General Electric (GE)",
+   "type": "Company"
+  },
+  {
+   "name": "Ministère de la Justice des États-Unis (DoJ)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption d'agents publics étrangers",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Pierucci n'est pas le seul dans le viseur de la justice américaine... seul employé du groupe Alstom à être détenu",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "il a été attrapé par la justice américaine pour forcer Alstom à vendre",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "CONCERNS",
+   "target": "Corruption d'agents publics étrangers",
+   "evidence": "il a été attrapé par la justice américaine pour forcer Alstom à vendre",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "David Rothschild",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "David Rothschild... est également inculpé",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "William Pomponi",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "William Pomponi... est également inculpé",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "Pierucci... seul employé du groupe Alstom à être détenu, qui doit s'endetter... pour payer sa caution",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "Patrick Kron ayant jusqu'à son arrestation fait la sourde oreille sur les propositions de GE",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "INVESTIGATED",
+   "target": "Affaire Alstom",
+   "evidence": "Patrick Kron commande un rapport d'audit par un groupe indépendant, dont Pierucci apprendra qu'il blanchit de tout soupçon le dirigeant emprisonné",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

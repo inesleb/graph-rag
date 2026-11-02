@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Ferdinand Mélin-Soucramanien",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Bartolone",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "société de conseil de François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ferdinand Mélin-Soucramanien",
+   "type": "INVESTIGATED",
+   "target": "Affaire Fillon",
+   "evidence": "affirme que la société de conseil de François Fillon ne pose aucun problème juridique",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Bartolone",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "président de l’Assemblée nationale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ferdinand Mélin-Soucramanien",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "déontologue de l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

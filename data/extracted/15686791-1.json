@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Gérald Darmanin",
+   "type": "Person"
+  },
+  {
+   "name": "Samuel Paty",
+   "type": "Person"
+  },
+  {
+   "name": "Comité interministériel de prévention de la délinquance et de la radicalisation",
+   "type": "Institution"
+  },
+  {
+   "name": "Christian Gravel",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marlène Schiappa",
+   "type": "WORKED_FOR",
+   "target": "Comité interministériel de prévention de la délinquance et de la radicalisation",
+   "evidence": "Le fonds est piloté par le Comité interministériel de prévention de la délinquance et de la radicalisation sous l'égide de Schiappa.",
+   "confidence": 0.9,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "L'assassinat de Samuel Paty le 16 octobre 2020 pousse le gouvernement français à annoncer...",
+   "confidence": 0.8,
+   "date": "2020-2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "Marlène Schiappa... annonce la création [...] et en avril 2021, elle crée le Fonds Marianne",
+   "confidence": 1.0,
+   "date": "2021-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "La gestion du fonds est assurée par Christian Gravel, préfet démissionnaire.",
+   "confidence": 0.95,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "discours haineux",
+   "evidence": "doté de 2,5 millions d'euros pour lutter contre les « discours haineux et séparatistes »",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "discours séparatistes",
+   "evidence": "doté de 2,5 millions d'euros pour lutter contre les « discours haineux et séparatistes »",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

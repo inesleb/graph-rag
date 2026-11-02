@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal de Commerce de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le Crédit Lyonnais est donc fondé à demander le remboursement de toutes les dettes échues du groupe Tapie",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le Crédit Lyonnais est donc fondé à demander le remboursement de toutes les dettes échues du groupe Tapie",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tribunal de Commerce de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Ce dernier prononce la liquidation judiciaire à mi-décembre 1994",
+   "confidence": 0.95,
+   "date": "1994-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

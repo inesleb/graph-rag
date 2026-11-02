@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Mediascop",
+   "type": "Company"
+  },
+  {
+   "name": "Politique à gauche",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Politique à gauche",
+   "evidence": "\"ces déplacements (...) financés avec un contrat (...) signé entre Mediascop et le député européen Jean-Luc Mélenchon, payés sur son enveloppe parlementaire. De plus, deux virements (...) versés (...) par l’association Politique à gauche\"",
+   "confidence": 0.95,
+   "date": "2013-2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "\"ces déplacements (...) financés avec un contrat (...) signé entre Mediascop et le député européen Jean-Luc Mélenchon\"",
+   "confidence": 1.0,
+   "date": "2013-2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "WORKED_FOR",
+   "target": "Mediascop",
+   "evidence": "\"Sophia Chikirou facture ses interventions en tant que directrice de campagne par le biais de Mediascop\"",
+   "confidence": 1.0,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediascop",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "\"Mediascop (...) bénéficie, à titre gratuit de locaux au sein du siège de campagne. Par ailleurs, les « frais de structure » de Mediascop sont pris en charge par le siège de campagne\"",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"ces déplacements (...) financés avec un contrat (...) payés sur son enveloppe parlementaire. (...) deux virements (...) versés (...) par l’association Politique à gauche. (...) Mediascop (...) bénéficie (...) de locaux au sein du siège de campagne. (...) frais de structure (...) pris en charge par le siège de campagne\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour européenne des droits de l'homme",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d’appel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "le mécanisme de purge de nullité [...] a fait l’objet d’une décision d’inconstitutionnalité dans l’affaire Fillon",
+   "confidence": 0.9,
+   "date": "2024-12-18",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "la Cour de cassation confirme la décision de la cour d’appel",
+   "confidence": 1.0,
+   "date": "2024-12-18",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy annonce qu’il saisit la Cour européenne des droits de l'homme",
+   "confidence": 0.95,
+   "date": "2024-12-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

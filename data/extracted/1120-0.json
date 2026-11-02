@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Jean Lecanuet",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Centre des démocrates sociaux (CDS)",
+   "type": "Party"
+  },
+  {
+   "name": "Force démocrate (FD)",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour la démocratie française (UDF)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Jean Lecanuet",
+   "evidence": "il s'engage en politique aux côtés de Jean Lecanuet",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "ministre de l'Éducation nationale sous les gouvernements Balladur",
+   "confidence": 1.0,
+   "date": "1993-1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Alain Juppé",
+   "evidence": "ministre de l'Éducation nationale sous les gouvernements Balladur, Juppé I et Juppé II",
+   "confidence": 1.0,
+   "date": "1993-1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Centre des démocrates sociaux (CDS)",
+   "evidence": "il préside le Centre des démocrates sociaux (CDS) de 1994 à 1995",
+   "confidence": 1.0,
+   "date": "1994-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Force démocrate (FD)",
+   "evidence": "il préside Force démocrate (FD) de 1995 à 1998",
+   "confidence": 1.0,
+   "date": "1995-1998",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Union pour la démocratie française (UDF)",
+   "evidence": "il préside l'Union pour la démocratie française (UDF) de 1998 à 2007",
+   "confidence": 1.0,
+   "date": "1998-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "il préside le Mouvement démocrate (MoDem) – dont il est le fondateur – depuis 2007",
+   "confidence": 1.0,
+   "date": "2007-",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "La République en marche (LREM)",
+   "type": "Party"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Édouard Philippe",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "Membre du Parti socialiste (PS) de 1980 à 2017",
+   "confidence": 1.0,
+   "date": "1980–2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "conseiller général du Finistère en 1998, conseiller régional de Bretagne en 2010 et député en 2012",
+   "confidence": 1.0,
+   "date": "1998–2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "En 2016, il devient secrétaire général du mouvement de celui-ci, En marche",
+   "confidence": 1.0,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "En marche",
+   "type": "MEMBER_OF",
+   "target": "La République en marche (LREM)",
+   "evidence": "par la suite renommé La République en marche (LREM)",
+   "confidence": 1.0,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "La République en marche (LREM)",
+   "evidence": "devient président du groupe LREM à l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "président de l'Assemblée nationale du 12 septembre 2018 au 21 juin 2022",
+   "confidence": 1.0,
+   "date": "2018–2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Conseil constitutionnel",
+   "evidence": "président du Conseil constitutionnel depuis le 8 mars 2025",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Édouard Philippe",
+   "evidence": "Il est ministre de la Cohésion des territoires dans le premier gouvernement d'Édouard Philippe",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "En marche",
+   "evidence": "se rapproche alors d'Emmanuel Macron. En 2016, il devient secrétaire général du mouvement de celui-ci, En marche",
+   "confidence": 0.8,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "La République en marche (LREM)",
+   "evidence": "devient président du groupe LREM à l'Assemblée nationale",
+   "confidence": 0.8,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

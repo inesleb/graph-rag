@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "SOS Racisme",
+   "type": "Institution"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  },
+  {
+   "name": "Commission d’enquête sénatoriale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Mohamed Sifaoui",
+   "evidence": "trois collaborateurs de Marlène Schiappa [...] ont encouragé Mohamed Sifaoui à candidater avant même l'annonce officielle du projet",
+   "confidence": 0.95,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Marlène Schiappa",
+   "evidence": "Schiappa a personnellement exclu SOS Racisme du dispositif pour des raisons de « contentieux personnel »",
+   "confidence": 0.95,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "Schiappa a personnellement exclu SOS Racisme du dispositif [...] alors que l'administration avait validé une subvention de 100 000 €",
+   "confidence": 0.95,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission d’enquête sénatoriale",
+   "type": "INVESTIGATED",
+   "target": "Marlène Schiappa",
+   "evidence": "les récits faits devant la commission d’enquête sénatoriale, contredisent les conclusions de la mission d’inspection et les affirmations de l'entourage de la ministre",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "MEMBER_OF",
+   "target": "Fonds Marianne",
+   "evidence": "selon lesquelles elle « n’a pas pris part aux sélections »",
+   "confidence": 0.85,
+   "date": "2023-04-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "Exclusion arbitraire d'une association",
+   "evidence": "Schiappa a personnellement exclu SOS Racisme du dispositif pour des raisons de « contentieux personnel »",
+   "confidence": 0.9,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

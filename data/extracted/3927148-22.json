@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption d’agent public étranger",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "organisation d’insolvabilité",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine, également mis en cause dans l’affaire du financement de la campagne de 2007 de Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "corruption d’agent public étranger",
+   "evidence": "Ziad Takieddine [...] est mis en examen pour corruption d’agent public étranger",
+   "confidence": 1.0,
+   "date": "2013-05-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "escroquerie",
+   "evidence": "Ziad Takieddine [...] est mis en examen pour [...] escroquerie",
+   "confidence": 1.0,
+   "date": "2013-05-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "Ziad Takieddine [...] est mis en examen pour [...] fraude fiscale",
+   "confidence": 1.0,
+   "date": "2013-05-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "organisation d’insolvabilité",
+   "evidence": "Ziad Takieddine [...] est mis en examen pour [...] organisation d’insolvabilité",
+   "confidence": 1.0,
+   "date": "2013-05-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Fin 2011, Ziad Takieddine [...] sont mis en examen",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Fin 2011, Ziad Takieddine, Nicolas Bazire, Thierry Gaubert, et Renaud Donnedieu de Vabres sont mis en examen",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Fin 2011, Ziad Takieddine, Nicolas Bazire, Thierry Gaubert, et Renaud Donnedieu de Vabres sont mis en examen",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Fin 2011, Ziad Takieddine, Nicolas Bazire, Thierry Gaubert, et Renaud Donnedieu de Vabres sont mis en examen",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "Il reconnaît finalement avoir participé au financement de la campagne",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

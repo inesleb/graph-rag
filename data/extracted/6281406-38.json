@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Choukri Ghanem",
+   "type": "Person"
+  },
+  {
+   "name": "Libye",
+   "type": "Institution"
+  },
+  {
+   "name": "Autriche",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Choukri Ghanem",
+   "type": "WORKED_FOR",
+   "target": "Libye",
+   "evidence": "Choukri Ghanem est chef du gouvernement de la Libye, de 2003 à 2006, puis ministre du pétrole de 2006 à 2011.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Choukri Ghanem",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Il fait défection en 2011 pendant la guerre civile pour se ranger aux côtés de la rébellion",
+   "confidence": 0.8,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Choukri Ghanem",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "et s'exile à Vienne, en Autriche",
+   "confidence": 0.7,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Pelata",
+   "type": "Person"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des faux espions",
+   "type": "Affair"
+  },
+  {
+   "name": "RNBV",
+   "type": "Company"
+  },
+  {
+   "name": "Meta Consulting",
+   "type": "Company"
+  },
+  {
+   "name": "Orano",
+   "type": "Company"
+  },
+  {
+   "name": "Safran",
+   "type": "Company"
+  },
+  {
+   "name": "Vulog",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Pelata",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "Patrick Pélata, ancien directeur général de Renault",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des faux espions",
+   "evidence": "a quitté cette société à la suite de l'affaire des faux espions en 2012",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "En août 2015, il a signé un contrat avec Carlos Ghosn",
+   "confidence": 1.0,
+   "date": "2015-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "WORKED_FOR",
+   "target": "RNBV",
+   "evidence": "En août 2015, il a signé un contrat avec Carlos Ghosn et RNBV",
+   "confidence": 1.0,
+   "date": "2015-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "WORKED_FOR",
+   "target": "Meta Consulting",
+   "evidence": "Patrick Pélata est en 2020 président de la société américaine Meta Consulting",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "MEMBER_OF",
+   "target": "Orano",
+   "evidence": "administrateur de Orano (ex-Areva)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "MEMBER_OF",
+   "target": "Safran",
+   "evidence": "administrateur de [...] Safran",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Pelata",
+   "type": "MEMBER_OF",
+   "target": "Vulog",
+   "evidence": "administrateur de [...] Vulog",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

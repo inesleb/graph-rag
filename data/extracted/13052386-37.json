@@ -1,0 +1,78 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan estime que Carlos Ghosn occupe indûment une maison louée par Nissan à Achrafieh à Beyrouth.",
+   "confidence": 0.9,
+   "date": "2019-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn s'y est installé fin décembre 2019, après sa fuite du Japon.",
+   "confidence": 0.95,
+   "date": "2019-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan a déposé plainte en novembre 2018, devant la justice libanaise.",
+   "confidence": 0.95,
+   "date": "2018-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 30 mars 2020, une audience devait se tenir à Beyrouth pour traiter cette plainte.",
+   "confidence": 0.8,
+   "date": "2020-03-30",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En octobre 2023, un juge ordonne l'expulsion de Carlos Ghosn et de son épouse.",
+   "confidence": 0.95,
+   "date": "2023-10",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 27 octobre, Carlos Ghosn fait appel de cette décision de justice.",
+   "confidence": 0.95,
+   "date": "2023-10-27",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

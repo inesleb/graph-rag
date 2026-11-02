@@ -1,0 +1,74 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Trafic d’influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption d’agent public par une autorité publique étrangère",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "la justice prononce un non-lieu concernant la plainte de Sarkozy",
+   "confidence": 1.0,
+   "date": "2016-06",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "Complicité de trafic d’influence et de corruption d’agent public par une autorité publique étrangère",
+   "evidence": "Ziad Takieddine est mis en examen pour complicité de trafic d’influence et de corruption d’agent public par une autorité publique étrangère",
+   "confidence": 1.0,
+   "date": "2016",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "sa condamnation en juin 2020 dans l’affaire de Karachi à 5 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2020-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "un accord de financement [...] de Kadhafi pour la campagne de Nicolas Sarkozy en 2007",
+   "confidence": 0.8,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Airy Routier",
+   "type": "Person"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Groupe Tapie",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Airy Routier",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"les juges auraient répondu 'avoir subi de très fortes pressions de leur hiérarchie pour prononcer la faillite immédiate du groupe Tapie'\"",
+   "confidence": 0.8,
+   "date": "2009-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France 2",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"Airy Routier interroge début 2009 les juges ayant prononcé la faillite du Groupe Tapie en 1994, lors de l’émission Un jour, un destin : Bernard Tapie\"",
+   "confidence": 0.9,
+   "date": "2009-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Groupe Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"la faillite du Groupe Tapie en 1994\"",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

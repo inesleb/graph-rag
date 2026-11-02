@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Guy de Chalvron",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Commission nationale des comptes de campagne",
+   "type": "Institution"
+  },
+  {
+   "name": "BFM TV",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Guy de Chalvron",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "En avril 2021, Jean-Guy de Chalvron [...] est relaxé des poursuites en diffamation intentées contre lui par le dirigeant de La France insoumise.",
+   "confidence": 0.95,
+   "date": "2021-04",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Jean-Guy de Chalvron",
+   "type": "WORKED_FOR",
+   "target": "Commission nationale des comptes de campagne",
+   "evidence": "Jean-Guy de Chalvron, rapporteur de la Commission nationale des comptes de campagne",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "CONCERNS",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "des « irrégularités » dans les dépenses de Jean-Luc Mélenchon pour l'élection présidentielle de 2017",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "dirigeant de La France insoumise",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Guy de Chalvron",
+   "type": "REVEALED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Jean-Guy de Chalvron [...] évoqué sur BFM TV des « irrégularités » dans les dépenses de Jean-Luc Mélenchon",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

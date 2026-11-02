@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Philippe Briand",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Association de financement pour la campagne de Nicolas Sarkozy",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "Escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "Recel d'abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Complicité de financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Franck Louvrier",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Philippe Briand",
+   "type": "WORKED_FOR",
+   "target": "Association de financement pour la campagne de Nicolas Sarkozy",
+   "evidence": "Philippe Briand est le président de l'Association de financement pour la campagne de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Les juges se demandent comment, en tant que trésorier, il n'a pas pu voir le dépassement de 18 millions de la campagne par Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INDICTED_IN",
+   "target": "Usage de faux",
+   "evidence": "mis en examen le 3 avril 2015 pour « usage de faux »",
+   "confidence": 1.0,
+   "date": "2015-04-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INDICTED_IN",
+   "target": "Escroquerie",
+   "evidence": "mis en examen le 3 avril 2015 pour « escroquerie »",
+   "confidence": 1.0,
+   "date": "2015-04-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INDICTED_IN",
+   "target": "Recel d'abus de confiance",
+   "evidence": "mis en examen le 3 avril 2015 pour « recel d'abus de confiance »",
+   "confidence": 1.0,
+   "date": "2015-04-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INDICTED_IN",
+   "target": "Complicité de financement illégal de campagne électorale",
+   "evidence": "mis en examen le 3 avril 2015 pour « complicité de financement illégal de campagne électorale »",
+   "confidence": 1.0,
+   "date": "2015-04-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Les juges se demandent comment il n'a pas pu voir le dépassement de 18 millions de la campagne",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Franck Louvrier",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Franck Louvrier, ex-conseiller de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "le parquet de Paris prend un réquisitoire supplétif pour étendre l'enquête sur la campagne de 2012 à d'autres dépenses suspectes",
+   "confidence": 0.9,
+   "date": "2015-10-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "dépassement de 18 millions de la campagne [...] dépenses suspectes (près de 10 millions d'euros)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

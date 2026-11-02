@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des déclarations mensongères de patrimoine et de blanchiment de fraudes fiscales",
+   "type": "Affair"
+  },
+  {
+   "name": "Prise illégale d'intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Prison de la Santé",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "condamné en 1997 à deux ans d'inéligibilité pour prise illégale d'intérêts",
+   "confidence": 1.0,
+   "date": "1997",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire des déclarations mensongères de patrimoine et de blanchiment de fraudes fiscales",
+   "evidence": "poursuivi [...] pour une affaire de déclarations mensongères de patrimoine et de blanchiment de fraudes fiscales",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "condamné à trois ans de prison ferme pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "le jugement est confirmé en appel en 2020",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Prison de la Santé",
+   "evidence": "il est emprisonné à la prison de la Santé",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Isabelle Balkany",
+   "evidence": "poursuivi, avec son épouse et première adjointe, Isabelle",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

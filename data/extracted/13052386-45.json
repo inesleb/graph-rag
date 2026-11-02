@@ -1,0 +1,25 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "RNBV",
+   "type": "Company"
+  },
+  {
+   "name": "Carole Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Festival de Cannes",
+   "type": "Institution"
+  },
+  {
+   "name": "Hôtel du Cap-Eden-Roc",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

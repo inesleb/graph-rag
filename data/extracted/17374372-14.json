@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "EDF",
+   "type": "Company"
+  },
+  {
+   "name": "GE",
+   "type": "Company"
+  },
+  {
+   "name": "Rosatom",
+   "type": "Company"
+  },
+  {
+   "name": "Jean-Bernard Lévy",
+   "type": "Person"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "À partir de mai 2024, Emmanuel Macron annonce que les activités nucléaires de GE seront rachetées par EDF.",
+   "confidence": 0.8,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EDF",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "ce rachat s'inscrit cependant dans un cadre complexe.",
+   "confidence": 0.7,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EDF",
+   "type": "WORKED_FOR",
+   "target": "Jean-Bernard Lévy",
+   "evidence": "un dirigeant de l'électricien avait déclaré à la presse que Jean-Bernard Levy, patron du groupe",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EDF",
+   "type": "INVOLVED_IN",
+   "target": "Rosatom",
+   "evidence": "les turbines Arabelle sont très utilisées par la Russie, notamment Rosatom, ce qui aurait compliqué le rachat.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EDF",
+   "type": "INVOLVED_IN",
+   "target": "GE",
+   "evidence": "ce rachat par EDF ne concerne pas l'entièreté de ce qui a été vendu à GE",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Figaro",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "Le Figaro révèle que ce rachat par EDF ne concerne pas l'entièreté de ce qui a été vendu à GE",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Charles Van Houtte",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Europe des nations et des libertés",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Charles Van Houtte",
+   "type": "WORKED_FOR",
+   "target": "Marine Le Pen",
+   "evidence": "Charles Van Houtte devient assistant parlementaire de Marine Le Pen au Parlement européen en 2009.",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "WORKED_FOR",
+   "target": "Europe des nations et des libertés",
+   "evidence": "En 2015, il devient administrateur du groupe Europe des nations et des libertés.",
+   "confidence": 1.0,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Décrit comme un acteur décisif dans l'affaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "il est mis en examen le 6 septembre 2018, pour « complicité de détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-09-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "mis en examen [...] pour « complicité de détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

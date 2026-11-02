@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Guillaume Peltier",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Com1+",
+   "type": "Company"
+  },
+  {
+   "name": "Menton",
+   "type": "Institution"
+  },
+  {
+   "name": "Mairie de Saint-Maur-des-Fossés",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Créteil",
+   "type": "Institution"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Police judiciaire de Nice",
+   "type": "Institution"
+  },
+  {
+   "name": "Union pour un mouvement populaire (UMP)",
+   "type": "Party"
+  },
+  {
+   "name": "L'Express",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Anticor",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "À la suite d'une plainte déposée en 2012 par l'association Anticor",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Police judiciaire de Nice",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "la police judiciaire de Nice mène une enquête au sujet des conditions de l'attribution de marchés à Bygmalion",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Guillaume Peltier",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "vice-président de l'UMP Guillaume Peltier",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guillaume Peltier",
+   "type": "WORKED_FOR",
+   "target": "Com1+",
+   "evidence": "société d'un vice-président de l'UMP Guillaume Peltier (Com1+)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Menton",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "sans qu'il y ait eu appel d'offres [...] notamment par la ville de Menton",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mairie de Saint-Maur-des-Fossés",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "pour la mairie de Saint-Maur-des-Fossés [...] il s'agit de prestations non réalisées mais payées",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "la société aurait signé plusieurs contrats avec la mairie de Saint-Maur-des-Fossés",
+   "confidence": 1.0,
+   "date": "2009-12–2012-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Créteil",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le parquet de Créteil a ouvert une enquête préliminaire en 2013",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "prestations non réalisées mais payées [...] 250 000 euros de prestations n'auraient pas été exécutées",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "marchés publics attribués sans appel d'offres",
+   "evidence": "sans qu'il y ait eu appel d'offres",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

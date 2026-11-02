@@ -1,0 +1,228 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "VistaJet",
+   "type": "Company"
+  },
+  {
+   "name": "Shachou",
+   "type": "Institution"
+  },
+  {
+   "name": "Caroline Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Anthony Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Université Stanford",
+   "type": "Institution"
+  },
+  {
+   "name": "Blackberry Farm",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Renault-Nissan BV",
+   "evidence": "5,14 millions d'euros concernent 38 déplacements personnels en jet privé de Carlos Ghosn et ses proches... réglés par la société RNBV entre 2015 et novembre 2018. Des vols effectués dans l'avion de Renault-Nissan BV",
+   "confidence": 0.95,
+   "date": "2015-2018-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "5,14 millions d'euros concernent 38 déplacements personnels en jet privé de Carlos Ghosn et ses proches... réglés par la société RNBV",
+   "confidence": 0.9,
+   "date": "2015-2018-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Shachou",
+   "evidence": "Le couple Ghosn a plusieurs fois atterri non loin de ports où mouillait le yacht Shachou. Par exemple, à Naples en juin 2017, aux Baléares à l'été 2018",
+   "confidence": 0.85,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renault-Nissan BV",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Des vols effectués dans l'avion de Renault-Nissan BV, un Gulfstream G650... réglés par la société RNBV",
+   "confidence": 0.9,
+   "date": "2015-2018-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "VistaJet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "ou dans un appareil loué à VistaJet (en), société européenne de location d'appareils de luxe",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Beyrouth",
+   "evidence": "Les nombreux vols pour Beyrouth contrastent avec la faible activité de RNBV dans cette zone",
+   "confidence": 0.75,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Puerto Plata",
+   "evidence": "destinations exotiques, comme Puerto Plata (République dominicaine)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Porto Seguro",
+   "evidence": "Porto Seguro, au Brésil",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Maldonado",
+   "evidence": "Maldonado (Uruguay)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Palerme",
+   "evidence": "Palerme (Sicile)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Bodrum",
+   "evidence": "Bodrum (Turquie)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Tivat",
+   "evidence": "Tivat (Monténégro)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Zagora",
+   "evidence": "Zagora (Maroc)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Whistler",
+   "evidence": "Whistler (Canada)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Knoxville",
+   "evidence": "Knoxville (Tennessee)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Rio de Janeiro",
+   "evidence": "La famille Ghosn a également utilisé le jet pour passer à Rio de Janeiro le Noël 2016",
+   "confidence": 0.85,
+   "date": "2016-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Naoshima",
+   "evidence": "pour le mariage de Caroline Ghosn... en juillet 2018 dans l'île de Naoshima au Japon",
+   "confidence": 0.85,
+   "date": "2018-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Université Stanford",
+   "evidence": "la remise de diplôme d'Anthony Ghosn à l'Université Stanford de Palo Alto (Californie)",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Blackberry Farm",
+   "evidence": "où les Ghosn se réunissent dans l'hôtel de luxe Blackberry Farm",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

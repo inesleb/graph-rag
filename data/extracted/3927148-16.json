@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "L’armée (fraction)",
+   "type": "Institution"
+  },
+  {
+   "name": "La France",
+   "type": "Institution"
+  },
+  {
+   "name": "L’Inde",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Pakistan",
+   "type": "Institution"
+  },
+  {
+   "name": "Les talibans",
+   "type": "Institution"
+  },
+  {
+   "name": "Les intérêts occidentaux",
+   "type": "Institution"
+  },
+  {
+   "name": "Les enquêteurs français",
+   "type": "Institution"
+  },
+  {
+   "name": "La piste islamiste",
+   "type": "Affair"
+  },
+  {
+   "name": "L’après-11 septembre 2001",
+   "type": "Affair"
+  },
+  {
+   "name": "L’intervention militaire française contre les talibans",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "L’armée (fraction)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Une autre explication avancée est qu’une frange de l’armée voulait avertir la France",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L’armée (fraction)",
+   "type": "CONCERNS",
+   "target": "La vente des sous-marins à l’Inde",
+   "evidence": "pour l’empêcher de vendre des sous-marins à l’Inde",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L’Inde",
+   "type": "INVOLVED_IN",
+   "target": "La vente des sous-marins",
+   "evidence": "pour l’empêcher de vendre des sous-marins à l’Inde",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Pakistan",
+   "type": "INVOLVED_IN",
+   "target": "L’ennemi de l’Inde",
+   "evidence": "ennemie du Pakistan",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les enquêteurs français",
+   "type": "INVESTIGATED",
+   "target": "La piste islamiste",
+   "evidence": "les enquêteurs français continuent de privilégier « la piste islamiste »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La piste islamiste",
+   "type": "CONCERNS",
+   "target": "L’après-11 septembre 2001",
+   "evidence": "en raison du contexte de l’après-11 septembre 2001",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La piste islamiste",
+   "type": "CONCERNS",
+   "target": "L’intervention militaire française contre les talibans",
+   "evidence": "et l’intervention militaire française contre les talibans",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les menaces contre les intérêts occidentaux",
+   "type": "INVOLVED_IN",
+   "target": "La piste islamiste",
+   "evidence": "les menaces contre les intérêts occidentaux à cette époque, dans cette région du monde sont des éléments qui sont susceptibles d’accréditer cette thèse",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "entities": [
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Moatassem Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Moustafa Abdel Jalil",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil national de transition (CNT)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Conseil national de transition (CNT)",
+   "type": "INVESTIGATED",
+   "target": "Mort de Mouammar Kadhafi",
+   "evidence": "Moustafa Abdel Jalil, à annoncer le 24 octobre l'ouverture d'une enquête sur sa mort.",
+   "confidence": 0.9,
+   "date": "2011-10-24",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Renaud Van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "Patricia Simon",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Renaud Van Ruymbeke",
+   "type": "WORKED_FOR",
+   "target": "Affaire Balkany",
+   "evidence": "Les juges Renaud Van Ruymbeke et Patricia Simon, chargés du dossier",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patricia Simon",
+   "type": "WORKED_FOR",
+   "target": "Affaire Balkany",
+   "evidence": "Les juges Renaud Van Ruymbeke et Patricia Simon, chargés du dossier",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "une information judiciaire pour « blanchiment de fraude fiscale »",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "les suspectant d'avoir sous-évalué certains de leurs biens [...] et dissimulé à l'administration fiscale française des biens immobiliers et des avoirs offshore",
+   "confidence": 0.9,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "les suspectant d'avoir sous-évalué certains de leurs biens [...] et dissimulé à l'administration fiscale française des biens immobiliers et des avoirs offshore",
+   "confidence": 0.9,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

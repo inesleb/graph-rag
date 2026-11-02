@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Moussa Koussa",
+   "type": "Person"
+  },
+  {
+   "name": "Béchir Salah",
+   "type": "Person"
+  },
+  {
+   "name": "CNT (Conseil national de transition)",
+   "type": "Institution"
+  },
+  {
+   "name": "Interpol",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Justice française",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Moussa Koussa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Moussa Koussa, réclamé par le CNT, vit en exil à Doha au Qatar",
+   "confidence": 0.8,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Béchir Salah, recherché par Interpol, se trouve en France",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moussa Koussa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "« Le contenu n’est pas faux, mais la signature est fausse » et « Ce n’est pas moi qui ai signé »",
+   "confidence": 0.9,
+   "date": "2014-08-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Justice française",
+   "type": "INVESTIGATED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "la justice accumule des éléments confortant l'authenticité du document",
+   "confidence": 0.9,
+   "date": "2014-11-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Selon Mediapart, la justice accumule des éléments confortant l'authenticité du document",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

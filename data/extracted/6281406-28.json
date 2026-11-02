@@ -1,0 +1,220 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Edwy Plenel",
+   "type": "Person"
+  },
+  {
+   "name": "Fabrice Arfi",
+   "type": "Person"
+  },
+  {
+   "name": "Karl Laske",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "faux",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "publication de fausses nouvelles",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "faux",
+   "evidence": "Nicolas Sarkozy dépose une plainte contre Mediapart pour « faux »",
+   "confidence": 1.0,
+   "date": "2012-04-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "usage de faux",
+   "evidence": "Nicolas Sarkozy dépose une plainte contre Mediapart pour « usage de faux »",
+   "confidence": 1.0,
+   "date": "2012-04-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "recel de faux",
+   "evidence": "Nicolas Sarkozy dépose une plainte contre Mediapart pour « recel de faux »",
+   "confidence": 1.0,
+   "date": "2012-04-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "publication de fausses nouvelles",
+   "evidence": "Nicolas Sarkozy dépose une plainte contre Mediapart pour « publication de fausses nouvelles »",
+   "confidence": 1.0,
+   "date": "2012-04-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "une note à propos d'un soutien libyen à la campagne de Nicolas Sarkozy en 2007",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "une note à propos d'un soutien libyen à la campagne de Nicolas Sarkozy en 2007",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Edwy Plenel",
+   "type": "WORKED_FOR",
+   "target": "Mediapart",
+   "evidence": "son directeur de la publication Edwy Plenel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fabrice Arfi",
+   "type": "WORKED_FOR",
+   "target": "Mediapart",
+   "evidence": "les deux journalistes Fabrice Arfi et Karl Laske qui ont signé l’article",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karl Laske",
+   "type": "WORKED_FOR",
+   "target": "Mediapart",
+   "evidence": "les deux journalistes Fabrice Arfi et Karl Laske qui ont signé l’article",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "faux",
+   "evidence": "Le 3 juin 2016, la procédure initiée par Nicolas Sarkozy se solde par un non-lieu",
+   "confidence": 1.0,
+   "date": "2016-06-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "usage de faux",
+   "evidence": "Le 3 juin 2016, la procédure initiée par Nicolas Sarkozy se solde par un non-lieu",
+   "confidence": 1.0,
+   "date": "2016-06-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "recel de faux",
+   "evidence": "Le 3 juin 2016, la procédure initiée par Nicolas Sarkozy se solde par un non-lieu",
+   "confidence": 1.0,
+   "date": "2016-06-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "publication de fausses nouvelles",
+   "evidence": "Le 3 juin 2016, la procédure initiée par Nicolas Sarkozy se solde par un non-lieu",
+   "confidence": 1.0,
+   "date": "2016-06-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "faux",
+   "evidence": "Le non-lieu est rendu définitif par la Cour de cassation au début de l’année 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "usage de faux",
+   "evidence": "Le non-lieu est rendu définitif par la Cour de cassation au début de l’année 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "recel de faux",
+   "evidence": "Le non-lieu est rendu définitif par la Cour de cassation au début de l’année 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "publication de fausses nouvelles",
+   "evidence": "Le non-lieu est rendu définitif par la Cour de cassation au début de l’année 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Valeurs actuelles",
+   "type": "Media"
+  },
+  {
+   "name": "Reporters sans frontières",
+   "type": "Institution"
+  },
+  {
+   "name": "Edwy Plenel",
+   "type": "Person"
+  },
+  {
+   "name": "François Molins",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Atteinte à la vie privée",
+   "evidence": "\"enquête préliminaire sur Mediapart pour 'atteinte à la vie privée'\"",
+   "confidence": 1.0,
+   "date": "2019-02-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Détention illicite de dispositifs d'écoute",
+   "evidence": "\"enquête préliminaire sur Mediapart pour [...] 'détention illicite' de dispositifs d'écoute\"",
+   "confidence": 1.0,
+   "date": "2019-02-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Molins",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "\"procureur de la République de Paris, François Molins\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Edwy Plenel",
+   "type": "MEMBER_OF",
+   "target": "Mediapart",
+   "evidence": "\"Edwy Plenel, fondateur de Mediapart\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INVESTIGATED",
+   "target": "Affaire des écoutes",
+   "evidence": "\"enquête préliminaire sur Mediapart pour 'atteinte à la vie privée' et 'détention illicite'\"",
+   "confidence": 1.0,
+   "date": "2019-02-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INVOLVED_IN",
+   "target": "Atteinte à la liberté d’expression et au secret des sources",
+   "evidence": "\"a porté atteinte à la liberté d’expression et au secret des sources\"",
+   "confidence": 1.0,
+   "date": "2022-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "État",
+   "type": "CONVICTED_IN",
+   "target": "Atteinte à la liberté d’expression et au secret des sources",
+   "evidence": "\"l'État est condamné pour cette tentative de perquisition\"",
+   "confidence": 1.0,
+   "date": "2022-07",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Valeurs actuelles",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "\"un journaliste de Valeurs actuelles l'a questionné sur des rumeurs\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reporters sans frontières",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "\"conference de presse conjointe [...] avec Reporters sans frontières\"",
+   "confidence": 0.9,
+   "date": "2019-02-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

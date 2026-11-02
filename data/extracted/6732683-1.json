@@ -1,0 +1,24 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Travis Kalanick",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Travis Kalanick",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "la démission de son fondateur Travis Kalanick en 2017",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

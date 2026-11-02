@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le Parquet national financier (PNF) a ouvert une information judiciaire pour « corruption, abus de biens sociaux et trafic d'influence »",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "Le Parquet national financier (PNF) a ouvert une information judiciaire pour « corruption, abus de biens sociaux et trafic d'influence »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Abus de biens sociaux",
+   "evidence": "Le Parquet national financier (PNF) a ouvert une information judiciaire pour « corruption, abus de biens sociaux et trafic d'influence »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "Le Parquet national financier (PNF) a ouvert une information judiciaire pour « corruption, abus de biens sociaux et trafic d'influence »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Renault-Nissan BV",
+   "evidence": "enquêtent sur des dépenses de onze millions d'euros de la holding hollandaise Renault-Nissan BV gérant l'alliance Renault-Nissan-Mitsubishi",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Carlos Ghosn",
+   "evidence": "magistrats du parquet de Nanterre [...] ont procédé à l'audition de Carlos Ghosn pendant cinq jours",
+   "confidence": 0.9,
+   "date": "2021-06",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

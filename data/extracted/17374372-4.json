@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "Media"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Arnaud Montebourg",
+   "type": "Person"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "GE (General Electric)",
+   "type": "Company"
+  },
+  {
+   "name": "Ministre de l'Économie",
+   "type": "Institution"
+  },
+  {
+   "name": "Department of Justice (DoJ)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bloomberg",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "\"l'agence Bloomberg sort l'information fuitée de négociations entre les deux parties concernant le rachat\"",
+   "confidence": 1.0,
+   "date": "2014-04-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Ministre de l'Économie",
+   "evidence": "\"Alors Ministre de l'Économie, Emmanuel Macron\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "\"Emmanuel Macron, pousse à la vente\" / \"j'étais moi-même persuadé du lien de cause à effet entre cette enquête et la décision de M. Kron\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Arnaud Montebourg",
+   "type": "WORKED_FOR",
+   "target": "Ministre de l'Économie",
+   "evidence": "\"refus net d'Arnaud Montebourg, Ministre de l'Économie\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Department of Justice (DoJ)",
+   "type": "INVOLVED_IN",
+   "target": "Alstom",
+   "evidence": "\"le DoJ aurait mis une pression astronomique aux dirigeants du groupe\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "CONCERNS",
+   "target": "Affaire Alstom",
+   "evidence": "\"l'affaire Alstom est l'un des scandales industriels\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "\"Certains observateurs estiment que l'affaire Alstom est l'un des scandales industriels les plus retentissants depuis l'arrivée au pouvoir d'Emmanuel Macron\"",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "entities": [
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate social",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate du Japon (PDJ)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate orange",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (Inde)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (Israël)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (Népal)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (Saint-Marin)",
+   "type": "Party"
+  }
+ ],
+ "relations": []
+}

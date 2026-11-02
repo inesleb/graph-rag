@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "déclarations mensongères",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "fraude fiscale aggravée",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "déclarations mensongères",
+   "evidence": "Patrick Balkany est mis en examen pour déclarations mensongères sur son patrimoine.",
+   "confidence": 1.0,
+   "date": "2016-01-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany est mis en examen pour déclarations mensongères sur son patrimoine.",
+   "confidence": 1.0,
+   "date": "2016-01-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de corruption",
+   "evidence": "Patrick Balkany est mis en examen pour blanchiment de corruption et de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2016-10-20",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "fraude fiscale aggravée",
+   "evidence": "Patrick Balkany est mis en examen pour blanchiment de corruption et de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2016-10-20",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany est mis en examen pour blanchiment de corruption et de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2016-10-20",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

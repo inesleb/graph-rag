@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La cour d'appel de Paris condamne Patrick Balkany à quatre ans et demi de prison",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "La cour d'appel de Paris condamne Patrick Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient les peines de prison et d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La cour d'appel de Paris condamne Isabelle Balkany à trois ans et demi de prison",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "La cour d'appel de Paris condamne Isabelle Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient les peines de prison et d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Un pourvoi en cassation formé par Patrick Balkany en janvier 2023 afin de contester la décision de justice",
+   "confidence": 0.9,
+   "date": "2023-01-01",
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "La cour d'appel de Paris condamne Patrick Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "La cour d'appel de Paris condamne Isabelle Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient [...] l’usufruit du moulin de Cossy",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "La cour d'appel de Paris condamne Patrick et Isabelle Balkany",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient [...] les peines de prison et d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

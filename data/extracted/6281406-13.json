@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Hillary Clinton",
+   "type": "Person"
+  },
+  {
+   "name": "Muammar al-Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Franc CFA",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission des affaires étrangères du Parlement britannique",
+   "type": "Institution"
+  },
+  {
+   "name": "Intervention militaire en Libye",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Intervention militaire en Libye",
+   "evidence": "un désir d’obtenir une plus grande partie du pétrole libyen ; accroître l’influence française en Afrique du Nord ; améliorer sa situation politique intérieure en France ; offrir à l’armée française une chance de rétablir sa position dans le monde",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muammar al-Kadhafi",
+   "type": "CONCERNS",
+   "target": "Intervention militaire en Libye",
+   "evidence": "le projet de Kadhafi d'introduire une nouvelle devise panafricaine pour supplanter le Franc CFA",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hillary Clinton",
+   "type": "REVEALED",
+   "target": "Intervention militaire en Libye",
+   "evidence": "une série de courriels [...] est rendue publique et dévoile des documents relatifs à l'intervention française en Libye",
+   "confidence": 0.95,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission des affaires étrangères du Parlement britannique",
+   "type": "REVEALED",
+   "target": "Intervention militaire en Libye",
+   "evidence": "Cette analyse est, en partie, partagée par la Commission des affaires étrangères du Parlement britannique en 2016",
+   "confidence": 0.85,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

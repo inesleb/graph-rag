@@ -13,7 +13,11 @@ def get_driver() -> Driver:
     """Return the shared Neo4j driver."""
     settings = get_settings()
     return GraphDatabase.driver(
-        settings.neo4j_uri, auth=(settings.neo4j_user, settings.neo4j_password)
+        settings.neo4j_uri,
+        auth=(settings.neo4j_user, settings.neo4j_password),
+        # Typed-relation unions name every RelationType, even ones absent from a small graph;
+        # "unknown relationship type" notices are expected there and only add noise.
+        notifications_disabled_classifications=["UNRECOGNIZED"],
     )
 
 

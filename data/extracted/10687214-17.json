@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Charles Hourcade",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Christine Boutonnet",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "recel d’abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Charles Hourcade",
+   "type": "INDICTED_IN",
+   "target": "recel d’abus de confiance",
+   "evidence": "\"mis en examen pour « recel d’abus de confiance »\"",
+   "confidence": 1.0,
+   "date": "2017-03-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Charles Hourcade",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "\"assurait les fonctions de graphiste du Front national\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Hourcade",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"Charles Hourcade, assistant parlementaire de l'eurodéputée frontiste Marie-Christine Boutonnet\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Boutonnet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"assistant parlementaire de l'eurodéputée frontiste Marie-Christine Boutonnet\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Boutonnet",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "\"mise en examen pour abus de confiance\"",
+   "confidence": 1.0,
+   "date": "2017-06-20",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Boutonnet",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "\"eurodéputée frontiste\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"comme Marine Le Pen, Marie-Christine Boutonnet refuse de se déplacer\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel d’abus de confiance",
+   "evidence": "\"mis en examen pour « recel d’abus de confiance »\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "\"mise en examen pour abus de confiance\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

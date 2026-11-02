@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "son nom est souvent mêlé à des affaires politico-financières... le reliant à plusieurs dossiers impliquant plusieurs responsables ministériels français, notamment « l'affaire Sarkozy-Kadhafi »",
+   "confidence": 0.8,
+   "date": "2011-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "il est condamné dans le volet financier de « l'affaire Karachi » à 5 ans de prison ferme avec mandat de dépôt",
+   "confidence": 1.0,
+   "date": "2020-06",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "À l'été 2011, il est au centre de révélations du journal en ligne Mediapart le reliant à plusieurs dossiers",
+   "confidence": 1.0,
+   "date": "2011-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

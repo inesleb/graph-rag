@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Christine Lagarde",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "négligence",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Christine Lagarde",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "La Cour de justice de la République ouvre une enquête à l'encontre de Christine Lagarde pour établir si elle a privilégié les intérêts de Bernard Tapie lors de l'arbitrage.",
+   "confidence": 0.9,
+   "date": "2011-08-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "« Utilise-moi pendant le temps qui te convient et convient à ton action et à ton casting. […] Si tu m'utilises, j'ai besoin de toi comme guide et comme soutien »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "INDICTED_IN",
+   "target": "négligence",
+   "evidence": "Elle est mise en examen le 27 août 2014 pour le seul motif de « négligence ».",
+   "confidence": 1.0,
+   "date": "2014-08-27",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "CONVICTED_IN",
+   "target": "négligence",
+   "evidence": "La Cour la déclare coupable de « négligence », mais la dispense de peine.",
+   "confidence": 1.0,
+   "date": "2016-12-19",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Cour de justice de la République",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "La Cour de justice de la République ouvre une enquête à l'encontre de Christine Lagarde pour établir si elle a privilégié les intérêts de Bernard Tapie lors de l'arbitrage.",
+   "confidence": 0.9,
+   "date": "2011-08-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

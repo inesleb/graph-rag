@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Bay",
+   "type": "Person"
+  },
+  {
+   "name": "Timothée Houssin",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "France Info",
+   "type": "Media"
+  },
+  {
+   "name": "Complément d'enquête",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Bay",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Nicolas Bay est mis en examen le 8 juin 2018 pour « abus de confiance »",
+   "confidence": 1.0,
+   "date": "2018-06-08",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les poursuites requalifiées visent le délit, plus grave, de « détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-09-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "travaillait « en réalité pendant son contrat au sein du secrétariat général (du FN) »",
+   "confidence": 0.9,
+   "date": "2014-07–2015-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Timothée Houssin",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Bay",
+   "evidence": "Timothée Houssin, entre juillet 2014 et début 2015, alors que ce dernier travaillait « en réalité pendant son contrat au sein du secrétariat général (du FN) »",
+   "confidence": 1.0,
+   "date": "2014-07–2015-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Nicolas Bay a transmis à la justice des revues de presse élaborées en 2018 pour essayer de prouver l'activité de Timothée Houssin en 2014 et 2015",
+   "confidence": 0.9,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Timothée Houssin",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Timothée Houssin infirme cette version : « Ce n'est pas moi qui ai remis les pièces présentes au dossier au juge »",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France Info",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Selon une enquête de France Info et Complément d'enquête publiée en septembre 2024",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Complément d'enquête",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Selon une enquête de France Info et Complément d'enquête publiée en septembre 2024",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "Nicolas Bay est mis en examen le 8 juin 2018 pour « abus de confiance »",
+   "confidence": 1.0,
+   "date": "2018-06-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournements de fonds publics",
+   "evidence": "les poursuites requalifiées visent le délit, plus grave, de « détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-09-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

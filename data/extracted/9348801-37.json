@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Autorité pour la transparence financière de la vie publique",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "corruption passive",
+   "evidence": "mis en examen pour corruption passive",
+   "confidence": 1.0,
+   "date": "2015-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "mis en examen pour [...] blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2015-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Isabelle Balkany, a également été mise en examen pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2015-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "Patrick Balkany se voit signifier le nouveau chef de mise en examen de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2015-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "dans l'enquête sur son patrimoine",
+   "confidence": 0.9,
+   "date": "2015-10-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "fraude fiscale",
+   "evidence": "enquête sur son patrimoine [...] omis une partie substantielle de son patrimoine",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "ils ont organisé leur insolvabilité",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Autorité pour la transparence financière de la vie publique",
+   "evidence": "déclarations auxquelles sont soumis les élus auprès de l’autorité pour la transparence financière de la vie publique",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Hadrien Clouet",
+   "type": "Person"
+  },
+  {
+   "name": "Mathilde Panot",
+   "type": "Person"
+  },
+  {
+   "name": "Danielle Simonnet",
+   "type": "Person"
+  },
+  {
+   "name": "Pascale Martin",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Hadrien Clouet",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "Pour le député Hadrien Clouet : « C’est un principe, si un député du groupe fait l’objet... »",
+   "confidence": 0.95,
+   "date": "2023-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mathilde Panot",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "Mathilde Panot, présidente du groupe La France insoumise à l'Assemblée nationale...",
+   "confidence": 1.0,
+   "date": "2023-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Danielle Simonnet",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "Ainsi la députée Danielle Simonnet veut « des explications de Sophia et du mouvement »...",
+   "confidence": 0.95,
+   "date": "2023-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pascale Martin",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "Pour la députée Pascale Martin : « Aux milliers de militantes et militants bénévoles sincères... »",
+   "confidence": 0.95,
+   "date": "2023-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "à l'occasion des critiques sur le comportement de Sophia Chikirou et de la médiatisation de l'affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "confidence": 0.9,
+   "date": "2023-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "les accusations de surfacturation et d’enrichissement de Sophia Chikirou",
+   "confidence": 0.85,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

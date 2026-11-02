@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "association de malfaiteurs",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Dans l'affaire Sarkozy-Kadhafi, il est accusé d'avoir été corrompu par Mouammar Kadhafi en échange d'un financement illégal de sa campagne électorale.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "Dans l'affaire Sarkozy-Kadhafi, il est accusé d'avoir été corrompu par Mouammar Kadhafi en échange d'un financement illégal de sa campagne électorale.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "Il est condamné en première instance en septembre 2025 à 5 ans de prison ferme pour association de malfaiteurs.",
+   "confidence": 1.0,
+   "date": "2025-09",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Dans l'affaire Sarkozy-Kadhafi, il est accusé d'avoir été corrompu par Mouammar Kadhafi en échange d'un financement illégal de sa campagne électorale.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

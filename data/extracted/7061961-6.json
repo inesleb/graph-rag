@@ -1,0 +1,164 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Cabinet GiacomettiPeron",
+   "type": "Company"
+  },
+  {
+   "name": "Pierre Giacometti",
+   "type": "Person"
+  },
+  {
+   "name": "Présidence de la République française (Élysée)",
+   "type": "Institution"
+  },
+  {
+   "name": "Rachida Dati",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Besson",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Xavier Bertrand",
+   "type": "Person"
+  },
+  {
+   "name": "Laurent Wauquiez",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Présidence de la République française (Élysée)",
+   "evidence": "le cabinet GiacomettiPeron se voit verser 2,56 millions d'euros par la présidence",
+   "confidence": 1.0,
+   "date": "2008-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Cabinet GiacomettiPeron",
+   "evidence": "Alors que Patrick Buisson est chargé des sondages, le cabinet fondé en 2008 par Pierre Giacometti se voit confier la « stratégie d’opinion »",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "le cabinet GiacomettiPeron se voit verser 2,56 millions d'euros par la présidence",
+   "confidence": 0.9,
+   "date": "2008-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Rachida Dati",
+   "evidence": "il travaille avec Rachida Dati sur la réforme judiciaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Éric Besson",
+   "evidence": "sur les interventions publiques d'Éric Besson à l'immigration",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Brice Hortefeux",
+   "evidence": "sur les discours des ministres de l'Intérieur Brice Hortefeux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Claude Guéant",
+   "evidence": "sur les discours des ministres de l'Intérieur [...] Claude Guéant",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "François Fillon [...] auront également recours aux conseils de GiacomettiPeron",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Xavier Bertrand",
+   "evidence": "Xavier Bertrand [...] auront également recours aux conseils de GiacomettiPeron",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "WORKED_FOR",
+   "target": "Laurent Wauquiez",
+   "evidence": "Laurent Wauquiez auront également recours aux conseils de GiacomettiPeron",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet GiacomettiPeron",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "personne ne se pose la question de rédiger un appel d'offres",
+   "confidence": 0.8,
+   "date": "2011-10-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

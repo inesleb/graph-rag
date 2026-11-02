@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Sébastien Borivent",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "complicité de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sébastien Borivent",
+   "type": "CONVICTED_IN",
+   "target": "complicité de faux",
+   "evidence": "condamné à deux ans de prison avec sursis et 100 000 euros d’amende pour complicité de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sébastien Borivent",
+   "type": "CONVICTED_IN",
+   "target": "usage de faux",
+   "evidence": "condamné à deux ans de prison avec sursis et 100 000 euros d’amende pour usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sébastien Borivent",
+   "type": "CONVICTED_IN",
+   "target": "escroquerie",
+   "evidence": "condamné à deux ans de prison avec sursis et 100 000 euros d’amende pour escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sébastien Borivent",
+   "type": "CONVICTED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "condamné à deux ans de prison avec sursis et 100 000 euros d’amende pour financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sébastien Borivent",
+   "type": "WORKED_FOR",
+   "target": "Bygmalion",
+   "evidence": "ancien cadre dirigeant de Bygmalion",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "financement illégal de campagne électorale",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

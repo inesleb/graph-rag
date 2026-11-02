@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds européens",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "revient sur cette affaire dans le cadre de l'affaire similaire visant le RN",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "revient sur cette affaire dans le cadre de l'affaire similaire visant le RN",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "CONCERNS",
+   "target": "détournement de fonds européens",
+   "evidence": "Jugeant « injuste » l’accusation de détournement de fonds européens",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "détournement de fonds européens",
+   "evidence": "l’accusation de détournement de fonds européens, qui concerne des membres du RN",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "CONCERNS",
+   "target": "détournement de fonds européens",
+   "evidence": "l’accusation de détournement de fonds européens, qui concerne [...] son propre parti le Mouvement démocrate",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "CONCERNS",
+   "target": "Marine Le Pen",
+   "evidence": "trouve « très dérangeante » une éventuelle inéligibilité de Marine Le Pen",
+   "confidence": 0.8,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "des membres du Mouvement démocrate ont été « condamnés injustement »",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

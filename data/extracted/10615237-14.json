@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Cahuzac",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "L'Obs",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Penelope Fillon",
+   "evidence": "\"en 1997 j'ai un collaborateur parlementaire qui est parti, je l'ai remplacé par Penelope\"",
+   "confidence": 1.0,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Penelope Fillon",
+   "evidence": "\"j'ai mis fin à la collaboration avec sa femme en 2013\"",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Cahuzac",
+   "evidence": "\"il s'opposait à un projet de loi sur la transparence de la vie publique initié par le gouvernement après l'affaire Cahuzac\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "\"si son honneur était atteint, s'il était mis en examen\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "REVEALED",
+   "target": "L'Obs",
+   "evidence": "\"L'Obs relève plusieurs incohérences dans la défense de François Fillon\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"Qui imagine un seul instant le général de Gaulle mis en examen ?\" (visant Nicolas Sarkozy sans le nommer)",
+   "confidence": 0.9,
+   "date": "2016-08-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

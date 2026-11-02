@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Laurent Simonin",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Préfecture de police de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Laurent Simonin",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "le chargé de mission de l'Élysée",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Simonin",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "organise ensuite le prêt d'équipements de protection pour Alexandre Benalla",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Simonin",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "n'aurait pas vérifié auprès de sa hiérarchie, ni n'aurait prévenu cette dernière de la venue d'Alexandre Benalla",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Simonin",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "aurait dit disposer des autorisations nécessaires de la préfecture",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "prêt d'équipements de protection pour Alexandre Benalla",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "mise en contact avec son accompagnateur, le major de police Philippe Mizerski",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Préfecture de police de Paris",
+   "type": "CONCERNS",
+   "target": "Affaires Benalla",
+   "evidence": "autorisations nécessaires de la préfecture",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

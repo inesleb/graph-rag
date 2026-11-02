@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "GEC",
+   "type": "Company"
+  },
+  {
+   "name": "E.ON",
+   "type": "Company"
+  },
+  {
+   "name": "GDF Suez",
+   "type": "Company"
+  },
+  {
+   "name": "GE",
+   "type": "Company"
+  },
+  {
+   "name": "Siemens",
+   "type": "Company"
+  },
+  {
+   "name": "Mitsubishi",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Patrick Bessy",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Kron",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "l'ancien porte-parole d'Alstom Patrick Bessy",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Bessy",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "l'ancien porte-parole d'Alstom Patrick Bessy",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Patrick Kron est donc convaincu que si une nouvelle offre est faite à Alstom",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Bessy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "« Trop petit, trop fragile financièrement, face à GE, Siemens ou Mitsubishi, sans oublier les Chinois, Alstom allait dans le mur »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

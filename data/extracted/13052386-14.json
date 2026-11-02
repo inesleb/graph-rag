@@ -1,0 +1,48 @@
+{
+ "entities": [
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Claudine Oliveira",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nissan",
+   "type": "INDICTED_IN",
+   "target": "Claudine Oliveira",
+   "evidence": "Nissan a ainsi porté plainte contre Claudine Oliveira devant un tribunal au Brésil pour enrichissement abusif et rétro-commissions occultes",
+   "confidence": 1.0,
+   "date": "2018-12-14",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "enrichissement abusif",
+   "evidence": "pour enrichissement abusif",
+   "confidence": 0.9,
+   "date": "2018-12-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "rétro-commissions occultes",
+   "evidence": "au travers de rétro-commissions occultes",
+   "confidence": 0.9,
+   "date": "2018-12-14",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

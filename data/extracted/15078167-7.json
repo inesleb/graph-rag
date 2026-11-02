@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Barack Obama",
+   "type": "Person"
+  },
+  {
+   "name": "Jim Messina",
+   "type": "Person"
+  },
+  {
+   "name": "David Plouffe",
+   "type": "Person"
+  },
+  {
+   "name": "Brian Worth",
+   "type": "Person"
+  },
+  {
+   "name": "Kevin McCarthy",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jim Messina",
+   "type": "WORKED_FOR",
+   "target": "Barack Obama",
+   "evidence": "d'anciens collaborateurs de Barack Obama, dont Jim Messina",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "David Plouffe",
+   "type": "WORKED_FOR",
+   "target": "Barack Obama",
+   "evidence": "d'anciens collaborateurs de Barack Obama, dont David Plouffe",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brian Worth",
+   "type": "WORKED_FOR",
+   "target": "Kevin McCarthy",
+   "evidence": "ancien assistant de Kevin McCarthy",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kevin McCarthy",
+   "type": "MEMBER_OF",
+   "target": "Chambre des représentants des États-Unis",
+   "evidence": "Kevin McCarthy, qui fut leader républicain de la Chambre des représentants en 2014",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jim Messina",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "parmi les personnes sous influence ou influenceurs d’Uber, on trouve d'anciens collaborateurs de Barack Obama, dont Jim Messina",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "David Plouffe",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "parmi les personnes sous influence ou influenceurs d’Uber, on trouve d'anciens collaborateurs de Barack Obama, dont David Plouffe",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brian Worth",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Du côté républicain, on trouve comme influenceur Brian Worth",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "les actionnaires d'Uber ont voté contre une proposition qui aurait obligé l'entreprise à divulguer ses activités et ses dépenses de lobbying",
+   "confidence": 1.0,
+   "date": "2022-05",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

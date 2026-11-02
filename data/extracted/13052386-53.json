@@ -1,0 +1,168 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance aggravés",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "faux et usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment aggravé d’abus de biens sociaux et d’abus de confiance aggravés",
+   "type": "Offense"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En France, Carlos Ghosn fait l'objet de deux enquêtes pénales",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de biens sociaux",
+   "evidence": "Une information judiciaire a été ouverte [...] pour abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de biens sociaux aggravés",
+   "evidence": "Une information judiciaire a été ouverte [...] pour abus de biens sociaux aggravés",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance aggravés",
+   "evidence": "Une information judiciaire a été ouverte [...] pour abus de confiance aggravés",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "recel",
+   "evidence": "Une information judiciaire a été ouverte [...] pour recel de ces infractions",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "Une information judiciaire a été ouverte [...] pour faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "blanchiment aggravé d’abus de biens sociaux et d’abus de confiance aggravés",
+   "evidence": "Une information judiciaire a été ouverte [...] pour blanchiment aggravé d’abus de biens sociaux et d’abus de confiance aggravés",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "Une information judiciaire a été ouverte [...] pour abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "abus de confiance aggravés",
+   "evidence": "Une information judiciaire a été ouverte [...] pour abus de confiance aggravés",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "Une information judiciaire a été ouverte [...] pour recel de ces infractions",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "faux et usage de faux",
+   "evidence": "Une information judiciaire a été ouverte [...] pour faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "blanchiment aggravé d’abus de biens sociaux et d’abus de confiance aggravés",
+   "evidence": "Une information judiciaire a été ouverte [...] pour blanchiment aggravé d’abus de biens sociaux et d’abus de confiance aggravés",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Une information judiciaire a été ouverte le 19 février 2020",
+   "confidence": 1.0,
+   "date": "2020-02-19",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Étienne des Rosaies",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Armand De Decker",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Degoul",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Mazery",
+   "type": "Person"
+  },
+  {
+   "name": "Ordre de Malte",
+   "type": "Institution"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Étienne des Rosaies",
+   "type": "WORKED_FOR",
+   "target": "Ordre de Malte",
+   "evidence": "grand chancelier de l'ordre de Malte",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Étienne des Rosaies",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "Il me semble important que vous puissiez nous recevoir [...]",
+   "confidence": 0.8,
+   "date": "2011-06-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Mazery",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "Jean-François Étienne des Rosaies est un homme qui a le souci d’être au centre des grandes affaires",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Mazery",
+   "type": "REVEALED",
+   "target": "Étienne des Rosaies",
+   "evidence": "les lettres de des Rosaies ne devraient pas être prises trop au sérieux, car des Rosaies est un homme avec un grand besoin de reconnaissance qui l'amenait parfois à présenter les faits de façon inexacte",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Étienne des Rosaies",
+   "type": "INVOLVED_IN",
+   "target": "Claude Guéant",
+   "evidence": "Il me semble important que vous puissiez nous recevoir [...] avec le ministre d’État Claude Guéant",
+   "confidence": 0.8,
+   "date": "2011-06-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

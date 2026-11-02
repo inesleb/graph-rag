@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Bennahmias",
+   "type": "Person"
+  },
+  {
+   "name": "Nathalie Griesbeck",
+   "type": "Person"
+  },
+  {
+   "name": "Marielle de Sarnez",
+   "type": "Person"
+  },
+  {
+   "name": "Office européen de lutte anti-fraude (OLAF)",
+   "type": "Institution"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Le 9 juin 2017, le parquet de Paris ouvre une enquête préliminaire",
+   "confidence": 1.0,
+   "date": "2017-06-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "enquête préliminaire pour « abus de confiance »",
+   "confidence": 1.0,
+   "date": "2017-06-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "enquête préliminaire pour « abus de confiance » et « recel »",
+   "confidence": 1.0,
+   "date": "2017-06-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Office européen de lutte anti-fraude (OLAF)",
+   "type": "INVESTIGATED",
+   "target": "Jean-Luc Bennahmias",
+   "evidence": "Jean-Luc Bennahmias [...] sont sommés de rembourser",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Office européen de lutte anti-fraude (OLAF)",
+   "type": "INVESTIGATED",
+   "target": "Nathalie Griesbeck",
+   "evidence": "Nathalie Griesbeck [...] sont sommés de rembourser",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "anciens députés européens MoDem",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nathalie Griesbeck",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "anciens députés européens MoDem",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Marielle de Sarnez est mise en examen [...] le 4 décembre 2019",
+   "confidence": 1.0,
+   "date": "2019-12-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "mise en examen [...] pour « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2019-12-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "affaire des assistants parlementaires du MoDem",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

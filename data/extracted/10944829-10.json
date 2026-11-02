@@ -1,0 +1,192 @@
+{
+ "entities": [
+  {
+   "name": "Sylvie Goulard",
+   "type": "Person"
+  },
+  {
+   "name": "MoDem",
+   "type": "Party"
+  },
+  {
+   "name": "La République en marche",
+   "type": "Party"
+  },
+  {
+   "name": "Édouard Philippe",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Marielle de Sarnez",
+   "type": "Person"
+  },
+  {
+   "name": "Nathalie Griesbeck",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sylvie Goulard",
+   "type": "WORKED_FOR",
+   "target": "MoDem",
+   "evidence": "qui avait récemment quitté le MoDem",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sylvie Goulard",
+   "type": "WORKED_FOR",
+   "target": "La République en marche",
+   "evidence": "pour La République en marche",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sylvie Goulard",
+   "type": "WORKED_FOR",
+   "target": "gouvernement Édouard Philippe",
+   "evidence": "de son poste de ministre des Armées du gouvernement Édouard Philippe",
+   "confidence": 1.0,
+   "date": "2017-06-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Sylvie Goulard",
+   "evidence": "Cette affaire entraîne la démission de Sylvie Goulard",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "MoDem",
+   "evidence": "les deux ministres MoDem, François Bayrou",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "gouvernement Édouard Philippe",
+   "evidence": "François Bayrou, ministre de la Justice",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "François Bayrou",
+   "evidence": "la démission des deux ministres MoDem, François Bayrou",
+   "confidence": 1.0,
+   "date": "2017-06-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "WORKED_FOR",
+   "target": "MoDem",
+   "evidence": "les deux ministres MoDem, [...] Marielle de Sarnez",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "WORKED_FOR",
+   "target": "gouvernement Édouard Philippe",
+   "evidence": "Marielle de Sarnez, ministre des Affaires européennes",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Marielle de Sarnez",
+   "evidence": "la démission des deux ministres MoDem, [...] Marielle de Sarnez",
+   "confidence": 1.0,
+   "date": "2017-06-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Nathalie Griesbeck",
+   "evidence": "Elle conduit également Nathalie Griesbeck à renoncer",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Présidence de la République",
+   "evidence": "proposée par le président de la République Emmanuel Macron",
+   "confidence": 1.0,
+   "date": "2019-10-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Sylvie Goulard",
+   "evidence": "La candidature de Sylvie Goulard [...] est définitivement écartée",
+   "confidence": 1.0,
+   "date": "2019-10-10",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "François Bayrou",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "quelques mois après sa relaxe",
+   "confidence": 1.0,
+   "date": "2024-12",
+   "stage": "unknown",
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "gouvernement (Premier ministre)",
+   "evidence": "François Bayrou est nommé Premier ministre",
+   "confidence": 1.0,
+   "date": "2024-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

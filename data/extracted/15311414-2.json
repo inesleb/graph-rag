@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Bastien Lachaud",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Pierre Oprandi",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "L'Ère du peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bastien Lachaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Le député Bastien Lachaud [...] sont mis en examen en 2021.",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Marie-Pierre Oprandi [...] sont mis en examen en 2021.",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "L'association L'Ère du peuple [...] sont mis en examen en 2021.",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "WORKED_FOR",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "Marie-Pierre Oprandi la mandataire financière de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

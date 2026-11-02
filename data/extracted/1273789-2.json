@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Rachida Dati",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Grégoire",
+   "type": "Person"
+  },
+  {
+   "name": "Gouvernement Attal",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Attal",
+   "evidence": "Elle signe son retour dans la politique nationale en étant nommé ministre de la Culture dans le gouvernement Attal en 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Attal",
+   "evidence": "fonction qu'elle exerce dans les différents gouvernements qui suivent jusqu'en 2026",
+   "confidence": 1.0,
+   "date": "2026",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "Mairie de Paris",
+   "evidence": "où elle démissionne pour se présenter à nouveau à la mairie de Paris, remportée par son adversaire socialiste Emmanuel Grégoire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Grégoire",
+   "type": "INVOLVED_IN",
+   "target": "Mairie de Paris",
+   "evidence": "où elle démissionne pour se présenter à nouveau à la mairie de Paris, remportée par son adversaire socialiste Emmanuel Grégoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

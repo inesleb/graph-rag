@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Tracfin",
+   "type": "Institution"
+  },
+  {
+   "name": "Villa Pamplemousse",
+   "type": "Institution"
+  },
+  {
+   "name": "Villa Serena",
+   "type": "Institution"
+  },
+  {
+   "name": "Société écran fiduciaire installée au Liechtenstein",
+   "type": "Company"
+  },
+  {
+   "name": "Levallois-Perret",
+   "type": "Institution"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Commissions sur des contrats à l’international",
+   "type": "Offense"
+  },
+  {
+   "name": "Marchés publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany reconnait en garde à vue être la véritable propriétaire de la villa Pamplemousse",
+   "confidence": 1.0,
+   "date": "2014-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Société écran fiduciaire installée au Liechtenstein",
+   "evidence": "dissimulée derrière une société écran fiduciaire installée au Liechtenstein",
+   "confidence": 1.0,
+   "date": "2014-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "l'enquête est élargie à des faits de corruption",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tracfin",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Des virements bancaires dénoncés par Tracfin concerneraient le versement de commissions sur des contrats à l’international",
+   "confidence": 0.9,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Commissions sur des contrats à l’international",
+   "evidence": "le versement de commissions sur des contrats à l’international",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Marchés publics",
+   "evidence": "ainsi que sur des marchés publics passés à Levallois-Perret",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany est entendue par le juge",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany est entendue par le juge",
+   "confidence": 0.8,
+   "date": "2014-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Villa Serena",
+   "evidence": "Isabelle Balkany affirme qu'elle ne connaît pas la villa Serena",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Villa Serena",
+   "evidence": "ni elle, ni son mari, ne sont les bénéficiaires de la société au Liechtenstein",
+   "confidence": 0.9,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

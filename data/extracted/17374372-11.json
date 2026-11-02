@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "General Electric",
+   "type": "Company"
+  },
+  {
+   "name": "Department of Justice (DoJ)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Le DoJ inflige une amende de 772 millions de dollars américains à Alstom, qui sur proposition de General Electric, est à charge de l'acquéreur américain.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "CONCERNS",
+   "target": "Affaire Alstom",
+   "evidence": "Le paiement d'amende par un tiers étant rarissime et très encadré, Alstom se retrouve à payer de nouveau l'amende, auprès du DoJ.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Department of Justice (DoJ)",
+   "evidence": "Le DoJ inflige une amende de 772 millions de dollars américains à Alstom",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "General Electric",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "qui sur proposition de General Electric, est à charge de l'acquéreur américain.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

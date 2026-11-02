@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Jacques Colombier",
+   "type": "Person"
+  },
+  {
+   "name": "Edwige Diaz",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet européen",
+   "type": "INVESTIGATED",
+   "target": "Jacques Colombier",
+   "evidence": "À partir de juillet 2021, le Parquet européen dirige, sur Jacques Colombier... une enquête préliminaire",
+   "confidence": 1.0,
+   "date": "2021-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet européen",
+   "type": "INVESTIGATED",
+   "target": "Edwige Diaz",
+   "evidence": "À partir de juillet 2021, le Parquet européen dirige... une enquête préliminaire pour « détournement de fonds publics, complicité et recel » après un signalement d'Anticor.",
+   "confidence": 1.0,
+   "date": "2021-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Edwige Diaz",
+   "type": "WORKED_FOR",
+   "target": "Jacques Colombier",
+   "evidence": "À l'époque des faits allégués Edwige Diaz était l’assistante parlementaire de Jacques Colombier",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Colombier",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "lui-même député européen de 2018 à 2019",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet européen",
+   "type": "ACQUITTED_IN",
+   "target": "Edwige Diaz",
+   "evidence": "le parquet européen... classe l'affaire sans suite",
+   "confidence": 0.9,
+   "date": "2023-10-11",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "une enquête préliminaire pour « détournement de fonds publics, complicité et recel »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "une enquête préliminaire pour « détournement de fonds publics, complicité et recel »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "une enquête préliminaire pour « détournement de fonds publics, complicité et recel »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "après un signalement d'Anticor",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

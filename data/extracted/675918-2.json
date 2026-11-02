@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Union pour un mouvement populaire (UMP)",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains (LR)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Sarkozy-Azibert",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Ve République",
+   "type": "Institution"
+  },
+  {
+   "name": "Maréchal Pétain",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Conseil constitutionnel",
+   "evidence": "il siège pendant quelques mois au Conseil constitutionnel, dont il est membre de droit et à vie.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "En 2014, il reprend la présidence de l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union pour un mouvement populaire (UMP)",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains (LR)",
+   "evidence": "qu'il fait rebaptiser Les Républicains (LR).",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Sarkozy-Azibert",
+   "evidence": "En 2023, dans l'affaire Sarkozy-Azibert, il est condamné en appel à trois ans de prison pour corruption et trafic d'influence.",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Azibert",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "condamné [...] pour corruption",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Azibert",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "condamné [...] pour [...] trafic d'influence.",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Dans l'affaire Bygmalion, il est condamné en appel en 2024 à un an de prison pour financement illégal de sa campagne électorale de 2012, condamnation définitivement confirmée en 2025",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "condamné [...] pour financement illégal de sa campagne électorale de 2012",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Ve République",
+   "evidence": "il est le premier président de la Ve République condamné à de la prison ferme",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Maréchal Pétain",
+   "evidence": "le premier dirigeant français depuis le maréchal Pétain",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

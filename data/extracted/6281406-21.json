@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Moussa Koussa",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Béchir Salah Béchir",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Moussa Koussa",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Le 28 avril 2012, Mediapart publie un document écrit en arabe, daté du 10 décembre 2006 et signé par Moussa Koussa...\"",
+   "confidence": 0.9,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"le régime libyen de Mouammar Kadhafi a décidé de débloquer une somme à concurrence de 50 millions d'euros pour la campagne présidentielle de Nicolas Sarkozy en 2007\"",
+   "confidence": 0.95,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"le régime libyen... a décidé de débloquer une somme... pour la campagne présidentielle de Nicolas Sarkozy en 2007\"",
+   "confidence": 0.95,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah Béchir",
+   "type": "WORKED_FOR",
+   "target": "Mouammar Kadhafi",
+   "evidence": "\"le directeur de cabinet de Kadhafi\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah Béchir",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"en autorisant le directeur de cabinet de Kadhafi, Béchir Salah Béchir, à entreprendre les versements secrets et à appuyer la campagne électorale de Nicolas Sarkozy\"",
+   "confidence": 0.95,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah Béchir",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"en autorisant... à entreprendre les versements secrets et à appuyer la campagne électorale de Nicolas Sarkozy\"",
+   "confidence": 0.95,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"appuyer la campagne électorale du candidat aux élections présidentielles, Monsieur Nicolas Sarkozy\"",
+   "confidence": 0.95,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"débloquer une somme... pour la campagne présidentielle de Nicolas Sarkozy en 2007\"",
+   "confidence": 1.0,
+   "date": "2006-12-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Le 28 avril 2012, Mediapart publie un document...\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

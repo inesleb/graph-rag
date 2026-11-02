@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Cash Investigation",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "France 2",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "diffuse un épisode de Cash Investigation sur l'affaire",
+   "confidence": 1.0,
+   "date": "2024-09-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "liens de longue date entre des consultants de McKinsey et Emmanuel Macron",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Emmanuel Macron",
+   "evidence": "liens de longue date entre des consultants de McKinsey et Emmanuel Macron",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cash Investigation",
+   "type": "CONCERNS",
+   "target": "Affaire McKinsey",
+   "evidence": "un épisode de Cash Investigation sur l'affaire",
+   "confidence": 1.0,
+   "date": "2024-09-17",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

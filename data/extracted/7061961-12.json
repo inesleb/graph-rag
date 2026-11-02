@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Christiane Taubira",
+   "type": "Person"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Sabine Kheris",
+   "type": "Person"
+  },
+  {
+   "name": "Prise illégale d'intérêt",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Prise illégale d'intérêt",
+   "evidence": "Patrick Buisson annonce qu'il va porter plainte [...] au motif que [...] cela constitue à ses yeux une « prise illégale d'intérêt »",
+   "confidence": 0.95,
+   "date": "2012-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Patrick Buisson annonce qu'il va porter plainte contre la garde des sceaux, Christiane Taubira",
+   "confidence": 0.85,
+   "date": "2012-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Christiane Taubira",
+   "type": "MEMBER_OF",
+   "target": "Anticor",
+   "evidence": "Christiane Taubira [...] est demeurée membre du comité de parrainage de l'association Anticor",
+   "confidence": 1.0,
+   "date": "2007-??",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christiane Taubira",
+   "type": "INVOLVED_IN",
+   "target": "Prise illégale d'intérêt",
+   "evidence": "Christiane Taubira ayant selon ses dires un « intérêt moral et politique à voir s'ouvrir une instruction où elle est juge, partie et bénéficiaire »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "REVEALED",
+   "target": "Christiane Taubira",
+   "evidence": "Anticor répond par un communiqué où elle indique que Mme Taubira n'a « plus participé à une seule manifestation ou réunion d'Anticor » depuis 2007",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêt",
+   "evidence": "Patrick Buisson [...] porte plainte [...] au motif que [...] cela constitue [...] une « prise illégale d'intérêt »",
+   "confidence": 0.9,
+   "date": "2012-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sabine Kheris",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "la juge d'instruction Sabine Kheris en près de deux ans n'a accompli aucun acte d'instruction",
+   "confidence": 0.95,
+   "date": "2015-11",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

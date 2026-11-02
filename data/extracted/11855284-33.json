@@ -1,0 +1,168 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Feferberg",
+   "type": "Person"
+  },
+  {
+   "name": "Public Sénat",
+   "type": "Media"
+  },
+  {
+   "name": "AFP",
+   "type": "Media"
+  },
+  {
+   "name": "BuzzFeed",
+   "type": "Media"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "accusé de plusieurs violences",
+   "confidence": 0.9,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "« Il m'avait menacé parce que je voulais choisir un angle à moi, et pas le sien. Il me disait je vais te faire virer »",
+   "confidence": 0.95,
+   "date": "2017-03-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "« intervention musclée » d'Alexandre Benalla lors d’un meeting d’Emmanuel Macron à Caen",
+   "confidence": 0.95,
+   "date": "2017-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "a ceinturé un journaliste et lui a arraché son accréditation presse",
+   "confidence": 0.95,
+   "date": "2017-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "a sorti manu militari un jeune militant communiste et l'a frappé dans un couloir",
+   "confidence": 0.95,
+   "date": "2016-11-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "s'est montré vindicatif vis-à-vis d'un commissaire de police",
+   "confidence": 0.9,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "déplacement d'Emmanuel Macron / meeting d’Emmanuel Macron / déclaration de candidature d'Emmanuel Macron",
+   "confidence": 0.95,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Feferberg",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "« Il m'avait menacé parce que je voulais choisir un angle à moi, et pas le sien. Il me disait je vais te faire virer »",
+   "confidence": 0.95,
+   "date": "2017-03-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Public Sénat",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "accusé de plusieurs violences / « intervention musclée » d'Alexandre Benalla",
+   "confidence": 0.95,
+   "date": "2017-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "AFP",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "accusé de plusieurs violences",
+   "confidence": 0.9,
+   "date": "2017-03-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "BuzzFeed",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "vidéo diffusée par BuzzFeed",
+   "confidence": 0.95,
+   "date": "2016-11-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "s'est montré vindicatif vis-à-vis d'un commissaire de police",
+   "confidence": 0.9,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "violences",
+   "evidence": "accusé de plusieurs violences / « intervention musclée » / ceinturé un journaliste / frappé dans un couloir / vindicatif",
+   "confidence": 0.95,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

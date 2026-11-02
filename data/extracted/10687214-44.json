@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Sophie Montel",
+   "type": "Person"
+  },
+  {
+   "name": "Huguette Fatna",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Bilde",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophie Montel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Sophie Montel affirme l'avoir vue en larmes car mise en cause dans l'enquête administrative européenne",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Bilde",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "la députée Dominique Bilde qui a embauché Huguette Fatna",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Huguette Fatna",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "Huguette Fatna [...] a été embauchée",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les policiers ont présenté à Sophie Montel une liste d'une trentaine d'assistants parlementaires [...] Elle a confirmé pour une dizaine d'entre eux la réalité d'un travail d'assistant parlementaire",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "« Comme je suis très proche de Marine Le Pen, Sophie Montel s'attaque à elle en passant par moi »",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

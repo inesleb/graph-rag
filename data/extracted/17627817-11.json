@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Prise illégale d'intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Anticor",
+   "type": "INVESTIGATED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En novembre 2017, l'association Anticor dépose une nouvelle plainte afin de relancer l'enquête",
+   "confidence": 1.0,
+   "date": "2017-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "l'analyse du procureur ayant conduit à la prescription du délit de prise illégale d'intérêts",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "la dissimulation des liens qui unissaient Richard Ferrand avec la propriétaire du local",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "le délai de prescription concernant cette affaire devrait donc commencer à courir à partir de la date de la parution d'articles dans Le Canard enchaîné",
+   "confidence": 1.0,
+   "date": "2017-05-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Le 18 janvier 2018, le parquet ouvre une information judiciaire pour « prise illégale d'intérêts »",
+   "confidence": 1.0,
+   "date": "2018-01-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "une information judiciaire pour « prise illégale d'intérêts »",
+   "confidence": 1.0,
+   "date": "2018-01-18",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

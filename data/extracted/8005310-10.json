@@ -1,0 +1,242 @@
+{
+ "entities": [
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alves",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "Fabienne Liadze",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Chassat",
+   "type": "Person"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Complément d'enquête",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "faux et usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bastien Millot",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour abus de confiance",
+   "confidence": 1.0,
+   "date": "2014-10-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour abus de confiance, complicité de faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2014-10-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour abus de confiance, complicité de faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2014-10-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour abus de confiance, complicité de faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2014-10-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Franck Attal",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour faux et usage de faux",
+   "confidence": 1.0,
+   "date": "2014-10-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Éric Cesari",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Éric Cesari",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Fabienne Liadze",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Fabienne Liadze",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "INDICTED_IN",
+   "target": "faux et usage de faux",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour « faux, usage de faux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-10-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Éric Cesari",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "ancien directeur général de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fabienne Liadze",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "ex-directrice financière de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "ex-directeur de la communication de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "avoue publiquement sur France 2 (Complément d'enquête) avoir mis en place un système de double comptabilité",
+   "confidence": 1.0,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "avoue [...] à la demande de l'UMP pour masquer les dépenses de campagnes de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "masquer les dépenses de campagnes de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "masquer les dépenses de campagnes de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

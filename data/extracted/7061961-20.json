@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Giacometti",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Julien Vaulpré",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Publifact",
+   "type": "Company"
+  },
+  {
+   "name": "Publiopinion",
+   "type": "Company"
+  },
+  {
+   "name": "No Com",
+   "type": "Company"
+  },
+  {
+   "name": "Ipsos",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "un an de prison, dont six mois avec sursis, et 10 000 € d’amende pour Claude Guéant",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "six mois de détention avec sursis et 70 000 € d’amende contre Pierre Giacometti",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "10 000 € d'amende pour Emmanuelle Mignon",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Julien Vaulpré",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Julien Vaulpré est relaxé",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Patrick Buisson est condamné à deux ans avec sursis ainsi que 150 000 € d'amende",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Publifact",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Publifact [...] est condamnée respectivement à des amendes de 500 000 €",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Publiopinion",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Publiopinion [...] est condamnée [...] à 50 000 €",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "No Com",
+   "type": "CONVICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "No Com [...] est condamnée à 300 000 €, et Ipsos à 1 000 000 €, pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Ipsos",
+   "type": "CONVICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "No Com [...] est condamnée à 300 000 €, et Ipsos à 1 000 000 €, pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Claude Guéant fait appel de sa condamnation",
+   "confidence": 1.0,
+   "date": "2022-01-21",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

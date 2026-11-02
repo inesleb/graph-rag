@@ -1,0 +1,158 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Hervé Clabon",
+   "type": "Person"
+  },
+  {
+   "name": "Joëlle Salaün",
+   "type": "Person"
+  },
+  {
+   "name": "Émile Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste",
+   "type": "Party"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  },
+  {
+   "name": "Éric Mathais",
+   "type": "Person"
+  },
+  {
+   "name": "Police judiciaire de Rennes",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "devient député, puis son fils Émile Ferrand alors âgé de 23 ans",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Joëlle Salaün",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "devenue directrice générale des Mutuelles de Bretagne quand Richard Ferrand est devenu député",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Haute Autorité pour la transparence de la vie publique",
+   "evidence": "sans les déclarer à la Haute Autorité pour la transparence de la vie publique",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hervé Clabon",
+   "type": "WORKED_FOR",
+   "target": "Richard Ferrand",
+   "evidence": "Richard Ferrand a également embauché comme assistant parlementaire Hervé Clabon",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Émile Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Richard Ferrand",
+   "evidence": "son fils Émile Ferrand alors âgé de 23 ans, sans les déclarer",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "CONCERNS",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Front national demandant sa démission du gouvernement",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "CONCERNS",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "LR la saisie du Parquet national financier",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parti socialiste",
+   "type": "CONCERNS",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "le premier secrétaire du PS Jean-Christophe Cambadélis à l'exécutif de s'exprimer",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Mathais",
+   "type": "INVESTIGATED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Le 1er juin 2017, Éric Mathais, procureur de la République de Brest, ouvre une enquête préliminaire",
+   "confidence": 1.0,
+   "date": "2017-06-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Police judiciaire de Rennes",
+   "type": "INVESTIGATED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "confiée à la police judiciaire de Rennes",
+   "confidence": 0.95,
+   "date": "2017-06-01",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

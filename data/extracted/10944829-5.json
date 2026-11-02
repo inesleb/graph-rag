@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Bennahmias",
+   "type": "Person"
+  },
+  {
+   "name": "Matthieu Lamarre",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mercier",
+   "type": "Person"
+  },
+  {
+   "name": "Sylvie Goulard",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "Jean-Luc Bennahmias [...] est mis en examen pour détournement de fonds publics.",
+   "confidence": 1.0,
+   "date": "2019-12-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Matthieu Lamarre",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Matthieu Lamarre [...] affirme avoir été en partie rémunéré comme assistant du député européen",
+   "confidence": 0.9,
+   "date": "2019-12-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate",
+   "evidence": "Jean-Luc Bennahmias, élu au Parlement européen entre 2004 et 2014",
+   "confidence": 1.0,
+   "date": "2004-2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou [...] sont renvoyés en correctionnelle par les juges d'instruction.",
+   "confidence": 1.0,
+   "date": "2023-03-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Michel Mercier",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Michel Mercier [...] sont renvoyés en correctionnelle par les juges d'instruction.",
+   "confidence": 1.0,
+   "date": "2023-03-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Jean-Luc Bennahmias [...] sont renvoyés en correctionnelle par les juges d'instruction.",
+   "confidence": 1.0,
+   "date": "2023-03-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sylvie Goulard",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "un non-lieu est ordonné au bénéfice de Sylvie Goulard",
+   "confidence": 1.0,
+   "date": "2023-03-09",
+   "stage": "investigation",
+   "final": true
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Jean-Luc Bennahmias [...] est mis en examen pour détournement de fonds publics.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

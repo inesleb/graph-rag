@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "François Mitterrand",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marc Lech",
+   "type": "Person"
+  },
+  {
+   "name": "Ipsos",
+   "type": "Company"
+  },
+  {
+   "name": "Jacques Pilhan",
+   "type": "Person"
+  },
+  {
+   "name": "Laurent Fabius",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds secrets",
+   "type": "Institution"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ipsos",
+   "type": "WORKED_FOR",
+   "target": "Présidence de la République française",
+   "evidence": "la présidence de la République française fait un grand usage des sondages utilisant, de 1981 à 2007, l'Ipsos comme prestataire attitré",
+   "confidence": 1.0,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marc Lech",
+   "type": "WORKED_FOR",
+   "target": "François Mitterrand",
+   "evidence": "Jean-Marc Lech se présente comme « le sondeur privé de MM. Mitterrand et Chirac »",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marc Lech",
+   "type": "WORKED_FOR",
+   "target": "Jacques Chirac",
+   "evidence": "Jean-Marc Lech se présente comme « le sondeur privé de MM. Mitterrand et Chirac »",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marc Lech",
+   "type": "MEMBER_OF",
+   "target": "Homme de gauche",
+   "evidence": "Homme de gauche, il est proche de François Mitterrand",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ipsos",
+   "type": "WORKED_FOR",
+   "target": "Jacques Pilhan",
+   "evidence": "l'Ipsos travaille de concert avec Jacques Pilhan pour préparer les « plans de communication »",
+   "confidence": 0.9,
+   "date": "1980-1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Mitterrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "François Mitterrand va jusqu’à commander « un sondage par jour » à l’institut collaborant avec son équipe de campagne",
+   "confidence": 0.9,
+   "date": "1988",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marc Lech",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Jean-Marc Lech rapporte dans ses Mémoires, comment payé avec l'argent des fonds secrets, il repartait de l'Élysée avec des valises de billets de banque",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds secrets",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "payé avec l'argent des fonds secrets",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Élysée",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "il repartait de l'Élysée avec des valises de billets de banque",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

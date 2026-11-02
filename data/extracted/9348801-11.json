@@ -1,0 +1,162 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Éric Dupond-Moretti",
+   "type": "Person"
+  },
+  {
+   "name": "Antoine Vey",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Blanchiment aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Prise illégale d'intérêt",
+   "type": "Offense"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "Éric Dupond-Moretti",
+   "evidence": "il se sépare de ses deux avocats, Éric Dupond-Moretti et Antoine Vey",
+   "confidence": 1.0,
+   "date": "2019-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "Antoine Vey",
+   "evidence": "il se sépare de ses deux avocats, Éric Dupond-Moretti et Antoine Vey",
+   "confidence": 1.0,
+   "date": "2019-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le procès en appel concernant les époux Balkany pour blanchiment aggravé et prise illégale d'intérêt",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le procès en appel concernant les époux Balkany pour blanchiment aggravé et prise illégale d'intérêt",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "Patrick et Isabelle Balkany sont condamnés le 4 mars 2020 en appel, à une peine de quatre ans de prison",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "Patrick et Isabelle Balkany sont condamnés le 4 mars 2020 en appel, à [...] trois ans de prison ferme pour Isabelle Balkany",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment aggravé",
+   "evidence": "Le procès en appel concernant les époux Balkany pour blanchiment aggravé",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment aggravé",
+   "evidence": "Le procès en appel concernant les époux Balkany pour blanchiment aggravé",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêt",
+   "evidence": "Le procès en appel concernant les époux Balkany pour [...] prise illégale d'intérêt",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêt",
+   "evidence": "Le procès en appel concernant les époux Balkany pour [...] prise illégale d'intérêt",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick et Isabelle Balkany sont condamnés le 4 mars 2020 en appel",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick et Isabelle Balkany sont condamnés le 4 mars 2020 en appel",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

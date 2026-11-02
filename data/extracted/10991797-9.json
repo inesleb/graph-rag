@@ -1,0 +1,164 @@
+{
+ "entities": [
+  {
+   "name": "Christian Jacob",
+   "type": "Person"
+  },
+  {
+   "name": "Laurence Haïm",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Bonnell",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Sapin",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "France Info",
+   "type": "Media"
+  },
+  {
+   "name": "BFMTV",
+   "type": "Media"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Inspection générale des finances (IGF)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Christian Jacob",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"demandé au parquet national financier de se saisir rapidement du dossier sur France Info\"",
+   "confidence": 0.9,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurence Haïm",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"porte plainte pour diffamation contre le chef de file des députés LR\"",
+   "confidence": 0.95,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurence Haïm",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "\"porte-parole du candidat à la présidentielle Emmanuel Macron\"",
+   "confidence": 1.0,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Bonnell",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"ces révélations sont une polémique ridicule\"",
+   "confidence": 0.85,
+   "date": "2017-03-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Bonnell",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "\"l'entrepreneur macroniste\"",
+   "confidence": 0.9,
+   "date": "2017-03-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Sapin",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l’Économie (France)",
+   "evidence": "\"ministre de l’économie\"",
+   "confidence": 1.0,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Sapin",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"il n’est fait à aucun moment la moindre référence à Emmanuel Macron ou à son cabinet dans le rapport de l’IGF\"",
+   "confidence": 0.95,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Sapin",
+   "type": "INVOLVED_IN",
+   "target": "Business France",
+   "evidence": "\"C’est un dysfonctionnement de Business France\"",
+   "confidence": 0.9,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Jacob",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "\"chef de file des députés LR\"",
+   "confidence": 1.0,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurence Haïm",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"porte plainte pour diffamation\"",
+   "confidence": 0.9,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale des finances (IGF)",
+   "type": "INVESTIGATED",
+   "target": "Affaire Business France",
+   "evidence": "\"rapport de l’IGF\"",
+   "confidence": 0.95,
+   "date": "2017-03-15",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

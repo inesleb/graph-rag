@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité de détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen et huit autres eurodéputés sont condamnés pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2025-03-31",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "la Cour d'appel confirme globalement des déclarations de culpabilité",
+   "confidence": 1.0,
+   "date": "2026-07-07",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Marine Le Pen et huit autres eurodéputés sont condamnés",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Marine Le Pen est condamnée pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2025-03-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "douze assistants parlementaires sont condamnés pour recel de détournement de fonds publics",
+   "confidence": 0.8,
+   "date": "2025-03-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "complicité de détournement de fonds publics",
+   "evidence": "trois autres membres du parti sont condamnés pour complicité de détournement de fonds publics",
+   "confidence": 0.8,
+   "date": "2025-03-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "un prévenu est relaxé",
+   "confidence": 0.7,
+   "date": "2025-03-31",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen et onze autres personnes décident de faire appel de la décision",
+   "confidence": 1.0,
+   "date": "2025-03-31",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

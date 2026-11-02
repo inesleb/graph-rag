@@ -1,0 +1,88 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Renault-Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Alliance Renault-Nissan-Mitsubishi (RNM)",
+   "type": "Company"
+  },
+  {
+   "name": "Cherie Blair",
+   "type": "Person"
+  },
+  {
+   "name": "Tony Blair",
+   "type": "Person"
+  },
+  {
+   "name": "Château de Versailles",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nissan BV",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "un diner-événement est organisé par Nissan BV pour fêter les 15 ans de l’alliance entre Renault et Nissan, la veille des 60 ans de M. Ghosn",
+   "confidence": 0.9,
+   "date": "2014-03-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Renault-Nissan",
+   "evidence": "fêter les 15 ans de l’alliance entre Renault et Nissan, la veille des 60 ans de M. Ghosn",
+   "confidence": 0.95,
+   "date": "2014-03-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cherie Blair",
+   "type": "MEMBER_OF",
+   "target": "Conseil d'administration de Renault",
+   "evidence": "dont Cherie Blair (membre du Conseil d'administration de Renault)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cherie Blair",
+   "type": "WORKED_FOR",
+   "target": "Alliance Renault-Nissan-Mitsubishi (RNM)",
+   "evidence": "accompagné de son mari Tony Blair et deux autres dirigeants de l'Alliance RNM",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Château de Versailles",
+   "evidence": "un diner-événement est organisé [...] dans la galerie des Batailles du Château de Versailles",
+   "confidence": 0.9,
+   "date": "2014-03-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Shinsei Bank",
+   "type": "Institution"
+  },
+  {
+   "name": "Khaled al-Juffali",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan Gulf",
+   "type": "Company"
+  },
+  {
+   "name": "Abus de confiance aggravé",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Abus de confiance aggravé",
+   "evidence": "mis en examen pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": "2019-01-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Abus de confiance aggravé",
+   "evidence": "il aurait transféré à Nissan ces « pertes sur des investissements personnels » à l’automne 2008",
+   "confidence": 0.9,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "ces contrats acquis personnellement",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Shinsei Bank",
+   "evidence": "M. Ghosn s'est engagé sur des contrats de « swap » de devises auprès de la Shinsei Bank",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Shinsei Bank",
+   "type": "INVOLVED_IN",
+   "target": "Carlos Ghosn",
+   "evidence": "La Shinsei Bank l’a obligé à vendre ces contrats",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Khaled al-Juffali",
+   "evidence": "Ce garant a été l'homme d’affaires saoudien Khaled al-Juffali",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Nissan Gulf",
+   "evidence": "trois virements bancaires totalisant 14,7 millions de dollars ont été transférés d'un compte de Nissan vers un compte bancaire de Nissan Gulf",
+   "confidence": 1.0,
+   "date": "2009-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Khaled al-Juffali",
+   "type": "MEMBER_OF",
+   "target": "Nissan Gulf",
+   "evidence": "dont M. Khaled al-Juffali est en partie propriétaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Abus de confiance aggravé",
+   "evidence": "l’argent transféré au milliardaire saoudien n’a pas de rapport avec ses pertes personnelles",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

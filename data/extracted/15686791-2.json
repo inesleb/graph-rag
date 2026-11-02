@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Reconstruire le commun",
+   "type": "Institution"
+  },
+  {
+   "name": "Union des sociétés d’éducation physique et de préparation au service militaire (USEPPM)",
+   "type": "Institution"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "Reconstruire le commun",
+   "evidence": "Les subventions sont distribuées à dix-sept structures pour un total de 2,02 millions d'euros sur les 2,5 millions prévus. Les deux associations ayant touché le plus de subventions sont Reconstruire le commun",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "Union des sociétés d’éducation physique et de préparation au service militaire (USEPPM)",
+   "evidence": "Les deux associations ayant touché le plus de subventions sont Reconstruire le commun, et l'Union des sociétés d’éducation physique et de préparation au service militaire (USEPPM)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Sifaoui",
+   "type": "MEMBER_OF",
+   "target": "Union des sociétés d’éducation physique et de préparation au service militaire (USEPPM)",
+   "evidence": "association co-dirigée par l'essayiste Mohamed Sifaoui",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

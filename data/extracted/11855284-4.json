@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "1er mai 2018",
+   "type": "Affair"
+  },
+  {
+   "name": "Black blocs",
+   "type": "Offense"
+  },
+  {
+   "name": "Syndicats policiers",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "1er mai 2018",
+   "type": "CONCERNS",
+   "target": "Black blocs",
+   "evidence": "un groupe d'environ 1 200 personnes provoque d'importantes dégradations et cherche à en découdre avec les forces de l'ordre",
+   "confidence": 0.95,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Syndicats policiers",
+   "type": "INVOLVED_IN",
+   "target": "1er mai 2018",
+   "evidence": "les syndicats policiers ont dénoncé la passivité de leur hiérarchie face aux black blocs",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

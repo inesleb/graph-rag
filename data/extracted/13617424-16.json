@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Violation du secret professionnel",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d’influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Complicité",
+   "type": "Offense"
+  },
+  {
+   "name": "Recel",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Violation du secret professionnel",
+   "evidence": "\"infractions de violation du secret professionnel\"",
+   "confidence": 1.0,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Trafic d’influence",
+   "evidence": "\"infractions de trafic d’influence\"",
+   "confidence": 1.0,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Complicité",
+   "evidence": "\"complicité et recel de ces deux infractions\"",
+   "confidence": 1.0,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Recel",
+   "evidence": "\"complicité et recel de ces deux infractions\"",
+   "confidence": 1.0,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Violation du secret professionnel",
+   "evidence": "\"des indices de nature à faire présumer la participation de M. Thierry Herzog à des infractions pénales (infractions de violation du secret professionnel)\"",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Trafic d’influence",
+   "evidence": "\"des indices de nature à faire présumer la participation de M. Thierry Herzog à des infractions pénales (infractions de trafic d’influence)\"",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Complicité",
+   "evidence": "\"complicité et recel de ces deux infractions\"",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Recel",
+   "evidence": "\"complicité et recel de ces deux infractions\"",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

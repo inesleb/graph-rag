@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement pour la République",
+   "evidence": "président par intérim du Rassemblement pour la République",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "l'un des principaux dirigeants de l'Union pour un mouvement populaire, qu'il préside de 2004 à 2007",
+   "confidence": 1.0,
+   "date": "2004-2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

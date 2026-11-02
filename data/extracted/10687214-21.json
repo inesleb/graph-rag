@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Marie-Christine Arnautu",
+   "type": "Person"
+  },
+  {
+   "name": "Gérald Gérin",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marie-Christine Arnautu",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "Députée européenne de 2014 à 2019, Marie-Christine Arnautu emploie comme assistant Gérald Gérin",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Arnautu",
+   "type": "WORKED_FOR",
+   "target": "Gérald Gérin",
+   "evidence": "Marie-Christine Arnautu emploie comme assistant Gérald Gérin",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérald Gérin",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Gérald Gérin, majordome de Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Arnautu",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Députée européenne de 2014 à 2019, Marie-Christine Arnautu emploie comme assistant Gérald Gérin",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérald Gérin",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Gérald Gérin, majordome de Jean-Marie Le Pen, affirme avoir réalisé pour Marie-Christine Arnautu des revues de presse",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

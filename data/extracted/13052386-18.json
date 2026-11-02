@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Motonari Otsuru",
+   "type": "Person"
+  },
+  {
+   "name": "Jun'ichirō Hironaka",
+   "type": "Person"
+  },
+  {
+   "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Motonari Otsuru",
+   "evidence": "Ghosn engage Motonari Otsuru, ex-procureur de Tokyo devenu avocat",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+   "evidence": "pour défendre ses biens personnels, il engage le cabinet new-yorkais Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Ce dernier adopte une stratégie radicalement différente de son prédécesseur et formule une troisième demande de libération sous caution",
+   "confidence": 0.9,
+   "date": "2019-02-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Motonari Otsuru",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 13 février 2019, Motonari Otsuru est remplacé par Jun'ichirō Hironaka",
+   "confidence": 0.9,
+   "date": "2019-02-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jun'ichirō Hironaka",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Jun'ichirō Hironaka [...] adopte une stratégie radicalement différente [...] et formule une troisième demande de libération sous caution",
+   "confidence": 0.9,
+   "date": "2019-02-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

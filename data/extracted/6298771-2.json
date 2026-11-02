@@ -1,0 +1,226 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Mouvement des Gilets jaunes",
+   "type": "Affair"
+  },
+  {
+   "name": "Grand débat national",
+   "type": "Affair"
+  },
+  {
+   "name": "Convention citoyenne pour le climat",
+   "type": "Institution"
+  },
+  {
+   "name": "Pandémie de Covid-19",
+   "type": "Affair"
+  },
+  {
+   "name": "Crise provoquée par l'invasion de l'Ukraine par la Russie",
+   "type": "Affair"
+  },
+  {
+   "name": "Présidence française du Conseil de l'Union européenne",
+   "type": "Institution"
+  },
+  {
+   "name": "Réforme des retraites (2022-2023)",
+   "type": "Affair"
+  },
+  {
+   "name": "Émeutes urbaines de l'été 2023",
+   "type": "Affair"
+  },
+  {
+   "name": "Loi immigration (2023)",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Benalla",
+   "evidence": "l'affaire Benalla",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "l'affaire McKinsey",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "la révélation de conflits d'intérêts via les Uber Files",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Mouvement des Gilets jaunes",
+   "evidence": "le mouvement des Gilets jaunes",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Grand débat national",
+   "evidence": "le Grand débat national qui s'ensuit",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Réforme des retraites (2022-2023)",
+   "evidence": "un premier projet de réforme des retraites (qui est contesté)",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Convention citoyenne pour le climat",
+   "evidence": "la mise en place d'une Convention citoyenne pour le climat",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Pandémie de Covid-19",
+   "evidence": "la pandémie de Covid-19",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Crise provoquée par l'invasion de l'Ukraine par la Russie",
+   "evidence": "la crise provoquée par l'invasion de l'Ukraine par la Russie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Présidence française du Conseil de l'Union européenne",
+   "evidence": "alors que commence la présidence française du Conseil de l'Union européenne",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Réforme des retraites (2022-2023)",
+   "evidence": "une réforme des retraites adoptée sans vote de l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Émeutes urbaines de l'été 2023",
+   "evidence": "des émeutes urbaines à l'été 2023",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Loi immigration (2023)",
+   "evidence": "le vote controversé d'une loi immigration",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Rassemblement national",
+   "evidence": "avec le soutien du RN",
+   "confidence": 0.9,
+   "date": "2023",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Marine Le Pen, candidate du Rassemblement national (RN, ex-FN)",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Marine Le Pen",
+   "evidence": "il bat une nouvelle fois au second tour Marine Le Pen",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

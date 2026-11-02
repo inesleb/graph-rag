@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alvès",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Eric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "Fabienne Liadzé",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Nicolas Sarkozy est condamné à douze mois de prison dont six avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le pourvoi est examiné le 8 octobre 2025",
+   "confidence": 0.9,
+   "date": "2025-10-08",
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "La peine de Jérôme Lavrilleux... est allégée à deux ans d’emprisonnement dont dix-huit mois avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Eric Cesari",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Eric Cesari voit également sa peine allégée : deux ans d’emprisonnement, dont 18 mois avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Fabienne Liadzé",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Fabienne Liadzé... est finalement condamnée à deux ans d'emprisonnement, dont 18 mois avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Guy Alvès",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "sauf pour les deux anciens dirigeants de Bygmalion, Guy Alvès et Franck Attal, car ils ont reconnu leur culpabilité",
+   "confidence": 0.8,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Franck Attal",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "sauf pour les deux anciens dirigeants de Bygmalion, Guy Alvès et Franck Attal, car ils ont reconnu leur culpabilité",
+   "confidence": 0.8,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Claude Martinez",
+   "type": "Person"
+  },
+  {
+   "name": "Huguette Fatna",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Caroline Fourest",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "WORKED_FOR",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jean-Claude Martinez reconnaît avoir embauché Huguette Fatna",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "INVOLVED_IN",
+   "target": "Huguette Fatna",
+   "evidence": "« On me l’avait imposée. Elle gardait les enfants de Marine. »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Huguette Fatna",
+   "evidence": "« Elle gardait les enfants de Marine Le Pen »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Jean-Claude Martinez",
+   "evidence": "« Marine Le Pen m’a poursuivi devant la justice »",
+   "confidence": 0.95,
+   "date": "2012",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Caroline Fourest",
+   "evidence": "« Marine Le Pen m’a poursuivi devant la justice, ainsi que la journaliste Caroline Fourest »",
+   "confidence": 0.95,
+   "date": "2012",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "REVEALED",
+   "target": "Huguette Fatna",
+   "evidence": "« Elle est d’origine martiniquaise, elle a servi d’intermédiaire sur le contentieux autour des bananes de la Martinique et de la Guadeloupe »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "« On me l’avait imposée » (contexte : proche de Marine Le Pen)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "WORKED_FOR",
+   "target": "Huguette Fatna",
+   "evidence": "« Elle travaillait bien au service de Jean-Claude Martinez »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "« Elle n’avait jamais mis les pieds à Bruxelles ou Strasbourg » (contexte : contentieux lié aux assistants parlementaires)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Claude Martinez",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "« J’ai refusé d'embaucher Thierry Légier, le garde du corps de Jean-Marie Le Pen puis de Marine Le Pen »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

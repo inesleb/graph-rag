@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Abus de confiance aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Minoration de revenus",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est mis en examen pour avoir minoré ses revenus dans les rapports que Nissan a remis aux autorités boursières japonaises de 2011 à 2015.",
+   "confidence": 1.0,
+   "date": "2018-12-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Minoration de revenus",
+   "evidence": "Carlos Ghosn est mis en examen pour avoir minoré ses revenus dans les rapports que Nissan a remis aux autorités boursières japonaises de 2011 à 2015.",
+   "confidence": 1.0,
+   "date": "2018-12-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "il est mis en examen de nouveau pour des faits similaires pour la période 2015-2018",
+   "confidence": 1.0,
+   "date": "2019-01-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Abus de confiance aggravé",
+   "evidence": "il est mis en examen [...] pour abus de confiance aggravé pour des pertes personnelles de change en 2008",
+   "confidence": 1.0,
+   "date": "2019-01-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Le président de Nissan aurait sous-évalué de cinq milliards de yens [...]",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Minoration de revenus",
+   "evidence": "Carlos Ghosn est mis en examen pour avoir minoré ses revenus dans les rapports que Nissan a remis aux autorités boursières japonaises de 2011 à 2015.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Abus de confiance aggravé",
+   "evidence": "il est mis en examen [...] pour abus de confiance aggravé pour des pertes personnelles de change en 2008",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

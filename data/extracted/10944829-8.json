@@ -1,0 +1,198 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Bennahmias",
+   "type": "Person"
+  },
+  {
+   "name": "Janelly Fourtou",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Cornillet",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Leperouze",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Lehideux",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Nardella",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Jacques Jégou",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mercier",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour la démocratie française (UDF)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou est finalement relaxé",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Union pour la démocratie française (UDF)",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "l'UDF est condamnée à 150 000 euros d'amende",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Mouvement démocrate (MoDem)",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "le MoDem à 350 000 euros dont 300 000 ferme",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Les cinq ex-eurodéputés [...] sont condamnés à des peines allant de 10 à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Janelly Fourtou",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Les cinq ex-eurodéputés [...] sont condamnés à des peines allant de 10 à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Thierry Cornillet",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Les cinq ex-eurodéputés [...] sont condamnés à des peines allant de 10 à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Anne Leperouze",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Les cinq ex-eurodéputés [...] sont condamnés à des peines allant de 10 à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bernard Lehideux",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Les cinq ex-eurodéputés [...] sont condamnés à des peines allant de 10 à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Alexandre Nardella, jugé coupable de complicité de détournement de fonds publics, est condamné à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "INVOLVED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "jugé coupable de complicité de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Jacques Jégou",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Son trésorier Jean-Jacques Jégou est condamné à 12 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Michel Mercier",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Enfin, le ministre Michel Mercier est condamné à 18 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "l'ancien directeur financier du MoDem",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Jacques Jégou",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate (MoDem)",
+   "evidence": "Son trésorier Jean-Jacques Jégou",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

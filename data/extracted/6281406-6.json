@@ -1,0 +1,242 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Woerth",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "recel de subornation de témoin",
+   "type": "Offense"
+  },
+  {
+   "name": "participation à une association de malfaiteurs en vue de commettre l’infraction d’escroquerie au jugement en bande organisée",
+   "type": "Offense"
+  },
+  {
+   "name": "participation à une association de malfaiteurs en vue de commettre l’infraction de corruption active de personnel judiciaire étranger",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "financement illicite de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "association de malfaiteurs",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "recel de subornation de témoin",
+   "evidence": "\"mis en examen pour « recel de subornation de témoin »\"",
+   "confidence": 1.0,
+   "date": "2023-10-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "participation à une association de malfaiteurs en vue de commettre l’infraction d’escroquerie au jugement en bande organisée",
+   "evidence": "\"mis en examen pour « participation à une association de malfaiteurs en vue de commettre l’infraction d’escroquerie au jugement en bande organisée »\"",
+   "confidence": 1.0,
+   "date": "2023-10-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "participation à une association de malfaiteurs en vue de commettre l’infraction de corruption active de personnel judiciaire étranger",
+   "evidence": "\"a également été placé sous le statut de témoin assisté pour « participation à une association de malfaiteurs en vue de commettre l’infraction de corruption active de personnel judiciaire étranger »\"",
+   "confidence": 1.0,
+   "date": "2023-10-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"dans le cadre de l’enquête sur la rétractation du témoin Ziad Takieddine\"",
+   "confidence": 0.8,
+   "date": "2023-10-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "corruption passive",
+   "evidence": "\"mis en examen pour corruption passive\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "financement illicite de campagne électorale",
+   "evidence": "\"mis en examen pour financement illicite de campagne électorale\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "recel de détournement de fonds publics",
+   "evidence": "\"mis en examen pour recel de détournement de fonds publics\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "\"mis en examen pour association de malfaiteurs\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus dans le cadre de l’Affaire Sarkozy-Kadhafi\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus dont trois anciens ministres, Brice Hortefeux\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus dont trois anciens ministres, Claude Guéant\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Woerth",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus dont trois anciens ministres, Éric Woerth\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus [...] les intermédiaires Ziad Takieddine\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"jugé avec douze autres prévenus [...] les intermédiaires Alexandre Djouhri\"",
+   "confidence": 1.0,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "corruption passive",
+   "evidence": "\"mis en examen pour corruption passive\"",
+   "confidence": 0.9,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illicite de campagne électorale",
+   "evidence": "\"mis en examen pour financement illicite de campagne électorale\"",
+   "confidence": 0.9,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "recel de détournement de fonds publics",
+   "evidence": "\"mis en examen pour recel de détournement de fonds publics\"",
+   "confidence": 0.9,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "association de malfaiteurs",
+   "evidence": "\"mis en examen pour association de malfaiteurs\"",
+   "confidence": 0.9,
+   "date": "2025-01-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

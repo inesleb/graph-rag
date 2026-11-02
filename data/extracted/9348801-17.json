@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Aubry",
+   "type": "Person"
+  },
+  {
+   "name": "Semarelp",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "Complicité de corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "Mohamed Bin Issa Al Jaber",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Les magistrats portent aussi des soupçons de corruption à l'encontre de Patrick Balkany",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Corruption passive",
+   "evidence": "soupçons de corruption [...] grâce à 5,25 millions d'euros donnés par deux hommes d'affaires",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Bin Issa Al Jaber",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "un autre homme d'affaires, le saoudien Mohamed Bin Issa Al Jaber, aurait donné 2,75 millions d'euros",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "WORKED_FOR",
+   "target": "Semarelp",
+   "evidence": "directeur de la Semarelp",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "INDICTED_IN",
+   "target": "Complicité de corruption passive",
+   "evidence": "Ce dernier a été mis en examen pour « complicité de corruption passive »",
+   "confidence": 1.0,
+   "date": "2010-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le montage offshore [...] qui a permis au bras droit de Patrick Balkany, Jean-Pierre Aubry, d'acquérir cette propriété",
+   "confidence": 0.9,
+   "date": "2010-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Semarelp",
+   "type": "CONCERNS",
+   "target": "Corruption passive",
+   "evidence": "attribution d'un marché à près de 1 milliard d’euros par la Semarelp",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

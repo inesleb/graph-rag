@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Havas",
+   "type": "Company"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Havas",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "un accord transactionnel a été conclu entre Havas et le conseil d’administration de Business France",
+   "confidence": 0.9,
+   "date": "2017-02-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Business France",
+   "evidence": "Le 8 mars 2017, le journal Le Canard enchaîné révèle cette affaire",
+   "confidence": 1.0,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Économie et des Finances",
+   "evidence": "mon ministère, lorsque j’étais ministre, a toujours respecté les règles des appels d’offres et des marchés publics",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Je n'ai pas pris connaissance de cela mais je ne pense pas que ce soit mon ministère qui ait organisé un événement sans appel d'offres",
+   "confidence": 0.7,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "dont Muriel Pénicaud a été directrice générale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Business France",
+   "evidence": "une enquête préliminaire ouverte par le parquet de Paris vise l’agence publique Business France",
+   "confidence": 1.0,
+   "date": "2017-03-13",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "pour « favoritisme », complicité et recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "pour « favoritisme », complicité et recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "pour « favoritisme », complicité et recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

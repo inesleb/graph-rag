@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Robert Louis-Dreyfus",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Gilberte Beaux",
+   "type": "Person"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Robert Louis-Dreyfus",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "Robert Louis-Dreyfus rachète l'affaire en janvier 1993 et poursuit pendant deux ans le plan d'affaire de Bernard Tapie.",
+   "confidence": 1.0,
+   "date": "1993",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "Robert Louis-Dreyfus rachète l'affaire en janvier 1993 et poursuit pendant deux ans le plan d'affaire de Bernard Tapie.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie et ses équipes avaient fait de l'excellent travail.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilberte Beaux",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "le plan dirigé par Gilberte Beaux [présidente d'Adidas, collaboratrice de Bernard Tapie]",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilberte Beaux",
+   "type": "MEMBER_OF",
+   "target": "Bernard Tapie",
+   "evidence": "collaboratrice de Bernard Tapie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

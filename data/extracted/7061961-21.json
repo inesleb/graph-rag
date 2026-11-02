@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Giacometti",
+   "type": "Person"
+  },
+  {
+   "name": "No Com",
+   "type": "Company"
+  },
+  {
+   "name": "Ipsos",
+   "type": "Company"
+  },
+  {
+   "name": "Publifact",
+   "type": "Company"
+  },
+  {
+   "name": "Publiopinion",
+   "type": "Company"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Claude Guéant est condamné à un an d'emprisonnement avec sursis et 15 000 € d'amende",
+   "confidence": 1.0,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Pierre Giacometti est à nouveau condamné à six mois de prison avec sursis et 70 000 € d’amendes",
+   "confidence": 1.0,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "No Com",
+   "type": "CONVICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "No Com [...] est à nouveau condamnée à 300 000 €, et Ipsos à 400 000 € d'amende, pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Ipsos",
+   "type": "CONVICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "No Com [...] est à nouveau condamnée à 300 000 €, et Ipsos à 400 000 € d'amende, pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Publifact",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Publifact et Publiopinion [...] sont condamnées respectivement à des amendes de 500 000 € et 50 000 €",
+   "confidence": 0.9,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Publiopinion",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Publifact et Publiopinion [...] sont condamnées respectivement à des amendes de 500 000 € et 50 000 €",
+   "confidence": 0.9,
+   "date": "2025-11-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Publifact",
+   "type": "MEMBER_OF",
+   "target": "Patrick Buisson",
+   "evidence": "Publifact et Publiopinion, sociétés appartenant à Patrick Buisson",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Publiopinion",
+   "type": "MEMBER_OF",
+   "target": "Patrick Buisson",
+   "evidence": "Publifact et Publiopinion, sociétés appartenant à Patrick Buisson",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "No Com [...] est à nouveau condamnée [...] pour recel de favoritisme",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

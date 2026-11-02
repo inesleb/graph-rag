@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "SBA",
+   "type": "Company"
+  },
+  {
+   "name": "Good Faiths Investments",
+   "type": "Company"
+  },
+  {
+   "name": "Beauty Yacht PTY",
+   "type": "Company"
+  },
+  {
+   "name": "Carole Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Château de Versailles",
+   "type": "Institution"
+  },
+  {
+   "name": "Rena",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn pourrait avoir perçu des versements de SBA par l'intermédiaire de la société-écran \"Good Faiths Investments\"",
+   "confidence": 0.8,
+   "date": "2019",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Good Faiths Investments",
+   "evidence": "Carlos Ghosn pourrait avoir perçu des versements de SBA par l'intermédiaire de la société-écran \"Good Faiths Investments\"",
+   "confidence": 0.8,
+   "date": "2019",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Beauty Yacht PTY",
+   "evidence": "Une partie de cet argent aurait servi à l'achat d'un yacht de 37 mètres, appartenant à la société \"Beauty Yacht PTY\" détenue par son épouse Carole Ghosn",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "La justice française enquête également sur deux autres affaires: d'une part, deux soirées personnelles organisées à Versailles par Carlos Ghosn",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "grâce à une convention de mécénat entre Renault et le château de Versailles",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renault",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "grâce à une convention de mécénat entre Renault et le château de Versailles",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rena",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "des prestations de conseil conclues en 2019 par la société de droit néerlandais Rena",
+   "confidence": 0.9,
+   "date": "2019",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

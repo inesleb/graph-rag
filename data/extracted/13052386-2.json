@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "revenus différés non déclarés",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance aggravé",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn fait l’objet de quatre mises en examen au Japon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "revenus différés non déclarés",
+   "evidence": "deux pour des revenus différés non déclarés aux autorités boursières",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INDICTED_IN",
+   "target": "revenus différés non déclarés",
+   "evidence": "par Nissan (qui est aussi poursuivi sur ce volet)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance aggravé",
+   "evidence": "deux autres pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

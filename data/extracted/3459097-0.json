@@ -1,0 +1,160 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Joël Le Theule",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Séguin",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement pour la République",
+   "evidence": "Membre du Rassemblement pour la République (RPR), il entre en politique en tant qu'assistant parlementaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Joël Le Theule",
+   "evidence": "il entre en politique en tant qu'assistant parlementaire du député Joël Le Theule",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Député de la Sarthe",
+   "evidence": "il reprend le fief électoral dans la Sarthe. Entre 1981 et 2007, il exerce les mandats de député",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Maire de Sablé-sur-Sarthe",
+   "evidence": "il exerce les mandats [...] de maire de Sablé-sur-Sarthe",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Président du conseil général de la Sarthe",
+   "evidence": "il exerce les mandats [...] de président du conseil général",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Président du conseil régional des Pays de la Loire",
+   "evidence": "il exerce les mandats [...] de président du conseil régional des Pays de la Loire",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Sénateur",
+   "evidence": "il exerce les mandats [...] de sénateur",
+   "confidence": 0.9,
+   "date": "1981-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Gaullisme social",
+   "evidence": "Dans les années 1980 et 1990, il se réclame du gaullisme social",
+   "confidence": 0.9,
+   "date": "1980-1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Cercle de Philippe Séguin",
+   "evidence": "il se rapproche de Philippe Séguin",
+   "confidence": 0.8,
+   "date": "1980-1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "Il est ministre de l'Enseignement supérieur et de la Recherche dans le gouvernement Balladur (1993-1995)",
+   "confidence": 1.0,
+   "date": "1993-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Ministre des Technologies de l'Information et de la Poste",
+   "evidence": "puis ministre des Technologies de l'Information et de la Poste (1995)",
+   "confidence": 1.0,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Ministre délégué chargé de la Poste, des Télécommunications et de l'Espace",
+   "evidence": "ministre délégué chargé de la Poste, des Télécommunications et de l'Espace (1995-1997) dans les deux gouvernements d'Alain Juppé",
+   "confidence": 1.0,
+   "date": "1995-1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Alain Juppé",
+   "evidence": "dans les deux gouvernements d'Alain Juppé",
+   "confidence": 0.9,
+   "date": "1995-1997",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  }
+ ],
+ "relations": []
+}

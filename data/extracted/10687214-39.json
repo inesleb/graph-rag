@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Aymeric Chauprade",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Aymeric Chauprade",
+   "type": "WORKED_FOR",
+   "target": "Marine Le Pen",
+   "evidence": "ancien chef de la délégation des députés européens FN et conseiller de Marine Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen réunit au Parlement à Bruxelles la vingtaine de députés FN... C’est moi qui vais contrôler l’enveloppe des assistants.",
+   "confidence": 1.0,
+   "date": "2014-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "Marine Le Pen réunit au Parlement à Bruxelles la vingtaine de députés FN",
+   "confidence": 1.0,
+   "date": "2014-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Aymeric Chauprade",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "il témoigne devant les enquêteurs chargés du dossier. Il rapporte son témoignage au journal Le Monde",
+   "confidence": 1.0,
+   "date": "2017-03-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "nous n’aurons pas à reverser une partie de nos indemnités au FN [pratique courante pour tous les partis]",
+   "confidence": 0.9,
+   "date": "2014-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Il rapporte son témoignage au journal Le Monde",
+   "confidence": 1.0,
+   "date": "2017-03-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Bashir Saleh",
+   "type": "Person"
+  },
+  {
+   "name": "Interpol",
+   "type": "Institution"
+  },
+  {
+   "name": "Ministère nigérien des Affaires étrangères",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Services français",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "Fraude",
+   "evidence": "« aucune trace d'un mandat international » visant Bashir Saleh et que ce dernier disposait d'un « passeport diplomatique du Niger »",
+   "confidence": 0.6,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Interpol",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "notice d'Interpol indiquant que Saleh est recherché pour fraude",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ministère nigérien des Affaires étrangères",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "« n'est plus en possession d'un passeport nigérien »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "Bachir Saleh sera arrêté « s'il est recherché par Interpol »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "ne pas savoir ce que Bachir Saleh fait en France, qu'« il n’a pas été exfiltré par les services français »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "qu'il sera arrêté « dès qu’il sera découvert »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Services français",
+   "type": "INVOLVED_IN",
+   "target": "Bashir Saleh",
+   "evidence": "qu'« il n’a pas été exfiltré par les services français »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

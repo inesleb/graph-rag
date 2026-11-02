@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "Patricia Simon",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Union pour un mouvement populaire (UMP)",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "l'immunité parlementaire de Patrick Balkany est levée par le bureau de l'assemblée",
+   "confidence": 1.0,
+   "date": "2015-03-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany doit remettre son passeport à la justice en mai 2015 dans le cadre de son contrôle judiciaire",
+   "confidence": 1.0,
+   "date": "2015-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Son épouse s'est vu imposer une caution d'un million d'euros afin de ne pas être placée en détention",
+   "confidence": 1.0,
+   "date": "2015-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Renaud van Ruymbeke",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "les juges Renaud van Ruymbeke et Patricia Simon peuvent prendre des mesures",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patricia Simon",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "les juges Renaud van Ruymbeke et Patricia Simon peuvent prendre des mesures",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "député-maire UMP de Levallois-Perret",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Assemblée nationale",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "l'immunité parlementaire de Patrick Balkany est levée par le bureau de l'assemblée",
+   "confidence": 1.0,
+   "date": "2015-03-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

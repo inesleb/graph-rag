@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "Il est ensuite rapporteur général d'une commission spéciale de la loi Macron qui autorise notamment les mutuelles de déroger au monopole bancaire.",
+   "confidence": 0.8,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "Sandrine Doucen [...] est nommée au poste de directrice du personnel dans les Mutuelles de Bretagne.",
+   "confidence": 1.0,
+   "date": "2000",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "Elle exerce une activité au sein des Mutuelles de Bretagne jusqu'en 2004",
+   "confidence": 1.0,
+   "date": "2004",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "L'information est révélée en juin 2017 par Le Canard enchaîné",
+   "confidence": 1.0,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Il est ensuite rapporteur général d'une commission spéciale de la loi Macron qui autorise notamment les mutuelles de déroger au monopole bancaire.",
+   "confidence": 0.7,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "L'information est révélée en juin 2017 par Le Canard enchaîné, qui évalue à 80 000 euros les rémunérations perçues par la compagne de Richard Ferrand.",
+   "confidence": 0.9,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

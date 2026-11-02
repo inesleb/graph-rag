@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Rémy Heitz",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Élection présidentielle de 2027",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "Marine le Pen annonce qu'elle sera candidate à l'élection présidentielle de 2027",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine le Pen annonce qu'elle va former un pourvoi en cassation",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Les onze condamnés par la Cour d'appel se pourvoient en cassation",
+   "confidence": 0.85,
+   "date": null,
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le parquet général de la cour d’appel de Paris annonce renoncer à un pourvoi en cassation",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Rémy Heitz",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "notamment par Rémy Heitz, procureur général près la Cour de cassation",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil constitutionnel",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle de 2027",
+   "evidence": "In fine, c'est au Conseil constitutionnel qu'il appartiendra de statuer sur la validité de la candidature de Marine Le Pen",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "la Cour de cassation annonce qu'elle devrait pouvoir rendre sa décision au plus tard début avril 2027",
+   "confidence": 0.9,
+   "date": "2027-04",
+   "stage": "cassation",
+   "final": null
+  }
+ ]
+}

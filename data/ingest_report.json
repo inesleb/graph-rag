@@ -1,0 +1,13 @@
+{
+  "documents": 56,
+  "chunks": 656,
+  "entities": 1466,
+  "relations_extracted": 4463,
+  "relations_rejected": {
+    "wrong_types": 1313,
+    "unknown_entity": 518,
+    "evidence_not_in_passage": 748
+  },
+  "relations_kept": 1770,
+  "relation_edges": 1205
+}

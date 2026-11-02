@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Ravinder Passi",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Wavestone",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Espionnage",
+   "evidence": "piratage discret de sa boite de courrier électronique sera effectué via l'entreprise Wavestone",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Harcèlement",
+   "evidence": "harcèlement du PDG destitué par espionnage quotidien",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "objectif établi par preuves (courriers électroniques et mémos) de faire démissionner Carlos Ghosn",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ravinder Passi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "harcèlement [...] de certains membres de Nissan [...] et leurs familles. Des méthodes ressemblant aux services secrets",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Des méthodes [...] employées par des équipes au service de Nissan, pour ramener des preuves contre le PDG déchu",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Wavestone",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "piratage discret de sa boite de courrier électronique sera effectué via l'entreprise Wavestone",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

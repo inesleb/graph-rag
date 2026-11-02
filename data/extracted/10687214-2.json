@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Cette dernière, comme les autres condamnés par la Cour d'appel",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Marine Le Pen se déclare candidate",
+   "confidence": 0.95,
+   "date": "2027",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les autres condamnés par la Cour d'appel",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "La décision de la Cour de cassation est prévue au plus tard début avril 2027",
+   "confidence": 0.95,
+   "date": "2027-04",
+   "stage": "cassation",
+   "final": null
+  }
+ ]
+}

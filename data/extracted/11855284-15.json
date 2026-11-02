@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Lescaut",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Lescaut",
+   "type": "MEMBER_OF",
+   "target": "La France insoumise",
+   "evidence": "Une seconde vidéo, d'un autre militant de La France insoumise, Nicolas Lescaut",
+   "confidence": 0.95,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Une troisième vidéo montre notamment la scène où Alexandre Benalla emmène une femme...",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

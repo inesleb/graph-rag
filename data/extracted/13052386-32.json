@@ -1,0 +1,53 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Michael Taylor",
+   "type": "Person"
+  },
+  {
+   "name": "George-Antoine Zayek",
+   "type": "Person"
+  },
+  {
+   "name": "Bombardier Global Express TC-TSR",
+   "type": "Company"
+  },
+  {
+   "name": "Bombardier Challenger 300 TC-RZA",
+   "type": "Company"
+  },
+  {
+   "name": "Antananarivo",
+   "type": "Institution"
+  },
+  {
+   "name": "Dubaï",
+   "type": "Institution"
+  },
+  {
+   "name": "Osaka",
+   "type": "Institution"
+  },
+  {
+   "name": "Istanbul",
+   "type": "Institution"
+  },
+  {
+   "name": "Beyrouth",
+   "type": "Institution"
+  },
+  {
+   "name": "Turquie",
+   "type": "Institution"
+  },
+  {
+   "name": "Liban",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

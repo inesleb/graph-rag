@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Christine Boutonnet",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales (OCLCIFF)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen est convoquée le 22 février 2017 pour être entendue par les services de l'OCLCIFF dans cette affaire.",
+   "confidence": 0.9,
+   "date": "2017-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen est convoquée [...] en vue d'une possible mise en examen pour « abus de confiance »",
+   "confidence": 0.85,
+   "date": "2017-03-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Office central de lutte contre la corruption et les infractions financières et fiscales (OCLCIFF)",
+   "evidence": "Marine Le Pen est convoquée le 22 février 2017 pour être entendue par les services de l'OCLCIFF",
+   "confidence": 0.9,
+   "date": "2017-02-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Catherine Griset",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "sa cheffe de cabinet Catherine Griset est mise en examen pour « recel d'abus de confiance »",
+   "confidence": 1.0,
+   "date": "2017-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "Protégée par son immunité parlementaire",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Boutonnet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Les juges d'instruction demandent la levée de l'immunité parlementaire de Marine Le Pen et de Marie-Christine Boutonnet",
+   "confidence": 0.8,
+   "date": "2017-04",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

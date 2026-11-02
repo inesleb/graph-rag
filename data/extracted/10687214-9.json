@@ -1,0 +1,206 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Bilde",
+   "type": "Person"
+  },
+  {
+   "name": "Sophie Montel",
+   "type": "Person"
+  },
+  {
+   "name": "Mylène Troszczynski",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Outre les 340 000 euros réclamés à Marine Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "Marine Le Pen doit rembourser encore 300 000 euros. Après sa démission du Parlement européen le 19 juin 2017",
+   "confidence": 1.0,
+   "date": "2017-06-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "À la suite de son élection à l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jean-Marie Le Pen doit rembourser 320 000 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Bruno Gollnisch 276 000 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Bilde",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Dominique Bilde 40 320 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Sophie Montel 77 000 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mylène Troszczynski",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Mylène Troszczynski 56 000 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Marine Le Pen",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Bruno Gollnisch",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Dominique Bilde",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Sophie Montel",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Mylène Troszczynski",
+   "evidence": "cinq autres députés du Front",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le Parlement européen doit attendre la fin de l'affaire en France",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le Parlement européen évalue le préjudice subi à 4 978 122 euros indûment perçus",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

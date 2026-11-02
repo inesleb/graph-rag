@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "François-Xavier Bellamy",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Laurent Wauquiez",
+   "type": "Person"
+  },
+  {
+   "name": "Christian Jacob",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Ciotti",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Retailleau",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François-Xavier Bellamy",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "le parti, avec François-Xavier Bellamy comme tête de liste",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "Ses présidents de plein exercice sont : Nicolas Sarkozy de 2015 à 2016",
+   "confidence": 1.0,
+   "date": "2015-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Wauquiez",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "Laurent Wauquiez de 2017 à 2019",
+   "confidence": 1.0,
+   "date": "2017-2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Jacob",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "Christian Jacob de 2019 à 2022",
+   "confidence": 1.0,
+   "date": "2019-2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Ciotti",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "Éric Ciotti de 2022 à 2024",
+   "confidence": 1.0,
+   "date": "2022-2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Retailleau",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "Bruno Retailleau depuis 2025",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

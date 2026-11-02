@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Le Point",
+   "type": "Media"
+  },
+  {
+   "name": "Franz-Olivier Giesbert",
+   "type": "Person"
+  },
+  {
+   "name": "Mélanie Delattre",
+   "type": "Person"
+  },
+  {
+   "name": "Christophe Labbé",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d’appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour européenne des droits de l'homme (CEDH)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Point",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "accusait Jean-François Copé d'avoir volé l'UMP",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Cour d’appel de Paris",
+   "type": "CONVICTED_IN",
+   "target": "diffamation",
+   "evidence": "la cour d’appel de Paris confirme la condamnation en diffamation du magazine Le Point",
+   "confidence": 1.0,
+   "date": "2017-04-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "diffamation",
+   "evidence": "la Cour de cassation rejette le pourvoi",
+   "confidence": 1.0,
+   "date": "2019-01-08",
+   "stage": "cassation",
+   "final": false
+  },
+  {
+   "source": "Franz-Olivier Giesbert",
+   "type": "CONVICTED_IN",
+   "target": "diffamation",
+   "evidence": "la cour d'appel de Paris condamne le directeur du Point à 1500 euros d'amende",
+   "confidence": 1.0,
+   "date": "2019-06-20",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Mélanie Delattre",
+   "type": "CONVICTED_IN",
+   "target": "diffamation",
+   "evidence": "les deux journalistes, Mélanie Delattre et Christophe Labbé, chacun à 1000 euros d'amende",
+   "confidence": 1.0,
+   "date": "2019-06-20",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Christophe Labbé",
+   "type": "CONVICTED_IN",
+   "target": "diffamation",
+   "evidence": "les deux journalistes, Mélanie Delattre et Christophe Labbé, chacun à 1000 euros d'amende",
+   "confidence": 1.0,
+   "date": "2019-06-20",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Cour européenne des droits de l'homme (CEDH)",
+   "type": "ACQUITTED_IN",
+   "target": "diffamation",
+   "evidence": "la CEDH rejette leur recours",
+   "confidence": 1.0,
+   "date": "2024-12-05",
+   "stage": "unknown",
+   "final": true
+  }
+ ]
+}

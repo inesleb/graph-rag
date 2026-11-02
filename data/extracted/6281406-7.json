@@ -1,0 +1,232 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Woerth",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "association de malfaiteurs",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux et de blanchiment aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "trafic d’influence",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "Nicolas Sarkozy est déclaré coupable d'association de malfaiteurs et condamné à 5 ans de prison ferme.",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "usage de faux et de blanchiment aggravé",
+   "evidence": "Claude Guéant est déclaré coupable pour usage de faux et de blanchiment aggravé",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "trafic d’influence",
+   "evidence": "Claude Guéant est déclaré coupable pour [...] trafic d’influence",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "corruption passive",
+   "evidence": "Claude Guéant est déclaré coupable pour [...] corruption passive",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "Claude Guéant est déclaré coupable pour [...] association de malfaiteurs",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "CONVICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "Brice Hortefeux a été déclaré coupable d’association de malfaiteurs",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Éric Woerth",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Éric Woerth [...] est relaxé",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment aggravé",
+   "evidence": "Alexandre Djouhri est reconnu coupable de blanchiment aggravé",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "trafic d’influence",
+   "evidence": "Alexandre Djouhri est reconnu coupable de [...] trafic d’influence actif",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "corruption",
+   "evidence": "Alexandre Djouhri est reconnu coupable de [...] corruption",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine meurt deux jours avant l'énoncé du verdict, l'action publique est donc déclarée éteinte en ce qui le concerne.",
+   "confidence": 0.9,
+   "date": "2025",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le 10 novembre 2025, la Cour d'appel fait droit à la demande de mise en liberté de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2025-11-10",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "association de malfaiteurs",
+   "evidence": "Nicolas Sarkozy est déclaré coupable d'association de malfaiteurs",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "trafic d’influence",
+   "evidence": "Claude Guéant est déclaré coupable pour trafic d’influence",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "corruption passive",
+   "evidence": "Claude Guéant est déclaré coupable pour corruption passive",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "blanchiment aggravé",
+   "evidence": "Alexandre Djouhri est reconnu coupable de blanchiment aggravé",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "Alexandre Djouhri est reconnu coupable de corruption",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

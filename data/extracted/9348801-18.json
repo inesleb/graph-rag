@@ -1,0 +1,154 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Julien Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Diana Brush",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Angst",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Bin Issa Al Jaber",
+   "type": "Person"
+  },
+  {
+   "name": "SCI « Dar Gyucy »",
+   "type": "Company"
+  },
+  {
+   "name": "Haydrige Investments Group Corp",
+   "type": "Company"
+  },
+  {
+   "name": "Gestrust",
+   "type": "Company"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "SCI « Dar Gyucy »",
+   "type": "MEMBER_OF",
+   "target": "Haydrige Investments Group Corp",
+   "evidence": "La SCI « Dar Gyucy » est possédée à 99 % par une autre société, Haydrige Investments Group Corp",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haydrige Investments Group Corp",
+   "type": "MEMBER_OF",
+   "target": "Gestrust",
+   "evidence": "Haydrige Investments Group Corp [...] présidée par Marc Angst, président de Gestrust",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gestrust",
+   "type": "WORKED_FOR",
+   "target": "Diana Brush",
+   "evidence": "qui emploie Diana Brush",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SCI « Dar Gyucy »",
+   "type": "MEMBER_OF",
+   "target": "Diana Brush",
+   "evidence": "La SCI « Dar Gyucy » est possédée à 1 % par Diana Brush",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Julien Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le compte bancaire de la SCI « Dar Gyucy » a été alimenté à plusieurs reprises par Julien Balkany",
+   "confidence": 0.9,
+   "date": "2011-2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Alexandre Balkany [...] a versé 45 000 euros au total en 2012 et 2013",
+   "confidence": 0.9,
+   "date": "2012-2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "des dépenses d’Isabelle Balkany pour des achats d’ameublement et de décoration [...] entre décembre 2008 et janvier 2010",
+   "confidence": 0.9,
+   "date": "2008-2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Les séjours marocains très fréquents des Balkany et de leur fils se déroulent « sans dépense hôtelière »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "La justice ordonne le 13 août 2015 la saisie du riad « Dar Gyucy » de Marrakech",
+   "confidence": 0.9,
+   "date": "2015-08-13",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mohamed Bin Issa Al Jaber",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La villa a été financée par deux sociétés égyptiennes, dont une à laquelle participe le milliardaire saoudien Mohamed Bin Issa Al Jaber",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

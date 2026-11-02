@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Fayolle & Fils",
+   "type": "Company"
+  },
+  {
+   "name": "Mairie de Levallois-Perret",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "les Balkany font « don de la nue-propriété à leurs enfants »",
+   "confidence": 0.9,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "les Balkany font « don de la nue-propriété à leurs enfants »",
+   "confidence": 0.9,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "ils mentionnent qu'ils en conservent « l'usufruit »",
+   "confidence": 0.9,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "ils mentionnent qu'ils en conservent « l'usufruit »",
+   "confidence": 0.9,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "conduit la Haute Autorité pour la transparence de la vie publique en 2015 à soupçonner une sous-évaluation de 60 %",
+   "confidence": 0.85,
+   "date": "2015",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "sous-évaluation de patrimoine",
+   "evidence": "sous-évaluation de 60 % de la valeur de ce patrimoine",
+   "confidence": 0.9,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fayolle & Fils",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La justice enquête de plus sur l’entreprise de bâtiments et travaux publics Fayolle & Fils",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Fayolle & Fils",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "a offert pendant des années des matériaux et a réquisitionné certains de ses employés pour remettre en état et valoriser cette résidence",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mairie de Levallois-Perret",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "attribués soit par la mairie, soit par des sociétés de promotion immobilière contrôlées par la ville",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Carole Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Beauty Yacht PTY",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Sultanat d'Oman",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Blanchiment d'argent",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "une partie des sommes détournées par Ghosn aurait transité par son entremise",
+   "confidence": 0.9,
+   "date": "2019-04-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carole Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carole Ghosn a été entendue par la justice japonaise le 11 avril 2019",
+   "confidence": 1.0,
+   "date": "2019-04-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carole Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Beauty Yacht PTY",
+   "evidence": "Carole Ghosn serait associée de la société « Beauty Yacht PTY »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Beauty Yacht PTY",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "Beauty Yacht PTY aurait bénéficié de transferts de fonds suspects",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Beauty Yacht PTY",
+   "type": "CONCERNS",
+   "target": "Blanchiment d'argent",
+   "evidence": "transferts de fonds suspects via le concessionnaire Nissan au sultanat d'Oman",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "une partie des sommes détournées par Ghosn",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour la démocratie française (UDF)",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "INDICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "Le parquet requiert trente mois de prison avec sursis [...] considèrent que François Bayrou est le « décideur principal » de ce détournement",
+   "confidence": 0.95,
+   "date": "2005-2017",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Union pour la démocratie française (UDF)",
+   "type": "INDICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "Pour l’UDF [...] il est demandé respectivement des amendes de 300 000 euros dont 100 000 ferme",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate (MoDem)",
+   "type": "INDICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "Pour le MoDem [...] il est demandé [...] des amendes de 500 000 dont 200 000 euros ferme",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "Le parquet requiert [...] considèrent que François Bayrou est le « décideur principal » de ce détournement",
+   "confidence": 0.95,
+   "date": "2005-2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

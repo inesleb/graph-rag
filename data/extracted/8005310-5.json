@@ -1,0 +1,234 @@
+{
+ "entities": [
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Génération France",
+   "type": "Party"
+  },
+  {
+   "name": "Dominique Dord",
+   "type": "Person"
+  },
+  {
+   "name": "Christian Estrosi",
+   "type": "Person"
+  },
+  {
+   "name": "Nathalie Kosciusko-Morizet",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Event et Cie",
+   "type": "Company"
+  },
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alves",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"près de 70 conventions plus ou moins fictives qui auraient été facturées près de 18 millions d'euros\"",
+   "confidence": 0.95,
+   "date": "2014-05-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"des factures litigieuses « à la demande » de la direction de l'UMP\"",
+   "confidence": 0.95,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"les fausses factures seraient un montage pour dissimuler les dépassements de frais de Nicolas Sarkozy lors de la campagne présidentielle de 2012\"",
+   "confidence": 0.9,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "\"directeur de cabinet de Jean-François Copé et ex-directeur de campagne adjoint de Nicolas Sarkozy\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"il y a eu un dérapage sur le nombre […] d'événements organisés dans le cadre de cette campagne\"",
+   "confidence": 0.95,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"une partie des coûts de la campagne a été transférée sur les comptes de l'UMP\"",
+   "confidence": 0.9,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"ni Copé, ni Sarkozy n'ont été mis au courant des dérives\"",
+   "confidence": 0.85,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Génération France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"les policiers anti-corruption de Nanterre se présentent au siège [...] de Génération France\"",
+   "confidence": 0.95,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Dord",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "\"ancien trésorier de l'UMP\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Estrosi",
+   "type": "MEMBER_OF",
+   "target": "clan Sarkozy",
+   "evidence": "\"le « clan Sarkozy » conteste aussi cette version\"",
+   "confidence": 0.9,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nathalie Kosciusko-Morizet",
+   "type": "MEMBER_OF",
+   "target": "clan Sarkozy",
+   "evidence": "\"le « clan Sarkozy » conteste aussi cette version\"",
+   "confidence": 0.9,
+   "date": "2014-05-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Franck Attal",
+   "type": "WORKED_FOR",
+   "target": "Event et Cie",
+   "evidence": "\"patron d'Event et Cie, une filiale de Bygmalion\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Bastien Millot et Guy Alves avaient accepté la proposition [...] de « rentrer dans l'irrégularité » par ce système de fausses factures\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Guy Alves confirme aux enquêteurs\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Éric Cesari",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"la proposition faite par Jérôme Lavrilleux et Éric Cesari, de « rentrer dans l'irrégularité »\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "\"fausses factures\" et \"montage pour dissimuler les dépassements de frais\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

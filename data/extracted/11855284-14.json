@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "violences par personne chargée d'une mission de service public",
+   "type": "Offense"
+  },
+  {
+   "name": "usurpation de fonctions",
+   "type": "Offense"
+  },
+  {
+   "name": "usurpation de signes réservés à l'autorité publique",
+   "type": "Offense"
+  },
+  {
+   "name": "violences en réunion",
+   "type": "Offense"
+  },
+  {
+   "name": "immixtion dans l’exercice d’une fonction publique en accomplissant des actes réservés à l’autorité publique",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de détournement d’images issues d’un système de vidéo protection",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "violences par personne chargée d'une mission de service public",
+   "evidence": "\"enquête préliminaire pour « violences par personne chargée d'une mission de service public »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "usurpation de fonctions",
+   "evidence": "\"enquête préliminaire pour « usurpation de fonctions »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "usurpation de signes réservés à l'autorité publique",
+   "evidence": "\"enquête préliminaire pour « usurpation de signes réservés à l'autorité publique »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "violences en réunion",
+   "evidence": "\"mis en examen, notamment pour « violences en réunion »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "immixtion dans l’exercice d’une fonction publique en accomplissant des actes réservés à l’autorité publique",
+   "evidence": "\"mis en examen pour « immixtion dans l’exercice d’une fonction publique en accomplissant des actes réservés à l’autorité publique »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "recel de détournement d’images issues d’un système de vidéo protection",
+   "evidence": "\"mis en examen pour « recel de détournement d’images issues d’un système de vidéo protection »\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "\"procédure de licenciement est également exécutée par l’Élysée contre lui\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "REVEALED",
+   "target": "Le Monde",
+   "evidence": "\"au lendemain des révélations du Monde\"",
+   "confidence": 1.0,
+   "date": "2018-07-19",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

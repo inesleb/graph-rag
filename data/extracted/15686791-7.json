@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Marianne",
+   "type": "Media"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Inspection générale de l'administration",
+   "type": "Institution"
+  },
+  {
+   "name": "USEPPM",
+   "type": "Institution"
+  },
+  {
+   "name": "Christian Gravel",
+   "type": "Person"
+  },
+  {
+   "name": "Sonia Backès",
+   "type": "Person"
+  },
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "INVESTIGATED",
+   "target": "Fonds Marianne",
+   "evidence": "À la suite des révélations de Marianne et de France 2, l'inspection générale de l'administration est saisie pour établir un audit sur l'utilisation des fonds.",
+   "confidence": 1.0,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sonia Backès",
+   "type": "WORKED_FOR",
+   "target": "Inspection générale de l'administration",
+   "evidence": "Cette saisie est faite par Sonia Backès, qui a succédé à Schiappa dans son rôle.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "WORKED_FOR",
+   "target": "Inspection générale de l'administration",
+   "evidence": "Cette saisie est faite par Sonia Backès, qui a succédé à Schiappa dans son rôle.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "INVESTIGATED",
+   "target": "USEPPM",
+   "evidence": "Début juin 2023, l'inspection générale de l'administration publie un rapport sur l'USEPPM, critiquant le choix de l'association, le suivi du dossier et l'utilisation faite de la subvention.",
+   "confidence": 1.0,
+   "date": "2023-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "INDICTED_IN",
+   "target": "défaut de vigilance",
+   "evidence": "Elle place la faute sur Christian Gravel qui n'a pas assuré un bon suivi, l'accusant de défaut de vigilance",
+   "confidence": 0.9,
+   "date": "2023-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "INDICTED_IN",
+   "target": "traitement privilégié",
+   "evidence": "l'accusant de [...] un traitement privilégié",
+   "confidence": 0.9,
+   "date": "2023-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "WORKED_FOR",
+   "target": "USEPPM",
+   "evidence": "Elle place la faute sur Christian Gravel qui n'a pas assuré un bon suivi",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

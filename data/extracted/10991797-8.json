@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Christophe Lecourtier",
+   "type": "Person"
+  },
+  {
+   "name": "Havas Paris",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Business France",
+   "evidence": "Le 20 décembre 2017, Le Canard enchaîné révèle que 671 infractions au Code du Travail ont été constatées à Business France",
+   "confidence": 1.0,
+   "date": "2017-12-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "lorsque Muriel Pénicaud dirigeait l'agence publique",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christophe Lecourtier",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "Selon son successeur Christophe Lecourtier",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Havas Paris",
+   "type": "INDICTED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Havas Paris annonce sa mise en examen, le 7 février, pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2019-02-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "Havas Paris annonce sa mise en examen [...] pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2019-02-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Hiroto Saikawa",
+   "type": "Person"
+  },
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Nikkei",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Carlos Ghosn, Hiroto Saikawa, directeur général, et Greg Kelly étaient les trois administrateurs de Nissan",
+   "confidence": 1.0,
+   "date": "2015-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "Ces tensions auraient commencé en 2015 avec l'augmentation des parts de l'État français dans le capital de Renault.",
+   "confidence": 0.9,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hiroto Saikawa",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Le directeur général de Nissan M. Saikawa avait publiquement annoncé en mai 2018... Le directeur général de Nissan, Hiroto Saikawa",
+   "confidence": 1.0,
+   "date": "2018-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Carlos Ghosn, Hiroto Saikawa, directeur général, et Greg Kelly étaient les trois administrateurs de Nissan",
+   "confidence": 1.0,
+   "date": "2015-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hiroto Saikawa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Hiroto Saikawa a également été mis en cause par M. Greg Kelly.",
+   "confidence": 0.8,
+   "date": "2019-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le directeur général de Nissan M. Saikawa avait publiquement annoncé en mai 2018, que la fusion n’était pas d’actualité... Le directeur général de Nissan, Hiroto Saikawa a demandé au conseil d'administration de Nissan de déchoir M. Ghosn de ses fonctions d'administrateur et de président.",
+   "confidence": 0.9,
+   "date": "2018-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En novembre 2019, le directeur général de Nissan, Hiroto Saikawa a demandé au conseil d'administration de Nissan de déchoir M. Ghosn de ses fonctions d'administrateur et de président.",
+   "confidence": 1.0,
+   "date": "2019-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 30 janvier 2020, lors d'un entretien accordé au quotidien économique Nikkei, M. Ghosn a soutenu que les dirigeants de Nissan orchestrent un complot contre lui",
+   "confidence": 0.9,
+   "date": "2020-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "une mise en accusation rejetée par Nissan le même jour.",
+   "confidence": 0.9,
+   "date": "2020-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hiroto Saikawa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Hiroto Saikawa a également profité de ce système pour un gain brut estimé à 96,5 millions de yens (815 000 euros).",
+   "confidence": 0.8,
+   "date": "2019-2020",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

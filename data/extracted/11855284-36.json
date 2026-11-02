@@ -1,0 +1,154 @@
+{
+ "entities": [
+  {
+   "name": "Lionel Lavergne",
+   "type": "Person"
+  },
+  {
+   "name": "GSPR",
+   "type": "Institution"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Général Eric Bio-Farina",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Police nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Frédéric Le Louette",
+   "type": "Person"
+  },
+  {
+   "name": "GendXXI",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "L'Humanité",
+   "type": "Media"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Lionel Lavergne",
+   "type": "WORKED_FOR",
+   "target": "GSPR",
+   "evidence": "Le chef du GSPR, Lionel Lavergne",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Général Eric Bio-Farina",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "pilotée par le général Eric Bio-Farina",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Lionel Lavergne",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "dont je suis le copilote",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Alexandre Benalla a participé à des groupes de travail sur cette réorganisation",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "GSPR",
+   "type": "MEMBER_OF",
+   "target": "Police nationale",
+   "evidence": "le GSPR [...] était rattaché à la police nationale",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "GSPR",
+   "type": "MEMBER_OF",
+   "target": "Élysée",
+   "evidence": "cette réorganisation de la sécurité du président aurait mis le GSPR sous autorité unique de l'Élysée",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "Police parallèle",
+   "evidence": "les allusions [...] à une forme de « police parallèle »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Le Louette",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "cette réorganisation n'est pas anodine, car elle « signifie que la protection du président pourrait se faire en dehors de tout contrôle »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Humanité",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "l'existence de ce projet de réorganisation explique « les allusions [...] à une forme de « police parallèle »",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "INVESTIGATED",
+   "target": "Réorganisation de la sécurité de l'Élysée",
+   "evidence": "ce projet [...] est perçu très favorablement par la Cour des comptes",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

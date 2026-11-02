@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Pierre Estoup",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Maître Lantourne",
+   "type": "Person"
+  },
+  {
+   "name": "Christine Lagarde",
+   "type": "Person"
+  },
+  {
+   "name": "Comité de direction du Crédit Lyonnais (CDR)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Escroquerie en bande organisée",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pierre Estoup",
+   "type": "WORKED_FOR",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Les liens de proximité de cet arbitre avec l'avocat de Bernard Tapie",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'essentiel de la sentence est rédigée par le magistrat Pierre Estoup",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INVOLVED_IN",
+   "target": "Maître Lantourne",
+   "evidence": "Les liens de proximité de cet arbitre avec l'avocat de Bernard Tapie",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INDICTED_IN",
+   "target": "Escroquerie en bande organisée",
+   "evidence": "conduiront les intéressés à leur mise en examen pour escroquerie en bande organisée",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Maître Lantourne",
+   "type": "INDICTED_IN",
+   "target": "Escroquerie en bande organisée",
+   "evidence": "conduiront les intéressés à leur mise en examen pour escroquerie en bande organisée",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Les liens de proximité de cet arbitre avec l'avocat de Bernard Tapie",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Comité de direction du Crédit Lyonnais (CDR)",
+   "type": "MEMBER_OF",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'accord du CDR est validé par les responsables de l'État français",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "WORKED_FOR",
+   "target": "État français",
+   "evidence": "validé par les responsables de l'État français, en la personne de Christine Lagarde",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "MEMBER_OF",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'accord du CDR est validé par les responsables de l'État français, en la personne de Christine Lagarde",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Bettencourt",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour de cassation",
+   "evidence": "Bien que ne faisant pas partie de la chambre criminelle, il glane les réquisitions du parquet général et le mémoire du rapporteur",
+   "confidence": 0.95,
+   "date": "2014-01-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bettencourt",
+   "evidence": "il glane les réquisitions du parquet général et le mémoire du rapporteur pour informer l’avocat que la décision lui sera favorable",
+   "confidence": 0.95,
+   "date": "2014-01-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Gilbert Azibert serait celui qui permet à Nicolas Sarkozy [...] de connaître l'état des débats",
+   "confidence": 0.9,
+   "date": "2014-01-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Thierry Herzog",
+   "evidence": "il glane les réquisitions [...] pour informer l’avocat que la décision lui sera favorable",
+   "confidence": 0.9,
+   "date": "2014-01-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bettencourt",
+   "evidence": "Le 11 mars 2014, le pourvoi de l’ancien président est rejeté",
+   "confidence": 0.95,
+   "date": "2014-03-11",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

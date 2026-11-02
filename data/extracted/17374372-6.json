@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "Keith Carr",
+   "type": "Person"
+  },
+  {
+   "name": "Parti du travail national (Indonésie) (PLN)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Pierucci parle de l'enquête à Keith Carr, directeur juridique du groupe",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Corruption passive",
+   "evidence": "les versements de pots-de-vins échelonnés de 2002 à 2009",
+   "confidence": 0.95,
+   "date": "2002-2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Trafic d'influence",
+   "evidence": "ces deux consultants [...] étaient des hauts fonctionnaires indonésiens, l'un député membre du PLN",
+   "confidence": 0.9,
+   "date": "2002-2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Keith Carr",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "Keith Carr, directeur juridique du groupe",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Corruption passive",
+   "evidence": "les versements de pots-de-vins échelonnés de 2002 à 2009",
+   "confidence": 0.95,
+   "date": "2002-2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "ces deux consultants [...] étaient des hauts fonctionnaires indonésiens, l'un député membre du PLN",
+   "confidence": 0.9,
+   "date": "2002-2009",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

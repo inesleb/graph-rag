@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "optimisation fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Selon un courriel interne datant de 2015, rédigé par un directeur juridique d'Uber en Europe",
+   "confidence": 0.95,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "optimisation fiscale",
+   "evidence": "Uber modifie son application pour présenter une fausse version aux yeux de structures identifiées comme officielles.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "fraude fiscale",
+   "evidence": "Les documents révèlent qu'Uber a pratiqué l'optimisation fiscale dans le monde entier grâce aux Pays-Bas, en répercutant les taxes sur ses chauffeurs",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "en détournant l'attention des autorités vers la soumission aux impôts de ses chauffeurs",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

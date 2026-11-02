@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Janelly Fourtou",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Laperrouze",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Lehideux",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement démocrate (MoDem)",
+   "type": "Party"
+  },
+  {
+   "name": "Sylvie Goulard",
+   "type": "Person"
+  },
+  {
+   "name": "Marielle de Sarnez",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mercier",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Nardella",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Janelly Fourtou",
+   "type": "WORKED_FOR",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Une des anciennes assistantes parlementaires de la députée européenne Janelly Fourtou reconnaît avoir occupé un emploi fictif",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Janelly Fourtou",
+   "type": "INVOLVED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "avoir été employée comme permanente de l'UDF tout en étant rémunérée frauduleusement par le Parlement européen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anne Laperrouze",
+   "type": "WORKED_FOR",
+   "target": "François Bayrou",
+   "evidence": "l'ancienne assistante d'Anne Laperrouze affirme n'avoir jamais travaillé sous ses ordres mais qu'elle était l'assistante de direction de François Bayrou",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Lehideux",
+   "type": "WORKED_FOR",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Bernard Lehideux aurait employé cette même assistante (ce qu'elle réfute aussi), entre 2005 et 2007, ainsi que deux autres collaboratrices",
+   "confidence": 0.7,
+   "date": "2005-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "le président du MoDem, François Bayrou, est mis en examen pour « complicité de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2019-12-06",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Sylvie Goulard",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Plusieurs cadres du parti centriste avaient été mis en examen quelques jours avant lui : les anciennes ministres Sylvie Goulard et Marielle de Sarnez",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "les anciennes ministres Sylvie Goulard et Marielle de Sarnez",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Michel Mercier",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "l'ancien trésorier du parti Michel Mercier",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "l'ancien directeur financier Alexandre Nardella",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "avoir été employée comme permanente de l'UDF tout en étant rémunérée frauduleusement par le Parlement européen",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

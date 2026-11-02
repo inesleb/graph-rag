@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Trafic d’influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption d’agent public par une autorité publique étrangère",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine fait des aveux [...] où il déclare avoir remis [...] des valises d'argent libyen [...] à Claude Guéant et Nicolas Sarkozy.",
+   "confidence": 0.95,
+   "date": "2006-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "il déclare avoir personnellement convoyé [...] cinq millions d'euros [...] qu’il a remis [...] à Claude Guéant et Nicolas Sarkozy",
+   "confidence": 0.95,
+   "date": "2006-11–2007-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "Trafic d’influence",
+   "evidence": "Ziad Takieddine est mis en examen [...] pour deux chefs d'accusation : complicité de trafic d’influence",
+   "confidence": 1.0,
+   "date": "2016-12-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "Corruption d’agent public par une autorité publique étrangère",
+   "evidence": "Ziad Takieddine est mis en examen [...] pour deux chefs d'accusation : [...] corruption d’agent public par une autorité publique étrangère",
+   "confidence": 1.0,
+   "date": "2016-12-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "un mandat d'arrêt est délivré contre Ziad Takieddine après sa condamnation à 5 ans de prison ferme dans l'affaire Karachi",
+   "confidence": 0.9,
+   "date": "2020-06-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "un mandat d'arrêt est délivré contre Ziad Takieddine après sa condamnation à 5 ans de prison ferme dans l'affaire Karachi",
+   "confidence": 0.9,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "WORKED_FOR",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ces transferts d’espèces pour la campagne de Nicolas Sarkozy de 2007, par l’intermédiaire de Claude Guéant et de Ziad Takieddine",
+   "confidence": 0.85,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdallah Senoussi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ces transferts [...] ont déjà été évoqués en 2012 par Abdallah Senoussi",
+   "confidence": 0.8,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine fait des aveux dans un témoignage filmé et publié par Mediapart",
+   "confidence": 1.0,
+   "date": "2016-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

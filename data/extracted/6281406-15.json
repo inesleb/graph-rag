@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil national de transition libyen (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Union européenne (UE)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "France",
+   "evidence": "la France, présidée par Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2011-03-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Conseil national de transition libyen (CNT)",
+   "evidence": "déclarer ce dernier comme « représentant légitime du peuple libyen »",
+   "confidence": 0.9,
+   "date": "2011-03-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alain Juppé",
+   "type": "REVEALED",
+   "target": "Conseil national de transition libyen (CNT)",
+   "evidence": "la reconnaissance officielle du CNT par la France a lieu le 7 juin 2011 lorsque Alain Juppé déclare que le CNT est le seul titulaire des pouvoirs gouvernementaux",
+   "confidence": 1.0,
+   "date": "2011-06-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil national de transition libyen (CNT)",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Le CNT remercie la France pour avoir été le premier pays à reconnaître la légitimité de leurs actions",
+   "confidence": 0.9,
+   "date": "2011-03-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union européenne (UE)",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Les autres chefs d'État et de gouvernement de l'Union européenne (UE) ne suivent pas la déclaration du 10 mars, estimant que celle-ci anticipe trop sur l'avenir",
+   "confidence": 0.8,
+   "date": "2011-03-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

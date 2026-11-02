@@ -1,0 +1,230 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Georges Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Laurence Parisot",
+   "type": "Person"
+  },
+  {
+   "name": "Politifact",
+   "type": "Company"
+  },
+  {
+   "name": "Ipsos",
+   "type": "Company"
+  },
+  {
+   "name": "OpinionWay",
+   "type": "Company"
+  },
+  {
+   "name": "Ifop",
+   "type": "Company"
+  },
+  {
+   "name": "Mouvement pour la France",
+   "type": "Party"
+  },
+  {
+   "name": "Nouveau Parti anticapitaliste",
+   "type": "Party"
+  },
+  {
+   "name": "Parti de gauche",
+   "type": "Party"
+  },
+  {
+   "name": "Parti communiste",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Durant le mandat de Nicolas Sarkozy, la présidence de la République commande des sondages...",
+   "confidence": 0.95,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Emmanuelle Mignon, directrice de cabinet entre mai 2007 et juillet 2008",
+   "confidence": 1.0,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Dès le début du quinquennat, Emmanuelle Mignon... signe le contrat avec Politifact",
+   "confidence": 0.95,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Politifact",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Emmanuelle Mignon... signe le contrat avec Politifact, la société de Patrick Buisson",
+   "confidence": 0.95,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "MEMBER_OF",
+   "target": "Politifact",
+   "evidence": "Politifact, la société de Patrick Buisson",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Versement de 10 000 euros de rémunération mensuelle pour Patrick Buisson",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Georges Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Paiement de commandes auprès de Georges Buisson (fils de Patrick Buisson) à hauteur de 300 000 euros",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ipsos",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Paiement de commandes auprès de Ipsos pour 1,8 million d'euros",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "OpinionWay",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Paiement de commandes auprès de OpinionWay pour 550 000 euros",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ifop",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Paiement de commandes auprès de l'Ifop pour 550 000 euros",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurence Parisot",
+   "type": "MEMBER_OF",
+   "target": "Ifop",
+   "evidence": "Ifop (société dont l'ex-présidente du Medef, Laurence Parisot, est vice-présidente)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "dont certains pourraient... avoir été attribués par « favoritisme »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Nouveau Parti anticapitaliste",
+   "evidence": "Par exemple : « Souhaitez-vous que le Nouveau Parti anticapitaliste fasse cause commune... »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Parti de gauche",
+   "evidence": "« Souhaitez-vous que le Nouveau Parti anticapitaliste fasse cause commune avec le Parti de gauche... »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Parti communiste",
+   "evidence": "« Souhaitez-vous que le Nouveau Parti anticapitaliste fasse cause commune avec le Parti de gauche et le Parti communiste ? »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Parti socialiste",
+   "evidence": "« Diriez-vous que le NPA est une menace pour le PS ? »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

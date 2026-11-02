@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Publifact",
+   "type": "Company"
+  },
+  {
+   "name": "Publi-Opinion",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "les prévenus expliquent que l’Élysée n’avait souscrit aux règles de la commande publique qu'à partir du quinquennat de Sarkozy",
+   "confidence": 0.9,
+   "date": "2021-11",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Claude Guéant soutient qu'il était « convaincu que l’Élysée échappait au droit commun »",
+   "confidence": 0.9,
+   "date": "2021-11",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "les réquisitions annoncées par le parquet national financier sont : deux ans de prison, dont un an ferme, 100 000 € d’amende, à l’encontre de Patrick Buisson",
+   "confidence": 1.0,
+   "date": "2021-11-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Publifact",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "550 000 € d’amende pour les sociétés Publifact et Publi-Opinion appartenant à Patrick Buisson",
+   "confidence": 1.0,
+   "date": "2021-11-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Publi-Opinion",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "550 000 € d’amende pour les sociétés Publifact et Publi-Opinion appartenant à Patrick Buisson",
+   "confidence": 1.0,
+   "date": "2021-11-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Publifact",
+   "evidence": "les sociétés Publifact et Publi-Opinion appartenant à Patrick Buisson",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Publi-Opinion",
+   "evidence": "les sociétés Publifact et Publi-Opinion appartenant à Patrick Buisson",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "les réquisitions annoncées par le parquet national financier",
+   "confidence": 1.0,
+   "date": "2021-11-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Tribunal judiciaire de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Le procès se tient du 18 octobre au 12 novembre 2021 devant la 32e chambre correctionnelle du tribunal judiciaire de Paris",
+   "confidence": 1.0,
+   "date": "2021-10-18",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Nicolas Sarkozy, protégé par l'immunité présidentielle, est convoqué par le tribunal pour témoigner",
+   "confidence": 0.95,
+   "date": "2021-11-02",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

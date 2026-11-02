@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Prise illégale d'intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Lille",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "INDICTED_IN",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "le parquet de Lille annonce la mise en examen de Richard Ferrand pour prise illégale d'intérêts",
+   "confidence": 1.0,
+   "date": "2019-09-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Lille",
+   "type": "INVESTIGATED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "le parquet de Lille annonce la mise en examen de Richard Ferrand pour prise illégale d'intérêts",
+   "confidence": 0.9,
+   "date": "2019-09-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "il affirme ne pas vouloir démissionner et garder « toute la confiance » du président de la République, Emmanuel Macron",
+   "confidence": 0.8,
+   "date": "2019-09-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "la Cour de cassation confirme la prescription des faits sans conclure sur le fond de l'affaire, mettant fin aux poursuites contre Richard Ferrand",
+   "confidence": 1.0,
+   "date": "2022-10",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "mise en examen de Richard Ferrand pour prise illégale d'intérêts",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

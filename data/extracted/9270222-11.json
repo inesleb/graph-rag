@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Dirk van der Maelen",
+   "type": "Person"
+  },
+  {
+   "name": "Yves Leterme",
+   "type": "Person"
+  },
+  {
+   "name": "PS (Parti Socialiste)",
+   "type": "Party"
+  },
+  {
+   "name": "CD & V (Chrétien-Démocrate et Flamands)",
+   "type": "Party"
+  },
+  {
+   "name": "Antwerp World Diamond Center",
+   "type": "Institution"
+  },
+  {
+   "name": "Collège des procureurs généraux",
+   "type": "Institution"
+  },
+  {
+   "name": "Knack",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Yves Leterme",
+   "type": "MEMBER_OF",
+   "target": "CD & V (Chrétien-Démocrate et Flamands)",
+   "evidence": "médiation du cabinet Yves Leterme (CD & V)",
+   "confidence": 0.9,
+   "date": "2011-02-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Antwerp World Diamond Center",
+   "type": "INVOLVED_IN",
+   "target": "Loi belge sur le secret bancaire",
+   "evidence": "la loi a été rédigée par deux avocats au nom du Antwerp World Diamond Center en 2007",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dirk van der Maelen",
+   "type": "REVEALED",
+   "target": "Antwerp World Diamond Center",
+   "evidence": "le secteur du diamant [...] sont les «pères» de la loi",
+   "confidence": 0.8,
+   "date": "2017-07-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dirk van der Maelen",
+   "type": "REVEALED",
+   "target": "Collège des procureurs généraux",
+   "evidence": "le secteur du diamant et le Collège des procureurs généraux sont les «pères» de la loi",
+   "confidence": 0.8,
+   "date": "2017-07-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "PS (Parti Socialiste)",
+   "type": "INVOLVED_IN",
+   "target": "Loi belge sur le secret bancaire",
+   "evidence": "le PS cherchant à repousser le secret bancaire",
+   "confidence": 0.8,
+   "date": "2011-02-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "CD & V (Chrétien-Démocrate et Flamands)",
+   "type": "INVOLVED_IN",
+   "target": "Loi belge sur le secret bancaire",
+   "evidence": "sous la responsabilité politique du CD & V",
+   "confidence": 0.9,
+   "date": "2011-02-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dirk van der Maelen",
+   "type": "WORKED_FOR",
+   "target": "Knack",
+   "evidence": "une interview avec le journal belge Knack",
+   "confidence": 0.9,
+   "date": "2017-07-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

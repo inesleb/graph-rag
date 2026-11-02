@@ -1,0 +1,42 @@
+{
+ "entities": [
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de la campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "attentat du 8 mai 2002 à Karachi",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "financement illégal de la campagne électorale",
+   "evidence": "financé la campagne du Premier ministre français Édouard Balladur à l’élection présidentielle de 1995, toutefois le financement illégal de la campagne électorale n’a pas été établi par la justice.",
+   "confidence": 0.8,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "attentat du 8 mai 2002 à Karachi",
+   "evidence": "le lien supposé entre cette affaire politico-financière, et l’attentat du 8 mai 2002 à Karachi, au Pakistan qui a déclenché l'enquête aboutissant à cette affaire",
+   "confidence": 0.3,
+   "date": "2002-05-08",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

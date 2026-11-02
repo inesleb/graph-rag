@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "Alexandre Benalla se rapproche d'Emmanuel Macron à ce moment, et intervient bénévolement pour En marche.",
+   "confidence": 0.9,
+   "date": "2016-11-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "Alexandre Benalla",
+   "evidence": "Des témoignages concernant des événements antérieurs à l'affaire, et portant sur le comportement d'Alexandre Benalla dans le cadre de ses fonctions, sont rapportés par la presse et contribuent à alimenter l'affaire.",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "Alexandre Benalla se rapproche d'Emmanuel Macron à ce moment, et intervient bénévolement pour En marche.",
+   "confidence": 0.9,
+   "date": "2016-11-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

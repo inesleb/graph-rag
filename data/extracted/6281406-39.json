@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Choukri Ghanem",
+   "type": "Person"
+  },
+  {
+   "name": "Simon Piel",
+   "type": "Person"
+  },
+  {
+   "name": "Joan Tilouine",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "Kadhafi a décidé de débloquer 50 millions d'euros pour la campagne de Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2012-04-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Choukri Ghanem",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "il est retrouvé mort dans le Danube, à Vienne",
+   "confidence": 0.8,
+   "date": "2012-04-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Choukri Ghanem",
+   "type": "INVOLVED_IN",
+   "target": "mort suspecte",
+   "evidence": "de nombreux services de renseignement étrangers jugent cette mort « hautement suspecte »",
+   "confidence": 0.7,
+   "date": "2012-04-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INVOLVED_IN",
+   "target": "mort suspecte",
+   "evidence": "Certains proches d'Alexandre Djouhri confient aux journalistes Simon Piel et Joan Tilouine avoir « fait faire glouglou » à Choukri Ghanem",
+   "confidence": 0.6,
+   "date": "2012-04-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "publication de la note Koussa par Mediapart",
+   "confidence": 1.0,
+   "date": "2012-04-29",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

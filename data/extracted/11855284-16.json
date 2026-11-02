@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Europe 1",
+   "type": "Media"
+  },
+  {
+   "name": "Daniel Vaillant",
+   "type": "Person"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Compagnies républicaines de sécurité (CRS)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "une cinquième vidéo publiée le 21 juillet 2018 par Mediapart complète la troisième vidéo",
+   "confidence": 1.0,
+   "date": "2018-07-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Le 23 juillet, Libération publie une sixième vidéo, montrant les évènements antérieurs à l'interpellation",
+   "confidence": 1.0,
+   "date": "2018-07-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Europe 1",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Le 21 juillet 2018, Europe 1 révèle aussi que l'ancien ministre socialiste Daniel Vaillant a tenté de joindre Richard Ferrand",
+   "confidence": 1.0,
+   "date": "2018-07-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "on voit le jeune homme [...] subir des coups de la part de CRS",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "contexte invoqué par Alexandre Benalla pour justifier son intervention",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "On y aperçoit aussi Philippe Mizerski, en retrait et détaché de son rôle d'encadrement d'Alexandre Benalla et de Vincent Crase",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Daniel Vaillant",
+   "type": "WORKED_FOR",
+   "target": "Parti socialiste",
+   "evidence": "l'ancien ministre socialiste Daniel Vaillant",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Daniel Vaillant",
+   "type": "CONCERNS",
+   "target": "Affaires Benalla",
+   "evidence": "Daniel Vaillant a tenté de joindre Richard Ferrand [...] pour l'informer qu'il pouvait y avoir un problème par rapport l'influence d'Alexandre Benalla",
+   "confidence": 1.0,
+   "date": "2018-07-21",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

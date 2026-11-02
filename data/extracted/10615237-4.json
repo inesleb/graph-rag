@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Joulaud",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "la cour d'appel de Paris condamne les époux Fillon pour détournement de fonds public",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "la cour d'appel de Paris condamne les époux Fillon pour détournement de fonds public. François Fillon est condamné à quatre ans de prison",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Penelope est condamnée à deux ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Marc Joulaud",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Marc Joulaud à trois ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "les époux Fillon ainsi que Marc Joulaud décident de former un pourvoi en cassation",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "les époux Fillon ainsi que Marc Joulaud décident de former un pourvoi en cassation",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Joulaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "les époux Fillon ainsi que Marc Joulaud décident de former un pourvoi en cassation",
+   "confidence": 1.0,
+   "date": "2022-05-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

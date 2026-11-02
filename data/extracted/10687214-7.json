@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal de l’Union européenne",
+   "type": "Institution"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de justice de l'Union européenne",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le pourvoi de Marine Le Pen [...] est rejeté par la Cour de justice de l'Union européenne en mai 2019.",
+   "confidence": 0.95,
+   "date": "2019-05",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En juin 2018, le Tribunal de l’Union européenne déboute Marine Le Pen, qui demandait l’annulation de la décision de recouvrement de la somme de 300 000 euros prise par le Parlement européen.",
+   "confidence": 0.9,
+   "date": "2018-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Catherine Griset",
+   "evidence": "pour les sommes liées à l'emploi de Catherine Griset.",
+   "confidence": 0.95,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "décision de recouvrement [...] prise par le Parlement européen à la fin de 2016",
+   "confidence": 0.95,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

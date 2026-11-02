@@ -1,0 +1,220 @@
+{
+ "entities": [
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Millon",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique de Villepin",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mazens",
+   "type": "Person"
+  },
+  {
+   "name": "Frédéric Baueur",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Roi Fahd",
+   "type": "Person"
+  },
+  {
+   "name": "Prince Sultan",
+   "type": "Person"
+  },
+  {
+   "name": "SOFRESA",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Services secrets français",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Rétrocommissions",
+   "type": "Offense"
+  },
+  {
+   "name": "Filatures et investigations illégales",
+   "type": "Offense"
+  },
+  {
+   "name": "Contrats d’armement pakistanais et saoudiens",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jacques Chirac",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "Jacques Chirac demande à son ministre de la Défense... Le Gouvernement ordonne alors...",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Millon",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "Jacques Chirac demande à son ministre de la Défense Charles Millon...",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Rétrocommissions",
+   "evidence": "Celui-ci a alors la conviction que des rétrocommissions ont eu lieu...",
+   "confidence": 0.8,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Il s’agit de 15 % restant dans le contrat pakistanais...",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gouvernement français",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "Le Gouvernement ordonne alors la fin du versement des commissions...",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Dominique de Villepin",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "L’opération est supervisée par Dominique de Villepin, alors secrétaire général de l’Élysée.",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique de Villepin",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "Dominique de Villepin... va « persuader » le trio d’hommes d’affaires...",
+   "confidence": 0.85,
+   "date": "1995",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Frédéric Baueur",
+   "type": "INVOLVED_IN",
+   "target": "Filatures et investigations illégales",
+   "evidence": "Frédéric Baueur va, par des actes d'intimidation menés avec l’aide des services secrets français...",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Services secrets français",
+   "type": "INVOLVED_IN",
+   "target": "Filatures et investigations illégales",
+   "evidence": "Frédéric Baueur... avec l’aide des services secrets français pour les filatures et les investigations...",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anciens membres du cabinet de François Léotard",
+   "type": "INVOLVED_IN",
+   "target": "Filatures et investigations illégales",
+   "evidence": "des anciens membres du cabinet de François Léotard sont mis sous écoute...",
+   "confidence": 0.85,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "Ceci est révélé par Le Monde en 1996...",
+   "confidence": 0.95,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Contrats d’armement pakistanais et saoudiens",
+   "evidence": "le lien est fait avec les contrats d’armement.",
+   "confidence": 0.9,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "l’affaire est pourtant aussitôt refermée... la décision d’annuler les commissions fut prise avec le soutien du roi Fahd que Jacques Chirac a rencontré...",
+   "confidence": 0.8,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Roi Fahd",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la décision d’annuler les commissions fut prise avec le soutien du roi Fahd...",
+   "confidence": 0.85,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Prince Sultan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "celles destinées au prince Sultan ne sont pas remises en cause",
+   "confidence": 0.8,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

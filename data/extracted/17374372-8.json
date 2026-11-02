@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Frédéric Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Shanghai Electric",
+   "type": "Company"
+  },
+  {
+   "name": "GE",
+   "type": "Company"
+  },
+  {
+   "name": "FBI",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Frédéric Pierucci",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "Frédéric Pierucci, vice-président « Monde » de la filiale Power du groupe Alstom",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Frédéric Pierucci, vice-président « Monde » de la filiale Power du groupe Alstom, arrive de Singapour, et atterrit à New York",
+   "confidence": 0.9,
+   "date": "2013-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Frédéric Pierucci [...] est cueilli par cinq agents fédéraux américains, qui le conduisent au siège du FBI à Manatthan. Menotté, il traverse tout l'aéroport",
+   "confidence": 1.0,
+   "date": "2013-04-14",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Au début des années 2010, Alstom décide de coopérer avec son concurrent chinois, Shanghai Electric",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "GE",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "notamment à GE qui avait déjà fait des propositions de rachat à Alstom sur sa filiale",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

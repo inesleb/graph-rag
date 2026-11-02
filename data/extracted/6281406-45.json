@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "affirmait avoir financé la campagne de Sarkozy",
+   "confidence": 0.8,
+   "date": "2011-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "affirmait avoir financé la campagne de Sarkozy, bien que n'ayant pas de preuves matérielles",
+   "confidence": 0.8,
+   "date": "2011-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le Monde relate également une anecdote où",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Zi-A Capital BV",
+   "type": "Company"
+  },
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "dirigeant de Nissan",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Zi-A Capital BV",
+   "evidence": "membres du conseil d'administration étaient Ghosn et Greg Kelly",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "MEMBER_OF",
+   "target": "Zi-A Capital BV",
+   "evidence": "membres du conseil d'administration étaient Ghosn et Greg Kelly",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est soupçonné d'abus de biens sociaux",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Abus de biens sociaux",
+   "evidence": "soupçonné d'abus de biens sociaux (utilisation de biens de l’entreprise à des fins personnelles)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

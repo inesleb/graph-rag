@@ -1,0 +1,174 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Préfet des Hauts-de-Seine",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2020-02-04",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "4 ans dont 3 fermes pour Patrick Balkany",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "3 ans fermes pour Isabelle Balkany",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "5 ans fermes pour Patrick Balkany",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "4 ans fermes pour Isabelle Balkany",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le couple renonce à un pourvoi en cassation",
+   "confidence": 0.8,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le couple renonce à un pourvoi en cassation",
+   "confidence": 0.8,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Préfet des Hauts-de-Seine",
+   "evidence": "le couple Balkany est démis de ses mandats municipaux par un arrêté du préfet des Hauts-de-Seine",
+   "confidence": 1.0,
+   "date": "2020-03-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "Préfet des Hauts-de-Seine",
+   "evidence": "le couple Balkany est démis de ses mandats municipaux par un arrêté du préfet des Hauts-de-Seine",
+   "confidence": 1.0,
+   "date": "2020-03-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Fraude fiscale",
+   "evidence": "le procès pour blanchiment de fraude fiscale s'ouvre à la cour d'appel de Paris",
+   "confidence": 1.0,
+   "date": "2020-02-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

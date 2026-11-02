@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Moftah Missouri",
+   "type": "Person"
+  },
+  {
+   "name": "Moussa Koussa",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Tristan Waleckx",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Moftah Missouri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Moftah Missouri confirme l’authenticité du document signé par Moussa Koussa ainsi que le versement effectif d'au moins une vingtaine de millions de dollars",
+   "confidence": 0.95,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moftah Missouri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "il avait dit qu’il n’avait pas vu les mallettes",
+   "confidence": 0.85,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moftah Missouri",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Moftah Missouri revient sur un article publié par Le Figaro, et conteste avoir démenti les révélations de Mediapart",
+   "confidence": 0.9,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tristan Waleckx",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "« Missouri nous a dit que Le Figaro avait fait une extrapolation de ses propos »",
+   "confidence": 0.95,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tristan Waleckx",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "« Comme c’est quelqu’un de prudent, il avait dit qu’il n’avait pas vu les mallettes, et c’est devenu un démenti formel. Pour lui, c’était clairement, de la part du Figaro, une déformation de ses propos, coupés au bon endroit »",
+   "confidence": 0.95,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "versement effectif d'au moins une vingtaine de millions de dollars, payés en liquide pour la campagne électorale de Nicolas Sarkozy",
+   "confidence": 0.95,
+   "date": "2013-06-20",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Béchir Salah",
+   "type": "Person"
+  },
+  {
+   "name": "Libyan African Portfolio (LAP)",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Brice Hortefeux",
+   "type": "WORKED_FOR",
+   "target": "Ministre français délégué aux collectivités locales",
+   "evidence": "Brice Hortefeux, ministre français délégué aux collectivités locales",
+   "confidence": 1.0,
+   "date": "2005-2006",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine, qui avait introduit en Libye dès 2005 les proches du ministre français de l’Intérieur",
+   "confidence": 0.9,
+   "date": "2005",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine aurait par ailleurs secrètement conseillé Claude Guéant jusqu'à la veille de la guerre en Libye",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine, qui avait introduit en Libye [...] Nicolas Sarkozy lui-même",
+   "confidence": 0.9,
+   "date": "2005",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Ziad Takieddine, qui avait introduit en Libye [...] Claude Guéant et Nicolas Sarkozy lui-même",
+   "confidence": 0.9,
+   "date": "2005",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Libyan African Portfolio (LAP)",
+   "evidence": "Béchir Salah, alors à la tête du Libyan African Portfolio (LAP)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "La divulgation de ces documents a mis en lumière le cas de Béchir Salah",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Un accord « sur le montant et les modes de versement » aurait été préparé en 2005 et validé en 2006",
+   "confidence": 0.7,
+   "date": "2005-2006",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

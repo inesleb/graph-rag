@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Élection présidentielle française de 2017",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Emplois fictifs",
+   "evidence": "des soupçons d'emplois fictifs concernant Penelope Fillon",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Penelope Fillon",
+   "evidence": "des soupçons d'emplois fictifs concernant Penelope Fillon",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "candidat de la droite et du centre désigné par une large primaire à l'automne 2016",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "elle a un important retentissement médiatique et provoque pendant plusieurs semaines la remise en cause de sa candidature",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "sa mise en examen",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle française de 2017",
+   "evidence": "est défait au premier tour de l'élection présidentielle, le 23 avril 2017",
+   "confidence": 1.0,
+   "date": "2017-04-23",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

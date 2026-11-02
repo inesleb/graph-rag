@@ -1,0 +1,188 @@
+{
+ "entities": [
+  {
+   "name": "Clara Gaymard",
+   "type": "Person"
+  },
+  {
+   "name": "Hervé Gaymard",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Olivier Marleix",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "General Electric",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "pacte de corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Challenges",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Clara Gaymard",
+   "type": "WORKED_FOR",
+   "target": "General Electric",
+   "evidence": "directrice France de General Electric",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Clara Gaymard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "ce qui soulève des interrogations",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Clara Gaymard",
+   "type": "MEMBER_OF",
+   "target": "Hervé Gaymard",
+   "evidence": "l'épouse de l'ancien secrétaire d'état puis ministre sous Jacques Chirac, Hervé Gaymard",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hervé Gaymard",
+   "type": "WORKED_FOR",
+   "target": "Jacques Chirac",
+   "evidence": "secrétaire d'état puis ministre sous Jacques Chirac",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Marleix",
+   "type": "INVESTIGATED",
+   "target": "Affaire Alstom",
+   "evidence": "Olivier Marleix a considéré dans son enquête parlementaire que cette vente à GE « bénéficié en 2016 et 2017 d’un montant de dons record »",
+   "confidence": 0.9,
+   "date": "2016-2017",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Olivier Marleix",
+   "type": "CONCERNS",
+   "target": "pacte de corruption",
+   "evidence": "ce système pourrait constituer un pacte de corruption",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Marleix",
+   "type": "INVOLVED_IN",
+   "target": "Emmanuel Macron",
+   "evidence": "levées de fonds [pour la campagne de M. Macron en 2017]",
+   "confidence": 0.8,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Marleix",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "Son travail dans cette enquête parlementaire lui vaudra un prix décerné par Anticor",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "PDG Patrick Kron fait état d'une rumeur tenace de versement d'un bonus de 300 Millions USD",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "INVOLVED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "versement d'un bonus de 300 Millions USD, versés sur un compte à Singapour",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "l'intéressé dément : « Non seulement je vendais, mais j’étais vendu, s’insurge Kron. C’est scandaleux ! »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "Selon Le Monde, Olivier Marleix a considéré dans son enquête parlementaire que cette vente à GE « bénéficié en 2016 et 2017 d’un montant de dons record »",
+   "confidence": 0.9,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Challenges",
+   "type": "REVEALED",
+   "target": "Affaire Alstom",
+   "evidence": "Dans Challenges, l'intéressé dément : « Non seulement je vendais, mais j’étais vendu, s’insurge Kron. C’est scandaleux ! »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

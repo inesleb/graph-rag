@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "En mars 2021, le couple Balkany est placé sous bracelet électronique dans sa propriété de Giverny.",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany fait une tentative de suicide en avalant des barbituriques.",
+   "confidence": 0.9,
+   "date": "2022-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "En mars 2021, le couple Balkany est placé sous bracelet électronique dans sa propriété de Giverny.",
+   "confidence": 0.9,
+   "date": "2021-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 4 août 2022, la cour d’appel de Paris accorde à Patrick Balkany, alors détenu à Fleury-Mérogis, sa demande d’aménagement de peine.",
+   "confidence": 0.8,
+   "date": "2022-08-04",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

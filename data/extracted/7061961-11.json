@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Roger Le Loire",
+   "type": "Person"
+  },
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Valérie Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Anticor",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Anticor dépose une seconde plainte en se constituant partie civile",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Roger Le Loire",
+   "type": "WORKED_FOR",
+   "target": "Cour d'appel de Paris",
+   "evidence": "en l'espèce Roger Le Loire) de décider d'ouvrir ou non une information judiciaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Serge Tournaire",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "désigne pour enquêter le juge Serge Tournaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "le parquet saisit la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2011-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "une telle enquête pourrait aller à l'encontre de la Constitution si elle devait conduire le juge à « réaliser éventuellement une perquisition au cabinet du président de la République »",
+   "confidence": 0.9,
+   "date": "2011-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "« établir si le contrat a été conclu et exécuté [...] à la demande personnelle du président »",
+   "confidence": 0.9,
+   "date": "2011-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "INVOLVED_IN",
+   "target": "Cour de cassation",
+   "evidence": "Anticor décide alors de se pourvoir en cassation",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

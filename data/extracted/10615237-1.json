@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Joulaud",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier (PNF)",
+   "type": "Institution"
+  },
+  {
+   "name": "Revue des Deux Mondes",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "REVEALED",
+   "target": "Penelope Fillon",
+   "evidence": "un article du Canard enchaîné [...] affirme que Penelope Fillon est rémunérée 500 000 euros brut pour des emplois d'attachée parlementaire",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "REVEALED",
+   "target": "Penelope Fillon",
+   "evidence": "qu'elle a eu [...] un emploi de conseillère littéraire à la Revue des Deux Mondes payé 100 000 euros brut",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "des emplois d'attachée parlementaire auprès de son mari et son suppléant Marc Joulaud entre 1998 et 2007 et en 2012",
+   "confidence": 0.9,
+   "date": "1998-2007, 2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Revue des Deux Mondes",
+   "evidence": "un emploi de conseillère littéraire [...] payé 100 000 euros brut",
+   "confidence": 0.9,
+   "date": "2012-2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Le parquet national financier ouvre une enquête préliminaire pour détournements de fonds publics",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "enquête préliminaire [...] pour [...] abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "enquête préliminaire [...] pour recel de ces délits",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "un article du Canard enchaîné le 25 janvier 2017 qui affirme que Penelope Fillon est rémunérée",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier (PNF)",
+   "type": "INVESTIGATED",
+   "target": "Affaire Fillon",
+   "evidence": "Le parquet national financier ouvre une enquête préliminaire",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon conteste le caractère fictif de ces emplois",
+   "confidence": 1.0,
+   "date": "2017-01-26",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

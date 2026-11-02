@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  },
+  {
+   "name": "Marianne",
+   "type": "Media"
+  },
+  {
+   "name": "France Télévisions",
+   "type": "Media"
+  },
+  {
+   "name": "USEPPM",
+   "type": "Institution"
+  },
+  {
+   "name": "Christian Gravel",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "Cyril Karunagaran",
+   "type": "Person"
+  },
+  {
+   "name": "Ministère (implicite, non nommé dans le passage)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marianne",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "\"Le 29 mars 2023, le journal Marianne [...] rend publique une enquête menée en 2022 qui remet en cause la bonne gestion et l'utilisation de l'argent du « fonds Marianne »\"",
+   "confidence": 1.0,
+   "date": "2023-03-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France Télévisions",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "\"Le 29 mars 2023, [...] L’Œil du 20 heures de France 2 [...] rend publique une enquête [...]\"",
+   "confidence": 1.0,
+   "date": "2023-03-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "USEPPM",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "\"Elle se penche notamment sur le programme iLaïc de l'USEPPM, qui a obtenu la subvention la plus élevée à 355 000 euros\"",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "\"L'enquête montre enfin que l'association [USEPPM] est proche du gestionnaire du budget, Christian Gravel\"",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Sifaoui",
+   "type": "WORKED_FOR",
+   "target": "USEPPM",
+   "evidence": "\"une rémunération de 120 000 euros pour les deux dirigeants de l'association, Mohamed Sifaoui et Cyril Karunagaran\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cyril Karunagaran",
+   "type": "WORKED_FOR",
+   "target": "USEPPM",
+   "evidence": "\"une rémunération de 120 000 euros pour les deux dirigeants de l'association, Mohamed Sifaoui et Cyril Karunagaran\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ministère (implicite, non nommé dans le passage)",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "\"soupçonne un favoritisme de la part du ministère\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"une procédure très rapide, un manque de transparence sur les structures choisies et les montants alloués, montre un usage des fonds discutable\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "USEPPM",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "\"Les statuts de l'association, qui n'est pas spécialisée en laïcité, interdisent le paiement de salaires\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

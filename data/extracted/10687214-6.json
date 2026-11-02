@@ -1,0 +1,82 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Union européenne",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen indique que depuis 2009 les assistants parlementaires européens RN travaillent bien au siège de son parti",
+   "confidence": 0.9,
+   "date": "2019-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Rassemblement national",
+   "evidence": "les assistants parlementaires européens RN travaillent bien au siège de son parti",
+   "confidence": 1.0,
+   "date": "2019-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Elle se rend finalement à la convocation des juges du pôle financier 30 juin 2017, remettant un écrit et refusant de répondre aux questions. À l'issue de cette convocation, elle se voit notifier sa mise en examen pour abus de confiance et complicité d'abus de confiance.",
+   "confidence": 1.0,
+   "date": "2017-06-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En octobre 2018, elle est à nouveau convoquée par les juges d'instruction au tribunal de Paris. Ces derniers décident de requalifier sa mise en examen en « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les assistants parlementaires européens RN travaillent bien au siège de son parti et non pour l'Union européenne mais tout en étant payés par elle",
+   "confidence": 0.9,
+   "date": "2019-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union européenne",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les assistants parlementaires européens RN travaillent [...] non pour l'Union européenne mais tout en étant payés par elle",
+   "confidence": 0.9,
+   "date": "2019-03",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

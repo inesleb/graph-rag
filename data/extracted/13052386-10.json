@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Loi japonaise sur les instruments financiers et les titres",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Greg Kelly",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Greg Kelly, collaborateur de M.Ghosn, a également été arrêté le 19 novembre 2018 et emprisonné au centre de détention de Tokyo",
+   "confidence": 1.0,
+   "date": "2018-11-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "INVOLVED_IN",
+   "target": "Carlos Ghosn",
+   "evidence": "Greg Kelly, collaborateur de M.Ghosn",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "INDICTED_IN",
+   "target": "Loi japonaise sur les instruments financiers et les titres",
+   "evidence": "Il est accusé d’avoir contribué à minorer les déclarations de revenus de Carlos Ghosn au Japon, en infraction avec la loi japonaise sur les instruments financiers et les titres",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Loi japonaise sur les instruments financiers et les titres",
+   "evidence": "en infraction avec la loi japonaise sur les instruments financiers et les titres",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "prise illégale d’intérêts",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "prise illégale d’intérêts",
+   "evidence": "condamné à quinze mois de prison, 200 000 francs d'amende et deux ans d'inéligibilité avec sursis pour prise illégale d’intérêts",
+   "confidence": 1.0,
+   "date": "1996",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "prise illégale d’intérêts",
+   "evidence": "Cette peine a été confirmée en appel en janvier 1997",
+   "confidence": 1.0,
+   "date": "1997-01",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "pour avoir employé et rémunéré aux frais du contribuable levalloisien, un couple d’agents techniques de la mairie de Levallois-Perret",
+   "confidence": 0.9,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Moulin de Cossy",
+   "evidence": "les avoir installé sur place au Moulin de Cossy, situé à Giverny (Eure)",
+   "confidence": 0.8,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

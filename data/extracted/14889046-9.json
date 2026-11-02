@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Karim Tadjeddine",
+   "type": "Person"
+  },
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "McKinsey France",
+   "type": "Company"
+  },
+  {
+   "name": "Sénat",
+   "type": "Institution"
+  },
+  {
+   "name": "L'Obs",
+   "type": "Media"
+  },
+  {
+   "name": "Thomas Cazenave",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Karim Tadjeddine",
+   "type": "WORKED_FOR",
+   "target": "McKinsey France",
+   "evidence": "directeur associé et responsable du département « secteur public » chez McKinsey France",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INDICTED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "accusé d'avoir sciemment menti lors d'une audition sous serment devant le Sénat le 18 janvier 2022",
+   "confidence": 0.95,
+   "date": "2022-01-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Sénat",
+   "type": "INDICTED_IN",
+   "target": "Karim Tadjeddine",
+   "evidence": "le Sénat annonce avoir saisi la justice en vertu de l'article 40 du code de procédure pénale contre Karim Tadjeddine pour faux témoignage devant une commission d'enquête parlementaire",
+   "confidence": 1.0,
+   "date": "2022-01-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "accusé d'avoir sciemment menti lors d'une audition sous serment devant le Sénat le 18 janvier 2022",
+   "confidence": 0.95,
+   "date": "2022-01-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INVOLVED_IN",
+   "target": "L'Obs",
+   "evidence": "Selon une enquête de L'Obs, Karim Tadjeddine est proche du député Thomas Cazenave",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INVOLVED_IN",
+   "target": "Thomas Cazenave",
+   "evidence": "Selon une enquête de L'Obs, Karim Tadjeddine est proche du député Thomas Cazenave",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "CONCERNS",
+   "target": "Affaire McKinsey",
+   "evidence": "directeur associé et responsable du département « secteur public » chez McKinsey France",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

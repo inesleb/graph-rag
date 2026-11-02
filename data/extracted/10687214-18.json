@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Gaël Nofri",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Jalkh",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gaël Nofri",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Gaël Nofri a été employé trois mois en 2011.",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Thierry Légier [...] est concerné pour une période allant de 2004 à 2011.",
+   "confidence": 1.0,
+   "date": "2004-2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Jalkh",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Jean-François Jalkh a été [...] l'assistant parlementaire de Jean-Marie Le Pen entre 2009 et 2014",
+   "confidence": 1.0,
+   "date": "2009-2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Jalkh",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "Jean-François Jalkh [...] et vice-président du FN à partir de 2012.",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Trois des assistants de Jean-Marie Le Pen sont concernés.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jean-Marie Le Pen est mis en examen pour « détournement de fonds publics » et « complicité » de ce délit.",
+   "confidence": 1.0,
+   "date": "2019-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "détournement de fonds publics",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jean-Marie Le Pen est mis en examen pour « détournement de fonds publics » et « complicité » de ce délit.",
+   "confidence": 1.0,
+   "date": "2019-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "complicité",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jean-Marie Le Pen est mis en examen pour « détournement de fonds publics » et « complicité » de ce délit.",
+   "confidence": 1.0,
+   "date": "2019-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

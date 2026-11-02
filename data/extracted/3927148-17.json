@@ -1,0 +1,56 @@
+{
+ "entities": [
+  {
+   "name": "Cour des comptes pakistanaise",
+   "type": "Institution"
+  },
+  {
+   "name": "Mansur ul-Haq",
+   "type": "Person"
+  },
+  {
+   "name": "Service de renseignement de la marine pakistanaise",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mansur ul-Haq",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "l’amiral en chef de la marine, Mansur ul-Haq, plaide coupable pour avoir reçu des Français près de sept millions de dollars",
+   "confidence": 1.0,
+   "date": "2002-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Service de renseignement de la marine pakistanaise",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le chef du service de renseignement de la marine pakistanaise écope de sept ans de prison",
+   "confidence": 1.0,
+   "date": "2002-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "reçu des Français près de sept millions de dollars en guise de remerciement",
+   "confidence": 1.0,
+   "date": "2002-01-30",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

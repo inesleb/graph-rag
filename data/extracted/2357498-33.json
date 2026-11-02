@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "SdBO",
+   "type": "Company"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  },
+  {
+   "name": "CDR (Consortium de réalisation)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie, cela signifie qu'il doit retourner devant la cour d'appel",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la Cour de cassation ayant confirmé la recevabilité de la plainte envers le Crédit lyonnais",
+   "confidence": 0.95,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SdBO",
+   "type": "MEMBER_OF",
+   "target": "Crédit lyonnais",
+   "evidence": "la SdBO. Cette dernière est certes filiale à 100 % du Crédit lyonnais",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "un nouveau risque existe : celui de la demande en annulation de la vente d'Adidas par Bernard Tapie",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "la demande en annulation de la vente d'Adidas par Bernard Tapie",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie et les représentants du CDR acceptent le passage par un tribunal arbitral",
+   "confidence": 0.95,
+   "date": "2007-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "CDR (Consortium de réalisation)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie et les représentants du CDR acceptent le passage par un tribunal arbitral",
+   "confidence": 0.95,
+   "date": "2007-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

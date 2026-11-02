@@ -1,0 +1,188 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Barack Obama",
+   "type": "Person"
+  },
+  {
+   "name": "David Cameron",
+   "type": "Person"
+  },
+  {
+   "name": "Angela Merkel",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil national de transition (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Arabie saoudite",
+   "type": "Institution"
+  },
+  {
+   "name": "Qatar",
+   "type": "Institution"
+  },
+  {
+   "name": "Ligue arabe",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil de sécurité des Nations unies",
+   "type": "Institution"
+  },
+  {
+   "name": "G8",
+   "type": "Institution"
+  },
+  {
+   "name": "Union européenne",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "France",
+   "evidence": "le président Sarkozy reçoit à Paris les représentants du conseil national de transition",
+   "confidence": 1.0,
+   "date": "2011-03-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "France",
+   "evidence": "Le président Sarkozy se retrouve isolé lors du sommet du G8 à Paris",
+   "confidence": 1.0,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le président Sarkozy et son ministre des Affaires étrangères Alain Juppé de lancer une bataille diplomatique",
+   "confidence": 0.9,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alain Juppé",
+   "type": "WORKED_FOR",
+   "target": "France",
+   "evidence": "son ministre des Affaires étrangères Alain Juppé",
+   "confidence": 1.0,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "L'avancée des troupes de Kadhafi sur Benghazi est telle qu'un massacre de grande ampleur est annoncé",
+   "confidence": 0.8,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Arabie saoudite",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "l'Arabie saoudite cède aux velléités du Qatar",
+   "confidence": 0.7,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Qatar",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "l'Arabie saoudite cède aux velléités du Qatar",
+   "confidence": 0.7,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ligue arabe",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "La Ligue arabe demande ainsi l'instauration de cette zone d'exclusion aérienne",
+   "confidence": 0.9,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil de sécurité des Nations unies",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le président Sarkozy et son ministre des Affaires étrangères Alain Juppé de lancer une bataille diplomatique au conseil de sécurité des Nations unies",
+   "confidence": 0.9,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Barack Obama",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le président américain Barack Obama rejoint le président Sarkozy",
+   "confidence": 0.9,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "David Cameron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le président américain Barack Obama rejoint le président Sarkozy et le Premier ministre britannique David Cameron",
+   "confidence": 0.9,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Angela Merkel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "La chancelière allemande Angela Merkel refuse et recueille le soutien d'une majorité des 27 États de l'Union européenne",
+   "confidence": 0.8,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union européenne",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "recueille le soutien d'une majorité des 27 États de l'Union européenne",
+   "confidence": 0.8,
+   "date": "2011-03-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

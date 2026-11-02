@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Stephen Harper",
+   "type": "Person"
+  },
+  {
+   "name": "Adam Blinick",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Christophe de Le Rue",
+   "type": "Person"
+  },
+  {
+   "name": "Ministère de la Sécurité publique (Canada)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Adam Blinick",
+   "type": "WORKED_FOR",
+   "target": "Stephen Harper",
+   "evidence": "chef de cabinet adjoint et directeur des politiques du ministre de la Sécurité publique",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Adam Blinick",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "embauché par Uber moins d'un an après avoir quitté le gouvernement",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Christophe de Le Rue",
+   "type": "WORKED_FOR",
+   "target": "Ministère de la Sécurité publique (Canada)",
+   "evidence": "directeur des communications du ministre fédéral de la Sécurité publique de 2013 à 2015",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Christophe de Le Rue",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "avant de rejoindre Uber en tant qu'associé principal en communication",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "Adam Blinick",
+   "evidence": "directeur principal des politiques publiques et des communications d'Uber en 2022",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

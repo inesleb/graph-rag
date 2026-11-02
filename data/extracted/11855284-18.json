@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "France Info",
+   "type": "Media"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Compagnie républicaine de sécurité (CRS)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "France Info",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "France Info et Mediapart publient conjointement une vidéo",
+   "confidence": 1.0,
+   "date": "2023-07-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "France Info et Mediapart publient conjointement une vidéo",
+   "confidence": 1.0,
+   "date": "2023-07-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Deux hommes « ressemblent fortement à Alexandre Benalla »",
+   "confidence": 0.9,
+   "date": "2023-07-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "l'autre plus chétif, tiennent à bout de bras une troisième personne qu'ils encadrent [...] « ressemblent fortement [...] à Vincent Crase »",
+   "confidence": 0.9,
+   "date": "2023-07-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Compagnie républicaine de sécurité (CRS)",
+   "evidence": "positionnement avec les CRS",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "WORKED_FOR",
+   "target": "Compagnie républicaine de sécurité (CRS)",
+   "evidence": "positionnement avec les CRS",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

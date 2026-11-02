@@ -1,0 +1,17 @@
+{
+ "entities": [
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": []
+}

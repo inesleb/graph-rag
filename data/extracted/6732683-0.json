@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Garrett Camp",
+   "type": "Person"
+  },
+  {
+   "name": "Travis Kalanick",
+   "type": "Person"
+  },
+  {
+   "name": "San Francisco",
+   "type": "Institution"
+  },
+  {
+   "name": "New York Stock Exchange",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Garrett Camp",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "L'entreprise est fondée par Garrett Camp",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Travis Kalanick",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "L'entreprise est fondée par Travis Kalanick",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "San Francisco",
+   "evidence": "L'entreprise est basée dans la ville californienne de San Francisco",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "New York Stock Exchange",
+   "evidence": "Le groupe est coté au New York Stock Exchange",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

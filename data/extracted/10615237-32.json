@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marie Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "TF1",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marie Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "deux des cinq enfants du couple, auraient perçu 84 000 euros brut, pour des emplois d'assistants parlementaires quand François Fillon était sénateur",
+   "confidence": 0.95,
+   "date": "2005-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "deux des cinq enfants du couple, auraient perçu 84 000 euros brut, pour des emplois d'assistants parlementaires quand François Fillon était sénateur",
+   "confidence": 0.95,
+   "date": "2005-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "deux des cinq enfants du couple, auraient perçu 84 000 euros brut, pour des emplois d'assistants parlementaires",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "il n'a pu rémunérer « deux de [ses] enfants »",
+   "confidence": 0.85,
+   "date": "2005-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Selon Le Canard enchaîné, Marie Fillon et Charles Fillon, deux des cinq enfants du couple, auraient perçu 84 000 euros brut",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon avait affirmé sur TF1 le 26 janvier",
+   "confidence": 0.8,
+   "date": "2017-01-26",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Turquie",
+   "type": "Institution"
+  },
+  {
+   "name": "Japon",
+   "type": "Institution"
+  },
+  {
+   "name": "Liban",
+   "type": "Institution"
+  },
+  {
+   "name": "Beyrouth",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn s'enfuit clandestinement du Japon le 29 décembre 2019",
+   "confidence": 0.9,
+   "date": "2019-12-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Turquie",
+   "evidence": "retrouvé par les enquêteurs turcs",
+   "confidence": 0.85,
+   "date": "2019-12-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Japon",
+   "evidence": "Carlos Ghosn s'enfuit clandestinement du Japon",
+   "confidence": 0.9,
+   "date": "2019-12-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Liban",
+   "evidence": "atterrit à Beyrouth, au Liban",
+   "confidence": 0.9,
+   "date": "2019-12-29",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

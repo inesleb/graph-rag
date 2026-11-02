@@ -1,0 +1,102 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de confiance aggravé",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est inculpé après une garde à vue de 22 jours pour avoir dissimulé aux autorités boursières japonaises des revenus de Nissan entre 2010 et 2015",
+   "confidence": 1.0,
+   "date": "2018-12-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance aggravé",
+   "evidence": "une troisième enquête judiciaire est ouverte au Japon pour « abus de confiance aggravé »",
+   "confidence": 0.9,
+   "date": "2018-12-20",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est inculpé une seconde fois pour avoir dissimulé les revenus des années 2015 à 2018",
+   "confidence": 1.0,
+   "date": "2019-01-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance aggravé",
+   "evidence": "Carlos Ghosn est de nouveau arrêté au Japon et placé en détention pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": "2019-04-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "abus de confiance aggravé",
+   "evidence": "Carlos Ghosn est inculpé une quatrième fois pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": "2019-04-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn fuit le Japon pour Beyrouth, au Liban",
+   "confidence": 0.8,
+   "date": "2019-12-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Nissan",
+   "evidence": "dissimulé aux autorités boursières japonaises des revenus de Nissan entre 2010 et 2015",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "abus de confiance aggravé",
+   "evidence": "inculpé pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

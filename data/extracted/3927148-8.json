@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Une partie des commissions versées au réseau Takieddine est revenue en France",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "aurait financé la campagne d’Édouard Balladur pour l’élection présidentielle de 1995",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "aurait financé la campagne d’Édouard Balladur pour l’élection présidentielle de 1995",
+   "confidence": 0.8,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "aurait financé la campagne d’Édouard Balladur pour l’élection présidentielle de 1995 à hauteur de 10,25 millions de francs",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "le financement du Parti républicain est également évoqué",
+   "confidence": 0.7,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "le financement du Parti républicain est également évoqué",
+   "confidence": 0.7,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "certains protagonistes de l’affaire auraient pu s’enrichir personnellement",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "The Guardian",
+   "type": "Media"
+  },
+  {
+   "name": "Consortium international des journalistes d'investigation (ICIJ)",
+   "type": "Institution"
+  },
+  {
+   "name": "Mark MacGann",
+   "type": "Person"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "Les dossiers d'Uber sont transmis au journal The Guardian",
+   "confidence": 1.0,
+   "date": "2022-07-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber Files",
+   "type": "INVESTIGATED",
+   "target": "Consortium international des journalistes d'investigation (ICIJ)",
+   "evidence": "analysés et partagés par le Consortium international des journalistes d'investigation (ICIJ)",
+   "confidence": 1.0,
+   "date": "2022-07-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber Files",
+   "type": "INVESTIGATED",
+   "target": "The Guardian",
+   "evidence": "transmis au journal The Guardian, puis analysés",
+   "confidence": 1.0,
+   "date": "2022-07-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Mis en cause par Uber après les révélations",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Mis en cause par Uber après les révélations",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "à l'origine de la fuite de données",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

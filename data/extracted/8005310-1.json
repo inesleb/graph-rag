@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le procès pour « financement illégal de campagne électorale » se tient à partir du 20 mai 2021.",
+   "confidence": 0.9,
+   "date": "2021-05-20",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Le 30 septembre 2021, les 13 prévenus sont déclarés coupables. Nicolas Sarkozy est notamment condamné à un an de prison ferme.",
+   "confidence": 1.0,
+   "date": "2021-09-30",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Le 14 février 2024, la cour d'appel confirme la culpabilité de l'ensemble des prévenus et prononce notamment à l'égard de l'ancien président de la république une peine de douze mois d'emprisonnement.",
+   "confidence": 1.0,
+   "date": "2024-02-14",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Le 26 novembre 2025, la Cour de cassation confirme définitivement la décision de la Cour d'appel.",
+   "confidence": 1.0,
+   "date": "2025-11-26",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Le procès pour « financement illégal de campagne électorale » se tient à partir du 20 mai 2021.",
+   "confidence": 1.0,
+   "date": "2021-05-20",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

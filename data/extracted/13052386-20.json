@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Carole Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet de Tokyo",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Subornation",
+   "type": "Offense"
+  },
+  {
+   "name": "Faux-témoignage",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carole Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carole Ghosn est également suspecté de subornation et de faux-témoignage",
+   "confidence": 0.95,
+   "date": "2020-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Tokyo",
+   "type": "INDICTED_IN",
+   "target": "Carole Ghosn",
+   "evidence": "le parquet de Tokyo a émis un mandat d’arrêt à l’encontre de Carole Ghosn",
+   "confidence": 1.0,
+   "date": "2020-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carole Ghosn",
+   "type": "CONCERNS",
+   "target": "Subornation",
+   "evidence": "Carole Ghosn est également suspecté de subornation",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carole Ghosn",
+   "type": "CONCERNS",
+   "target": "Faux-témoignage",
+   "evidence": "Carole Ghosn est également suspecté de faux-témoignage",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

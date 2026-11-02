@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Debré",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Xavier Bertrand",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Debré",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"faut aller jusqu'au bout des révélations et au bout des enquêtes\"",
+   "confidence": 0.9,
+   "date": "2014-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Debré",
+   "type": "CONCERNS",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"s'il est vrai que Nicolas Sarkozy était au courant, il « ne peut pas se présenter aux primaires »\"",
+   "confidence": 0.9,
+   "date": "2014-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Xavier Bertrand",
+   "type": "CONCERNS",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"il « pense qu'il est nécessaire que l'ancien président s'exprime maintenant sur cette affaire »\"",
+   "confidence": 0.9,
+   "date": "2014-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Tous les protagonistes, à quelque niveau que ce soit, doivent répondre de ce qui s'est passé\"",
+   "confidence": 0.8,
+   "date": "2014-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "SMS de Jérôme Lavrilleux indiquant que Jean-François Copé et Nicolas Sarkozy auraient été informés des dépenses excessives",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"une procédure d'exclusion de l'UMP est enclenchée à l'encontre de Jérôme Lavrilleux à cause de son rôle dans l'affaire Bygmalion\"",
+   "confidence": 0.95,
+   "date": "2014-06-24",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "Jérôme Lavrilleux est suspendu de l'UMP",
+   "confidence": 1.0,
+   "date": "2014-06-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Figaro",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le Figaro reproduit un SMS de Jérôme Lavrilleux indiquant que Jean-François Copé et Nicolas Sarkozy auraient été informés des dépenses excessives",
+   "confidence": 0.95,
+   "date": "2014-06-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

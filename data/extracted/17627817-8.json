@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Benjamin Griveaux",
+   "type": "Person"
+  },
+  {
+   "name": "La République en marche",
+   "type": "Party"
+  },
+  {
+   "name": "France Info",
+   "type": "Media"
+  },
+  {
+   "name": "BFM TV",
+   "type": "Media"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Institution"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Benjamin Griveaux",
+   "type": "WORKED_FOR",
+   "target": "La République en marche",
+   "evidence": "Benjamin Griveaux, porte-parole de La République en marche",
+   "confidence": 1.0,
+   "date": "2017-05-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Benjamin Griveaux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Benjamin Griveaux affirme sur France Info qu'il n'y avait « pas (eu) d'argent public » dans cette opération immobilière",
+   "confidence": 0.9,
+   "date": "2017-05-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "BFM TV",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "BFM TV révèle que 55 000 € d'argent public a servi à installer les Mutuelles de Bretagne",
+   "confidence": 1.0,
+   "date": "2017-06-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Benjamin Griveaux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Benjamin Griveaux affirme que ces subventions ont servi à acheter de l'équipement",
+   "confidence": 0.8,
+   "date": "2017-06-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "les Mutuelles de Bretagne rappellent qu'elles sont « un organisme privé » et que « toutes les subventions accordées et leur utilisation sont parfaitement encadrées »",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "les Mutuelles de Bretagne ont été installées dans le bâtiment loué à la compagne de Richard Ferrand",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Marie-Pierre Oprandi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "prêt de main-d’œuvre illicite",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Marie-Pierre Oprandi [...] a été mise en examen au printemps 2021",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INDICTED_IN",
+   "target": "prêt de main-d’œuvre illicite",
+   "evidence": "mise en examen [...] pour des faits présumés de « prêt de main-d’œuvre illicite »",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INDICTED_IN",
+   "target": "usage de faux",
+   "evidence": "mise en examen [...] pour des faits présumés de [...] « usage de faux »",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "prêt de main-d’œuvre illicite",
+   "type": "CONCERNS",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "faits présumés de « prêt de main-d’œuvre illicite » dans le cadre de l’affaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "usage de faux",
+   "type": "CONCERNS",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "faits présumés de [...] « usage de faux » dans le cadre de l’affaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

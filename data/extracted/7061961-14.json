@@ -1,0 +1,162 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Chambre de l'instruction de la cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Juge d'instruction parisien",
+   "type": "Institution"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "Détournements de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Complicité",
+   "type": "Offense"
+  },
+  {
+   "name": "Recel",
+   "type": "Offense"
+  },
+  {
+   "name": "Le Parisien",
+   "type": "Media"
+  },
+  {
+   "name": "Matignon",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Serge Tournaire",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "obtient le droit d'enquêter sur la régularité de tous les marchés conclus entre l'Élysée et neuf instituts de sondage sous la présidence de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2012-12-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "REVEALED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "casse et annule l'arrêt par lequel la chambre de l'instruction de la cour d'appel de Paris s'était opposée à l'ouverture d'une enquête",
+   "confidence": 1.0,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "pour d'éventuels faits de favoritisme",
+   "confidence": 0.9,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Détournements de fonds publics",
+   "evidence": "pour d'éventuels faits de ... détournements de fonds publics",
+   "confidence": 0.9,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Complicité",
+   "evidence": "complicité et recel de ces délits",
+   "confidence": 0.9,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Recel",
+   "evidence": "complicité et recel de ces délits",
+   "confidence": 0.9,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "marchés conclus entre l'Élysée et neuf instituts de sondage sous la présidence de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2012-12-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "une enquête préliminaire a été ouverte par le parquet de Paris",
+   "confidence": 0.9,
+   "date": "2012-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Matignon",
+   "evidence": "quand François Fillon était Premier ministre",
+   "confidence": 1.0,
+   "date": "2012-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Parisien",
+   "type": "REVEALED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Le 14 avril 2013 Le Parisien révèle qu'en octobre 2012 une enquête préliminaire a été ouverte",
+   "confidence": 1.0,
+   "date": "2013-04-14",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "name": "Julien Martin",
+   "type": "Person"
+  },
+  {
+   "name": "Éditions du Moment",
+   "type": "Company"
+  },
+  {
+   "name": "Gérard Davet",
+   "type": "Person"
+  },
+  {
+   "name": "Fabrice Lhomme",
+   "type": "Person"
+  },
+  {
+   "name": "Didier Schuller",
+   "type": "Person"
+  },
+  {
+   "name": "French Corruption",
+   "type": "Media"
+  },
+  {
+   "name": "Stock",
+   "type": "Company"
+  },
+  {
+   "name": "Complément d'enquête",
+   "type": "Media"
+  },
+  {
+   "name": "France Télévisions",
+   "type": "Media"
+  },
+  {
+   "name": "Jean-Charles Deniau",
+   "type": "Person"
+  },
+  {
+   "name": "Nouveau Monde",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Julien Martin",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Les Balkany, de Julien Martin, Éditions du Moment, 2014.",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérard Davet",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Gérard Davet et Fabrice Lhomme, French Corruption, Stock, 2013 (témoignage de Didier Schuller)",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fabrice Lhomme",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Gérard Davet et Fabrice Lhomme, French Corruption, Stock, 2013 (témoignage de Didier Schuller)",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Didier Schuller",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Gérard Davet et Fabrice Lhomme, French Corruption, Stock, 2013 (témoignage de Didier Schuller)",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Complément d'enquête",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Complément d'enquête, « Affaire Balkany », Paris, France Télévisions, juin 2015",
+   "confidence": 1.0,
+   "date": "2015-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France Télévisions",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Complément d'enquête, « Affaire Balkany », Paris, France Télévisions, juin 2015",
+   "confidence": 1.0,
+   "date": "2015-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Charles Deniau",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Jean-Charles Deniau Balkany l'impuni, Nouveau Monde, 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nouveau Monde",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Jean-Charles Deniau Balkany l'impuni, Nouveau Monde, 2019",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

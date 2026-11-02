@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Louis Aliot",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bay",
+   "type": "Person"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "recel d'abus de confiance",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen refuse la restitution. Convoquée le 22 février 2017 pour être entendue...",
+   "confidence": 0.8,
+   "date": "2017-02-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Catherine Griset",
+   "type": "INDICTED_IN",
+   "target": "recel d'abus de confiance",
+   "evidence": "sa cheffe de cabinet, Catherine Griset, est mise en examen pour recel d'abus de confiance.",
+   "confidence": 1.0,
+   "date": "2017-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Catherine Griset",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "sa cheffe de cabinet, Catherine Griset, est mise en examen pour recel d'abus de confiance.",
+   "confidence": 0.9,
+   "date": "2017-02-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Sont également impliqués son compagnon, Louis Aliot, et Nicolas Bay.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Sont également impliqués son compagnon, Louis Aliot, et Nicolas Bay.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "recel d'abus de confiance",
+   "evidence": "sa cheffe de cabinet, Catherine Griset, est mise en examen pour recel d'abus de confiance.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "evidence": "Convoquée le 22 février 2017 pour être entendue par les services de l'Office central...",
+   "confidence": 1.0,
+   "date": "2017-02-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "evidence": "Convoquée le 10 mars 2017 en vue d'une mise en examen, Marine Le Pen refuse de s'y rendre...",
+   "confidence": 1.0,
+   "date": "2017-03-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

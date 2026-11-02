@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Mitsubishi Motors",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Mitsubishi Motors",
+   "evidence": "l'assemblée générale de Mitsubishi Motors vote pour acter la destitution de Carlos Ghosn du conseil d'administration",
+   "confidence": 1.0,
+   "date": "2019-06-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Mitsubishi Motors",
+   "evidence": "Carlos Ghosn n'a officiellement plus aucune fonction",
+   "confidence": 1.0,
+   "date": "2019-06-21",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

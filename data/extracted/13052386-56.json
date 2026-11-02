@@ -1,0 +1,140 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Suhail Bahwan",
+   "type": "Person"
+  },
+  {
+   "name": "Hind Bahwan",
+   "type": "Person"
+  },
+  {
+   "name": "Renault-Nissan-Mitsubishi",
+   "type": "Company"
+  },
+  {
+   "name": "Suhail Bahwan Automobiles (SBA)",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment",
+   "type": "Offense"
+  },
+  {
+   "name": "Parquet de Nanterre",
+   "type": "Institution"
+  },
+  {
+   "name": "Association d'amitié franco-omanaise",
+   "type": "Institution"
+  },
+  {
+   "name": "Légion d'honneur",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet de Nanterre",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "a émis le 22 avril 2022 un mandat d'arrêt international à l'encontre de Carlos Ghosn dans le cadre d'une enquête",
+   "confidence": 1.0,
+   "date": "2022-04-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "enquête pour abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2022-04-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "blanchiment",
+   "evidence": "enquête pour [...] blanchiment",
+   "confidence": 1.0,
+   "date": "2022-04-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "mandat d'arrêt international à l'encontre de Carlos Ghosn",
+   "confidence": 1.0,
+   "date": "2022-04-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Renault-Nissan-Mitsubishi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "un transfert d'argent de 15 millions d'euros entre l'alliance Renault-Nissan-Mitsubishi et un distributeur",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Suhail Bahwan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "4 autres mandats d'arrêt internationaux intéressent les propriétaires actuels ou d'ex-dirigeants de la société SBA. Ils concernent Suhail Bahwan",
+   "confidence": 0.9,
+   "date": "2022-04-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Suhail Bahwan Automobiles (SBA)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "un transfert d'argent [...] et un distributeur du constructeur automobile français à Oman 'Suhail Bahwan Automobiles' (ou SBA)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hind Bahwan",
+   "type": "MEMBER_OF",
+   "target": "Association d'amitié franco-omanaise",
+   "evidence": "Hind Bahwan est présidente de l'Association d'amitié franco-omanaise",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hind Bahwan",
+   "type": "WORKED_FOR",
+   "target": "Légion d'honneur",
+   "evidence": "Hind Bahwan [...] chevalier de la Légion d'honneur",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

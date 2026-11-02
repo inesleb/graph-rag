@@ -1,0 +1,92 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Charles Brisard",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Charles Brisard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Jean-Charles Brisard, qui confirme la présence de Brice Hortefeux dans le montage financier.",
+   "confidence": 0.9,
+   "date": "2012-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Charles Brisard",
+   "type": "REVEALED",
+   "target": "Brice Hortefeux",
+   "evidence": "Jean-Charles Brisard, qui confirme la présence de Brice Hortefeux dans le montage financier.",
+   "confidence": 0.9,
+   "date": "2012-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Charles Brisard",
+   "type": "WORKED_FOR",
+   "target": "Mediapart",
+   "evidence": "Jean-Charles Brisard déclare vouloir « s’écarter de la publication » qui désormais le « gênait ».",
+   "confidence": 0.8,
+   "date": "2012-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Charles Brisard",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "il considère l'affaire comme une « affabulation journalistique »",
+   "confidence": 0.7,
+   "date": "2012-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INVESTIGATED",
+   "target": "Jean-Charles Brisard",
+   "evidence": "Mediapart présente l'auteur de la note, Jean-Charles Brisard",
+   "confidence": 0.9,
+   "date": "2012-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INVESTIGATED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Mediapart présente l'auteur de la note, Jean-Charles Brisard, qui confirme la présence de Brice Hortefeux dans le montage financier.",
+   "confidence": 0.9,
+   "date": "2012-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Charles Brisard",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "il transmet [...] un démenti [...] que le média en ligne transcrit dans son intégralité",
+   "confidence": 0.95,
+   "date": "2012-03-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

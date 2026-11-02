@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Prince Sultan",
+   "type": "Person"
+  },
+  {
+   "name": "Prince Fahd",
+   "type": "Person"
+  },
+  {
+   "name": "Réseau K",
+   "type": "Institution"
+  },
+  {
+   "name": "Sociétés Pilny et Chesterfield",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Réseau K",
+   "evidence": "un réseau « K » comme pour Kingdom est apparu, animé également par Ziad Takieddine.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Réseau K",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "un réseau « K » comme pour Kingdom est apparu, animé également par Ziad Takieddine.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Prince Sultan",
+   "type": "INVOLVED_IN",
+   "target": "Réseau K",
+   "evidence": "Il est prévu une commission de 8 % pour le prince Sultan",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Prince Fahd",
+   "type": "INVOLVED_IN",
+   "target": "Réseau K",
+   "evidence": "une autre de 5 % pour le prince Fahd",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Réseau K",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les flux financiers transitent par des sociétés (Pilny et Chesterfield) immatriculées au Panama.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sociétés Pilny et Chesterfield",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les flux financiers transitent par des sociétés (Pilny et Chesterfield) immatriculées au Panama.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

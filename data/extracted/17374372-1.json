@@ -1,0 +1,17 @@
+{
+ "entities": [
+  {
+   "name": "Électricité de France (EDF)",
+   "type": "Company"
+  },
+  {
+   "name": "General Electric (GE)",
+   "type": "Company"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  }
+ ],
+ "relations": []
+}

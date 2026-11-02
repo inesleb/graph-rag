@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Le Point",
+   "type": "Media"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Fausses factures",
+   "type": "Offense"
+  },
+  {
+   "name": "Dépassements de frais de campagne",
+   "type": "Offense"
+  },
+  {
+   "name": "Favoritisme dans des marchés publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Fausses factures",
+   "evidence": "via un système de fausses factures avec l'agence Bygmalion",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Dépassements de frais de campagne",
+   "evidence": "masquer les dépassements de frais de sa campagne à l'élection présidentielle française de 2012",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Nicolas Sarkozy a tenté, via un système de fausses factures avec l'agence Bygmalion",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "Jean-François Copé, alors président de l'UMP",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Point",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "L'affaire Bygmalion débute le 27 février 2014, lorsque l'hebdomadaire Le Point accuse Jean-François Copé",
+   "confidence": 1.0,
+   "date": "2014-02-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le 14 mai, le quotidien Libération révèle que certaines des prestations facturées 18 millions d'euros à l'UMP n'auraient jamais eu lieu",
+   "confidence": 1.0,
+   "date": "2014-05-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Il bénéficie d'un non-lieu par la suite",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Proches de Jean-François Copé",
+   "type": "CONVICTED_IN",
+   "target": "Favoritisme dans des marchés publics",
+   "evidence": "Des proches de Jean-François Copé sont condamnés par la justice dans une autre affaire liée à Bygmalion",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

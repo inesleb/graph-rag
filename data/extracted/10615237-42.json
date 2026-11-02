@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "2F Conseil",
+   "type": "Company"
+  },
+  {
+   "name": "Bruno Retailleau",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "2F Conseil",
+   "evidence": "Son unique actionnaire, employé et gérant est François Fillon.",
+   "confidence": 1.0,
+   "date": "2012-06-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "onze jours avant son élection en tant que député de Paris",
+   "confidence": 0.9,
+   "date": "2012-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Retailleau",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "Bruno Retailleau, fidèle collaborateur de Fillon",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Retailleau",
+   "type": "REVEALED",
+   "target": "2F Conseil",
+   "evidence": "Bruno Retailleau [...] avait déclaré [...] que la société 2F n’avait « aucun client russe »",
+   "confidence": 1.0,
+   "date": "2017-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

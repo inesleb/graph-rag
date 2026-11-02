@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Carlos Abou-Jaoude",
+   "type": "Person"
+  },
+  {
+   "name": "RNBV",
+   "type": "Company"
+  },
+  {
+   "name": "Cabinet Mazars",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Abou-Jaoude",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "L’avocat libanais Carlos Abou-Jaoude assure la défense de Carlos Ghosn en 2020.",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Abou-Jaoude",
+   "type": "WORKED_FOR",
+   "target": "RNBV",
+   "evidence": "De 2013 et 2017, le cabinet de Carlos Abou-Jaoude est payé 900 100 euros par RNBV",
+   "confidence": 0.9,
+   "date": "2013-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet Mazars",
+   "type": "INVESTIGATED",
+   "target": "Carlos Abou-Jaoude",
+   "evidence": "les auditeurs du cabinet Mazars ne trouvent trace de son travail pour RNBV",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

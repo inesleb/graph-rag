@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "François Molins",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Lagauche",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour européenne des droits de l'homme",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "complicité d'abus de biens sociaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Molins",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "procureur général près la Cour de cassation et Philippe Lagauche requièrent",
+   "confidence": 0.9,
+   "date": "2021-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Lagauche",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "procureur général près la Cour de cassation et Philippe Lagauche requièrent",
+   "confidence": 0.9,
+   "date": "2021-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la Cour de justice de la République relaxe Édouard Balladur",
+   "confidence": 1.0,
+   "date": "2021-03-04",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet général près la Cour de cassation annonce qu’il ne formera pas de pourvoi contre la relaxe",
+   "confidence": 1.0,
+   "date": "2021-02-09",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "François Léotard",
+   "type": "CONVICTED_IN",
+   "target": "complicité d'abus de biens sociaux",
+   "evidence": "la Cour de justice de la République condamne François Léotard à 2 ans de prison avec sursis et 100 000 € d'amende pour « complicité d'abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": "2021-03-04",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "François Léotard",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Son recours devant la Cour européenne des droits de l'homme est également rejeté",
+   "confidence": 0.8,
+   "date": "2023-12-14",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "François Léotard",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "rejeté le 4 juin 2021",
+   "confidence": 1.0,
+   "date": "2021-06-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "complicité d'abus de biens sociaux",
+   "evidence": "condamne François Léotard à 2 ans de prison avec sursis et 100 000 € d'amende pour « complicité d'abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": "2021-03-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "entities": [
+  {
+   "name": "Aymeri de Montesquiou",
+   "type": "Person"
+  },
+  {
+   "name": "Patokh Chodiev",
+   "type": "Person"
+  },
+  {
+   "name": "Noursoultan Nazarbaïev",
+   "type": "Person"
+  },
+  {
+   "name": "Roger Le Loire",
+   "type": "Person"
+  },
+  {
+   "name": "René Grouman",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire HSBC Suisse (SwissLeaks)",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption d’agents publics étrangers",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment en bande organisée",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "château de Marsan [...] perquisitionnés, dans le cadre de l’information judiciaire pour « corruption d’agents publics étrangers » et « blanchiment en bande organisée »",
+   "confidence": 0.9,
+   "date": "2014-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INVOLVED_IN",
+   "target": "blanchiment en bande organisée",
+   "evidence": "Son immunité parlementaire [...] levée [...] pour des faits présumés de blanchiment en bande organisée",
+   "confidence": 0.85,
+   "date": "2015-03-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INVOLVED_IN",
+   "target": "corruption active d'agents publics étrangers",
+   "evidence": "Son immunité parlementaire [...] levée [...] pour des faits présumés de blanchiment en bande organisée et corruption active d'agents publics étrangers",
+   "confidence": 0.85,
+   "date": "2015-03-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INDICTED_IN",
+   "target": "corruption passive",
+   "evidence": "Le 9 juillet 2015, Aymeri de Montesquiou est mis en examen pour corruption passive et blanchiment en bande organisée",
+   "confidence": 1.0,
+   "date": "2015-07-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INDICTED_IN",
+   "target": "blanchiment en bande organisée",
+   "evidence": "Le 9 juillet 2015, Aymeri de Montesquiou est mis en examen pour corruption passive et blanchiment en bande organisée",
+   "confidence": 1.0,
+   "date": "2015-07-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Aymeri de Montesquiou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire HSBC Suisse (SwissLeaks)",
+   "evidence": "Le 9 février 2015, Le Point révèle que le nom d'Aymeri de Montesquiou apparaît sur une liste de personnalités françaises impliquées dans l'affaire HSBC Suisse",
+   "confidence": 0.9,
+   "date": "2015-02-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patokh Chodiev",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "pots-de-vin présumés versés par un oligarque belgo-kazakh, Patokh Chodiev",
+   "confidence": 0.9,
+   "date": "2014-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Roger Le Loire",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "menée par les juges d’instruction Roger Le Loire et René Grouman",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "René Grouman",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "menée par les juges d’instruction Roger Le Loire et René Grouman",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patokh Chodiev",
+   "type": "INVOLVED_IN",
+   "target": "corruption d’agents publics étrangers",
+   "evidence": "pots-de-vin présumés versés par un oligarque belgo-kazakh, Patokh Chodiev",
+   "confidence": 0.9,
+   "date": "2014-10-15",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Noursoultan Nazarbaïev",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "proche du président Noursoultan Nazarbaïev",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Guillaume Lambert",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Briand",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Blanchetier",
+   "type": "Person"
+  },
+  {
+   "name": "Eric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "Fabienne Liadzé",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Chassat",
+   "type": "Person"
+  },
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alvès",
+   "type": "Person"
+  },
+  {
+   "name": "Sébastien Borivent",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Godet",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Le parquet requiert une peine d’un an de prison dont six mois avec sursis et 3 750 euros d’amende à l’encontre de Nicolas Sarkozy.",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Guillaume Lambert",
+   "evidence": "Les autres peines requises sont : Guillaume Lambert : 4 ans avec sursis, 50 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Philippe Briand",
+   "evidence": "Philippe Briand : 3 ans avec sursis, 80 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Philippe Blanchetier",
+   "evidence": "Philippe Blanchetier : 3 ans avec sursis, 40 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Jérôme Lavrilleux",
+   "evidence": "Jérôme Lavrilleux : 3 ans avec sursis, 50 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Eric Cesari",
+   "evidence": "Eric Cesari : 4 ans avec sursis, 60 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Fabienne Liadzé",
+   "evidence": "Fabienne Liadzé : 3 ans avec sursis, 40 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Pierre Chassat",
+   "evidence": "Pierre Chassat : 2 ans avec sursis, 25 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Bastien Millot",
+   "evidence": "Bastien Millot : 2 ans dont un avec sursis probatoire, 150 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Guy Alvès",
+   "evidence": "Guy Alvès, Sébastien Borivent et Franck Attal : 18 mois avec sursis, 100 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Sébastien Borivent",
+   "evidence": "Guy Alvès, Sébastien Borivent et Franck Attal : 18 mois avec sursis, 100 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Franck Attal",
+   "evidence": "Guy Alvès, Sébastien Borivent et Franck Attal : 18 mois avec sursis, 100 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Pierre Godet",
+   "evidence": "Pierre Godet : 3 ans avec sursis, 60 000 euros d'amende ;",
+   "confidence": 0.9,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Tribunal judiciaire de Paris",
+   "evidence": "Le procès, qui devait avoir lieu initialement du 17 mars au 15 avril 2021 devant la 11e chambre du tribunal judiciaire de Paris",
+   "confidence": 0.95,
+   "date": "2021-05-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le 17 juin 2021, le parquet requiert une peine d’un an de prison dont six mois avec sursis et 3 750 euros d’amende à l’encontre de Nicolas Sarkozy.",
+   "confidence": 0.95,
+   "date": "2021-06-17",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

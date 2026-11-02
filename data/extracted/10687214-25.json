@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Guillaume Lhuillier",
+   "type": "Person"
+  },
+  {
+   "name": "Micheline Bruna",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Yann Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bruno Gollnisch",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"mis en examen le 6 juillet 2018 pour « abus de confiance »\"",
+   "confidence": 1.0,
+   "date": "2018-07-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "\"emploi présumé fictif de deux assistants parlementaires [...] Micheline Bruna [...] secrétaire particulière de Jean-Marie Le Pen\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guillaume Lhuillier",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "\"ancien directeur de cabinet de Jean-Marie Le Pen\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Micheline Bruna",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "\"ancienne conseillère d'Île-de-France [...] et secrétaire particulière de Jean-Marie Le Pen\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Yann Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"mise en examen le 5 février 2019 pour « recel de détournements de fonds publics »\"",
+   "confidence": 1.0,
+   "date": "2019-02-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Yann Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Bruno Gollnisch",
+   "evidence": "\"assistante parlementaire de Bruno Gollnisch\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "\"mis en examen [...] pour « abus de confiance »\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel de détournements de fonds publics",
+   "evidence": "\"mise en examen [...] pour « recel de détournements de fonds publics »\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Didier Schuller",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République (RPR)",
+   "type": "Party"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de capitaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La justice française s'intéresse à leur acquisition de plusieurs propriétés à Saint-Martin, à Marrakech et à Giverny ainsi qu'à un compte ouvert auprès de la filiale suisse de la banque néerlandaise ABN AMRO en juillet 1994.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Blanchiment de capitaux",
+   "evidence": "Didier Schuller [...] estime les sommes blanchies par Patrick Balkany en Suisse, au Liechtenstein et à Saint-Martin, à 33 millions de francs (6,47 millions d'euros).",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Didier Schuller",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement pour la République (RPR)",
+   "evidence": "Didier Schuller, ancien conseiller général RPR des Hauts-de-Seine",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "selon des documents publiés par Mediapart le 25 octobre 2013.",
+   "confidence": 1.0,
+   "date": "2013-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

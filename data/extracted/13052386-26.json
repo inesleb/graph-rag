@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Agence des services financiers (FSA) japonaise",
+   "type": "Institution"
+  },
+  {
+   "name": "SEC américaine",
+   "type": "Institution"
+  },
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "La société Nissan est également mise en examen",
+   "confidence": 1.0,
+   "date": "2018",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "La société Nissan est également mise en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "REVEALED",
+   "target": "Parquet national financier",
+   "evidence": "c'est elle qui a alerté le parquet",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan a porté plainte devant le tribunal civil de Yokohama pour réclamer [...] à Carlos Ghosn",
+   "confidence": 1.0,
+   "date": "2020-02-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan a accepté de payer une amende [...] pour la non-déclaration des paiements différés de Carlos Ghosn",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "WORKED_FOR",
+   "target": "SEC américaine",
+   "evidence": "Dans un accord avec la SEC américaine sur le même dossier",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan a évalué cette réclamation en ajoutant des « paiements frauduleux »",
+   "confidence": 1.0,
+   "date": "2020-02-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan a payé [...] Carlos Ghosn un million de dollars",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn [...] et Greg Kelly 100 000 dollars",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

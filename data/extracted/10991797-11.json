@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Renaud Van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Business France",
+   "evidence": "Le parquet de Paris a ouvert en juillet 2017 une information judiciaire pour favoritisme et recel de favoritisme.",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "favoritisme",
+   "evidence": "Le parquet de Paris a ouvert en juillet 2017 une information judiciaire pour favoritisme et recel de favoritisme.",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "recel de favoritisme",
+   "evidence": "Le parquet de Paris a ouvert en juillet 2017 une information judiciaire pour favoritisme et recel de favoritisme.",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "Le parquet de Paris a ouvert en juillet 2017 une information judiciaire pour favoritisme et recel de favoritisme.",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "Le parquet de Paris a ouvert en juillet 2017 une information judiciaire pour favoritisme et recel de favoritisme.",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Van Ruymbeke",
+   "type": "WORKED_FOR",
+   "target": "Affaire Business France",
+   "evidence": "Elle a été confiée au juge Renaud Van Ruymbeke.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Muriel Pénicaud est convoquée le 22 mai 2018 par un juge d’instruction chargé de l'affaire en vue d’une audition sous le statut de témoin assisté.",
+   "confidence": 0.9,
+   "date": "2018-05-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Elle est mise en examen en octobre 2023.",
+   "confidence": 1.0,
+   "date": "2023-10",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

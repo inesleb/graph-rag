@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Nouveau Front populaire",
+   "type": "Party"
+  },
+  {
+   "name": "NUPES",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste",
+   "type": "Party"
+  },
+  {
+   "name": "Les Écologistes",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "La France insoumise",
+   "type": "MEMBER_OF",
+   "target": "Nouveau Front populaire",
+   "evidence": "La France insoumise participe au Nouveau Front populaire",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nouveau Front populaire",
+   "type": "CONCERNS",
+   "target": "NUPES",
+   "evidence": "un rapport de force moins favorable que lors de la NUPES",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

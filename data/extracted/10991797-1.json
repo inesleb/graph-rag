@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Julie Cannesan",
+   "type": "Person"
+  },
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Mouvement des entreprises de France (Medef)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "Henri De Joux",
+   "type": "Person"
+  },
+  {
+   "name": "The Linq",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Julie Cannesan",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "la directrice de la communication de Business France",
+   "confidence": 1.0,
+   "date": "2015-11-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "la directrice de la communication de Business France, Julie Cannesan, envoie un courriel à Muriel Pénicaud",
+   "confidence": 1.0,
+   "date": "2015-11-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "« le cab Macron en ligne »",
+   "confidence": 0.9,
+   "date": "2015-11-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "la réservation de l'hôtel The Linq pour la délégation du cabinet d'Emmanuel Macron",
+   "confidence": 1.0,
+   "date": "2015-12-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Henri De Joux",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "Henri De Joux, le directeur exécutif finance et gestion de Business France",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Cela a donné lieu à deux notes de frais validées par Muriel Pénicaud",
+   "confidence": 0.9,
+   "date": "2015-12-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Cela a donné lieu à deux notes de frais validées par Muriel Pénicaud",
+   "confidence": 0.9,
+   "date": "2016-01-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouvement des entreprises de France (Medef)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Budget : 300 K€, le Medef se propose de rechercher des sponsoring",
+   "confidence": 0.8,
+   "date": "2015-11-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "versements avec sa carte personnelle pour régler l'acompte à l'hôtel The Linq",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

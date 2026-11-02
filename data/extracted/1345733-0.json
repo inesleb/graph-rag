@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Georges Pompidou",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Mai 68",
+   "type": "Affair"
+  },
+  {
+   "name": "Accords de Grenelle",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Conseiller d'État",
+   "evidence": "Conseiller d'État, il intègre en 1964 le cabinet de Georges Pompidou",
+   "confidence": 1.0,
+   "date": "1964",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Cabinet de Georges Pompidou",
+   "evidence": "Conseiller d'État, il intègre en 1964 le cabinet de Georges Pompidou",
+   "confidence": 1.0,
+   "date": "1964",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Accords de Grenelle",
+   "evidence": "il participe aux accords de Grenelle dans le cadre de Mai 68",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Mai 68",
+   "evidence": "il participe aux accords de Grenelle dans le cadre de Mai 68",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Secrétaire général de la présidence de la République",
+   "evidence": "Devenu secrétaire général de la présidence de la République en 1973",
+   "confidence": 1.0,
+   "date": "1973",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Premier ministre",
+   "evidence": "Premier ministre du 29 mars 1993 au 17 mai 1995",
+   "confidence": 1.0,
+   "date": "1993-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Ministre d'État, ministre de l'Économie, des Finances et de la Privatisation",
+   "evidence": "il est élu député de Paris et nommé dans la foulée ministre d'État, ministre de l'Économie, des Finances et de la Privatisation dans le gouvernement de cohabitation dirigé par Jacques Chirac",
+   "confidence": 1.0,
+   "date": "1986-1988",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "MEMBER_OF",
+   "target": "Principaux partis gaullistes successifs",
+   "evidence": "Membre des principaux partis gaullistes successifs",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

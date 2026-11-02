@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Thierry Cornillet",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Stéphane Thérou",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Emmanuel Portheret",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "détournement de fonds européens",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Cornillet",
+   "type": "WORKED_FOR",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Thierry Cornillet, annonce qu'il interjettera appel, considérant que l'assistante parlementaire qu'il avait embauchée",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Cornillet",
+   "type": "WORKED_FOR",
+   "target": "Assistante parlementaire (non nommée)",
+   "evidence": "Thierry Cornillet, annonce qu'il interjettera appel, considérant que l'assistante parlementaire qu'il avait embauchée",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INDICTED_IN",
+   "target": "François Bayrou",
+   "evidence": "Le parquet de Paris annonce interjeter appel des relaxes de François Bayrou",
+   "confidence": 1.0,
+   "date": "2023-02-08",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INDICTED_IN",
+   "target": "Stéphane Thérou",
+   "evidence": "Le parquet de Paris annonce interjeter appel des relaxes de ... Stéphane Thérou",
+   "confidence": 1.0,
+   "date": "2023-02-08",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INDICTED_IN",
+   "target": "Pierre-Emmanuel Portheret",
+   "evidence": "Le parquet de Paris annonce interjeter appel des relaxes de ... Pierre-Emmanuel Portheret",
+   "confidence": 1.0,
+   "date": "2023-02-08",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds européens",
+   "evidence": "soulignant les « pratiques systémiques » de détournements de fonds européens du parti",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "INVESTIGATED",
+   "target": "Cour d'appel de Paris",
+   "evidence": "Le procès à la cour d'appel de Paris se déroule du 9 septembre au 5 octobre 2026",
+   "confidence": 1.0,
+   "date": "2026-09-09",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Parquet général",
+   "type": "INDICTED_IN",
+   "target": "François Bayrou",
+   "evidence": "le parquet général réclame contre François Bayrou une peine de deux ans d'emprisonnement",
+   "confidence": 0.9,
+   "date": "2026-09-28",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

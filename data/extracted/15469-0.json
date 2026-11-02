@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Jeanne Maréchal",
+   "type": "Person"
+  },
+  {
+   "name": "Maurice Maréchal",
+   "type": "Person"
+  },
+  {
+   "name": "Henri-Paul Deyvaux-Gassier",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire des micros à la rédaction du Canard enchaîné",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire des diamants de Bokassa",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Papon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "révèle nombre d'affaires scandaleuses, comme l'affaire Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des micros à la rédaction du Canard enchaîné",
+   "evidence": "révèle nombre d'affaires scandaleuses, comme l'affaire des micros à la rédaction du Canard appelée par dérision l'affaire des plombiers",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des diamants de Bokassa",
+   "evidence": "révèle nombre d'affaires scandaleuses, comme l'affaire des diamants de Bokassa",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Papon",
+   "evidence": "révèle nombre d'affaires scandaleuses, comme l'affaire Papon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jeanne Maréchal",
+   "type": "WORKED_FOR",
+   "target": "Le Canard enchaîné",
+   "evidence": "Fondé le 10 septembre 1915 par Jeanne et Maurice Maréchal",
+   "confidence": 1.0,
+   "date": "1915",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maurice Maréchal",
+   "type": "WORKED_FOR",
+   "target": "Le Canard enchaîné",
+   "evidence": "Fondé le 10 septembre 1915 par Jeanne et Maurice Maréchal",
+   "confidence": 1.0,
+   "date": "1915",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Henri-Paul Deyvaux-Gassier",
+   "type": "WORKED_FOR",
+   "target": "Le Canard enchaîné",
+   "evidence": "Fondé le 10 septembre 1915 par Jeanne et Maurice Maréchal, aidés par Henri-Paul Deyvaux-Gassier",
+   "confidence": 1.0,
+   "date": "1915",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

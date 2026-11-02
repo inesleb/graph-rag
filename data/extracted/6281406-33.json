@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil de sécurité de l’ONU",
+   "type": "Institution"
+  },
+  {
+   "name": "Libye",
+   "type": "Institution"
+  },
+  {
+   "name": "blanchiment",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "guerre civile libyenne de 2011",
+   "type": "Affair"
+  },
+  {
+   "name": "intervention militaire de 2011 en Libye",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "guerre civile libyenne de 2011",
+   "evidence": "Sa proximité avec le régime libyen lui permet de négocier avec le journaliste du Journal du dimanche Laurent Valdiguié un entretien exclusif avec Mouammar Kadhafi, alors que la Libye est touchée par la guerre civile libyenne de 2011.",
+   "confidence": 0.8,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "intervention militaire de 2011 en Libye",
+   "evidence": "Le 5 mars 2011, l'intermédiaire Ziad Takieddine est interpellé par les douanes à l'aéroport du Bourget (Seine-Saint-Denis).",
+   "confidence": 0.7,
+   "date": "2011-03-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "blanchiment",
+   "evidence": "Une information judiciaire pour blanchiment et corruption le visant est ouverte.",
+   "confidence": 0.95,
+   "date": "2011-03-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "corruption",
+   "evidence": "Une information judiciaire pour blanchiment et corruption le visant est ouverte.",
+   "confidence": 0.95,
+   "date": "2011-03-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment",
+   "evidence": "Il est condamné à 375 000 € d'amende en 2016.",
+   "confidence": 0.95,
+   "date": "2016",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "« La France a de grands intérêts en Libye. Nous avons beaucoup travaillé avec M. Sarkozy »",
+   "confidence": 0.85,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil de sécurité de l’ONU",
+   "type": "CONCERNS",
+   "target": "Libye",
+   "evidence": "« Le Conseil de sécurité de l’ONU [qui] a pris une résolution contre la Libye… […] n’est pas compétent pour les affaires internes d’un pays »",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

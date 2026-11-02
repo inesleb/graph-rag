@@ -1,0 +1,88 @@
+{
+ "entities": [
+  {
+   "name": "François Mitterrand",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour la démocratie française (UDF)",
+   "type": "Party"
+  },
+  {
+   "name": "Rassemblement pour la République (RPR)",
+   "type": "Party"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Mitterrand",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "François Mitterrand le nomme Premier ministre",
+   "confidence": 1.0,
+   "date": "1993",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Mis en cause pour des soupçons de financement occulte de sa campagne",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de justice de la République",
+   "type": "ACQUITTED_IN",
+   "target": "Édouard Balladur",
+   "evidence": "il est relaxé par la Cour de justice de la République",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "il retrouve son siège de député en 1995, préside la commission des Affaires étrangères de l’Assemblée nationale de 2002 à 2007",
+   "confidence": 1.0,
+   "date": "1995-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Proche de Nicolas Sarkozy, il dirige les travaux de deux comités consultatifs sous la présidence de celui-ci",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

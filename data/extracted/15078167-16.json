@@ -1,0 +1,140 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Aurélien Taché",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Alexis Corbière",
+   "type": "Person"
+  },
+  {
+   "name": "Aurore Bergé",
+   "type": "Person"
+  },
+  {
+   "name": "Renaissance",
+   "type": "Party"
+  },
+  {
+   "name": "Cédric O",
+   "type": "Person"
+  },
+  {
+   "name": "Olivier Tesquet",
+   "type": "Person"
+  },
+  {
+   "name": "Télérama",
+   "type": "Media"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Aurélien Taché",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "\"scandale d’État\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexis Corbière",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "souhaite l’ouverture d’une commission d’enquête parlementaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Aurore Bergé",
+   "type": "MEMBER_OF",
+   "target": "Renaissance",
+   "evidence": "présidente du groupe parlementaire des députés Renaissance",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Aurore Bergé",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "Emmanuel Macron « faisait son travail »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cédric O",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "ex-secrétaire d'État au numérique",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cédric O",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "\"on peine à voir ce qui est répréhensible\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Tesquet",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "la non-inscription des rencontres entre Uber et Emmanuel Macron a « entravé de fait la transparence de l’action publique »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "s'est déclaré fier d'avoir soutenu Uber",
+   "confidence": 0.9,
+   "date": "2022-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "a permis la création de beaucoup d'emplois en particulier pour des personnes peu qualifiées en « dénouant certains verrous administratifs ou réglementaires »",
+   "confidence": 0.8,
+   "date": "2022-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

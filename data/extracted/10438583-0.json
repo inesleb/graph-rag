@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Manuel Bompard",
+   "type": "Person"
+  },
+  {
+   "name": "Adrien Quatennens",
+   "type": "Person"
+  },
+  {
+   "name": "Mathilde Panot",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "La France insoumise",
+   "type": "MEMBER_OF",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "fondé par Jean-Luc Mélenchon le 10 février 2016",
+   "confidence": 1.0,
+   "date": "2016-02-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Manuel Bompard",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "Manuel Bompard est son coordinateur de 2017 à 2019, puis à nouveau à partir de 2022",
+   "confidence": 1.0,
+   "date": "2017-01-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Adrien Quatennens",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "Adrien Quatennens ayant occupé cette place entre 2019 et 2022",
+   "confidence": 1.0,
+   "date": "2019-01-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "La France insoumise présente à l'élection présidentielle de 2017 la candidature de son fondateur Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": "2017-01-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "À l'issue du second tour des élections législatives de 2017, LFI forme un groupe de dix-sept députés à l'Assemblée nationale, qui élit à sa tête Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": "2017-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mathilde Panot",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "qui élit à sa tête Jean-Luc Mélenchon, puis Mathilde Panot",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

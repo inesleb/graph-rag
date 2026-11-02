@@ -1,0 +1,60 @@
+{
+ "entities": [
+  {
+   "name": "Patokh Chodiev",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Degoul",
+   "type": "Person"
+  },
+  {
+   "name": "Princesse Léa",
+   "type": "Person"
+  },
+  {
+   "name": "Albert II",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds d’Entraide Prince et Princesse Alexandre de Belgique",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Soir",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Soir",
+   "type": "REVEALED",
+   "target": "Fonds d’Entraide Prince et Princesse Alexandre de Belgique",
+   "evidence": "Début novembre 2016, le quotidien Le Soir évoque une transaction entre l’avocate de Patokh Chodiev, Catherine Degoul, vers le \"Fonds d’Entraide Prince et Princesse Alexandre de Belgique\"",
+   "confidence": 0.9,
+   "date": "2016-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Princesse Léa",
+   "type": "INVOLVED_IN",
+   "target": "Fonds d’Entraide Prince et Princesse Alexandre de Belgique",
+   "evidence": "La princesse Léa sera entendue par la justice belge en 2017. Elle a confirmé le versement de janvier 2012",
+   "confidence": 0.85,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Princesse Léa",
+   "type": "MEMBER_OF",
+   "target": "Famille royale",
+   "evidence": "La princesse Léa, belle-sœur d’Albert II",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

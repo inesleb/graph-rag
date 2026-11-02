@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Mediascop",
+   "type": "Company"
+  },
+  {
+   "name": "L’Internationale",
+   "type": "Company"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "Institution"
+  },
+  {
+   "name": "escroquerie aggravée",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophia Chikirou",
+   "type": "WORKED_FOR",
+   "target": "Mediascop",
+   "evidence": "La société Mediascop (rebaptisée L’Internationale en 2019), dirigée par Sophia Chikirou",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediascop",
+   "type": "WORKED_FOR",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "prestataire de services pour la communication de l'équipe de campagne",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Au terme de la campagne, Mediascop reçoit une rémunération de 1 161 768 euros",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "INVESTIGATED",
+   "target": "Sophia Chikirou",
+   "evidence": "une perquisition est menée [...] au domicile de Sophia Chikirou",
+   "confidence": 1.0,
+   "date": "2018-10-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INDICTED_IN",
+   "target": "escroquerie aggravée",
+   "evidence": "Sophia Chikirou est mise en examen pour « escroquerie aggravée »",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INDICTED_IN",
+   "target": "abus de biens sociaux",
+   "evidence": "Sophia Chikirou est mise en examen pour « abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "CONCERNS",
+   "target": "escroquerie aggravée",
+   "evidence": "dans le cadre de l'enquête préliminaire sur les comptes de campagne de 2017",
+   "confidence": 0.8,
+   "date": "2018-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "dans le cadre de l'enquête préliminaire sur les comptes de campagne de 2017",
+   "confidence": 0.8,
+   "date": "2018-10-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

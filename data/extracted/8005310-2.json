@@ -1,0 +1,29 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Élection présidentielle française de 2012",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission nationale des comptes de campagne et des financements politiques (CNCCFP)",
+   "type": "Institution"
+  },
+  {
+   "name": "Journal officiel",
+   "type": "Media"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": []
+}

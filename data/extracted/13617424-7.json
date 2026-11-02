@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption active",
+   "type": "Offense"
+  },
+  {
+   "name": "trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de violation du secret professionnel",
+   "type": "Offense"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "\"Nicolas Sarkozy est mis en examen pour « corruption active », « trafic d'influence » et « recel de violation du secret professionnel »\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "\"Thierry Herzog [...] est mis en examen pour « corruption active », « trafic d'influence » et « recel de violation du secret professionnel »\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INDICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "\"Gilbert Azibert est sollicité pour obtenir des informations et démarcher des conseillers à la Cour de cassation. En contrepartie, Nicolas Sarkozy accepte de l’aider à obtenir un poste à Monaco. Ces faits sont constitutifs du trafic d'influence\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour de cassation",
+   "evidence": "\"Gilbert Azibert est sollicité [...] pour démarcher des conseillers à la Cour de cassation\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "trafic d'influence",
+   "evidence": "\"Nicolas Sarkozy accepte de l’aider à obtenir un poste à Monaco. Ces faits sont constitutifs du trafic d'influence\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "corruption active",
+   "evidence": "\"mis en examen pour « corruption active »\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "\"Ces faits sont constitutifs du trafic d'influence\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "recel de violation du secret professionnel",
+   "evidence": "\"mis en examen pour [...] « recel de violation du secret professionnel »\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "INVESTIGATED",
+   "target": "Affaire des écoutes",
+   "evidence": "\"Le rapport de synthèse des enquêteurs, signé par la chef de l’Office central de lutte contre la corruption et les infractions financières et fiscales\"",
+   "confidence": 1.0,
+   "date": "2014-07-02",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

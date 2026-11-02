@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour un mouvement populaire (UMP)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Point",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "une enquête du magazine Le Point, accusant la société Bygmalion d'avoir surfacturé des prestations",
+   "confidence": 0.9,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "campagne présidentielle de Nicolas Sarkozy en 2012",
+   "evidence": "d'avoir surfacturé des prestations de la campagne présidentielle de Nicolas Sarkozy en 2012",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "prestations de la campagne présidentielle de Nicolas Sarkozy en 2012",
+   "confidence": 0.8,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "secrétaire général puis président de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "les liens d'amitié entre les deux dirigeants de l'entreprise et Jean-François Copé",
+   "confidence": 0.8,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahman el-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Castellan",
+   "type": "Person"
+  },
+  {
+   "name": "DCNI (aujourd’hui Naval Group)",
+   "type": "Company"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Financements libyens",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Financements libyens",
+   "evidence": "procès des financements libyens",
+   "confidence": 0.9,
+   "date": "2024-06-03",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la cour d'appel condamne Ziad Takieddine à cinq ans d’emprisonnement",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Abdul Rahman el-Assir",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la cour d'appel condamne Abdul Rahman el-Assir à quatre ans d’emprisonnement",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la cour d'appel condamne Renaud Donnedieu de Vabres à quatre ans de prison",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "WORKED_FOR",
+   "target": "François Léotard",
+   "evidence": "ex-collaborateur de François Léotard",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la cour d'appel condamne Dominique Castellan à deux ans de prison",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "WORKED_FOR",
+   "target": "DCNI (aujourd’hui Naval Group)",
+   "evidence": "ancien patron de DCNI",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la cour d'appel condamne Thierry Gaubert à un an de prison ferme",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "ancien collaborateur de Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Financements libyens",
+   "evidence": "prévenu au procès des financements libyens",
+   "confidence": 0.9,
+   "date": "2024-06-03",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Nicolas Bazire est relaxé, la cour n'est pas en mesure d'affirmer qu'il « ait eu connaissance de ce dépôt et de l’origine des fonds versés »",
+   "confidence": 1.0,
+   "date": "2025-01-21",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Le parquet requiert pour certains accusés des peines réduites",
+   "confidence": 0.8,
+   "date": "2024-06-03",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "procès en appel [...] devant la cour d'appel de Paris",
+   "confidence": 1.0,
+   "date": "2024-06-03",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "procès en appel [...] qui concerne le volet financier de l'affaire",
+   "confidence": 0.9,
+   "date": "2024-06-03",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

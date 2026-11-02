@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Cour pénale internationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Crime contre l'humanité",
+   "type": "Offense"
+  },
+  {
+   "name": "Vol UTA 772",
+   "type": "Affair"
+  },
+  {
+   "name": "Libye",
+   "type": "Institution"
+  },
+  {
+   "name": "France",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Abdallah Senoussi",
+   "type": "MEMBER_OF",
+   "target": "Libye",
+   "evidence": "un militaire libyen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdallah Senoussi",
+   "type": "INVOLVED_IN",
+   "target": "Crime contre l'humanité",
+   "evidence": "mandat d'arrêt international pour crime contre l'humanité",
+   "confidence": 0.9,
+   "date": "2011-06-27",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Abdallah Senoussi",
+   "type": "INVOLVED_IN",
+   "target": "Vol UTA 772",
+   "evidence": "condamné pour l'attentat contre le vol UTA 772",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France",
+   "type": "INVESTIGATED",
+   "target": "Abdallah Senoussi",
+   "evidence": "la France va demander l'extradition d'Abdallah al-Senoussi",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libye",
+   "type": "INVESTIGATED",
+   "target": "Abdallah Senoussi",
+   "evidence": "la Libye va demander par ailleurs l'extradition d'Abdallah al-Senoussi",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour pénale internationale",
+   "type": "INVESTIGATED",
+   "target": "Abdallah Senoussi",
+   "evidence": "fait l'objet d'une enquête de la Cour pénale internationale",
+   "confidence": 0.9,
+   "date": "2011-02-15",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

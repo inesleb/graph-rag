@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet d'Évreux",
+   "type": "Institution"
+  },
+  {
+   "name": "Moulin de Cossy",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La cour d'appel de Paris condamne Patrick Balkany à quatre ans et demi de prison",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "condamne [...] pour blanchiment de fraude fiscale (second volet)",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La cour d'appel de Paris condamne Isabelle Balkany à trois ans et demi de prison",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "condamne [...] pour blanchiment de fraude fiscale (second volet)",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany forme un pourvoi en cassation afin de contester la décision de justice",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Parquet d'Évreux",
+   "evidence": "À partir du 6 mars 2023, le parquet d'Évreux accorde à Isabelle Balkany une libération conditionnelle",
+   "confidence": 0.9,
+   "date": "2023-03-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "condamne [...] pour blanchiment de fraude fiscale (second volet)",
+   "confidence": 1.0,
+   "date": "2023-01-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Moulin de Cossy",
+   "evidence": "L’usufruit du moulin de Cossy est confisqué",
+   "confidence": 0.8,
+   "date": "2023-01-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

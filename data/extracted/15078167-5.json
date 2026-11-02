@@ -1,0 +1,178 @@
+{
+ "entities": [
+  {
+   "name": "Pascal Smet",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Boris Dilliès",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Michel",
+   "type": "Person"
+  },
+  {
+   "name": "Vooruit",
+   "type": "Party"
+  },
+  {
+   "name": "MR",
+   "type": "Party"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Soir",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pascal Smet",
+   "type": "WORKED_FOR",
+   "target": "Vooruit",
+   "evidence": "L’ex-ministre bruxellois de la Mobilité de 2014 à 2019, Pascal Smet (Vooruit)",
+   "confidence": 1.0,
+   "date": "2014-2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pascal Smet",
+   "type": "WORKED_FOR",
+   "target": "Ministère de la Mobilité (Bruxelles)",
+   "evidence": "L’ex-ministre bruxellois de la Mobilité de 2014 à 2019",
+   "confidence": 1.0,
+   "date": "2014-2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pascal Smet",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "L’ex-ministre bruxellois de la Mobilité... était particulièrement proche d'Uber",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pascal Smet",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Son ministère a dû élaborer un cadre légal pour les « nouveaux services de transport »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Pascal Smet",
+   "evidence": "Uber aurait reçu les grandes lignes du projet de réforme avant qu’il ne soit rendu public",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Ministère de la Mobilité (Bruxelles)",
+   "evidence": "Une dizaine de contacts ont eu lieu entre Uber et le cabinet du ministère",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Dilliès",
+   "type": "WORKED_FOR",
+   "target": "MR",
+   "evidence": "Boris Dilliès (MR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Dilliès",
+   "type": "WORKED_FOR",
+   "target": "Parlement bruxellois",
+   "evidence": "ancien député bruxellois, président de la Commission Mobilité du Parlement bruxellois",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Dilliès",
+   "type": "WORKED_FOR",
+   "target": "Uccle (bourgmestre)",
+   "evidence": "actuel bourgmestre d'Uccle",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Dilliès",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "considéré comme « le petit préféré d’Uber » selon le journal Le Soir et comme le « meilleur allié politique en Belgique » selon Uber",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Dilliès",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Il a, selon les révélations, favorisé les contacts entre Uber et le cabinet de l'ancien Premier ministre Charles Michel (MR)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Michel",
+   "type": "WORKED_FOR",
+   "target": "MR",
+   "evidence": "Charles Michel (MR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Charles Michel",
+   "evidence": "favorisé les contacts entre Uber et le cabinet de l'ancien Premier ministre Charles Michel (MR)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber Files",
+   "type": "REVEALED",
+   "target": "Le Soir",
+   "evidence": "selon le journal Le Soir",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

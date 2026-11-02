@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Caroline Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Julien Odoul",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Bénédicte de Perthuis",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le tribunal judiciaire de Paris annonce [...] que Jean-Marie Le Pen [...] n'est pas en état de préparer sa défense",
+   "confidence": 0.9,
+   "date": "2024-07-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "REVEALED",
+   "target": "Marie-Caroline Le Pen",
+   "evidence": "Il devrait être représenté par sa fille Marie-Caroline Le Pen",
+   "confidence": 0.95,
+   "date": "2024-07-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Seront jugées [...] Marine Le Pen. [...] pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2024-07-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "Seront jugées [...] Marine Le Pen. [...] pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2024-07-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Seront jugées [...] 4 collaborateurs du RN",
+   "confidence": 0.95,
+   "date": "2024-07-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "Seront jugées [...] 4 collaborateurs du RN. [...] pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2024-07-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bénédicte de Perthuis",
+   "type": "WORKED_FOR",
+   "target": "Tribunal judiciaire de Paris",
+   "evidence": "La magistrate Bénédicte de Perthuis doit présider le tribunal",
+   "confidence": 0.95,
+   "date": "2024-07-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Marine Le Pen",
+   "evidence": "Le 13 novembre, le parquet requiert contre Marine Le Pen cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2024-11-13",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Rassemblement national",
+   "evidence": "Il est demandé une amende de 4,3 millions d'euros",
+   "confidence": 1.0,
+   "date": "2024-11-13",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Julien Odoul",
+   "evidence": "Il requiert également à l'encontre de Julien Odoul, 10 mois d'emprisonnement avec sursis",
+   "confidence": 1.0,
+   "date": "2024-11-13",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

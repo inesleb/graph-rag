@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Patricia Simon",
+   "type": "Person"
+  },
+  {
+   "name": "Claire Thépaut",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil supérieur de la magistrature",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Trafic d'influence",
+   "evidence": "ouvre une information judiciaire pour « trafic d'influence »",
+   "confidence": 1.0,
+   "date": "2014-02-26",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Gilbert Azibert",
+   "evidence": "le bureau de Gilbert Azibert à la Cour de cassation est perquisitionné",
+   "confidence": 0.9,
+   "date": "2014-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour de cassation",
+   "evidence": "le bureau de Gilbert Azibert à la Cour de cassation",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "REVEALED",
+   "target": "Conseil constitutionnel",
+   "evidence": "Gilbert Azibert saisit la justice d'une question prioritaire de constitutionnalité",
+   "confidence": 1.0,
+   "date": "2014-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil constitutionnel",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "le Conseil constitutionnel lui donne raison sur le principe",
+   "confidence": 0.8,
+   "date": "2015-12-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Patricia Simon",
+   "evidence": "Deux juges, Patricia Simon et Claire Thépaut, sont saisies",
+   "confidence": 0.9,
+   "date": "2014-02-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Claire Thépaut",
+   "evidence": "Deux juges, Patricia Simon et Claire Thépaut, sont saisies",
+   "confidence": 0.9,
+   "date": "2014-02-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil supérieur de la magistrature",
+   "type": "INVOLVED_IN",
+   "target": "Gilbert Azibert",
+   "evidence": "Contre l’avis du Conseil supérieur de la magistrature",
+   "confidence": 0.9,
+   "date": "2014-03-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

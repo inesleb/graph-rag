@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Ravinder Passi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "Media"
+  },
+  {
+   "name": "Bertille Bayart",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bertille Bayart",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Ces points précédents sont expliqués plus en détail dans le livre d'enquête de Bertille Bayart",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Figaro",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "sur plusieurs articles du Figaro",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bloomberg",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "de l'agence Bloomberg",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ravinder Passi",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "l'ancien Secrétaire Général de Nissan Ravinder Passi, britannique ayant passé seize ans chez le constructeur automobile",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ravinder Passi",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "détaille à l'agence Bloomberg les réactions disproportionnées, qualifiables selon lui de « méthodes de contre-espionnage »",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

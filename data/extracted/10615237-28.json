@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Claude Bartolone",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"Le Canard du 15 février est d'accord avec ces chiffres, reconnaît s'être trompé sur les dates et admet que les indemnités sont légales\"",
+   "confidence": 0.9,
+   "date": "2024-02-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Bartolone",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"les règles concernant les indemnités des collaborateurs en fin de mandat sont celles 'du droit du travail applicables à tous les salariés'\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

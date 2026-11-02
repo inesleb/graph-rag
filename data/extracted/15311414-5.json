@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "l'Ère du peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "prêt illicite de main-d'œuvre",
+   "type": "Offense"
+  },
+  {
+   "name": "don déguisé",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "l'Ère du peuple",
+   "type": "INDICTED_IN",
+   "target": "prêt illicite de main-d'œuvre",
+   "evidence": "l'association l'Ère du peuple [...] est mise en examen en mars 2021 pour « prêt illicite de main-d'œuvre »",
+   "confidence": 1.0,
+   "date": "2021-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "l'Ère du peuple",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "l'association l'Ère du peuple [...] assure la logistique des rassemblements de campagne de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "l'Ère du peuple",
+   "type": "INVOLVED_IN",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "l'association l'Ère du peuple [...] assure la logistique des rassemblements de campagne de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "l'Ère du peuple",
+   "type": "CONCERNS",
+   "target": "don déguisé",
+   "evidence": "elle aurait pu être accusée de sous-facturation et donc de don déguisé à la campagne de Jean-Luc Mélenchon",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

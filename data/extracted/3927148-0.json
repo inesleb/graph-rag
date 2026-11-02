@@ -1,0 +1,208 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Arabie saoudite",
+   "type": "Institution"
+  },
+  {
+   "name": "Pakistan",
+   "type": "Institution"
+  },
+  {
+   "name": "Direction des constructions navales",
+   "type": "Institution"
+  },
+  {
+   "name": "Abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahman Al-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Castellan",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Abus de biens sociaux",
+   "evidence": "affaire d’État politico-financière [...] pour abus de biens sociaux",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Arabie saoudite",
+   "evidence": "vente par la France de frégates à l’Arabie saoudite",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Pakistan",
+   "evidence": "vente de sous-marins au Pakistan",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de Ziad Takieddine [...] pour abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Abdul Rahman Al-Assir",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de [...] Abdul Rahman Al-Assir",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de Dominique Castellan",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "WORKED_FOR",
+   "target": "Direction des constructions navales",
+   "evidence": "PDG de la branche internationale de la Direction des constructions navales",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de Nicolas Bazire",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "WORKED_FOR",
+   "target": "Premier ministre",
+   "evidence": "directeur du cabinet du Premier ministre",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de Renaud Donnedieu de Vabres",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "WORKED_FOR",
+   "target": "ministre de la Défense",
+   "evidence": "chef de cabinet du ministre de la Défense",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de Thierry Gaubert",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "collaborateur du ministre du Budget Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "condamnation de François Léotard",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "François Léotard",
+   "type": "WORKED_FOR",
+   "target": "ministre de la Défense",
+   "evidence": "ministre de la Défense",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

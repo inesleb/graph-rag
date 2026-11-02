@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Challenges",
+   "type": "Media"
+  },
+  {
+   "name": "Commission d'Enquête",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Kron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "\"Patrick Kron a pris une décision qui n’était sûrement pas facile à prendre mais qui n’en était pas moins nécessaire\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission d'Enquête",
+   "type": "INVESTIGATED",
+   "target": "Patrick Kron",
+   "evidence": "\"la commission ne retiendra aucun élément à charge contre Kron\"",
+   "confidence": 0.95,
+   "date": "2018-04-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "REVEALED",
+   "target": "Challenges",
+   "evidence": "\"Je n’ai jamais subi quelque pression que ce soit. Je n’ai jamais été exposé à aucun chantage de quelque juridiction que ce soit\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

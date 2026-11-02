@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Julien Vaulpré",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Michel Goudard",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Élise Van Beneden",
+   "type": "Person"
+  },
+  {
+   "name": "Jérôme Karsenti",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Emmanuelle Mignon est mise en examen pour favoritisme",
+   "confidence": 1.0,
+   "date": "2016-02-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Julien Vaulpré",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Julien Vaulpré [...] est mise en examen pour favoritisme",
+   "confidence": 1.0,
+   "date": "2016-02-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Michel Goudard",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Jean-Michel Goudard [...] est également le lendemain [mis en examen]",
+   "confidence": 1.0,
+   "date": "2016-02-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "la reconduction de la convention passée en 2007 entre l’Élysée et le cabinet Publifact de Patrick Buisson",
+   "confidence": 0.9,
+   "date": "2009-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Claude Guéant est mis en examen pour complicité de favoritisme",
+   "confidence": 1.0,
+   "date": "2016-02-23",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "INVESTIGATED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "les avocats de l'association de lutte contre la corruption Anticor [...] demandent l'audition de l'ex-président en qualité de témoin",
+   "confidence": 1.0,
+   "date": "2016-09-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "dans cette affaire de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2016-09-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "le juge Tournaire, suivant les réquisitions du parquet national financier, renvoie devant le tribunal correctionnel",
+   "confidence": 1.0,
+   "date": "2019-08-27",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

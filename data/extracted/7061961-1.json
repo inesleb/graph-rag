@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "Anticor dépose alors plainte pour favoritisme.",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "L'affaire commence en 2009 lorsque la Cour des comptes [...] dénonce des irrégularités dans l'attribution de marchés.",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Anticor dépose alors plainte pour favoritisme.",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Une première plainte est classée sans suite par le parquet en 2010",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": "investigation",
+   "final": true
+  },
+  {
+   "source": "Anticor",
+   "type": "REVEALED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Anticor se constitue partie civile, forçant l'ouverture d'une information judiciaire confiée au juge Serge Tournaire.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "La cour d'appel de Paris [...] bloque l'enquête en novembre 2011",
+   "confidence": 1.0,
+   "date": "2011-11",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "La Cour de cassation [...] casse cet arrêt en décembre 2012, permettant à l'instruction de se poursuivre.",
+   "confidence": 1.0,
+   "date": "2012-12",
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Nicolas Sarkozy lui-même n'est pas poursuivi : la Constitution lui confère une immunité pénale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Serge Tournaire",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Anticor se constitue partie civile, forçant l'ouverture d'une information judiciaire confiée au juge Serge Tournaire.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

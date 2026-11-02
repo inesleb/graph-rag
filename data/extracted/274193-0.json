@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Sénat",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Cour de justice de la République",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "douze parlementaires (dont six députés) [...] élus par l’Assemblée nationale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de justice de la République",
+   "type": "MEMBER_OF",
+   "target": "Sénat",
+   "evidence": "douze parlementaires (dont six sénateurs) [...] élus par [...] le Sénat",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de justice de la République",
+   "type": "MEMBER_OF",
+   "target": "Cour de cassation",
+   "evidence": "trois magistrats [...] élus par la Cour de cassation",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de justice de la République",
+   "type": "WORKED_FOR",
+   "target": "Constitution française du 4 octobre 1958",
+   "evidence": "Ses statut et ses attributions sont fixés par la constitution française du 4 octobre 1958",
+   "confidence": 0.9,
+   "date": "1958",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

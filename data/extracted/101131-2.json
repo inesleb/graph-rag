@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En novembre 2018, il est arrêté par la justice japonaise, étant suspecté de dissimulation de revenus dans les publications financières de Nissan.",
+   "confidence": 0.95,
+   "date": "2018-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le mois suivant, il est inculpé pour utilisation de fonds de l'entreprise à des fins personnelles.",
+   "confidence": 0.95,
+   "date": "2018-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "dissimulation de revenus dans les publications financières de Nissan",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "dissimulation de revenus",
+   "evidence": "suspecté de dissimulation de revenus dans les publications financières de Nissan",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "utilisation de fonds à des fins personnelles",
+   "evidence": "il est inculpé pour utilisation de fonds de l'entreprise à des fins personnelles",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "REVEALED",
+   "target": "Le Canard enchaîné",
+   "evidence": "Souvent qualifiée de « chute » par les médias, cette affaire est par la suite sujette à des interrogations",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "Souvent qualifiée de « chute » par les médias, cette affaire est par la suite sujette à des interrogations",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

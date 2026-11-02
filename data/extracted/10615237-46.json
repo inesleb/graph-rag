@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "2F Conseil",
+   "type": "Company"
+  },
+  {
+   "name": "Axa",
+   "type": "Company"
+  },
+  {
+   "name": "Fimalac",
+   "type": "Company"
+  },
+  {
+   "name": "Banque Oddo",
+   "type": "Company"
+  },
+  {
+   "name": "Fouad Makhzoumi",
+   "type": "Person"
+  },
+  {
+   "name": "FPI",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "2F Conseil",
+   "evidence": "François Fillon a donné 7 conférences rémunérées... Il a affirmé n'avoir travaillé avec « aucune entreprise russe »",
+   "confidence": 0.9,
+   "date": "2012-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Axa",
+   "evidence": "Le 6 février 2017, François Fillon n'a désigné que trois clients de 2F Conseil : Axa, Fimalac et la banque Oddo.",
+   "confidence": 1.0,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Fimalac",
+   "evidence": "Le 6 février 2017, François Fillon n'a désigné que trois clients de 2F Conseil : Axa, Fimalac et la banque Oddo.",
+   "confidence": 1.0,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Banque Oddo",
+   "evidence": "Le 6 février 2017, François Fillon n'a désigné que trois clients de 2F Conseil : Axa, Fimalac et la banque Oddo.",
+   "confidence": 1.0,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Il a affirmé n'avoir travaillé avec « aucune entreprise russe, ni aucun organisme de ce pays ». Il n'a pas évoqué Fouad Makhzoumi ou FPI comme un de ses clients.",
+   "confidence": 0.8,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Fouad Makhzoumi",
+   "evidence": "Il n'a pas évoqué Fouad Makhzoumi ou FPI comme un de ses clients.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "FPI",
+   "evidence": "Il n'a pas évoqué Fouad Makhzoumi ou FPI comme un de ses clients.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

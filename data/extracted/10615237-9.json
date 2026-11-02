@@ -1,0 +1,174 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Accoyer",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Retailleau",
+   "type": "Person"
+  },
+  {
+   "name": "Florence Portelli",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Le Lab (Europe 1)",
+   "type": "Media"
+  },
+  {
+   "name": "détournements de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Fillon",
+   "evidence": "le parquet national financier ouvre une enquête préliminaire",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournements de fonds publics",
+   "evidence": "enquête préliminaire pour détournements de fonds publics",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "enquête préliminaire pour [...] abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "enquête préliminaire pour [...] recel de ces délits",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Accoyer",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "Bernard Accoyer monte en première ligne pour défendre François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Accoyer",
+   "type": "WORKED_FOR",
+   "target": "Penelope Fillon",
+   "evidence": "Bernard Accoyer [...] pour défendre François Fillon et Penelope Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "l'avoir vue participer aux travaux de François Fillon",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Retailleau",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "porte-paroles de François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Florence Portelli",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "porte-paroles de François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "Penelope Fillon travaillait comme collaboratrice parlementaire dans la Sarthe",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Le 25 janvier, jour de la parution du Canard enchaîné",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Lab (Europe 1)",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Pour Le Lab (Europe 1), cet argumentaire est en contradiction",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

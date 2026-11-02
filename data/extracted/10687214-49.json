@@ -1,0 +1,116 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Donald Trump",
+   "type": "Person"
+  },
+  {
+   "name": "Peimane Ghaleh-Marzban",
+   "type": "Person"
+  },
+  {
+   "name": "Rémy Heitz",
+   "type": "Person"
+  },
+  {
+   "name": "Maud Bregeon",
+   "type": "Person"
+  },
+  {
+   "name": "Magali Lafourcade",
+   "type": "Person"
+  },
+  {
+   "name": "Commission nationale consultative des droits de l'homme",
+   "type": "Institution"
+  },
+  {
+   "name": "États-Unis",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de Cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Peimane Ghaleh-Marzban",
+   "type": "REVEALED",
+   "target": "États-Unis",
+   "evidence": "met en garde contre d'éventuelles sanctions par les États-Unis",
+   "confidence": 0.9,
+   "date": "2026-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "magistrats ayant condamné Marine Le Pen en mars 2025",
+   "confidence": 0.9,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Donald Trump",
+   "type": "REVEALED",
+   "target": "États-Unis",
+   "evidence": "Donald Trump aurait envisagé de telles sanctions",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rémy Heitz",
+   "type": "REVEALED",
+   "target": "États-Unis",
+   "evidence": "relativisées par le procureur de la Cour de Cassation, Rémy Heitz",
+   "confidence": 0.9,
+   "date": "2026-01-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maud Bregeon",
+   "type": "REVEALED",
+   "target": "États-Unis",
+   "evidence": "relativisées [...] par la porte-parole du gouvernement, Maud Bregeon",
+   "confidence": 0.9,
+   "date": "2026-01-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Magali Lafourcade",
+   "type": "REVEALED",
+   "target": "États-Unis",
+   "evidence": "approchée par deux diplomates américains le 28 mai 2025",
+   "confidence": 0.95,
+   "date": "2025-05-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Magali Lafourcade",
+   "type": "WORKED_FOR",
+   "target": "Commission nationale consultative des droits de l'homme",
+   "evidence": "la secrétaire générale de la Commission nationale consultative des droits de l'homme",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

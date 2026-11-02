@@ -1,0 +1,212 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Woerth",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "Recel de détournement de fonds publics (libyens)",
+   "type": "Offense"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Complicité de financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale en bande organisée",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption active",
+   "type": "Offense"
+  },
+  {
+   "name": "Association de malfaiteurs en vue de la préparation de délits",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Corruption passive",
+   "evidence": "En mars 2018, Nicolas Sarkozy est mis en examen pour corruption passive",
+   "confidence": 1.0,
+   "date": "2018-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Recel de détournement de fonds publics (libyens)",
+   "evidence": "En mars 2018, Nicolas Sarkozy est mis en examen pour [...] recel de détournement de fonds publics (libyens)",
+   "confidence": 1.0,
+   "date": "2018-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "En mars 2018, Nicolas Sarkozy est mis en examen pour [...] financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": "2018-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONCERNS",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "En mars 2018, Nicolas Sarkozy est mis en examen pour [...] détournement de fonds publics (libyens)",
+   "confidence": 1.0,
+   "date": "2018-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Woerth",
+   "type": "INDICTED_IN",
+   "target": "Complicité de financement illégal de campagne électorale",
+   "evidence": "En mai, Éric Woerth [...] est mis en examen pour « complicité de financement illégal de campagne électorale »",
+   "confidence": 1.0,
+   "date": "2018-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "Corruption passive",
+   "evidence": "En septembre, Claude Guéant est mis en examen pour de nouvelles charges : corruption passive",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "Complicité et recel de corruption passive",
+   "evidence": "En septembre, Claude Guéant est mis en examen pour [...] complicité et recel de ce délit",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "Recel de détournements de fonds publics",
+   "evidence": "En septembre, Claude Guéant est mis en examen pour [...] recel de détournements de fonds publics",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "Complicité de financement illégal de campagne électorale",
+   "evidence": "En septembre, Claude Guéant est mis en examen pour [...] complicité de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INDICTED_IN",
+   "target": "Blanchiment de fraude fiscale en bande organisée",
+   "evidence": "Début 2020, Alexandre Djouhri est mis en examen pour blanchiment de fraude fiscale en bande organisée",
+   "confidence": 1.0,
+   "date": "2020-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INDICTED_IN",
+   "target": "Corruption active",
+   "evidence": "Début 2020, Alexandre Djouhri est mis en examen pour [...] corruption active",
+   "confidence": 1.0,
+   "date": "2020-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs en vue de la préparation de délits",
+   "evidence": "En 2020, Nicolas Sarkozy [...] est mis en examen pour association de malfaiteurs en vue de la préparation de ces délits",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs en vue de la préparation de délits",
+   "evidence": "En 2020, Claude Guéant [...] est mis en examen pour association de malfaiteurs en vue de la préparation de ces délits",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs en vue de la préparation de délits",
+   "evidence": "En 2020, Brice Hortefeux [...] est mis en examen pour association de malfaiteurs en vue de la préparation de ces délits",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs en vue de la préparation de délits",
+   "evidence": "En 2020, Thierry Herzog [...] est mis en examen pour association de malfaiteurs en vue de la préparation de ces délits",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

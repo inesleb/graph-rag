@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Fadi Gebran",
+   "type": "Person"
+  },
+  {
+   "name": "Phoinos Investment",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan Zi-A Capital",
+   "type": "Company"
+  },
+  {
+   "name": "Good Faith Investments (GFI)",
+   "type": "Company"
+  },
+  {
+   "name": "Suhail Bahwan Automobiles",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Phoinos Investment",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "Phainos a acheté pour 9,5 millions de dollars puis rénové pour sept millions de dollars la résidence à Beyrouth de Carlos Ghosn.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Phoinos Investment",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Phoinos Investment et GFI font partie d’un ensemble de quarante sociétés écrans de la nébuleuse Nissan.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Phoinos Investment",
+   "type": "MEMBER_OF",
+   "target": "Nissan Zi-A Capital",
+   "evidence": "La société Phoinos est détenue par la société Nissan Zi-A Capital, filiale de Nissan immatriculée aux Pays-Bas.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan Zi-A Capital",
+   "type": "MEMBER_OF",
+   "target": "Nissan",
+   "evidence": "La société Phoinos est détenue par la société Nissan Zi-A Capital, filiale de Nissan immatriculée aux Pays-Bas.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fadi Gebran",
+   "type": "INVOLVED_IN",
+   "target": "Phoinos Investment",
+   "evidence": "Elle est enregistrée à l’adresse du cabinet de l’avocat de Fadi Gebran, proche de Carlos Ghosn et décédé.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Good Faith Investments (GFI)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Phoinos Investment et GFI font partie d’un ensemble de quarante sociétés écrans de la nébuleuse Nissan.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Good Faith Investments (GFI)",
+   "type": "INVESTIGATED",
+   "target": "Good Faith Investments (GFI)",
+   "evidence": "“Good Faith Investments” (GFI) est une autre société libanaise sous investigation.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Good Faith Investments (GFI)",
+   "evidence": "Une somme de quinze millions de dollars aurait été viré par une filiale de Nissan au Moyen-Orient à la société Suhail Bahwan Automobiles, distributeur Nissan à Oman.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Suhail Bahwan Automobiles",
+   "type": "INVOLVED_IN",
+   "target": "Good Faith Investments (GFI)",
+   "evidence": "Cette entreprise aurait ensuite transféré des fonds au Liban via GFI.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

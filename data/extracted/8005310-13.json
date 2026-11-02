@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d’appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal correctionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Campagne présidentielle de 2012 de Nicolas Sarkozy",
+   "type": "Affair"
+  },
+  {
+   "name": "Dépenses excessives",
+   "type": "Offense"
+  },
+  {
+   "name": "Sanction de la CNCCFP",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "les derniers recours des mis en examen dans l’enquête sur les fausses factures durant la campagne présidentielle de 2012 de Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2016-12-15",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Dépenses excessives",
+   "evidence": "La Cour de cassation a confirmé définitivement le renvoi en procès de Nicolas Sarkozy pour les dépenses excessives de sa campagne présidentielle de 2012",
+   "confidence": 1.0,
+   "date": "2019-10-01",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Jean-François Copé qui bénéficie d’un non-lieu et est définitivement blanchi dans cette affaire",
+   "confidence": 1.0,
+   "date": "2017-02-03",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Cour d’appel de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "La cour d’appel de Paris a rejeté [...] les derniers recours des mis en examen dans l’enquête sur les fausses factures",
+   "confidence": 0.9,
+   "date": "2016-12-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil constitutionnel",
+   "type": "INVESTIGATED",
+   "target": "Sanction de la CNCCFP",
+   "evidence": "Le conseil Constitutionnel juge que la loi organique relative à l’élection présidentielle est bien conforme à la Constitution",
+   "confidence": 0.8,
+   "date": "2019-05-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONCERNS",
+   "target": "Campagne présidentielle de 2012 de Nicolas Sarkozy",
+   "evidence": "les dépenses excessives de sa campagne présidentielle de 2012",
+   "confidence": 1.0,
+   "date": "2019-10-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Campagne présidentielle de 2012 de Nicolas Sarkozy",
+   "evidence": "le juge Serge Tournaire ordonne le renvoi devant le tribunal correctionnel de 14 personnes, dont Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2017-02-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "La Cour de cassation a confirmé définitivement le renvoi en procès",
+   "confidence": 0.9,
+   "date": "2019-10-01",
+   "stage": "cassation",
+   "final": null
+  }
+ ]
+}

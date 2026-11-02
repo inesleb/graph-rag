@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Dominique Bilde",
+   "type": "Person"
+  },
+  {
+   "name": "Loup Viallet",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "recel d'abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Tribunal de l'UE",
+   "type": "Institution"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Dominique Bilde",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Tribunal de l'UE confirme la décision du Parlement européen exigeant de Dominique Bilde le remboursement",
+   "confidence": 0.9,
+   "date": "2019-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Bilde",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "Dominique Bilde [...] comme assistant parlementaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Loup Viallet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Loup Viallet occupait également un poste de délégué national à la prospective au sein du FN",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Loup Viallet",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "poste de délégué national à la prospective au sein du FN",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Loup Viallet",
+   "type": "INDICTED_IN",
+   "target": "recel d'abus de confiance",
+   "evidence": "Inculpé depuis juillet 2017 pour recel d'abus de confiance",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Dominique Bilde",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "L'immunité parlementaire de Dominique Bilde est levée le 12 mars 2019",
+   "confidence": 0.7,
+   "date": "2019-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel d'abus de confiance",
+   "evidence": "Loup Viallet inculpé pour recel d'abus de confiance",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

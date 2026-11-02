@@ -1,0 +1,170 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Crochet",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Fernand Le Rachinel",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Van Houtte",
+   "type": "Person"
+  },
+  {
+   "name": "Mylène Troszczynski",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Christine Arnautu",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Rassemblement national",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "le parti du Rassemblement national (RN) est condamné à deux millions d'euros d'amende",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen [...] est condamnée à 100 000 euros d'amende",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Crochet",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Nicolas Crochet [...] est condamné à 100 000 euros d'amende",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Bruno Gollnisch est condamné à 50 000 euros",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Fernand Le Rachinel",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Fernand Le Rachinel à 15 000 euros",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Charles Van Houtte [...] est condamné à 5 000 euros",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Mylène Troszczynski",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Mylène Troszczynski et Marie-Christine Arnautu à 800 euros",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marie-Christine Arnautu",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Mylène Troszczynski et Marie-Christine Arnautu à 800 euros",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "la saisie des deux millions d'euros [...] la confiscation d'un million d'euros saisis pendant l'instruction",
+   "confidence": 0.9,
+   "date": "2018-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "la saisie des deux millions d'euros [...] confiscation d'un million d'euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "la cour d'appel de Paris [...] se prononce sur le recours introduit par le RN",
+   "confidence": 1.0,
+   "date": "2018-09-26",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "INVESTIGATED",
+   "target": "Rassemblement national",
+   "evidence": "la cour d'appel de Paris [...] réduit le montant de la saisie à un million d’euros",
+   "confidence": 1.0,
+   "date": "2018-09-26",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

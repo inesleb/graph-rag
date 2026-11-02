@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Nouvelle Union populaire écologique et sociale",
+   "type": "Party"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "En 2016, Mélenchon fonde le « mouvement » La France insoumise (LFI)",
+   "confidence": 1.0,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "Il se présente sous cette étiquette à l'élection présidentielle de 2017",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "Il est ensuite député des Bouches-du-Rhône et préside le groupe LFI à l'Assemblée nationale jusqu'en 2021",
+   "confidence": 1.0,
+   "date": "2017-2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Nouvelle Union populaire écologique et sociale",
+   "evidence": "il est le chef de file de la coalition Nouvelle Union populaire écologique et sociale (NUPES)",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

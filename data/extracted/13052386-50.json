@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "NMBV",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Mitsubishi Motors",
+   "type": "Company"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Hiroto Saikawa",
+   "type": "Person"
+  },
+  {
+   "name": "Osamu Masuko",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "NMBV",
+   "evidence": "Carlos Ghosn en fut administrateur, aux côtés des dirigeants de Nissan et de Mitsubishi, et également directeur général (CEO).",
+   "confidence": 1.0,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "NMBV",
+   "evidence": "Carlos Ghosn serait devenu, seul des trois, salarié de NMBV.",
+   "confidence": 0.9,
+   "date": "2018-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn aurait reçu de NMBV une rémunération de plus de 7 millions d’euros en 2018, sans approbation des directeurs généraux de Nissan et Mitsubishi.",
+   "confidence": 0.9,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Cela lui a permis de recevoir un bonus d’embauche de 1,46 million d’euros et un salaire annuel de 5,82 millions d’euros.",
+   "confidence": 0.9,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "NMBV",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 18 janvier 2019, les groupes automobiles japonais Nissan et Mitsubishi (NMBV) ont annoncé vouloir le remboursement de cette somme.",
+   "confidence": 0.95,
+   "date": "2019-01-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "NMBV",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En février 2020, un procès à Amsterdam a révélé les conditions dans lesquelles ces 7,8 millions ont été versés à Carlos Ghosn par NMBV.",
+   "confidence": 0.95,
+   "date": "2020-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "MEMBER_OF",
+   "target": "NMBV",
+   "evidence": "NMBV a été créée en juin 2017 à Amsterdam et regroupe Nissan et Mitsubishi.",
+   "confidence": 1.0,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mitsubishi Motors",
+   "type": "MEMBER_OF",
+   "target": "NMBV",
+   "evidence": "NMBV a été créée en juin 2017 à Amsterdam et regroupe Nissan et Mitsubishi.",
+   "confidence": 1.0,
+   "date": "2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "un procès à Amsterdam a révélé les conditions dans lesquelles ces 7,8 millions ont été versés à Carlos Ghosn par NMBV.",
+   "confidence": 0.9,
+   "date": "2020-02",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

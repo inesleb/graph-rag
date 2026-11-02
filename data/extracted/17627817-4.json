@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Crédit agricole",
+   "type": "Company"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "faux et usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mutuelles de Bretagne",
+   "type": "WORKED_FOR",
+   "target": "Richard Ferrand",
+   "evidence": "dont Richard Ferrand est le directeur général.",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mutuelles de Bretagne",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Revenus garantis par les 42 000 € de loyers annuels versés par les Mutuelles de Bretagne",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mutuelles de Bretagne",
+   "type": "INVOLVED_IN",
+   "target": "Sandrine Doucen",
+   "evidence": "Les Mutuelles de Bretagne effectuent peu après, sans contrepartie, pour 184 000 euros de travaux dans le local acheté par Sandrine Doucen.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "INVOLVED_IN",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "l'avocate Sandrine Doucen a par ailleurs facturé des conseils juridiques aux Mutuelles de Bretagne",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "selon Le Canard enchaîné un « traitement réservé aux acquéreurs qui disposent d’un locataire dont les revenus sont garantis »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Revenus garantis par les 42 000 € de loyers annuels versés par les Mutuelles de Bretagne, sans aucun apport",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "Les Mutuelles de Bretagne effectuent peu après, sans contrepartie, pour 184 000 euros de travaux",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

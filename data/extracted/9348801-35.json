@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Christophe Picard",
+   "type": "Person"
+  },
+  {
+   "name": "Association des Contribuables de Levallois-Perret (ACLP92)",
+   "type": "Institution"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil d'État",
+   "type": "Institution"
+  },
+  {
+   "name": "Tracfin",
+   "type": "Institution"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Villa Pamplemousse",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Association des Contribuables de Levallois-Perret (ACLP92)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "demande de révocation faite en mai par l'association des Contribuables de Levallois-Perret",
+   "confidence": 1.0,
+   "date": "2015-09-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Christophe Picard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Jean-Christophe Picard écrit au président de la République pour lui demander à son tour de révoquer Patrick et Isabelle Balkany",
+   "confidence": 1.0,
+   "date": "2015-09-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la mise en examen des deux Balkany s'appuie justement sur des faits établis",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la mise en examen des deux Balkany s'appuie justement sur des faits établis",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Villa Pamplemousse",
+   "evidence": "Isabelle Balkany a avoué être propriétaire d’un important bien immobilier non déclaré au fisc (la villa Pamplemousse)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil d'État",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Le Conseil d'État a ainsi considéré qu’il était possible de révoquer un maire condamné, voire simplement mis en examen lorsque la matérialité des faits est avérée",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tracfin",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "la note de Tracfin [...] qui ne laissent guère de place au doute",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "le signalement de la Haute Autorité pour la transparence de la vie publique (HATVP) [...] qui ne laissent guère de place au doute",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

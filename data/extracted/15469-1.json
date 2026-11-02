@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Tribunal correctionnel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Emploi fictif",
+   "type": "Offense"
+  },
+  {
+   "name": "Abus de biens sociaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "INVOLVED_IN",
+   "target": "Emploi fictif",
+   "evidence": "des anciens dirigeants font l'objet d'un procès concernant le soupçon d'un emploi fictif",
+   "confidence": 0.9,
+   "date": "1996-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "INVOLVED_IN",
+   "target": "Abus de biens sociaux",
+   "evidence": "le soupçon [...] d'abus de biens sociaux",
+   "confidence": 0.9,
+   "date": "1996-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "ACQUITTED_IN",
+   "target": "Emploi fictif",
+   "evidence": "Le 17 octobre 2025, tous les accusés sont relaxés en première instance",
+   "confidence": 1.0,
+   "date": "2025-10-17",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "ACQUITTED_IN",
+   "target": "Abus de biens sociaux",
+   "evidence": "Le 17 octobre 2025, tous les accusés sont relaxés en première instance",
+   "confidence": 1.0,
+   "date": "2025-10-17",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Emploi fictif",
+   "evidence": "Le parquet fait appel",
+   "confidence": 0.9,
+   "date": "2025-10-17",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Abus de biens sociaux",
+   "evidence": "Le parquet fait appel",
+   "confidence": 0.9,
+   "date": "2025-10-17",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Emploi fictif",
+   "type": "CONCERNS",
+   "target": "Attribution d'une carte de presse",
+   "evidence": "l'attribution d'une carte de presse et d'un salaire de journaliste attribué durant 25 ans",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emploi fictif",
+   "type": "CONCERNS",
+   "target": "Salaire de journaliste",
+   "evidence": "l'attribution [...] d'un salaire de journaliste attribué durant 25 ans",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

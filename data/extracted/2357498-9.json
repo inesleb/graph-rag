@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  }
+ ],
+ "relations": []
+}

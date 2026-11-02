@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "UNR",
+   "type": "Party"
+  },
+  {
+   "name": "UDR",
+   "type": "Party"
+  },
+  {
+   "name": "RPR",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "issu de la transformation en 2015 de l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union pour un mouvement populaire",
+   "type": "MEMBER_OF",
+   "target": "UNR",
+   "evidence": "dans la continuité des grands partis conservateurs et gaullistes français : l'UNR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union pour un mouvement populaire",
+   "type": "MEMBER_OF",
+   "target": "UDR",
+   "evidence": "dans la continuité des grands partis conservateurs et gaullistes français : l'UDR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union pour un mouvement populaire",
+   "type": "MEMBER_OF",
+   "target": "RPR",
+   "evidence": "dans la continuité des grands partis conservateurs et gaullistes français : le RPR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "fondée en 2002, sous l'impulsion de l'ancien président de la République Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

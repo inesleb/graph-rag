@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "René Ricol",
+   "type": "Person"
+  },
+  {
+   "name": "Cabinet Ricol et Lasteyrie",
+   "type": "Company"
+  },
+  {
+   "name": "2F Conseil",
+   "type": "Company"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Cabinet Ricol et Lasteyrie",
+   "evidence": "François Fillon est depuis 2012 senior advisor et membre du comité stratégique du groupe.",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "2F Conseil",
+   "evidence": "Hébergé au siège du cabinet à sa création, 2F Conseil aurait ainsi facturé 290 000 € à Ricol Lasteyrie.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "René Ricol",
+   "type": "WORKED_FOR",
+   "target": "Cabinet Ricol et Lasteyrie",
+   "evidence": "Cabinet Ricol et Lasteyrie, dirigé par René Ricol",
+   "confidence": 1.0,
+   "date": "2010–2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "François Fillon",
+   "evidence": "D'après Mediapart, François Fillon est depuis 2012 senior advisor et membre du comité stratégique du groupe.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Ariane Chemin",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Direction de l'ordre public et de la circulation",
+   "type": "Institution"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Chargé de mission",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "l’homme à la visière [...] est Alexandre Benalla, chargé de mission au sein du cabinet du chef de l’État",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "chargé de mission au sein du cabinet du chef de l’État",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "accompagné par Vincent Crase, salarié de LREM, gendarme réserviste [...] équipés comme s'ils étaient des policiers en civil",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "salarié de LREM",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "un troisième homme, identifié comme étant Philippe Mizerski, membre de l'état-major de la Direction de l'ordre public et de la circulation",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "WORKED_FOR",
+   "target": "Direction de l'ordre public et de la circulation",
+   "evidence": "membre de l'état-major de la Direction de l'ordre public et de la circulation",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ariane Chemin",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Ariane Chemin en une du Monde révèle que l’homme à la visière [...] est Alexandre Benalla",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Ariane Chemin en une du Monde révèle que l’homme à la visière [...] est Alexandre Benalla",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "Chargé de mission",
+   "evidence": "violences policières [...] Alexandre Benalla, chargé de mission au sein du cabinet du chef de l’État",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

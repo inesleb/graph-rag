@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "L'Ère du peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Marie-Pierre Oprandi",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Bastien Lachaud",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "L'Ère du peuple",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la chambre de l'instruction de la cour d'appel de Paris confirme les mises en examen de l'association L'Ère du peuple",
+   "confidence": 1.0,
+   "date": "2022-06-16",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la chambre de l'instruction de la cour d'appel de Paris confirme les mises en examen [...] de Marie-Pierre Oprandi",
+   "confidence": 1.0,
+   "date": "2022-06-16",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Bastien Lachaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la chambre de l'instruction de la cour d'appel de Paris confirme les mises en examen [...] de Bastien Lachaud",
+   "confidence": 1.0,
+   "date": "2022-06-16",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "WORKED_FOR",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "Marie-Pierre Oprandi la mandataire financière de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

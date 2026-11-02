@@ -1,0 +1,88 @@
+{
+ "entities": [
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Rima Abdul Malak",
+   "type": "Person"
+  },
+  {
+   "name": "Clément Beaune",
+   "type": "Person"
+  },
+  {
+   "name": "Olivier Dussopt",
+   "type": "Person"
+  },
+  {
+   "name": "Amélie Oudéa-Castéra",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  },
+  {
+   "name": "Légion d'honneur",
+   "type": "Institution"
+  },
+  {
+   "name": "Grande Chancellerie de la Légion d'honneur",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marlène Schiappa",
+   "type": "WORKED_FOR",
+   "target": "gouvernement",
+   "evidence": "Marlène Schiappa est écartée du gouvernement",
+   "confidence": 1.0,
+   "date": "2023-07-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "l'information judiciaire en cours la concernant",
+   "confidence": 0.9,
+   "date": "2025-06-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "WORKED_FOR",
+   "target": "secrétaire d'État",
+   "evidence": "Son poste de secrétaire d'État est supprimé",
+   "confidence": 1.0,
+   "date": "2023-07-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Grande Chancellerie de la Légion d'honneur",
+   "type": "INVESTIGATED",
+   "target": "Marlène Schiappa",
+   "evidence": "la décoration pouvant lui être retirée en cas de condamnation",
+   "confidence": 0.8,
+   "date": "2025-06-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Légion d'honneur",
+   "type": "REVEALED",
+   "target": "Marlène Schiappa",
+   "evidence": "Marlène Schiappa est nommée chevalier de la Légion d'honneur",
+   "confidence": 1.0,
+   "date": "2025-06-23",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahman el-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Gaubert",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "financer la campagne d’Édouard Balladur",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Ziad Takieddine accepte à condition qu’il les lui remette en liquide",
+   "confidence": 0.9,
+   "date": "1994-11-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "remise de fonds s’apparentait à un « retour d'ascenseur » logique",
+   "confidence": 0.8,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "compte de campagne [...] a bénéficié [...] d’un dépôt en espèces de 10,25 millions de francs",
+   "confidence": 0.95,
+   "date": "1995-04-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Takieddine était à Genève pour effectuer un retrait du même montant",
+   "confidence": 0.9,
+   "date": "1995-04-02",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

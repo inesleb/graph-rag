@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Pierre Estoup",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Maître Lantourne",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Moscovici",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "escroquerie en bande organisée",
+   "type": "Offense"
+  },
+  {
+   "name": "État français",
+   "type": "Institution"
+  },
+  {
+   "name": "Consortium de réalisation (CDR)",
+   "type": "Company"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pierre Estoup",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "Pierre Estoup [...] est mis en examen pour « escroquerie en bande organisée »",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "Bernard Tapie [...] est mis en examen le 28 juin 2013 pour le même chef d'accusation",
+   "confidence": 1.0,
+   "date": "2013-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Maître Lantourne",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "Bernard Tapie et son avocat, Maître Lantourne, sont mis en examen le 28 juin 2013 pour le même chef d'accusation",
+   "confidence": 1.0,
+   "date": "2013-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Moscovici",
+   "type": "WORKED_FOR",
+   "target": "gouvernement Ayrault",
+   "evidence": "Pierre Moscovici, ministre de l'Économie et des Finances du gouvernement Ayrault",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "État français",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "l'État se constitue partie civile le 10 juin 2013",
+   "confidence": 1.0,
+   "date": "2013-06-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Consortium de réalisation (CDR)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le Consortium de réalisation (CDR) dépose un recours en révision de l'arbitrage le 27 juin 2013",
+   "confidence": 1.0,
+   "date": "2013-06-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la cour d'appel de Paris annule le jugement arbitral de 2008 et [...] condamne Bernard Tapie et sa femme à rembourser les 404 millions d'euros perçus en 2008",
+   "confidence": 1.0,
+   "date": "2015-12-03",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "CONVICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "la cour d'appel de Paris [...] condamne Bernard Tapie et sa femme à rembourser les 404 millions d'euros perçus en 2008",
+   "confidence": 0.8,
+   "date": "2015-12-03",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Affaire Tapie - Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "escroquerie en bande organisée",
+   "evidence": "Dans un autre volet pénal non ministériel de cette affaire, Pierre Estoup [...] est mis en examen pour « escroquerie en bande organisée »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

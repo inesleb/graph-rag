@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "RNBV",
+   "type": "Company"
+  },
+  {
+   "name": "Université américaine de Beyrouth (AUB)",
+   "type": "Institution"
+  },
+  {
+   "name": "Université Saint-Joseph",
+   "type": "Institution"
+  },
+  {
+   "name": "Collège Notre-Dame-de-Jamhour",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "RNBV",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "RNBV a également payé 2 millions d'euros de donations au nom de Carlos Ghosn",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Université américaine de Beyrouth (AUB)",
+   "evidence": "de l’université américaine de Beyrouth (AUB), que M. Ghosn a fréquenté",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Université Saint-Joseph",
+   "evidence": "de l’université Saint-Joseph et du collège Notre-Dame-de-Jamhour, que M. Ghosn a fréquenté",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Collège Notre-Dame-de-Jamhour",
+   "evidence": "de l’université Saint-Joseph et du collège Notre-Dame-de-Jamhour, que M. Ghosn a fréquenté",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

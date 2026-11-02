@@ -1,0 +1,142 @@
+{
+ "entities": [
+  {
+   "name": "Éric Ciotti",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Michel Barnier",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Renaissance",
+   "type": "Party"
+  },
+  {
+   "name": "Horizons",
+   "type": "Party"
+  },
+  {
+   "name": "Union des démocrates et indépendants",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Éric Ciotti",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "alors le président du parti",
+   "confidence": 1.0,
+   "date": "2024-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "décide... de faire alliance avec le RN pour les élections législatives anticipées",
+   "confidence": 0.9,
+   "date": "2024-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "groupe Droite républicaine",
+   "evidence": "se renomme « groupe Droite républicaine »",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "socle commun",
+   "evidence": "LR intègre un socle commun avec les partis du « camp présidentiel » (Renaissance, MoDem, Horizons, UDI…)",
+   "confidence": 0.9,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Barnier",
+   "type": "WORKED_FOR",
+   "target": "Premier ministre",
+   "evidence": "obtient 14 postes ministériels dans le nouveau gouvernement, dont celui de Premier ministre",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "gouvernement Bayrou",
+   "evidence": "LR se retire du socle commun à l'annonce du premier gouvernement Lecornu, bien que certains de ses membres... continuent d'exercer leurs fonctions dans le second gouvernement",
+   "confidence": 0.8,
+   "date": "2025-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaissance",
+   "type": "MEMBER_OF",
+   "target": "socle commun",
+   "evidence": "LR intègre un socle commun avec les partis du « camp présidentiel » (Renaissance, MoDem, Horizons, UDI…)",
+   "confidence": 0.9,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "MEMBER_OF",
+   "target": "socle commun",
+   "evidence": "LR intègre un socle commun avec les partis du « camp présidentiel » (Renaissance, MoDem, Horizons, UDI…)",
+   "confidence": 0.9,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Horizons",
+   "type": "MEMBER_OF",
+   "target": "socle commun",
+   "evidence": "LR intègre un socle commun avec les partis du « camp présidentiel » (Renaissance, MoDem, Horizons, UDI…)",
+   "confidence": 0.9,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union des démocrates et indépendants",
+   "type": "MEMBER_OF",
+   "target": "socle commun",
+   "evidence": "LR intègre un socle commun avec les partis du « camp présidentiel » (Renaissance, MoDem, Horizons, UDI…)",
+   "confidence": 0.9,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

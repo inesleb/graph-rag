@@ -1,0 +1,148 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des primes en liquide",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Prison de la Santé",
+   "type": "Institution"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Recel",
+   "type": "Offense"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "WORKED_FOR",
+   "target": "Secrétariat général de la présidence de la République française",
+   "evidence": "nommé secrétaire général de la présidence de la République française le 16 mai 2007",
+   "confidence": 1.0,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Intérieur, de l'Outre-mer, des Collectivités territoriales et de l'Immigration",
+   "evidence": "devient ministre de l'Intérieur, de l'Outre-mer, des Collectivités territoriales et de l'Immigration",
+   "confidence": 1.0,
+   "date": "2011-02-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "secrétaire général de la présidence de la République française le 16 mai 2007, jour de l'investiture de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2007-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des primes en liquide",
+   "evidence": "condamné en 2019 à deux ans d'emprisonnement, dont un an ferme, pour complicité de détournement de fonds publics et recel",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Affaire des primes en liquide",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "complicité de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des primes en liquide",
+   "type": "CONCERNS",
+   "target": "Recel",
+   "evidence": "complicité [...] et recel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "condamné en première instance à une peine d'un an d'emprisonnement, dont huit mois ferme, en janvier 2022 pour favoritisme",
+   "confidence": 1.0,
+   "date": "2022-01",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "condamné [...] pour favoritisme",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "mis en cause dans de nombreuses affaires, dont l'affaire des sondages de l'Élysée",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des primes en liquide",
+   "evidence": "mis en cause dans de nombreuses affaires, dont l'affaire des primes en liquide",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Prison de la Santé",
+   "evidence": "incarcéré en décembre 2021 [...] après presque deux mois passés à la prison de la Santé",
+   "confidence": 1.0,
+   "date": "2021-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

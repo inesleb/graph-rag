@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Neelie Kroes",
+   "type": "Person"
+  },
+  {
+   "name": "Commission européenne",
+   "type": "Institution"
+  },
+  {
+   "name": "Uber B.V.",
+   "type": "Company"
+  },
+  {
+   "name": "Pays-Bas",
+   "type": "Institution"
+  },
+  {
+   "name": "France",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pays-Bas",
+   "type": "CONCERNS",
+   "target": "Uber",
+   "evidence": "L’administration néerlandaise a favorisé la société Uber en ralentissant la transmission d’informations vers cinq pays, dont la France",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber B.V.",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Abritant Uber B.V., structure de tête d'Uber, bénéficiant aux Pays-Bas d’un accord fiscal spécial",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Neelie Kroes",
+   "type": "WORKED_FOR",
+   "target": "Commission européenne",
+   "evidence": "Ancienne commissaire européenne notamment chargée d'encadrer la société Uber",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Neelie Kroes",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "la Néerlandaise Neelie Kroes est embauchée par l'entreprise",
+   "confidence": 0.95,
+   "date": "2016-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Neelie Kroes",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "elle commence discrètement son activité de lobbying pour Uber en 2015",
+   "confidence": 0.95,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Neelie Kroes",
+   "type": "INVOLVED_IN",
+   "target": "Commission européenne",
+   "evidence": "en quittant son poste de commissaire européenne en novembre 2014, elle avait obligation de respecter une période de réserve pendant dix-huit mois",
+   "confidence": 0.95,
+   "date": "2014-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Neelie Kroes",
+   "type": "INVOLVED_IN",
+   "target": "Commission européenne",
+   "evidence": "Le comité d’éthique indépendant de la Commission européenne avait alors refusé",
+   "confidence": 0.95,
+   "date": "2015-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

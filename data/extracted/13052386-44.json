@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan Brésil",
+   "type": "Company"
+  },
+  {
+   "name": "Mario Saradar",
+   "type": "Person"
+  },
+  {
+   "name": "Misbah Ahdab",
+   "type": "Person"
+  },
+  {
+   "name": "Khalil Daoud",
+   "type": "Person"
+  },
+  {
+   "name": "Harry B. Macklowe",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Renault-Nissan BV",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "Renault-Nissan BV a également réglé l’invitation par M. Ghosn",
+   "confidence": 0.9,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Renault-Nissan BV a également réglé l’invitation par M. Ghosn de huit couples d’amis au carnaval de Rio 2018",
+   "confidence": 0.95,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Mario Saradar",
+   "evidence": "dont Carlos Ghosn détient près de 5%",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Misbah Ahdab",
+   "evidence": "Parmis eux, Mario Saradar [...] ; Misbah Ahdab",
+   "confidence": 0.9,
+   "date": "2018-02-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Khalil Daoud",
+   "evidence": "Khalil Daoud, président de la LibanPostPoste libanaise",
+   "confidence": 0.9,
+   "date": "2018-02-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Harry B. Macklowe",
+   "evidence": "Harry B. Macklowe, promoteur immobilier",
+   "confidence": 0.9,
+   "date": "2018-02-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan Brésil",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "payés par Nissan Brésil et refacturés à RNBV",
+   "confidence": 0.95,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

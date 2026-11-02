@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Xavier Bertrand",
+   "type": "Person"
+  },
+  {
+   "name": "Nathalie Kosciusko-Morizet",
+   "type": "Person"
+  },
+  {
+   "name": "François Baroin",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Raffarin",
+   "type": "Person"
+  },
+  {
+   "name": "Luc Chatel",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-François Copé",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "après les résultats des élections et les dernières révélations dans l'affaire Bygmalion, Jean-François Copé accepte de démissionner",
+   "confidence": 1.0,
+   "date": "2014-05-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "Jean-François Copé accepte de démissionner devant l'insistance de plusieurs figures de l'UMP",
+   "confidence": 1.0,
+   "date": "2014-06-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "plusieurs figures de l'UMP (François Fillon, Xavier Bertrand, Nathalie Kosciusko-Morizet, François Baroin)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Xavier Bertrand",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "plusieurs figures de l'UMP (François Fillon, Xavier Bertrand, Nathalie Kosciusko-Morizet, François Baroin)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nathalie Kosciusko-Morizet",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "plusieurs figures de l'UMP (François Fillon, Xavier Bertrand, Nathalie Kosciusko-Morizet, François Baroin)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Baroin",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "plusieurs figures de l'UMP (François Fillon, Xavier Bertrand, Nathalie Kosciusko-Morizet, François Baroin)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "En attendant la tenue d'un congrès extraordinaire en octobre 2014, il sera remplacé par une direction collégiale transitoire, composée des anciens Premiers ministres François Fillon, Alain Juppé et Jean-Pierre Raffarin.",
+   "confidence": 1.0,
+   "date": "2014-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alain Juppé",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "une direction collégiale transitoire, composée des anciens Premiers ministres François Fillon, Alain Juppé et Jean-Pierre Raffarin.",
+   "confidence": 1.0,
+   "date": "2014-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Pierre Raffarin",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "une direction collégiale transitoire, composée des anciens Premiers ministres François Fillon, Alain Juppé et Jean-Pierre Raffarin.",
+   "confidence": 1.0,
+   "date": "2014-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Luc Chatel",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "Deux jours avant sa prise de fonction, Luc Chatel est adjoint à cette direction collégiale en tant que secrétaire général.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "elle quitte la tête du RN (ex-FN)",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "elle est élue présidente du groupe Rassemblement national à l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "Elle est réélue députée lors des élections législatives qui suivent",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Assemblée nationale",
+   "evidence": "Elle est réélue au premier tour des élections législatives anticipées de 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

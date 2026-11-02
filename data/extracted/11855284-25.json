@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Sibeth Ndiaye",
+   "type": "Person"
+  },
+  {
+   "name": "Disclose",
+   "type": "Media"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Makhmudov",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "action lancée contre lui en juin 2019 devant le parquet national financier pour « corruption, corruption passive, blanchiment et entrave à la justice »",
+   "confidence": 0.95,
+   "date": "2019-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Makhmudov",
+   "evidence": "n'avoir été en contact avec aucun acteur majeur des négociations avec l'oligarque russe Makhmudov",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "porte plainte pour dénonciation calomnieuse contre l'association Anticor en réplique à l'action lancée contre lui",
+   "confidence": 0.9,
+   "date": "2019-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sibeth Ndiaye",
+   "type": "WORKED_FOR",
+   "target": "gouvernement",
+   "evidence": "la porte-parole du gouvernement Sibeth Ndiaye",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Disclose",
+   "type": "CONCERNS",
+   "target": "Affaires Benalla",
+   "evidence": "convocations ainsi que d'autres touchant des journalistes de Disclose dans une autre affaire",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Travis Kalanick",
+   "type": "Person"
+  },
+  {
+   "name": "Gouvernement Valls",
+   "type": "Institution"
+  },
+  {
+   "name": "Loi Thévenoud",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Valls",
+   "evidence": "De 2014 à 2016, Emmanuel Macron est ministre de l'Économie dans le gouvernement Valls.",
+   "confidence": 1.0,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Il est alors clairement identifié par les dirigeants d'Uber comme un allié solide de l'entreprise.",
+   "confidence": 0.9,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Il rencontre à plusieurs reprises le fondateur d'Uber, Travis Kalanick, ainsi que des lobbyistes de la société de VTC.",
+   "confidence": 0.95,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Loi Thévenoud",
+   "evidence": "Il se bat pour assouplir la loi Thévenoud censée réglementer l'activité des VTC en France.",
+   "confidence": 0.95,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "En échange, il demande l'abandon d'UberPop, service d'Uber permettant à n'importe qui de s'improviser chauffeur.",
+   "confidence": 0.9,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Pour sa première campagne présidentielle, en 2016-2017, Emmanuel Macron a reçu le soutien de très nombreux défenseurs du modèle promu par la start-up Uber.",
+   "confidence": 0.9,
+   "date": "2016-2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

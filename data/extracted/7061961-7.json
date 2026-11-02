@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Séguin",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "OpinionWay",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "la volonté affichée de Nicolas Sarkozy de rendre plus transparente la gestion de l'Élysée",
+   "confidence": 0.9,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Séguin",
+   "type": "REVEALED",
+   "target": "Emmanuelle Mignon",
+   "evidence": "Philippe Séguin propose à Emmanuelle Mignon de sanctuariser une « liste civile »",
+   "confidence": 0.95,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "détournement de procédure de passation de marché public",
+   "evidence": "la convention ne suit pas la procédure correcte d'appel d'offres",
+   "confidence": 0.95,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "manquement aux règles de transparence dans la gestion publique",
+   "evidence": "sa mission lui permettait de facturer sans contrôle des études d'opinion à l'Élysée",
+   "confidence": 0.9,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "manquement aux règles de l'exécution de la dépense publique",
+   "evidence": "ce qui est « exorbitant au regard des règles de l'exécution de la dépense publique »",
+   "confidence": 0.95,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "INVOLVED_IN",
+   "target": "OpinionWay",
+   "evidence": "130 factures ont été réglées par l'Élysée [...] correspondant notamment à des enquêtes réalisées par l'institut OpinionWay",
+   "confidence": 0.95,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "la Cour des comptes audite pour la première fois les comptes de la présidence de la République",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "le rapport sur l'exécution du budget dénonce les modalités de passage et d'exécution d'une convention",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

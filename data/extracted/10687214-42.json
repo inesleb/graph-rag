@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Gaël Nofri",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Crochet",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gaël Nofri",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Crochet",
+   "evidence": "\"avoir signé celui de conseiller au sein du cabinet de Nicolas Crochet\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gaël Nofri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"Gaël Nofri explique avoir refusé de signer le premier comme assistant de Jean-Marie Le Pen\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "\"comme assistant parlementaire de Jean-Marie Le Pen au Parlement européen\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Crochet",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "\"expert-comptable du FN\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

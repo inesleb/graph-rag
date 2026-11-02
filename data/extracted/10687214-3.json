@@ -1,0 +1,88 @@
+{
+ "entities": [
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Martin Schulz",
+   "type": "Person"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Office européen de lutte antifraude (OLAF)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Office européen de lutte antifraude (OLAF)",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "OLAF commence alors à enquêter sur les rôles de Catherine Griset et Thierry Légier.",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Martin Schulz",
+   "type": "REVEALED",
+   "target": "Office européen de lutte antifraude (OLAF)",
+   "evidence": "Martin Schulz, alors président du Parlement européen, saisit l'OLAF en mars 2015.",
+   "confidence": 1.0,
+   "date": "2015-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "Catherine Griset, ancienne belle-sœur et cheffe de cabinet de Marine Le Pen au siège du FN.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "20 des 24 assistants parlementaires des députés européens FN figuraient dans l'organigramme du parti.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Martin Schulz",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "Martin Schulz, alors président du Parlement européen",
+   "confidence": 1.0,
+   "date": "2015-03",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

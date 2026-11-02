@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Liechtenstein",
+   "type": "Institution"
+  },
+  {
+   "name": "Autorités suisses",
+   "type": "Institution"
+  },
+  {
+   "name": "Justice française",
+   "type": "Institution"
+  },
+  {
+   "name": "Société off-shore",
+   "type": "Company"
+  },
+  {
+   "name": "Compte non déclaré",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "des documents transmis par les autorités suisses à la justice française prouvent que Patrick Balkany est le bénéficiaire direct d’une société off-shore et d’un compte non déclaré",
+   "confidence": 0.95,
+   "date": "2015-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Compte non déclaré",
+   "evidence": "des documents... prouvent que Patrick Balkany est le bénéficiaire direct... d’un compte non déclaré",
+   "confidence": 0.95,
+   "date": "2015-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Société off-shore",
+   "evidence": "des documents... prouvent que Patrick Balkany est le bénéficiaire direct d’une société off-shore",
+   "confidence": 0.95,
+   "date": "2015-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Autorités suisses",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "des documents transmis par les autorités suisses à la justice française prouvent que Patrick Balkany...",
+   "confidence": 0.95,
+   "date": "2015-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Justice française",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "des documents transmis par les autorités suisses à la justice française prouvent...",
+   "confidence": 0.95,
+   "date": "2015-09",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

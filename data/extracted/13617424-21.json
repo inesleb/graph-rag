@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Les avocats écoutés",
+   "type": "Institution"
+  },
+  {
+   "name": "Première chambre civile du tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Agent judiciaire de l'État",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Les avocats écoutés",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Les avocats écoutés assignent devant la première chambre civile du tribunal judiciaire de Paris",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les avocats écoutés",
+   "type": "INVOLVED_IN",
+   "target": "Première chambre civile du tribunal judiciaire de Paris",
+   "evidence": "Les avocats écoutés assignent devant la première chambre civile du tribunal judiciaire de Paris",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Première chambre civile du tribunal judiciaire de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Agent judiciaire de l'État",
+   "evidence": "assignent [...] l’agent judiciaire de l'État",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les avocats écoutés",
+   "type": "ACQUITTED_IN",
+   "target": "Première chambre civile du tribunal judiciaire de Paris",
+   "evidence": "Ils sont déboutés en novembre 2021",
+   "confidence": 1.0,
+   "date": "2021-11",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Les avocats écoutés",
+   "type": "ACQUITTED_IN",
+   "target": "Première chambre civile du tribunal judiciaire de Paris",
+   "evidence": "et en appel en avril 2023",
+   "confidence": 1.0,
+   "date": "2023-04",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

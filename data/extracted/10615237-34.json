@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marie Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Le Parisien",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marie Fillon",
+   "type": "WORKED_FOR",
+   "target": "Affaire Fillon",
+   "evidence": "son emploi d'assistante parlementaire",
+   "confidence": 0.9,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Fillon",
+   "type": "WORKED_FOR",
+   "target": "Affaire Fillon",
+   "evidence": "leurs salaire d'assistants parlementaires",
+   "confidence": 0.9,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "les deux enfants ont reversé à François Fillon sur le compte joint du couple une partie de leur salaire",
+   "confidence": 0.95,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "les deux enfants ont reversé à François Fillon sur le compte joint du couple une partie de leur salaire",
+   "confidence": 0.95,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon a retrouvé et mis à disposition de la justice quatorze factures",
+   "confidence": 0.9,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie Fillon",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "reversé à François Fillon sur le compte joint du couple une partie de leur salaire d'assistants parlementaires",
+   "confidence": 0.8,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Parisien",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Le 13 mars 2017, le journal Le Parisien rapporte que les deux enfants ont reversé à François Fillon",
+   "confidence": 1.0,
+   "date": "2017-03-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

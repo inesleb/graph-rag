@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Gouvernement Castex",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "République française",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "McKinsey & Company",
+   "evidence": "scandale politico-financier concernant les liens entre le gouvernement de la République française et le cabinet de conseil américain McKinsey & Company",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "République française",
+   "evidence": "scandale politico-financier concernant les liens entre le gouvernement de la République française et le cabinet de conseil américain McKinsey & Company",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gouvernement Castex",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "le gouvernement Castex a massivement recours aux services de cette entreprise afin d'élaborer la politique vaccinale contre la Covid-19 en France",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire McKinsey",
+   "evidence": "Depuis 2022, trois enquêtes du Parquet national financier à ce sujet sont en cours",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "République française",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "scandale politico-financier concernant les liens entre le gouvernement de la République française et le cabinet de conseil américain McKinsey & Company",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

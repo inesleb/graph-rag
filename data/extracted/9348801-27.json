@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d’appel",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Rouen",
+   "type": "Institution"
+  },
+  {
+   "name": "Mairie de Levallois-Perret",
+   "type": "Institution"
+  },
+  {
+   "name": "Giverny",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient les peines de prison... prononcées par la cour d’appel en janvier 2023",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation... annule les 400 000 euros de dommages-intérêts accordés à l’État et renvoie vers un nouveau procès",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany saisit la justice le 25 octobre 2024 pour faire annuler sa peine de 10 ans d’inéligibilité",
+   "confidence": 0.9,
+   "date": "2024-10-25",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Tribunal judiciaire de Paris",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le tribunal judiciaire de Paris a cependant refusé sa requête",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la cour d'appel de Rouen confirme la libération conditionnelle accordée à Patrick Balkany",
+   "confidence": 1.0,
+   "date": "2026-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Mairie de Levallois-Perret",
+   "evidence": "Patrick Balkany... afin de se représenter à la mairie de Levallois-Perret en 2026",
+   "confidence": 1.0,
+   "date": "2026",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

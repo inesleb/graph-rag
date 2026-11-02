@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Énergies (filiale d'Alstom)",
+   "type": "Company"
+  }
+ ],
+ "relations": []
+}

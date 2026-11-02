@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "Ludovic Chaker",
+   "type": "Person"
+  },
+  {
+   "name": "Gilles de Laclause",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Le Canard enchaîné rapporte une altercation entre Alexandre Benalla et le service de sécurité du quartier général de campagne d'En marche.",
+   "confidence": 0.95,
+   "date": "2016-11-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "affirmant qu'il travaille comme « chef de cabinet au service du Premier ministre »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Gilles de Laclause [...] précise qu'il ne porte pas plainte mais qu'il demande [...] d'interdire à Alexandre Benalla l'accès du bâtiment.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ludovic Chaker",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "Ludovic Chaker, alors secrétaire général d'En marche",
+   "confidence": 1.0,
+   "date": "2016-11-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Le Canard enchaîné rapporte une altercation entre Alexandre Benalla et le service de sécurité du quartier général de campagne d'En marche.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

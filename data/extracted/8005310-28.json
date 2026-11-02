@@ -1,0 +1,208 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alves",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Camille Pascal",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "France Télévisions",
+   "type": "Institution"
+  },
+  {
+   "name": "Patrick de Carolis",
+   "type": "Person"
+  },
+  {
+   "name": "SNPCA-CGC",
+   "type": "Institution"
+  },
+  {
+   "name": "Renaud Van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "prise illégale d'intérêt",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "\"une information judiciaire est menée [...] pour « favoritisme »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "prise illégale d'intérêt",
+   "evidence": "\"une plainte du syndicat SNPCA-CGC pour « favoritisme et prise illégale d'intérêt »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"une information judiciaire [...] conduit à la mise en examen de Bastien Millot\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-François Copé",
+   "type": "INVOLVED_IN",
+   "target": "Bygmalion",
+   "evidence": "\"cofondateur en 2008 de la société Bygmalion avec Guy Alves\"",
+   "confidence": 0.95,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "INVOLVED_IN",
+   "target": "Bygmalion",
+   "evidence": "\"cofondateur en 2008 de la société Bygmalion avec Jean-François Copé\"",
+   "confidence": 0.95,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Camille Pascal",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Camille Pascal [...] est aussi mis en examen\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Camille Pascal",
+   "type": "WORKED_FOR",
+   "target": "France Télévisions",
+   "evidence": "\"ancien secrétaire général de France Télévisions\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Camille Pascal",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"devenir l’une des plumes de Nicolas Sarkozy à l’Élysée\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick de Carolis",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Patrick de Carolis [...] est à son tour mis en examen pour « favoritisme »\"",
+   "confidence": 0.95,
+   "date": "2014-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick de Carolis",
+   "type": "WORKED_FOR",
+   "target": "France Télévisions",
+   "evidence": "\"patron du groupe France Télévisions au moment des faits\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "WORKED_FOR",
+   "target": "France Télévisions",
+   "evidence": "\"Bastien Millot occupait le poste de numéro trois du groupe audiovisuel public\"",
+   "confidence": 0.95,
+   "date": "2005",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "WORKED_FOR",
+   "target": "Patrick de Carolis",
+   "evidence": "\"où il avait été recruté en 2005 par Patrick de Carolis\"",
+   "confidence": 0.95,
+   "date": "2005",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "France Télévisions",
+   "evidence": "\"Bygmalion se met aussitôt en affaire avec France Télévisions\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Van Ruymbeke",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"une information judiciaire est menée par le juge Renaud Van Ruymbeke\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SNPCA-CGC",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"À la suite d'une plainte du syndicat SNPCA-CGC\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

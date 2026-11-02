@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Choukri Ghanem",
+   "type": "Person"
+  },
+  {
+   "name": "Béchir Salah",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Libyan Africa Portfolio",
+   "type": "Company"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Choukri Ghanem",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "La justice française a obtenu le carnet de Choukri Ghanem, qui a été authentifié...",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Béchir Salah, directeur de cabinet de Mouammar Kadhafi... dit avoir transféré 1,5 million d’euros à la campagne de Nicolas Sarkozy.",
+   "confidence": 0.9,
+   "date": "29 avril 2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libyan Africa Portfolio",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Béchir Salah... patron de l’un des fonds souverains du pays, le Libyan Africa Portfolio...",
+   "confidence": 0.9,
+   "date": "29 avril 2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "Béchir Salah... dit avoir transféré 1,5 million d’euros à la campagne de Nicolas Sarkozy.",
+   "confidence": 0.9,
+   "date": "29 avril 2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "une série de versements totalisant 6,5 millions d’euros versés pendant la campagne électorale de 2007.",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Béchir Salah, directeur de cabinet de Mouammar Kadhafi...",
+   "confidence": 0.9,
+   "date": "29 avril 2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdallah Senoussi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Sont également mentionnés dans ce carnet, l'envoi de 2 millions d’euros par Abdallah Senoussi...",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

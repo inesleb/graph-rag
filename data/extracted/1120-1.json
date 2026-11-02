@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Philippe",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate",
+   "evidence": "cité dans l'affaire des assistants parlementaires du MoDem au Parlement européen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement d'Édouard Philippe",
+   "evidence": "devient ministre de la Justice dans le premier gouvernement d'Édouard Philippe",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "cité dans l'affaire des assistants parlementaires du MoDem au Parlement européen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "François Bayrou",
+   "evidence": "En 2020, Emmanuel Macron le nomme haut-commissaire au plan",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

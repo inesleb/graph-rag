@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Nissan Zi-A Capital BV",
+   "type": "Company"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nissan Zi-A Capital BV",
+   "type": "MEMBER_OF",
+   "target": "Nissan",
+   "evidence": "Nissan Zi-A Capital BV est une filiale de Nissan",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Nissan Zi-A Capital BV",
+   "evidence": "Les membres du conseil d'administration comportent Carlos Ghosn",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "MEMBER_OF",
+   "target": "Nissan Zi-A Capital BV",
+   "evidence": "Les membres du conseil d'administration comportent [...] Greg Kelly.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan Zi-A Capital BV",
+   "type": "WORKED_FOR",
+   "target": "Carlos Ghosn",
+   "evidence": "les a mises à la disposition exclusive de M. Ghosn",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVESTIGATED",
+   "target": "Carlos Ghosn",
+   "evidence": "un audit comptable et financier de Nissan a exprimé des doutes sur [...] leur mise à la disposition de M. Ghosn",
+   "confidence": 0.8,
+   "date": "2013",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

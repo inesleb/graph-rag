@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "En mars 2025, Marine Le Pen est reconnue coupable de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En mars 2025, Marine Le Pen est reconnue coupable de détournement de fonds publics par le tribunal de Paris dans le cadre de l'affaire des assistants parlementaires du Front national au Parlement européen",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "En juillet 2026, sa condamnation est maintenue en appel",
+   "confidence": 1.0,
+   "date": "2026-07",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En juillet 2026, sa condamnation est maintenue en appel",
+   "confidence": 1.0,
+   "date": "2026-07",
+   "stage": "appeal",
+   "final": false
+  }
+ ]
+}

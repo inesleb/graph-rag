@@ -1,0 +1,68 @@
+{
+ "entities": [
+  {
+   "name": "Richard Lizurey",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Lizurey",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "compte tenu de l'expérience du chargé de mission",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "rencontre Alexandre Benalla lors d'un déplacement en avion dans le cadre de leurs fonctions respectives",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Lizurey",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie",
+   "evidence": "Le général Lizurey précise n'avoir à aucun moment été en contact avec l'Élysée pour ce recrutement. Il souhaite alors faire participer Alexandre Benalla à des réflexions sur les améliorations à apporter dans la Gendarmerie",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie",
+   "evidence": "grade provisoire de lieutenant-colonel étant justifié par le fait qu'Alexandre Benalla a [...] des interlocuteurs des hauts gradés",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "grade de lieutenant-colonel n'est que temporaire puisqu'il est lié à une mission définie",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Marie Minelli",
+   "type": "Person"
+  }
+ ],
+ "relations": []
+}

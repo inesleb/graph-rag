@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Méaux",
+   "type": "Person"
+  },
+  {
+   "name": "Robert Bourgi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Holland & Sherry",
+   "type": "Company"
+  },
+  {
+   "name": "Maison Arnys",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon et Anne Méaux [...] l'ont tous deux appelé afin de l'inciter à ne pas révéler qu'il était le donateur des costumes",
+   "confidence": 0.95,
+   "date": "2017-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anne Méaux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon et Anne Méaux [...] l'ont tous deux appelé afin de l'inciter à ne pas révéler qu'il était le donateur des costumes",
+   "confidence": 0.95,
+   "date": "2017-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi révèle [...] que François Fillon et Anne Méaux [...] l'ont tous deux appelé afin de l'inciter à ne pas révéler qu'il était le donateur des costumes",
+   "confidence": 0.95,
+   "date": "2017-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Maison Arnys",
+   "evidence": "les deux costumes rendus à Robert Bourgi proviennent bien de la maison Arnys. Un troisième costume, offert cette fois directement par la maison Arnys, a été conservé par Fillon",
+   "confidence": 0.9,
+   "date": "2017-04-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon affirme que « c’est juste la police qui ne sait pas faire son travail. On fait croire que je n’aurais pas rendu les bons costumes »",
+   "confidence": 0.85,
+   "date": "2017-04-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi révèle lors d'une interview à Mediapart que François Fillon et Anne Méaux [...] l'ont tous deux appelé",
+   "confidence": 0.95,
+   "date": "2017-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Le jour même, Libération affirme que François Fillon aurait rendu d'autres costumes, produits aux Pays-Bas",
+   "confidence": 0.85,
+   "date": "2017-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Holland & Sherry",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« c’est l’étiquette du fabricant de tissu Holland & Sherry »",
+   "confidence": 0.9,
+   "date": "2017-04-17",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

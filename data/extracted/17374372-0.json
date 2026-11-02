@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "General Electric",
+   "type": "Company"
+  },
+  {
+   "name": "Frédéric Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "FBI",
+   "type": "Institution"
+  },
+  {
+   "name": "DoJ (Department of Justice)",
+   "type": "Institution"
+  },
+  {
+   "name": "FCPA (Foreign Corrupt Practices Act)",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Alstom",
+   "evidence": "L'affaire Alstom est une affaire politico-financière conséquente du rachat de la filiale Power d'Alstom",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "General Electric",
+   "evidence": "par l'acquéreur américain General Electric",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "l'arrestation de Frédéric Pierucci, dirigeant de la branche Énergie du groupe",
+   "confidence": 1.0,
+   "date": "2013-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "lorsqu'il se fait arrêter par le FBI à sa descente d'avion à New York",
+   "confidence": 1.0,
+   "date": "2013-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "Patrick Kron, PDG d'Alstom",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Kron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Patrick Kron, PDG d'Alstom, vend la filiale Power à l'américain General Electric",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "FBI",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "lorsqu'il se fait arrêter par le FBI",
+   "confidence": 1.0,
+   "date": "2013-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "DoJ (Department of Justice)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "notamment en raison de la diplomatie de l'otage fortement utilisée par le DoJ américain",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "FCPA (Foreign Corrupt Practices Act)",
+   "evidence": "Cette affaire est parfois présentée comme [...] démonstration de force du FCPA",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "certains médias font écho d'un système de vente pouvant être considéré comme une forme de corruption",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

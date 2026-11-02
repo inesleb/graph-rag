@@ -4,7 +4,8 @@ import json
 
 import pytest
 
-from scripts import download_corpus as dc
+from app.ingest import wikipedia as dc
+from scripts import download_corpus
 
 ARTICLE_TEXT = "Résumé.\n\n== Faits ==\nDes faits.\n\n== Notes et références ==\nRéf."
 
@@ -134,7 +135,7 @@ def test_main_saves_articles_and_index(tmp_path, monkeypatch, capsys):
     """Files are written, links stay inside the corpus, the index is complete."""
     monkeypatch.setattr(dc.requests, "Session", FakeSession)
     articles = write_list(tmp_path, [("Affaire A", "affair"), ("Personne B", "context")])
-    dc.main(["--articles", str(articles), "--out", str(tmp_path / "raw")])
+    download_corpus.main(["--articles", str(articles), "--out", str(tmp_path / "raw")])
 
     saved = json.loads((tmp_path / "raw" / "1.json").read_text(encoding="utf-8"))
     assert saved["links"] == ["Personne B"]
