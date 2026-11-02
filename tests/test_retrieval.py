@@ -63,3 +63,13 @@ def test_relations_and_paths_use_bounded_typed_queries():
     query = driver.queries[0][0]
     assert "*..3" in query and "MENTIONS" not in query
     assert retrieval.entity_relations(driver, "a")[0]["type"] == "MEMBER_OF"
+
+
+def test_entity_relations_put_recent_verdicts_first():
+    """Legal relations are ranked before the others, so a recent verdict is not cut."""
+    driver = FakeDriver({"LIMIT $limit": []})
+    retrieval.entity_relations(driver, "a")
+    query, params = driver.queries[0]
+    assert "CASE WHEN type(r) IN $legal" in query
+    assert query.index("$legal") < query.index("r.support DESC")
+    assert params["legal"] == ["ACQUITTED_IN", "CONVICTED_IN", "INDICTED_IN"]

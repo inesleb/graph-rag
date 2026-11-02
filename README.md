@@ -435,6 +435,14 @@ output at 150 nodes.
   pending, and the agent then repeated it. A relation is now `final` only if it is
   at the cassation stage or its quote says "définitif" (84 flags before, 25 after),
   and the answer prompt tells the LLM that a pending appeal means not final.
+- A real quote can still be misread. "La Cour d'appel fait droit à la demande de
+  mise en liberté de Nicolas Sarkozy" (a release from prison) was stored as
+  `ACQUITTED_IN`: the quote exists and the types fit, so it passes the three checks.
+  61 of the 105 extracted acquittals have no acquittal word in their quote. Next
+  step: require the verdict's word in the quote (*relaxé*, *acquitté*), as for
+  `final`. To limit the damage, `entity_relations` now ranks legal relations first,
+  most recent first, so a single-passage conviction is not cut by the 12-relation
+  limit.
 - Passage similarity alone cannot tell on-topic from off-topic questions with
   `mistral-embed` (see the calibration above); the guardrail relies on the LLM's
   `answerable` check for borderline cases.

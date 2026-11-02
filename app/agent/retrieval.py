@@ -6,7 +6,7 @@ import re
 
 from neo4j import Driver
 
-from app.ingest.schema import RelationType
+from app.ingest.schema import LEGAL_RELATIONS, RelationType
 
 LUCENE_SPECIAL = re.compile(r'([+\-&|!(){}\[\]^"~*?:\\/])')
 STOPWORDS = {
@@ -16,6 +16,7 @@ STOPWORDS = {
 }
 RRF_K = 60  # reciprocal rank fusion constant
 TYPED_RELATIONS = "|".join(relation.value for relation in RelationType)
+LEGAL_TYPES = sorted(relation.value for relation in LEGAL_RELATIONS)
 
 
 def lucene_query(text: str) -> str:
@@ -104,7 +105,10 @@ def find_entities(driver: Driver, names: list[str], per_name: int = 2) -> list[d
 
 
 def entity_relations(driver: Driver, key: str, limit: int = 25) -> list[dict]:
-    """Typed relations of one entity, strongest first, with provenance."""
+    """Typed relations of one entity, with provenance.
+
+    Legal relations come first, most recent first, so a verdict stated in a single
+    passage is not pushed out by older facts repeated in many passages."""
     records = driver.execute_query(
         f"""
         MATCH (e:Entity {{key: $key}})-[r:{TYPED_RELATIONS}]-(other:Entity)
@@ -112,10 +116,12 @@ def entity_relations(driver: Driver, key: str, limit: int = 25) -> list[dict]:
                r.stage AS stage, r.final AS final, r.date AS date,
                r.confidence AS confidence, r.support AS support,
                r.evidence AS evidence, r.chunk_ids AS chunk_ids
-        ORDER BY r.support DESC, r.confidence DESC
+        ORDER BY CASE WHEN type(r) IN $legal THEN 0 ELSE 1 END,
+                 coalesce(r.date, '') DESC, r.support DESC, r.confidence DESC
         LIMIT $limit
         """,
         key=key,
+        legal=LEGAL_TYPES,
         limit=limit,
     ).records
     return [dict(record) for record in records]
