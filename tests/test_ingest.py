@@ -52,7 +52,9 @@ def test_assemble_merges_names_and_keeps_one_edge_per_stage():
             "1-0": extraction(
                 "Nicolas Sarkozy", "Nicolas Sarkozy est condamné", "first_instance", False
             ),
-            "1-1": extraction("Sarkozy", "Sarkozy est condamné pour corruption", "appeal", True),
+            "1-1": extraction(
+                "Sarkozy", "Sarkozy est condamné pour corruption, décision définitive", "appeal", True
+            ),
         },
         DOCUMENTS,
     )
@@ -103,3 +105,17 @@ def test_backoff_does_not_retry_client_errors(monkeypatch):
     monkeypatch.setattr(pipeline.time, "sleep", lambda seconds: None)
     with pytest.raises(httpx.HTTPStatusError):
         invoke_with_backoff(FlakyModel(http_error(400)), "p")
+
+
+def test_final_needs_cassation_or_an_explicit_quote():
+    """The LLM's final flag only counts when the stage or the quote supports it."""
+    def rel(evidence, final=True):
+        return Extraction.model_validate({
+            "entities": [], "relations": [{"source": "a", "type": "CONVICTED_IN", "target": "b",
+                                           "evidence": evidence, "confidence": 1, "final": final}],
+        }).relations[0]
+
+    assert not pipeline.supported_final(rel("la cour d'appel confirme la culpabilité"), "appeal")
+    assert pipeline.supported_final(rel("il est définitivement condamné"), "appeal")
+    assert pipeline.supported_final(rel("le pourvoi est rejeté"), "cassation")
+    assert not pipeline.supported_final(rel("définitivement condamné", final=False), "appeal")

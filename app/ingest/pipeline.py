@@ -21,11 +21,24 @@ from app.db import get_driver
 from app.ingest import graph_writer
 from app.ingest.chunking import chunk_text
 from app.ingest.extraction import build_prompt, validate
-from app.ingest.resolution import PARENTHESIS, Resolver
+from app.ingest.resolution import PARENTHESIS, Resolver, normalize
 from app.ingest.schema import LEGAL_RELATIONS, EntityType, Extraction, RelationType
 from app.llm import get_chat_model, get_embeddings
 
 MAX_EVIDENCE = 3  # quotes kept per relation
+FINAL_WORDS = ("definiti",)  # "définitif", "définitivement", accents removed by normalize()
+
+
+def supported_final(relation, stage: str | None) -> bool:
+    """A decision counts as final only if the cassation stage or the quote itself says so.
+
+    The LLM's `final` flag alone is not trusted: it marked appeal rulings as final
+    while a cassation appeal was pending.
+    """
+    if not relation.final:
+        return False
+    quote = normalize(relation.evidence)
+    return stage == "cassation" or any(word in quote for word in FINAL_WORDS)
 RATE_LIMIT_RETRIES = 6
 
 
@@ -159,7 +172,7 @@ def _add_relation(relations: dict, relation, source: str, target: str, chunk_id:
         group["evidence"].append(relation.evidence)
     group["confidence"] = max(group["confidence"], relation.confidence)
     group["dates"] += [relation.date] if relation.date else []
-    group["final"] = group["final"] or bool(relation.final)
+    group["final"] = group["final"] or supported_final(relation, stage)
 
 
 def _relation_rows(relations: dict) -> list[dict]:
