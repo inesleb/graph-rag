@@ -1,11 +1,19 @@
 """Tests for the API endpoints, with the agent, pipeline and graph queries faked."""
 # pylint: disable=redefined-outer-name,unused-argument  # pytest fixtures and fake signatures
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app import main
 
 client = TestClient(main.app)
+
+
+@pytest.fixture(autouse=True)
+def no_admin_key(monkeypatch):
+    """Tests start without an admin key, whatever the local .env contains."""
+    settings = main.get_settings().model_copy(update={"admin_api_key": ""})
+    monkeypatch.setattr(main, "get_settings", lambda: settings)
 
 ANSWER = {
     "question": "q?", "status": "answered", "answer": "Oui.", "confidence": 0.8,
