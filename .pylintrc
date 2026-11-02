@@ -1,0 +1,8 @@
+[MAIN]
+py-version=3.11
+
+[FORMAT]
+max-line-length=100
+
+[MESSAGES CONTROL]
+disable=too-few-public-methods

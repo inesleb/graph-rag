@@ -1,0 +1,506 @@
+[
+  {
+    "pageid": 14889046,
+    "title": "Affaire McKinsey",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_McKinsey",
+    "revid": 240860703,
+    "chars": 11203,
+    "links": 6
+  },
+  {
+    "pageid": 15686791,
+    "title": "Fonds Marianne",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Fonds_Marianne",
+    "revid": 240865535,
+    "chars": 11590,
+    "links": 4
+  },
+  {
+    "pageid": 8005310,
+    "title": "Affaire Bygmalion",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Bygmalion",
+    "revid": 237516008,
+    "chars": 30096,
+    "links": 10
+  },
+  {
+    "pageid": 10615237,
+    "title": "Affaire Fillon",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Fillon",
+    "revid": 240141598,
+    "chars": 40000,
+    "links": 17
+  },
+  {
+    "pageid": 13617424,
+    "title": "Affaire des écoutes (Sarkozy)",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_%C3%A9coutes_(Sarkozy)",
+    "revid": 240047811,
+    "chars": 15629,
+    "links": 12
+  },
+  {
+    "pageid": 6281406,
+    "title": "Affaire Sarkozy-Kadhafi",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Sarkozy-Kadhafi",
+    "revid": 240702279,
+    "chars": 40000,
+    "links": 16
+  },
+  {
+    "pageid": 10687214,
+    "title": "Affaire des assistants parlementaires du Front national au Parlement européen",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_assistants_parlementaires_du_Front_national_au_Parlement_europ%C3%A9en",
+    "revid": 240862925,
+    "chars": 40000,
+    "links": 8
+  },
+  {
+    "pageid": 10944829,
+    "title": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_assistants_parlementaires_du_Mouvement_d%C3%A9mocrate_au_Parlement_europ%C3%A9en",
+    "revid": 239972480,
+    "chars": 10369,
+    "links": 4
+  },
+  {
+    "pageid": 11855284,
+    "title": "Affaires Benalla",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaires_Benalla",
+    "revid": 240724379,
+    "chars": 40000,
+    "links": 17
+  },
+  {
+    "pageid": 15078167,
+    "title": "Uber Files",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Uber_Files",
+    "revid": 237229654,
+    "chars": 14921,
+    "links": 5
+  },
+  {
+    "pageid": 7061961,
+    "title": "Affaire des sondages de l'Élysée",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_sondages_de_l%27%C3%89lys%C3%A9e",
+    "revid": 239735139,
+    "chars": 20276,
+    "links": 10
+  },
+  {
+    "pageid": 9270222,
+    "title": "Kazakhgate",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Kazakhgate",
+    "revid": 239344949,
+    "chars": 12566,
+    "links": 2
+  },
+  {
+    "pageid": 2357498,
+    "title": "Affaire Tapie - Crédit lyonnais",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Tapie_-_Cr%C3%A9dit_lyonnais",
+    "revid": 240597525,
+    "chars": 40000,
+    "links": 7
+  },
+  {
+    "pageid": 3927148,
+    "title": "Affaire Karachi",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Karachi",
+    "revid": 240018287,
+    "chars": 26736,
+    "links": 6
+  },
+  {
+    "pageid": 17627817,
+    "title": "Affaire des Mutuelles de Bretagne",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_Mutuelles_de_Bretagne",
+    "revid": 239780515,
+    "chars": 14072,
+    "links": 7
+  },
+  {
+    "pageid": 15311414,
+    "title": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_des_comptes_de_campagne_de_Jean-Luc_M%C3%A9lenchon_en_2017",
+    "revid": 240823441,
+    "chars": 10386,
+    "links": 3
+  },
+  {
+    "pageid": 13052386,
+    "title": "Affaire Carlos Ghosn",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Carlos_Ghosn",
+    "revid": 240785862,
+    "chars": 40000,
+    "links": 3
+  },
+  {
+    "pageid": 9348801,
+    "title": "Affaire Balkany",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Balkany",
+    "revid": 240362881,
+    "chars": 39376,
+    "links": 7
+  },
+  {
+    "pageid": 10991797,
+    "title": "Affaire Business France",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Business_France",
+    "revid": 240333122,
+    "chars": 10739,
+    "links": 5
+  },
+  {
+    "pageid": 17374372,
+    "title": "Affaire Alstom",
+    "kind": "affair",
+    "url": "https://fr.wikipedia.org/wiki/Affaire_Alstom",
+    "revid": 238141261,
+    "chars": 15314,
+    "links": 1
+  },
+  {
+    "pageid": 675918,
+    "title": "Nicolas Sarkozy",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Nicolas_Sarkozy",
+    "revid": 240679664,
+    "chars": 2908,
+    "links": 25
+  },
+  {
+    "pageid": 3459097,
+    "title": "François Fillon",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Fillon",
+    "revid": 240905550,
+    "chars": 3016,
+    "links": 20
+  },
+  {
+    "pageid": 10452979,
+    "title": "Penelope Fillon",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Penelope_Fillon",
+    "revid": 235644147,
+    "chars": 1360,
+    "links": 5
+  },
+  {
+    "pageid": 86757,
+    "title": "Marine Le Pen",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen",
+    "revid": 240852154,
+    "chars": 2193,
+    "links": 13
+  },
+  {
+    "pageid": 6298771,
+    "title": "Emmanuel Macron",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Emmanuel_Macron",
+    "revid": 240914511,
+    "chars": 3530,
+    "links": 25
+  },
+  {
+    "pageid": 10852971,
+    "title": "Alexis Kohler",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Alexis_Kohler",
+    "revid": 238951329,
+    "chars": 574,
+    "links": 7
+  },
+  {
+    "pageid": 1120,
+    "title": "François Bayrou",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou",
+    "revid": 240230804,
+    "chars": 2448,
+    "links": 17
+  },
+  {
+    "pageid": 793930,
+    "title": "Claude Guéant",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Claude_Gu%C3%A9ant",
+    "revid": 239746437,
+    "chars": 1581,
+    "links": 17
+  },
+  {
+    "pageid": 58468,
+    "title": "Brice Hortefeux",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Brice_Hortefeux",
+    "revid": 240789098,
+    "chars": 1021,
+    "links": 10
+  },
+  {
+    "pageid": 5375311,
+    "title": "Ziad Takieddine",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Ziad_Takieddine",
+    "revid": 236189091,
+    "chars": 769,
+    "links": 11
+  },
+  {
+    "pageid": 1051550,
+    "title": "Alexandre Djouhri",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Alexandre_Djouhri",
+    "revid": 239910165,
+    "chars": 858,
+    "links": 11
+  },
+  {
+    "pageid": 786656,
+    "title": "Thierry Herzog",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Thierry_Herzog",
+    "revid": 236067415,
+    "chars": 69,
+    "links": 4
+  },
+  {
+    "pageid": 7614942,
+    "title": "Gilbert Azibert",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Gilbert_Azibert",
+    "revid": 240309262,
+    "chars": 669,
+    "links": 5
+  },
+  {
+    "pageid": 7956191,
+    "title": "Jérôme Lavrilleux",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Lavrilleux",
+    "revid": 235256600,
+    "chars": 301,
+    "links": 5
+  },
+  {
+    "pageid": 3957922,
+    "title": "Patrick Balkany",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Patrick_Balkany",
+    "revid": 236727734,
+    "chars": 1504,
+    "links": 10
+  },
+  {
+    "pageid": 2800868,
+    "title": "Isabelle Balkany",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Isabelle_Balkany",
+    "revid": 240602361,
+    "chars": 1047,
+    "links": 6
+  },
+  {
+    "pageid": 11855694,
+    "title": "Alexandre Benalla",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Alexandre_Benalla",
+    "revid": 240715173,
+    "chars": 1083,
+    "links": 8
+  },
+  {
+    "pageid": 6368459,
+    "title": "Richard Ferrand",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Richard_Ferrand",
+    "revid": 240798795,
+    "chars": 2057,
+    "links": 12
+  },
+  {
+    "pageid": 126421,
+    "title": "Jean-Luc Mélenchon",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+    "revid": 240891799,
+    "chars": 2795,
+    "links": 16
+  },
+  {
+    "pageid": 1273789,
+    "title": "Rachida Dati",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Rachida_Dati",
+    "revid": 240527290,
+    "chars": 2082,
+    "links": 12
+  },
+  {
+    "pageid": 101131,
+    "title": "Carlos Ghosn",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Carlos_Ghosn",
+    "revid": 240204601,
+    "chars": 2241,
+    "links": 3
+  },
+  {
+    "pageid": 101546,
+    "title": "Bernard Tapie",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Bernard_Tapie",
+    "revid": 240487580,
+    "chars": 1335,
+    "links": 7
+  },
+  {
+    "pageid": 1345733,
+    "title": "Édouard Balladur",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Balladur",
+    "revid": 240676003,
+    "chars": 2034,
+    "links": 12
+  },
+  {
+    "pageid": 8497309,
+    "title": "Marlène Schiappa",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa",
+    "revid": 240629554,
+    "chars": 1278,
+    "links": 11
+  },
+  {
+    "pageid": 552953,
+    "title": "Patrick Buisson",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Patrick_Buisson",
+    "revid": 238589460,
+    "chars": 434,
+    "links": 10
+  },
+  {
+    "pageid": 6258837,
+    "title": "Muriel Pénicaud",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Muriel_P%C3%A9nicaud",
+    "revid": 239697136,
+    "chars": 1345,
+    "links": 9
+  },
+  {
+    "pageid": 8064045,
+    "title": "Parquet national financier",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Parquet_national_financier",
+    "revid": 240831062,
+    "chars": 1000,
+    "links": 11
+  },
+  {
+    "pageid": 274193,
+    "title": "Cour de justice de la République",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Cour_de_justice_de_la_R%C3%A9publique",
+    "revid": 239428443,
+    "chars": 910,
+    "links": 6
+  },
+  {
+    "pageid": 3102495,
+    "title": "Mediapart",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Mediapart",
+    "revid": 240936556,
+    "chars": 1276,
+    "links": 9
+  },
+  {
+    "pageid": 15469,
+    "title": "Le Canard enchaîné",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Le_Canard_encha%C3%AEn%C3%A9",
+    "revid": 239485331,
+    "chars": 1215,
+    "links": 7
+  },
+  {
+    "pageid": 1122,
+    "title": "Rassemblement national",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Rassemblement_national",
+    "revid": 240908966,
+    "chars": 2238,
+    "links": 9
+  },
+  {
+    "pageid": 9028101,
+    "title": "Les Républicains",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Les_R%C3%A9publicains",
+    "revid": 240898661,
+    "chars": 3108,
+    "links": 12
+  },
+  {
+    "pageid": 1584761,
+    "title": "Mouvement démocrate",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Mouvement_d%C3%A9mocrate",
+    "revid": 233610426,
+    "chars": 365,
+    "links": 0
+  },
+  {
+    "pageid": 10438583,
+    "title": "La France insoumise",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/La_France_insoumise",
+    "revid": 240906779,
+    "chars": 2627,
+    "links": 9
+  },
+  {
+    "pageid": 575224,
+    "title": "McKinsey & Company",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/McKinsey_%26_Company",
+    "revid": 240193937,
+    "chars": 483,
+    "links": 2
+  },
+  {
+    "pageid": 6732683,
+    "title": "Uber",
+    "kind": "context",
+    "url": "https://fr.wikipedia.org/wiki/Uber",
+    "revid": 240340333,
+    "chars": 1941,
+    "links": 3
+  }
+]
