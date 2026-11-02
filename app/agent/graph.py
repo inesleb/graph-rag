@@ -40,6 +40,9 @@ ANSWER_PROMPT = """Answer the question using ONLY the numbered sources below.
 - Cite the sources you use by their ids. Never cite an id that is not listed.
 - Keep "mis en examen", "condamné" (with its stage: first instance, appeal, final) and
   "relaxé" distinct: never present an indictment or a non-final ruling as a final conviction.
+- A ruling is final only if a source says so explicitly ("définitif", rejected cassation
+  appeal). If a passage mentions a pending appeal or "pourvoi en cassation", the ruling is
+  NOT final, even if a relation is marked final.
 - If the sources do not answer the question, set answerable to false.
 - Answer in the language of the question, in a few sentences.
 

@@ -35,7 +35,8 @@ GET /api/ask?q=Marine Le Pen a-t-elle été condamnée dans l'affaire des assist
 - [Modelling choices and rejected alternatives](#modelling-choices-and-rejected-alternatives)
 - [Avoiding hallucinated edges](#avoiding-hallucinated-edges)
 - [The agent](#the-agent)
-- [API](#api)
+- [What you can ask](#what-you-can-ask)
+- [Web interface and API](#web-interface-and-api)
 - [Topics with GDS](#topics-with-gds)
 - [Query performance](#query-performance)
 - [Tests and quality](#tests-and-quality)
@@ -200,6 +201,10 @@ three checks in `app/ingest/extraction.py`, and a relation is dropped if:
    copy the words that state the relation, and the quote is checked against the
    passage (ignoring case, accents and spacing).
 
+A fourth rule applies when relations are merged: a legal relation is marked
+`final` only if it is at the cassation stage or its quote says "définitif". The
+LLM's own `final` flag is not trusted (see [Limitations](#limitations)).
+
 The prompt also gives the article's subject and the list of canonical entity
 names, and forbids turning an indictment into a conviction.
 
@@ -274,9 +279,66 @@ flowchart LR
 
 Every step is returned in `tool_calls`.
 
-## API
+## What you can ask
 
-Swagger UI: http://localhost:8000/docs
+The agent answers what the 56 articles say, when it can retrieve the passages or
+relations that say it.
+
+**Works well**
+
+| Kind of question | Example |
+|---|---|
+| Legal outcome, with its judicial stage | *Marine Le Pen a-t-elle été condamnée dans l'affaire des assistants parlementaires du FN ?* |
+| Facts about one affair | *Qu'est-ce que le Fonds Marianne ?*, *Qui a révélé l'affaire Fillon ?* |
+| A person's role | *Quel rôle a joué Ziad Takieddine dans l'affaire Karachi ?* |
+| How two named entities are connected | *Quel lien entre Nicolas Sarkozy et Claude Guéant ?* (shortest paths, up to 4 hops) |
+| Offenses | *Pour quoi Patrick Balkany a-t-il été condamné ?* |
+| Questions in English | *Who revealed the Fillon affair?* (answered in English) |
+
+**Works partially**
+
+- **Counting and rankings** (*Combien de personnes ont été condamnées en tout ?*).
+  The agent has no aggregation tool and sees at most 6 passages and 12 relations
+  per entity, so a count it gives can be incomplete. Direct Cypher answers these
+  exactly (see `demo.ipynb`); a fixed counting tool in the planner's allow-list is
+  the natural next step.
+- **Comparisons across many affairs**: same limit, the agent reasons on a sample.
+- **Details at the end of long articles**: six affair articles were capped at
+  40,000 characters (Fillon, Sarkozy-Kadhafi, assistants FN, Benalla, Tapie, Ghosn).
+- **Biographical details**: people's pages are intro only, so *Où Rachida Dati
+  a-t-elle fait ses études ?* is likely to be refused.
+- **Affairs known under several names**: *affaire Bismuth* and *affaire
+  Sarkozy-Azibert* are separate nodes from *Affaire des écoutes*; passage search
+  still finds the text, but graph relations are split between the nodes.
+
+**Refused by design**
+
+- Anything outside the corpus, including affairs only mentioned in passing.
+- Anything after the download date (Wikipedia revisions of 2 November 2026,
+  listed in `data/corpus_index.json`).
+- Opinions and predictions (*Marine Le Pen sera-t-elle candidate en 2027 ?*):
+  the agent only reports what its sources state.
+
+## Web interface and API
+
+**Web interface** at http://localhost:8080/ (Docker) or http://localhost:8000/ (local),
+a single page in `app/static/index.html`, in French:
+
+- *Poser une question*: the answer with its confidence, clickable citations that
+  jump to the cited passage, the graph paths used, and the agent's steps.
+- *Explorer les thèmes*: the Louvain topics and an interactive graph of each one
+  (vis-network), nodes coloured by entity type; double-click a node to show its own
+  neighbourhood. Entities linked to a topic only by co-mentions are hidden, since
+  there is no typed edge to draw.
+
+**Swagger UI** at `/docs`, with endpoints grouped by tag (Questions, Exploration,
+Corpus, System) and example questions for `/api/ask`.
+
+| Answer with stages, citations and graph paths | Topic graph |
+|---|---|
+| ![Answer](docs/screenshots/answer.jpg) | ![Topics](docs/screenshots/topics.jpg) |
+
+![Swagger](docs/screenshots/swagger.jpg)
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -360,15 +422,19 @@ output at 150 nodes.
 
 - The corpus is Wikipedia, which summarizes press coverage and court decisions;
   it can lag behind the latest rulings.
+- The LLM sometimes types events as affairs (*Mai 68*, *Pandémie de Covid-19*,
+  *Intervention militaire en Libye*): the schema has no `Event` type, so it picks
+  the closest one. Adding one would need a full re-extraction.
 - `ministral-14b` (free tier) misses relations a larger model would find; the
   validation keeps precision high at the cost of recall.
 - Entity resolution is rule-based: variants such as "l'ancien président" are only
   resolved when the LLM follows the instruction to use full names.
 - Dates are what the passage says, not normalized event dates.
-- The `final` flag on legal relations is only as good as the extraction. Example:
-  Marine Le Pen's July 2026 appeal conviction is flagged `final` although a
-  cassation appeal is pending. The agent still answers correctly because it also
-  reads the passages, which say so, but the flag alone should not be trusted.
+- The LLM's `final` flag on legal relations was unreliable: it marked Marine Le
+  Pen's July 2026 appeal conviction as final although a cassation appeal is
+  pending, and the agent then repeated it. A relation is now `final` only if it is
+  at the cassation stage or its quote says "définitif" (84 flags before, 25 after),
+  and the answer prompt tells the LLM that a pending appeal means not final.
 - Passage similarity alone cannot tell on-topic from off-topic questions with
   `mistral-embed` (see the calibration above); the guardrail relies on the LLM's
   `answerable` check for borderline cases.
