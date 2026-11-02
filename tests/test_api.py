@@ -109,3 +109,12 @@ def test_import_requires_the_admin_key_when_configured(monkeypatch):
                        headers={"X-API-Key": "wrong"}).status_code == 401
     assert client.post("/api/corpus/import", json={},
                        headers={"X-API-Key": "secret"}).status_code == 200
+
+
+def test_home_serves_the_web_interface():
+    """/ returns the HTML interface; Swagger groups endpoints by tag."""
+    response = client.get("/")
+    assert response.status_code == 200 and "GraphRAG" in response.text
+    tags = {tag for path in client.get("/openapi.json").json()["paths"].values()
+            for operation in path.values() for tag in operation.get("tags", [])}
+    assert tags == {"Questions", "Exploration", "Corpus", "System"}
