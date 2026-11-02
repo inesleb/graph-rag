@@ -413,7 +413,7 @@ output at 150 nodes.
 
 ## Tests and quality
 
-- `make test`: 55 tests, 78% coverage (the build fails under 60%). Neo4j and Mistral are replaced by fakes
+- `make test`: 59 tests, 79% coverage (the build fails under 60%). Neo4j and Mistral are replaced by fakes
   (`tests/fakes.py`), so the tests run in CI without services.
 - `make lint`: pylint with `.pylintrc`.
 - GitHub Actions runs both on every push and pull request.
