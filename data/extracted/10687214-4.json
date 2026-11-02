@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Office européen de lutte antifraude (OLAF)",
+   "type": "Institution"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"Marine Le Pen est sommée de rembourser... avec l'argent public\"",
+   "confidence": 1.0,
+   "date": "2017-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "\"rémunéré des cadres du Front national\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Office européen de lutte antifraude (OLAF)",
+   "evidence": "\"L'OLAF considère qu'elle a rémunéré deux emplois d'assistants parlementaires fictifs\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Catherine Griset",
+   "evidence": "\"le premier concerne l'une de ses collaboratrices, Catherine Griset\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Thierry Légier",
+   "evidence": "\"et le second son garde du corps, Thierry Légier\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"Cette décision s'inscrit dans le cadre d'une affaire concernant les 23 députés européens FN\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Office européen de lutte antifraude (OLAF)",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"L'OLAF considère qu'elle a rémunéré deux emplois d'assistants parlementaires fictifs\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"Selon le Parlement européen, le préjudice s'élève à sept millions d'euros\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"rémunéré des cadres du Front national avec l'argent public\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

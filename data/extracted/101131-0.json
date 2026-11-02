@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Louis Schweitzer",
+   "type": "Person"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "il met en place chez Renault une politique radicale de réduction des coûts",
+   "confidence": 1.0,
+   "date": "1990s",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Au début des années 2000 dans le groupe automobile japonais Nissan, il met en œuvre une politique drastique",
+   "confidence": 1.0,
+   "date": "2000s",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Louis Schweitzer",
+   "evidence": "À la fin des années 1990, sous la présidence de Louis Schweitzer, il met en place chez Renault",
+   "confidence": 0.8,
+   "date": "1990s",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

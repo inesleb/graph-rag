@@ -1,0 +1,198 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Maminiaina Ravatomanga",
+   "type": "Person"
+  },
+  {
+   "name": "Andry Rajoelina",
+   "type": "Person"
+  },
+  {
+   "name": "Trans Ocean Airways (TOA)",
+   "type": "Company"
+  },
+  {
+   "name": "Sodiat",
+   "type": "Company"
+  },
+  {
+   "name": "Parquet national financier (PNF)",
+   "type": "Institution"
+  },
+  {
+   "name": "MNG Jet",
+   "type": "Company"
+  },
+  {
+   "name": "Al-Nitaq Al-Akhdhar General Trading",
+   "type": "Company"
+  },
+  {
+   "name": "Citibank",
+   "type": "Company"
+  },
+  {
+   "name": "Panama Papers",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Zone franche Jebel Ali",
+   "type": "Institution"
+  },
+  {
+   "name": "Département de la défense américain (DoD)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "C'est un jet privé Bombardier Global Express [...] qui transporte Carlos Ghosn",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Trans Ocean Airways (TOA)",
+   "type": "MEMBER_OF",
+   "target": "Sodiat",
+   "evidence": "filiale du groupe Sodiat",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maminiaina Ravatomanga",
+   "type": "WORKED_FOR",
+   "target": "Trans Ocean Airways (TOA)",
+   "evidence": "dont le président est Maminiaina Ravatomanga",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maminiaina Ravatomanga",
+   "type": "INVOLVED_IN",
+   "target": "Panama Papers",
+   "evidence": "cité dans les Panama Papers",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maminiaina Ravatomanga",
+   "type": "INVOLVED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "fait l'objet d’une enquête préliminaire [...] pour « blanchiment de fraude fiscale »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Maminiaina Ravatomanga",
+   "type": "INVOLVED_IN",
+   "target": "Parquet national financier (PNF)",
+   "evidence": "fait l'objet d’une enquête préliminaire du Parquet national financier (PNF)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Maminiaina Ravatomanga",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "En France, Maminiaina Ravatomanga fait l'objet d’une enquête préliminaire [...]",
+   "confidence": 0.85,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Al-Nitaq Al-Akhdhar General Trading",
+   "type": "MEMBER_OF",
+   "target": "Citibank",
+   "evidence": "de la filiale de Dubaï de la banque américaine Citibank",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Al-Nitaq Al-Akhdhar General Trading",
+   "type": "INVOLVED_IN",
+   "target": "Département de la défense américain (DoD)",
+   "evidence": "Al-Nitaq Al-Akhdhar General Trading apparaît dans les registres de fournisseurs d’équipements militaires civils reconnus par le département de la défense américain (DoD)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Al-Nitaq Al-Akhdhar General Trading",
+   "type": "INVOLVED_IN",
+   "target": "Zone franche Jebel Ali",
+   "evidence": "Al-Nitaq Al-Akhdhar General Trading est enregistrée dans la zone franche Jebel Ali",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Al-Nitaq Al-Akhdhar General Trading",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le vol est payé par un premier virement [...] de la société Al-Nitaq Al-Akhdhar General Trading",
+   "confidence": 0.95,
+   "date": "2019-12-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "MNG Jet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le vol est payé [...] par [...] MNG Jet",
+   "confidence": 0.95,
+   "date": "2019-12-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "MNG Jet",
+   "type": "ACQUITTED_IN",
+   "target": "Utilisation illégale de services d’aviation privée",
+   "evidence": "MNG Jet porte plainte pour « utilisation illégale de ses services d’aviation privée »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Trans Ocean Airways (TOA)",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Les sociétés TOA et MNG Jet démentent toute implication",
+   "confidence": 0.75,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

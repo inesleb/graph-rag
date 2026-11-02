@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Rachida Dati",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "conseillère ministérielle de Nicolas Sarkozy, dont elle est porte-parole lors de sa campagne victorieuse pour l'élection présidentielle de 2007",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "membre de l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "membre [...] des Républicains (LR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

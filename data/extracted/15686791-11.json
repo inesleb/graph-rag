@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Mathilde Panot",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Hidalgo",
+   "type": "Person"
+  },
+  {
+   "name": "Reconstruire le commun",
+   "type": "Party"
+  },
+  {
+   "name": "Christian Gravel",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "Institution"
+  },
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  },
+  {
+   "name": "détournement de fonds",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "prise illégale d'intérêts",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Fonds Marianne",
+   "type": "INVESTIGATED",
+   "target": "Parquet national financier",
+   "evidence": "des procédures de fonctionnement du Fonds Marianne font l'objet d'une information judiciaire [...] menée par le parquet national financier en 2023",
+   "confidence": 0.95,
+   "date": "2023",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "détournement de fonds",
+   "evidence": "une information judiciaire [...] pour « détournement de fonds »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "une information judiciaire [...] pour « abus de confiance »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "prise illégale d'intérêts",
+   "evidence": "une information judiciaire [...] pour « prise illégale d'intérêts »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mathilde Panot",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "Mathilde Panot écrit à la procureure de la République de Paris le 14 avril",
+   "confidence": 0.9,
+   "date": "2023-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anne Hidalgo",
+   "type": "REVEALED",
+   "target": "Reconstruire le commun",
+   "evidence": "Anne Hidalgo porte plainte pour diffamation contre Reconstruire le commun le même jour",
+   "confidence": 0.95,
+   "date": "2023-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "Christian Gravel signale au parquet la connaissance d'un crime ou d'un délit dans l'exercice de ses fonctions",
+   "confidence": 0.95,
+   "date": "2023-04-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "WORKED_FOR",
+   "target": "Serge Tournaire",
+   "evidence": "L'enquête est menée [...] sous la supervision du juge d'instruction Serge Tournaire",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

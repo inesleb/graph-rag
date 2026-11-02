@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Saïf al-Islam Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Euronews",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"Tout d'abord, il faut que Sarkozy rende l'argent qu'il a accepté de la Libye pour financer sa campagne électorale. C'est nous qui avons financé sa campagne\"",
+   "confidence": 0.95,
+   "date": "2011-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Nous sommes prêts à tout révéler. Nous avons tous les détails, les comptes bancaires, les documents, et les opérations de transfert. Nous révélerons tout prochainement\"",
+   "confidence": 0.95,
+   "date": "2011-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"il a accepté de l'argent libyen... pour financer sa campagne électorale\"",
+   "confidence": 0.95,
+   "date": "2011-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "MEMBER_OF",
+   "target": "Famille Kadhafi",
+   "evidence": "*Implicit in 'fils de Mouammar Kadhafi' (not extracted as no explicit relation in passage)",
+   "confidence": 0.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

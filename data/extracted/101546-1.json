@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire VA-OM",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire du Phocéa",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Testut",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "État français",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "CONVICTED_IN",
+   "target": "Affaire VA-OM",
+   "evidence": "condamné dans l'affaire VA-OM (qui lui vaut d’être emprisonné en 1997 pendant près de six mois)",
+   "confidence": 1.0,
+   "date": "1997",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire du Phocéa",
+   "evidence": "impliqué [...] dans l'affaire du Phocéa",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Testut",
+   "evidence": "impliqué [...] dans l'affaire Testut",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "de nouveau poursuivi, sa mort mettant fin aux poursuites pénales",
+   "confidence": 0.9,
+   "date": "2010",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "État français",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "un arbitrage condamnant l'État à lui payer 403 millions d'euros d'indemnités",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

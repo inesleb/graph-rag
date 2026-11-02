@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "France 3",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"C'est nous qui lui avons fourni les fonds qui lui ont permis de gagner les élections. […] Il est venu me voir alors qu'il était ministre de l'Intérieur. Il m'a demandé un soutien financier. Et on l'a soutenu\"",
+   "confidence": 1.0,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"C'est nous qui lui avons fourni les fonds qui lui ont permis de gagner les élections. […] Il est venu me voir alors qu'il était ministre de l'Intérieur. Il m'a demandé un soutien financier. Et on l'a soutenu\"",
+   "confidence": 1.0,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"C'est nous qui lui avons fourni les fonds qui lui ont permis de gagner les élections\"",
+   "confidence": 0.9,
+   "date": "2011-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "REVEALED",
+   "target": "Le Figaro",
+   "evidence": "interview non-publiée du Figaro (diffusée par France 3 en 2014)",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

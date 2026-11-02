@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Interpol",
+   "type": "Institution"
+  },
+  {
+   "name": "Liban",
+   "type": "Institution"
+  },
+  {
+   "name": "Japon",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet général libanais",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Japon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le Japon réclame son extradition par le Liban",
+   "confidence": 0.9,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Liban",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le Liban réclame pour sa part le transfert de son dossier juridique en vue d'un procès au Liban",
+   "confidence": 0.95,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Interpol",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "une notice rouge venant d'Interpol visant Carlos Ghosn est reçue par le Liban",
+   "confidence": 1.0,
+   "date": "2020-01-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet général libanais",
+   "type": "INDICTED_IN",
+   "target": "Carlos Ghosn",
+   "evidence": "Le parquet général libanais lui interdit le 9 janvier 2020 de quitter le territoire libanais",
+   "confidence": 0.95,
+   "date": "2020-01-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Liban",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "des poursuites et un procès peuvent cependant être menés sur le sol libanais",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

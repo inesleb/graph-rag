@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "AGF",
+   "type": "Company"
+  },
+  {
+   "name": "Rob Strasser",
+   "type": "Person"
+  },
+  {
+   "name": "Nike",
+   "type": "Company"
+  },
+  {
+   "name": "L'Élysée",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "Bernard Tapie engage, de 1990 à 1992, les réformes lourdes et coûteuses qui vont permettre de redresser Adidas",
+   "confidence": 1.0,
+   "date": "1990-1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Nike",
+   "evidence": "refonte du marketing par l'engagement du patron du design de Nike, Rob Strasser",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le nantissement d'Adidas aurait dû être prononcé, mais grâce au soutien de l'Élysée, un privilège lui est accordé",
+   "confidence": 0.9,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Les coûts de cette restructuration sont élevés (en 1992, Adidas enregistre une perte de 500 millions de francs français, qui rend nécessaire une augmentation de capital de même montant, partiellement souscrite et entièrement financée par le Crédit Lyonnais)",
+   "confidence": 0.9,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "AGF",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "partiellement souscrite et entièrement financée par le Crédit Lyonnais et les AGF",
+   "confidence": 0.9,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Élysée",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "grâce au soutien de l'Élysée, un privilège lui est accordé",
+   "confidence": 0.9,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

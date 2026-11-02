@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal correctionnel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En mars 2019, Marine Le Pen indique que depuis 2009 les assistants parlementaires européens RN travaillent bien au siège de son parti",
+   "confidence": 0.95,
+   "date": "2019-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Le parquet de Paris annonce en septembre 2023 le jugement de 27 personnes pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2023-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "Le parquet de Paris annonce en septembre 2023 le jugement de 27 personnes pour [...] complicité",
+   "confidence": 1.0,
+   "date": "2023-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le parquet de Paris annonce en septembre 2023 le jugement de 27 personnes",
+   "confidence": 0.9,
+   "date": "2023-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le 8 décembre 2023, deux juges d’instruction financiers ordonnent le renvoi de Marine Le Pen [...] devant le tribunal correctionnel de Paris",
+   "confidence": 1.0,
+   "date": "2023-12-08",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le 8 décembre 2023, deux juges d’instruction financiers ordonnent le renvoi [...] du Rassemblement national [...] devant le tribunal correctionnel de Paris",
+   "confidence": 1.0,
+   "date": "2023-12-08",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Tribunal correctionnel de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Les débats au fond se dérouleront du 30 septembre au 27 novembre 2024",
+   "confidence": 0.95,
+   "date": "2024-09-30",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

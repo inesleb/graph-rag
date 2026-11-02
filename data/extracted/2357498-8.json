@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Groupe Bernard Tapie (SNC GBT)",
+   "type": "Company"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Sœurs Dassler",
+   "type": "Person"
+  },
+  {
+   "name": "Adolf Dassler",
+   "type": "Person"
+  },
+  {
+   "name": "SDBO (filiale du Crédit Lyonnais)",
+   "type": "Company"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "AGF",
+   "type": "Company"
+  },
+  {
+   "name": "UAP",
+   "type": "Company"
+  },
+  {
+   "name": "Nike",
+   "type": "Company"
+  },
+  {
+   "name": "Reebok",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Groupe Bernard Tapie (SNC GBT)",
+   "type": "WORKED_FOR",
+   "target": "Bernard Tapie",
+   "evidence": "le Groupe Bernard Tapie (SNC GBT) se porte acquéreur",
+   "confidence": 1.0,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Groupe Bernard Tapie (SNC GBT)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "financement à 100 % par un pool bancaire, ayant pour chef de file la SDBO",
+   "confidence": 0.9,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SDBO (filiale du Crédit Lyonnais)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "financement à 100 % par un pool bancaire, ayant pour chef de file la SDBO",
+   "confidence": 0.9,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "financement à 100 % par un pool bancaire, ayant pour chef de file la SDBO (filiale du Crédit Lyonnais)",
+   "confidence": 0.9,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sœurs Dassler",
+   "type": "INVOLVED_IN",
+   "target": "Adidas",
+   "evidence": "le Groupe Bernard Tapie (SNC GBT) se porte acquéreur de la société Adidas auprès des sœurs Dassler",
+   "confidence": 1.0,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Adidas",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "l'entreprise est rachetée pour une somme jugée peu élevée à l'époque",
+   "confidence": 0.8,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "AGF",
+   "type": "INVOLVED_IN",
+   "target": "Adidas",
+   "evidence": "les AGF entrent au capital de la marque de sport",
+   "confidence": 1.0,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UAP",
+   "type": "INVOLVED_IN",
+   "target": "Adidas",
+   "evidence": "l'UAP entrent au capital de la marque de sport",
+   "confidence": 1.0,
+   "date": "1990-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

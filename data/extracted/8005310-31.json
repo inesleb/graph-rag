@@ -1,0 +1,142 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Luc Strehaiano",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Idéepole",
+   "type": "Company"
+  },
+  {
+   "name": "Procureur de la République de Pontoise",
+   "type": "Institution"
+  },
+  {
+   "name": "Police judiciaire de Versailles",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal Judiciaire de Pontoise",
+   "type": "Institution"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "saucissonnage",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Association de défense des contribuables de Soisy-sous-Montmorency",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "une plainte contre X a été adressée au Procureur de la République de Pontoise",
+   "confidence": 0.9,
+   "date": "2016-07-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Police judiciaire de Versailles",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "La police judiciaire de Versailles enquête sur un supposé favoritisme et saucissonnage",
+   "confidence": 0.85,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Luc Strehaiano",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Luc Strehaiano [...] sera jugé [...] pour favoritisme",
+   "confidence": 1.0,
+   "date": "2020-10-05",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Luc Strehaiano",
+   "type": "INDICTED_IN",
+   "target": "saucissonnage",
+   "evidence": "Luc Strehaiano [...] sera jugé [...] pour [...] saucissonnage",
+   "confidence": 1.0,
+   "date": "2020-10-05",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Luc Strehaiano",
+   "type": "CONVICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Il a plaidé coupable dans ce dossier",
+   "confidence": 0.95,
+   "date": "2020-10-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Luc Strehaiano",
+   "type": "CONVICTED_IN",
+   "target": "saucissonnage",
+   "evidence": "Il a plaidé coupable dans ce dossier",
+   "confidence": 0.95,
+   "date": "2020-10-05",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "marché public avec Bygmalion et sa filiale Idéepole",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Idéepole",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "marché public avec Bygmalion et sa filiale Idéepole",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "enquête sur un supposé favoritisme",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "saucissonnage",
+   "evidence": "enquête sur [...] saucissonnage",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

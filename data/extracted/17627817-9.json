@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "Jérôme Karsenti",
+   "type": "Person"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Anticor",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"porte plainte au parquet de Brest contre X pour délit d'abus de confiance\"",
+   "confidence": 1.0,
+   "date": "2017-05-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"Richard Ferrand, mais également les membres du conseil d'administration des Mutuelles de Bretagne [qu'il dirigeait]\"",
+   "confidence": 0.9,
+   "date": "2017-05-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "\"les membres du conseil d'administration des Mutuelles de Bretagne [qu'il dirigeait]\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "\"porte plainte [...] pour délit d'abus de confiance\"",
+   "confidence": 1.0,
+   "date": "2017-05-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Karsenti",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"la question est de savoir si la convention de bail [...] serait constitutif d'un enrichissement personnel\"",
+   "confidence": 0.9,
+   "date": "2017-05-31",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

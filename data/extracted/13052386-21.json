@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Ministère des finances français",
+   "type": "Institution"
+  },
+  {
+   "name": "Bertille Bayart",
+   "type": "Person"
+  },
+  {
+   "name": "Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "les différentes accusations contre le PDG déchu",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bertille Bayart",
+   "type": "WORKED_FOR",
+   "target": "Figaro",
+   "evidence": "Bertille Bayart du Figaro",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bloomberg",
+   "type": "REVEALED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "journalistes d'investigation de Bloomberg",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan fait ressentir une peur bleue d'une fusion fortement souhaitée par son partenaire français Renault",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ministère des finances français",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "son actionnariat public : le ministère des finances français",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "intelligence économique",
+   "evidence": "initiative d'intelligence économique (renseignement économique), visant Carlos Ghosn",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

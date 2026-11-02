@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Mutuelles de Bretagne (MDB)",
+   "type": "Company"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Françoise Coustal",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil départemental du Finistère",
+   "type": "Institution"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En mai 2017, Le Canard enchaîné [...] révèlent que les Mutuelles de Bretagne ont été subventionnées",
+   "confidence": 1.0,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En mai 2017, Le Monde et Mediapart révèlent que les Mutuelles de Bretagne ont été subventionnées",
+   "confidence": 1.0,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En mai 2017, Le Monde et Mediapart révèlent que les Mutuelles de Bretagne ont été subventionnées",
+   "confidence": 1.0,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne (MDB)",
+   "evidence": "les Mutuelles de Bretagne [...] lorsque Richard Ferrand les dirigeait dans les années 2010",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Conseil départemental du Finistère",
+   "evidence": "vice-président du conseil départemental du Finistère",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Françoise Coustal",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Son ex-femme Françoise Coustal [...] a facturé aux Mutuelles de Bretagne des travaux d'aménagement",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil départemental du Finistère",
+   "type": "CONCERNS",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "une subvention de 1,66 million d'euros du conseil départemental du Finistère",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "les Mutuelles de Bretagne ont ensuite fait effectuer d'autres travaux [...] appartenant à l'avocate Sandrine Doucen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

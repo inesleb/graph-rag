@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "La République en marche (LREM)",
+   "type": "Party"
+  },
+  {
+   "name": "Karim Tadjeddine",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Labaye",
+   "type": "Person"
+  },
+  {
+   "name": "MacronLeaks",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Les Décodeurs",
+   "type": "Media"
+  },
+  {
+   "name": "Le Journal du dimanche",
+   "type": "Media"
+  },
+  {
+   "name": "Sénat",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "McKinsey & Company",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "une dizaine de membres de McKinsey ont travaillé à l'élaboration du programme politique d'Emmanuel Macron pour sa campagne à l'élection présidentielle de 2017",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La République en marche (LREM)",
+   "type": "INVOLVED_IN",
+   "target": "MacronLeaks",
+   "evidence": "LREM affirme ne faire appel à aucun cabinet de conseil",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "REVEALED",
+   "target": "MacronLeaks",
+   "evidence": "les MacronLeaks montrent qu'une dizaine de membres de McKinsey ont travaillé à l'élaboration du programme politique d'Emmanuel Macron",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INVOLVED_IN",
+   "target": "MacronLeaks",
+   "evidence": "Karim Tadjeddine apparaît dans les MacronLeaks avec son adresse mail de McKinsey",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "WORKED_FOR",
+   "target": "McKinsey & Company",
+   "evidence": "Karim Tadjeddine apparaît dans les MacronLeaks avec son adresse mail de McKinsey",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Karim Tadjeddine",
+   "type": "INVESTIGATED",
+   "target": "MacronLeaks",
+   "evidence": "interrogé par le Sénat à ce sujet, il a plaidé une erreur",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "REVEALED",
+   "target": "Les Décodeurs",
+   "evidence": "Les Décodeurs affirment que les consultants de McKinsey se sont investis sur leur temps libre",
+   "confidence": 0.85,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Labaye",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "Emmanuel Macron nomme Éric Labaye président de Polytechnique",
+   "confidence": 0.95,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

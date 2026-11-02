@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Bismuth",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Woerth-Bettencourt",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Affaire Bismuth",
+   "evidence": "L'affaire Bismuth ou affaire Sarkozy-Azibert, dite aussi improprement affaire des écoutes",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "Affaire Woerth-Bettencourt",
+   "evidence": "les enquêtes judiciaires en cours les concernant, notamment l'affaire Woerth-Bettencourt",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy [...] ont corrompu un magistrat",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Nicolas Sarkozy [...] et son avocat Thierry Herzog",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "les soupçons de financement libyen de sa campagne présidentielle de 2007",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Corruption",
+   "evidence": "Nicolas Sarkozy [...] ont corrompu un magistrat",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Corruption",
+   "evidence": "Nicolas Sarkozy [...] et son avocat Thierry Herzog, ont corrompu un magistrat",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "MEMBER_OF",
+   "target": "Cour de cassation",
+   "evidence": "un magistrat de la Cour de cassation, Gilbert Azibert",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Gilbert Azibert",
+   "evidence": "Nicolas Sarkozy [...] ont corrompu un magistrat de la Cour de cassation, Gilbert Azibert",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

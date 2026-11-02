@@ -1,0 +1,182 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Waeterinckx",
+   "type": "Person"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Chodiev",
+   "type": "Person"
+  },
+  {
+   "name": "Chambre des représentants belge",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet d'Anvers",
+   "type": "Institution"
+  },
+  {
+   "name": "Partis politiques (Anvers)",
+   "type": "Party"
+  },
+  {
+   "name": "Cabinet de la Justice (Belgique)",
+   "type": "Institution"
+  },
+  {
+   "name": "Secteur diamantaire (Anvers)",
+   "type": "Company"
+  },
+  {
+   "name": "Transaction pénale",
+   "type": "Offense"
+  },
+  {
+   "name": "Lobbying",
+   "type": "Offense"
+  },
+  {
+   "name": "Tentatives de manipulation",
+   "type": "Offense"
+  },
+  {
+   "name": "Influence sur l'adoption de loi",
+   "type": "Offense"
+  },
+  {
+   "name": "De Staandard",
+   "type": "Media"
+  },
+  {
+   "name": "Le Vif/Express",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Waeterinckx",
+   "type": "INVOLVED_IN",
+   "target": "Transaction pénale",
+   "evidence": "un expert de la commission d’enquête et pénaliste, Patrick Waeterinckx, a rédigé un rapport concluant que la transaction pénale en Belgique est juridiquement robuste.",
+   "confidence": 0.9,
+   "date": "2017-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission d’enquête parlementaire belge",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "la commission d'enquête parlementaire a présenté son rapport final sur le passage de la création de la loi sur la transaction pénale.",
+   "confidence": 0.9,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "De Staandard",
+   "type": "REVEALED",
+   "target": "Transaction pénale",
+   "evidence": "le rapport, selon De Staandard, a conclu que « le travail législatif pour créer la loi n'a pas souffert du lobbying et des tentatives de manipulation. »",
+   "confidence": 0.85,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Vif/Express",
+   "type": "REVEALED",
+   "target": "Transaction pénale",
+   "evidence": "La commission d'enquête a constaté à cet égard, les liens unissant à Anvers magistrats du Parquet, partis politiques, cabinet de la Justice et représentants du secteur diamantaire.",
+   "confidence": 0.85,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Chambre des représentants belge",
+   "type": "ACQUITTED_IN",
+   "target": "Chodiev",
+   "evidence": "la Chambre des représentants belge avait déjà approuvé les conclusions de la commission Kazakhgate. La commission a également acquitté Chodiev de toute implication dans l'adoption de la loi sur les transactions pénales.",
+   "confidence": 1.0,
+   "date": "2018-04-30",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Parquet d'Anvers",
+   "type": "INVOLVED_IN",
+   "target": "Transaction pénale",
+   "evidence": "les liens unissant à Anvers magistrats du Parquet, partis politiques, cabinet de la Justice et représentants du secteur diamantaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Partis politiques (Anvers)",
+   "type": "INVOLVED_IN",
+   "target": "Transaction pénale",
+   "evidence": "les liens unissant à Anvers magistrats du Parquet, partis politiques, cabinet de la Justice et représentants du secteur diamantaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cabinet de la Justice (Belgique)",
+   "type": "INVOLVED_IN",
+   "target": "Transaction pénale",
+   "evidence": "les liens unissant à Anvers magistrats du Parquet, partis politiques, cabinet de la Justice et représentants du secteur diamantaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Secteur diamantaire (Anvers)",
+   "type": "INVOLVED_IN",
+   "target": "Transaction pénale",
+   "evidence": "les liens unissant à Anvers magistrats du Parquet, partis politiques, cabinet de la Justice et représentants du secteur diamantaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Transaction pénale",
+   "type": "CONCERNS",
+   "target": "Lobbying",
+   "evidence": "le travail législatif pour créer la loi n'a pas souffert du lobbying",
+   "confidence": 0.9,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Transaction pénale",
+   "type": "CONCERNS",
+   "target": "Tentatives de manipulation",
+   "evidence": "aucune preuve n'a été présentée qu’il y a eu une influence sur l'adoption de la loi",
+   "confidence": 0.9,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Transaction pénale",
+   "type": "CONCERNS",
+   "target": "Influence sur l'adoption de loi",
+   "evidence": "aucune preuve n'a été présentée qu’il y a eu une influence sur l'adoption de la loi",
+   "confidence": 0.9,
+   "date": "2018-05",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Catherine Degoul",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Delubac",
+   "type": "Institution"
+  },
+  {
+   "name": "Franceinfo",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Catherine Degoul",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "avocat du trio d'hommes d'affaires kazakh, poursuivis en Belgique",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Delubac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "l’établissement bancaire Delubac [...] est cité dans des affaires judiciaires impliquant des acteurs-clé de la présidence Sarkozy",
+   "confidence": 0.8,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Franceinfo",
+   "type": "REVEALED",
+   "target": "Delubac",
+   "evidence": "Franceinfo révèle que l’établissement bancaire Delubac [...] est cité dans des affaires judiciaires",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "des acteurs-clé de la présidence Sarkozy",
+   "confidence": 0.7,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "entities": [
+  {
+   "name": "Alijan Ibragimov",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Machkevitch",
+   "type": "Person"
+  },
+  {
+   "name": "Chambre des représentants de Belgique",
+   "type": "Institution"
+  },
+  {
+   "name": "Israël",
+   "type": "Institution"
+  },
+  {
+   "name": "Belgique",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

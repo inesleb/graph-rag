@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "Escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "Abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Envoyé spécial",
+   "type": "Media"
+  },
+  {
+   "name": "Agence Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "Nicolas Sarkozy est mis en examen pour « financement illégal de campagne électorale »",
+   "confidence": 1.0,
+   "date": "2016-02-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Usage de faux",
+   "evidence": "placé sous le statut de témoin assisté pour les chefs d'usage de faux",
+   "confidence": 0.9,
+   "date": "2016-02-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Escroquerie",
+   "evidence": "placé sous le statut de témoin assisté pour les chefs d'escroquerie",
+   "confidence": 0.9,
+   "date": "2016-02-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Abus de confiance",
+   "evidence": "placé sous le statut de témoin assisté pour les chefs d'abus de confiance",
+   "confidence": 0.9,
+   "date": "2016-02-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France 2",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "France 2 diffuse dans Envoyé spécial un reportage sur l'agence Bygmalion",
+   "confidence": 1.0,
+   "date": "2016-09-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Agence Bygmalion",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "mécanisme pour [...] sous-facturer les prestations liées aux meetings du candidat Sarkozy afin de ne pas dépasser le plafond imposé",
+   "confidence": 0.9,
+   "date": "2016-09-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Agence Bygmalion",
+   "type": "CONCERNS",
+   "target": "Usage de faux",
+   "evidence": "facturer à l'UMP le complément avec des fausses factures correspondant à des prestations fictives",
+   "confidence": 1.0,
+   "date": "2016-09-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "meetings du candidat Sarkozy",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

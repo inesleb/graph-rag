@@ -1,0 +1,56 @@
+{
+ "entities": [
+  {
+   "name": "Joëlle Salaün",
+   "type": "Person"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Joëlle Salaün",
+   "type": "WORKED_FOR",
+   "target": "Richard Ferrand",
+   "evidence": "qui a succédé à Richard Ferrand à la tête des Mutuelles de Bretagne après avoir été son adjointe",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "Joëlle Salaün, qui a succédé à Richard Ferrand à la tête des Mutuelles de Bretagne",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Joëlle Salaün [...] affirme qu'il n'existe pas de « lien juridique ou patrimonial » entre Richard Ferrand et Sandrine Doucen",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

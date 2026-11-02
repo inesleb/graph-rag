@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Christian Estrosi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des infirmières bulgares",
+   "type": "Affair"
+  },
+  {
+   "name": "Vol UTA 772",
+   "type": "Affair"
+  },
+  {
+   "name": "Jamahiriya arabe libyenne",
+   "type": "Institution"
+  },
+  {
+   "name": "Libye",
+   "type": "Institution"
+  },
+  {
+   "name": "France",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des infirmières bulgares",
+   "evidence": "la France a joué un rôle diplomatique majeur",
+   "confidence": 0.9,
+   "date": "2007-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "MEMBER_OF",
+   "target": "France",
+   "evidence": "le président Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2007-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Jamahiriya arabe libyenne",
+   "evidence": "le régime dictatorial dénommé « Jamahiriya arabe libyenne »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libye",
+   "type": "INVOLVED_IN",
+   "target": "Vol UTA 772",
+   "evidence": "la responsabilité reconnue de la Libye dans l'attentat terroriste du 19 septembre 1989",
+   "confidence": 0.9,
+   "date": "1989-09-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Mouammar Kadhafi",
+   "evidence": "le dirigeant libyen Mouammar Kadhafi est reçu à Paris par le président Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2007-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Estrosi",
+   "type": "WORKED_FOR",
+   "target": "France",
+   "evidence": "le ministre de l'industrie Christian Estrosi",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Estrosi",
+   "type": "INVOLVED_IN",
+   "target": "Libye",
+   "evidence": "le ministre de l'industrie Christian Estrosi signe, en Libye",
+   "confidence": 0.9,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Cette visite d'État [...] suscite cependant une polémique en France",
+   "confidence": 0.8,
+   "date": "2007-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

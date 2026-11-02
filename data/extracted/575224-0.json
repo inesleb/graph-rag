@@ -1,0 +1,29 @@
+{
+ "entities": [
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "James Oscar McKinsey",
+   "type": "Person"
+  },
+  {
+   "name": "Enron",
+   "type": "Company"
+  },
+  {
+   "name": "Crise financière mondiale de 2007-2008",
+   "type": "Affair"
+  },
+  {
+   "name": "Crise des opioïdes",
+   "type": "Affair"
+  },
+  {
+   "name": "Purdue Pharma",
+   "type": "Company"
+  }
+ ],
+ "relations": []
+}

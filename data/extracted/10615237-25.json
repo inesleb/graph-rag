@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "\"Penelope Fillon aurait perçu 45 000 euros d'indemnités de licenciement\"",
+   "confidence": 0.95,
+   "date": "2017-02-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "\"deux périodes d'assistance parlementaire : la période 1998-2002 (...) et celle se terminant en novembre 2013\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Assemblée nationale",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "\"indemnités de licenciement payées par l'Assemblée nationale\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"Le 7 février 2017, Le Canard enchaîné affirme que Penelope Fillon aurait perçu 45 000 euros d'indemnités de licenciement\"",
+   "confidence": 1.0,
+   "date": "2017-02-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "\"la législation ne prévoit pas un tel niveau (...) pour un collaborateur parlementaire\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

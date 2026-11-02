@@ -1,0 +1,17 @@
+{
+ "entities": [
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Arabelle",
+   "type": "Company"
+  }
+ ],
+ "relations": []
+}

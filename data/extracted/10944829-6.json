@@ -1,0 +1,272 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour la démocratie française",
+   "type": "Party"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mercier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Bennahmias",
+   "type": "Person"
+  },
+  {
+   "name": "Janelly Fourtou",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Jacques Jégou",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Lehideux",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Cornillet",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Laperrouze",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Nardella",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Emmanuel Portheret",
+   "type": "Person"
+  },
+  {
+   "name": "Stéphane Therou",
+   "type": "Person"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "11e chambre du tribunal correctionnel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "pour « complicité » ou « recel de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "pour « complicité » ou « recel de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "pour « complicité » ou « recel de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Sont concernés en tant que personnes morales, le MoDem",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Union pour la démocratie française",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "le MoDem et son prédécesseur, l’Union pour la démocratie française",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Mercier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Janelly Fourtou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Jacques Jégou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Lehideux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Cornillet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anne Laperrouze",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre-Emmanuel Portheret",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stéphane Therou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou, Michel Mercier, Jean-Luc Bennahmias, Janelly Fourtou, Jean-Jacques Jégou, Bernard Lehideux, Thierry Cornillet, Anne Laperrouze, Alexandre Nardella, Pierre-Emmanuel Portheret, Stéphane Therou",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate",
+   "evidence": "Alexandre Nardella (directeur financier du MoDem)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "INVESTIGATED",
+   "target": "11e chambre du tribunal correctionnel de Paris",
+   "evidence": "le procès s'ouvre le 16 octobre 2023, devant les juges de la 11e chambre du tribunal correctionnel de Paris",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Le Parlement européen, en tant que partie civile",
+   "confidence": 1.0,
+   "date": "2023-10-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

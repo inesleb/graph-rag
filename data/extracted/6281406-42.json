@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Gaudin",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Calvar",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Squarcini",
+   "type": "Person"
+  },
+  {
+   "name": "Moftah Missouri",
+   "type": "Person"
+  },
+  {
+   "name": "Direction centrale du Renseignement intérieur (DCRI)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Direction centrale du Renseignement intérieur (DCRI)",
+   "evidence": "\"il nous est fidèle, lui ?\"",
+   "confidence": 0.8,
+   "date": "2013-06-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Gaudin",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"Oh oui, oui, on l'a beaucoup aidé autrefois\"",
+   "confidence": 0.9,
+   "date": "2013-06-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Calvar",
+   "type": "WORKED_FOR",
+   "target": "Direction centrale du Renseignement intérieur (DCRI)",
+   "evidence": "Patrick Calvar, directeur central du Renseignement intérieur (DCRI)",
+   "confidence": 1.0,
+   "date": "2013-06-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Calvar",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Patrick Calvar est auditionné par les juges Tournaire et Grouman",
+   "confidence": 0.9,
+   "date": "2014-03-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Calvar",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "il déclare qu'il n'est fidèle qu'à « la République »",
+   "confidence": 0.8,
+   "date": "2014-03-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Calvar",
+   "type": "INVOLVED_IN",
+   "target": "Moftah Missouri",
+   "evidence": "Patrick Calvar répond qu'il n'y a aucune enquête sur Missouri à sa connaissance",
+   "confidence": 0.9,
+   "date": "2013-06-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Calvar",
+   "type": "INVOLVED_IN",
+   "target": "Bernard Squarcini",
+   "evidence": "Patrick Calvar est réputé pour être un ami du précédent DCRI, Bernard Squarcini",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Des écoutes judiciaires révèlent qu'à la suite de l'émission Complément d'enquête, Nicolas Sarkozy... appelle à deux reprises... le directeur central du Renseignement intérieur (DCRI)",
+   "confidence": 0.95,
+   "date": "2013-06-21",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Jordan Bardella",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Tristan Berteloot",
+   "type": "Person"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Jalkh",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jordan Bardella",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jordan Bardella aurait aidé à produire de fausses preuves pour justifier a posteriori son activité d'assistant parlementaire.",
+   "confidence": 0.8,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "un agenda calendrier daté de 2015 mais commandé et livré au siège du Rassemblement national en 2018. [...] le calendrier est remis à Jordan Bardella",
+   "confidence": 0.9,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jalkh insistait pour que ce soit Jordan, et lui seul, qui remplisse ce document. Il était très prudent, il fallait absolument que ce soit l'écriture de Jordan Bardella dessus",
+   "confidence": 0.85,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tristan Berteloot",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Selon le journaliste Tristan Berteloot dans son ouvrage La Machine à gagner paru en septembre 2024, Jordan Bardella aurait aidé à produire de fausses preuves",
+   "confidence": 0.9,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le 19 septembre 2024, Libération publie une partie des faux documents élaborés par Jordan Bardella",
+   "confidence": 0.95,
+   "date": "2024-09-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jalkh",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jalkh insistait pour que ce soit Jordan, et lui seul, qui remplisse ce document",
+   "confidence": 0.8,
+   "date": "2024-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Richard Lizurey",
+   "type": "Person"
+  },
+  {
+   "name": "Gendarmerie nationale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie nationale",
+   "evidence": "il est radié à sa demande de la réserve opérationnelle, où il n’aurait plus eu de mission depuis 2015.",
+   "confidence": 0.9,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie nationale",
+   "evidence": "il est intégré dans le vivier des spécialistes de la réserve citoyenne avec le grade de lieutenant-colonel",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Lizurey",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie nationale",
+   "evidence": "C'est donc sur proposition du directeur général de la Gendarmerie nationale, Richard Lizurey",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Lizurey",
+   "type": "WORKED_FOR",
+   "target": "Gendarmerie nationale",
+   "evidence": "qu'il est nommé en 2017 lieutenant-colonel de la réserve citoyenne",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

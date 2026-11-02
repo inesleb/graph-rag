@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "complicité d'abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Le procès d’Édouard Balladur [...] est ouvert le 19 janvier 2021",
+   "confidence": 0.9,
+   "date": "2021-01-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Le procès [...] de François Léotard est ouvert le 19 janvier 2021",
+   "confidence": 0.9,
+   "date": "2021-01-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INDICTED_IN",
+   "target": "complicité d'abus de biens sociaux",
+   "evidence": "Édouard Balladur est renvoyé pour « complicité d'abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "INDICTED_IN",
+   "target": "recel",
+   "evidence": "Édouard Balladur est renvoyé pour « complicité d'abus de biens sociaux » et « recel »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "INDICTED_IN",
+   "target": "complicité",
+   "evidence": "François Léotard comparaît [...] pour « complicité »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Cour de justice de la République",
+   "evidence": "devant la Cour de justice de la République, compétente pour juger les crimes ou délits commis par les membres du gouvernement dans l’exercice de leurs fonctions",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "WORKED_FOR",
+   "target": "Cour de justice de la République",
+   "evidence": "devant la Cour de justice de la République, compétente pour juger les crimes ou délits commis par les membres du gouvernement dans l’exercice de leurs fonctions",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "complicité d'abus de biens sociaux",
+   "evidence": "Édouard Balladur est renvoyé pour « complicité d'abus de biens sociaux » et « recel »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "Édouard Balladur est renvoyé pour « complicité d'abus de biens sociaux » et « recel »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "François Léotard comparaît [...] pour « complicité »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "confirmant globalement les déclarations de culpabilité prononcées",
+   "confidence": 0.95,
+   "date": "2026-07-07",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "la condamnation des autres mis en cause, dont le RN en tant que personne morale, coupables selon lui de détournement de fonds",
+   "confidence": 0.95,
+   "date": "2026-07-07",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "coupables [...] de détournement de fonds pour avoir installé un « système » entre 2004 et 2016",
+   "confidence": 0.95,
+   "date": "2004-2016",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

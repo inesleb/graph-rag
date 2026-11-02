@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Crépu",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Ladreit de Lacharrière",
+   "type": "Person"
+  },
+  {
+   "name": "Revue des Deux Mondes",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Revue des Deux Mondes",
+   "evidence": "\"Penelope Fillon, conseillère littéraire à la Revue des Deux Mondes\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "\"Penelope Fillon indique au JDD avoir remis aux enquêteurs dix notes de lecture...\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Revue des Deux Mondes",
+   "evidence": "\"n'avoir reçu de Michel Crépu aucun retour sur ces notes dont seulement deux ont été publiées\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Michel Crépu",
+   "evidence": "\"n'avoir reçu de Michel Crépu aucun retour sur ces notes\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Marc Ladreit de Lacharrière",
+   "evidence": "\"J'ai eu des discussions régulières au début... avec Marc Ladreit de Lacharrière\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

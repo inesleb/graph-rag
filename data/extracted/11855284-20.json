@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "La République en marche",
+   "type": "Party"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Commission nationale de l'informatique et des libertés (CNIL)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "l'Élysée serait à l'origine de ce montage",
+   "confidence": 0.8,
+   "date": "2019-03-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La République en marche",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "via le pôle e-influence de La République en marche",
+   "confidence": 0.9,
+   "date": "2019-03-29",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "transfert illicite de ces vidéos à Alexandre Benalla",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "transfert illicite de ces vidéos",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "atteinte à la vie privée",
+   "evidence": "captures d'écran de la vidéo surveillance (donc des images dont la détention ou le partage sont illégaux)",
+   "confidence": 0.95,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "pratiques illégales de vidéosurveillance",
+   "evidence": "pratiques illégales de la police en matière de vidéosurveillance, comme la durée de conservation des vidéos",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale de l'informatique et des libertés (CNIL)",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "la CNIL n'a pas les moyens de prendre des sanctions",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

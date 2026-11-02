@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "escroquerie des frais de sa campagne législative de 2012",
+   "evidence": "En novembre 2022, il est à nouveau condamné à dix-huit mois de prison dont six mois ferme pour escroquerie des frais de sa campagne législative de 2012.",
+   "confidence": 1.0,
+   "date": "2022-11",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "En septembre 2025, il est reconnu coupable de corruption passive, de faux en écriture et de trafic d'influence et est condamné à six ans de prison par le tribunal correctionnel de Paris dans le cadre de l'affaire Sarkozy-Kadhafi.",
+   "confidence": 1.0,
+   "date": "2025-09",
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

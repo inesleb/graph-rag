@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Frédéric Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "DoJ",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Prison de haute sécurité de Wyatt",
+   "type": "Institution"
+  },
+  {
+   "name": "Maison d'arrêt de Villepinte",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Frédéric Pierucci",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "le directeur juridique du groupe lui assure que l'histoire sera bientôt réglée",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Interrogé, il lui est proposé de jouer la taupe dans le groupe, contre sa libération.",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "son employeur coupera tout contact pour éviter tout problème avec le DoJ.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Il sera par la suite transféré en Pennsylvanie (en). Il est transféré en septembre 2018 en France",
+   "confidence": 0.75,
+   "date": "2018-09",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Alstom",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "le directeur juridique du groupe lui assure que l'histoire sera bientôt réglée",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Prison de haute sécurité de Wyatt",
+   "evidence": "Pierucci passera vingt-cinq mois de prison aux États-Unis, notamment dans la prison de haute sécurité de Wyatt",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Frédéric Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Maison d'arrêt de Villepinte",
+   "evidence": "Il est transféré en septembre 2018 en France, à la maison d'arrêt de Villepinte",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

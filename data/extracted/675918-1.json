@@ -1,0 +1,82 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Ségolène Royal",
+   "type": "Person"
+  },
+  {
+   "name": "Liliane Bettencourt",
+   "type": "Person"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Libye",
+   "type": "Institution"
+  },
+  {
+   "name": "Crise économique mondiale de 2008",
+   "type": "Affair"
+  },
+  {
+   "name": "Crise de la dette dans la zone euro",
+   "type": "Affair"
+  },
+  {
+   "name": "Intervention militaire de 2011 en Libye",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Crise économique mondiale de 2008",
+   "evidence": "la crise économique mondiale de 2008",
+   "confidence": 0.8,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Crise de la dette dans la zone euro",
+   "evidence": "la crise de la dette dans la zone euro",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Intervention militaire de 2011 en Libye",
+   "evidence": "l'intervention militaire de 2011 en Libye",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "au cœur de soupçons de financements illégaux de sa campagne électorale de 2007 par Liliane Bettencourt ou la Libye",
+   "confidence": 0.7,
+   "date": "2007",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

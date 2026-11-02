@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Renaud van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "Patricia Simon",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "ABN AMRO",
+   "type": "Company"
+  },
+  {
+   "name": "blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Didier Schuller",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany.",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le parquet de Paris ouvre [...] une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany.",
+   "confidence": 1.0,
+   "date": "2013-12-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Renaud van Ruymbeke",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "Le juge Renaud Van Ruymbeke est chargé par le pôle financier d'instruire l'affaire.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "une information judiciaire pour « blanchiment de fraude fiscale » visant le couple Balkany.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "les suspectant d'avoir sous-évalué certains de leurs biens [...] dissimulés à l'administration fiscale française.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "les suspectant d'avoir sous-évalué certains de leurs biens [...] dissimulés à l'administration fiscale française.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "ABN AMRO",
+   "evidence": "un compte ouvert auprès de la filiale suisse de la banque néerlandaise ABN AMRO en juillet 1994",
+   "confidence": 0.9,
+   "date": "1994-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Didier Schuller",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "Didier Schuller estimant les sommes blanchies par Patrick Balkany en Suisse, au Liechtenstein et à Saint-Martin, à 33 millions de francs (6,47 millions d'euros), selon des documents publiés par Mediapart",
+   "confidence": 0.9,
+   "date": "2013-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "selon des documents publiés par Mediapart le 25 octobre 2013",
+   "confidence": 1.0,
+   "date": "2013-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

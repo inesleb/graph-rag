@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Guillaume Peltier",
+   "type": "Person"
+  },
+  {
+   "name": "Geoffroy Didier",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Bygmalion",
+   "type": "REVEALED",
+   "target": "Le Canard enchaîné",
+   "evidence": "un article du Canard enchaîné qui révèle que, dès 2010, certaines prestations furent facturées par Bygmalion",
+   "confidence": 0.95,
+   "date": "2014-06-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "certaines prestations furent facturées par Bygmalion à l'UMP et à son groupe parlementaire",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "certaines prestations furent facturées [...] 700 fois le prix habituellement demandé par d'autres entreprises",
+   "confidence": 0.9,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guillaume Peltier",
+   "type": "WORKED_FOR",
+   "target": "Bygmalion",
+   "evidence": "plusieurs personnalités de l'UMP furent rémunérées par Bygmalion, dont Guillaume Peltier",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Geoffroy Didier",
+   "type": "WORKED_FOR",
+   "target": "Bygmalion",
+   "evidence": "plusieurs personnalités de l'UMP furent rémunérées par Bygmalion, dont Geoffroy Didier",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "l'hébergement mensuel du site a coûté 3 588 euros/mois en 2011 et jusqu'à plus de 22 000 euros pour le mois de novembre",
+   "confidence": 0.95,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "UMP",
+   "evidence": "facturées par Bygmalion à l'UMP et à son groupe parlementaire",
+   "confidence": 0.85,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

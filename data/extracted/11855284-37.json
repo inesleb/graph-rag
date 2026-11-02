@@ -1,0 +1,42 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Grande Loge nationale française",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "« qu’il était chargé de l’ensemble du plan de réorganisation des services de sécurité de l’Élysée, décidé par le chef de l’État sur une proposition qu’il avait lui-même formulée »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "MEMBER_OF",
+   "target": "Grande Loge nationale française",
+   "evidence": "Alexandre Benalla est initié franc-maçon au sein de la Grande Loge nationale française en janvier 2017.",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

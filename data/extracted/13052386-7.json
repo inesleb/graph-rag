@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Autorités japonaises",
+   "type": "Institution"
+  },
+  {
+   "name": "SEC américaine",
+   "type": "Institution"
+  },
+  {
+   "name": "Abus de confiance aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn affirme que ces fonds n’étaient pas encore validés",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Abus de confiance aggravé",
+   "evidence": "Carlos Ghosn est de nouveau arrêté et placé en détention pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": "2019-04-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "les documents signés valaient contrat et les fonds auraient donc dû être déclarés",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Autorités japonaises",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Les autorités japonaises et la SEC américaine considèrent que Nissan a transmis de fausses déclarations",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SEC américaine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Les autorités japonaises et la SEC américaine considèrent que Nissan a transmis de fausses déclarations",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Nissan est également inculpé en tant que personne morale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "Abus de confiance aggravé",
+   "evidence": "Carlos Ghosn est de nouveau arrêté et placé en détention pour abus de confiance aggravé",
+   "confidence": 1.0,
+   "date": "2019-04-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

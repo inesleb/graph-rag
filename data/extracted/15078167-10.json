@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Teamtaxi",
+   "type": "Institution"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Mark MacGann",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "La France insoumise",
+   "type": "INVESTIGATED",
+   "target": "Uber Files",
+   "evidence": "rapport de la commission d'enquête lancée par La France insoumise",
+   "confidence": 1.0,
+   "date": "2023-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Teamtaxi",
+   "type": "INVESTIGATED",
+   "target": "Uber Files",
+   "evidence": "commission d'enquête lancée par La France insoumise **à la demande de l'association Teamtaxi**",
+   "confidence": 1.0,
+   "date": "2023-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "Uber a trouvé des alliés au plus haut niveau de l'État, **à commencer par M. Emmanuel Macron, en tant que ministre de l'économie**",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "MEMBER_OF",
+   "target": "Uber",
+   "evidence": "rapports entre Emmanuel Macron et Uber **continuent après son accession à la présidence de la République**",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Emmanuel Macron",
+   "evidence": "Mark MacGann reconnaît avoir participé **à titre personnel aux levées de fonds du candidat Emmanuel Macron**",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "CONCERNS",
+   "target": "Uber Files",
+   "evidence": "scandale des **uberfiles**",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

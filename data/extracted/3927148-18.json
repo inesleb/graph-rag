@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Cour des comptes française",
+   "type": "Institution"
+  },
+  {
+   "name": "Alain Richard",
+   "type": "Person"
+  },
+  {
+   "name": "Gouvernement Jospin",
+   "type": "Institution"
+  },
+  {
+   "name": "Direction des constructions navales (DCN)",
+   "type": "Institution"
+  },
+  {
+   "name": "Chéneau (ingénieur général)",
+   "type": "Person"
+  },
+  {
+   "name": "M.A. (directeur de la DCN)",
+   "type": "Person"
+  },
+  {
+   "name": "Henri Conze",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Cour des comptes française",
+   "type": "CONCERNS",
+   "target": "Affaire Karachi",
+   "evidence": "constate qu’« il n’existait aucune procédure d’élaboration et de validation des devis »",
+   "confidence": 0.9,
+   "date": "1999-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes française",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "perte finale à 500 MF",
+   "confidence": 0.9,
+   "date": "1999-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alain Richard",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Jospin",
+   "evidence": "ministre de la Défense Alain Richard et plusieurs ministres du gouvernement Jospin",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Chéneau (ingénieur général)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "chef du service industriel de la DCN",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "M.A. (directeur de la DCN)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "directeur de la DCN",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Henri Conze",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "délégué général pour l'armement",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de discipline budgétaire",
+   "type": "CONVICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "condamne l’ingénieur général Chéneau, « M.A. », et Henri Conze à des amendes",
+   "confidence": 1.0,
+   "date": "2005-10-28",
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

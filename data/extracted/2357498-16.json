@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Crédit lyonnais Invest",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Yves Haberer",
+   "type": "Person"
+  },
+  {
+   "name": "Henri Filho",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "faute au mandat",
+   "type": "Offense"
+  },
+  {
+   "name": "interdiction pour le mandataire de se porter contrepartie",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Henri Filho",
+   "type": "WORKED_FOR",
+   "target": "Crédit lyonnais Invest",
+   "evidence": "directeur général de Crédit lyonnais Invest",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais Invest",
+   "type": "MEMBER_OF",
+   "target": "Crédit lyonnais",
+   "evidence": "la filiale financière du Crédit lyonnais",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Henri Filho",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Cette note [...] décrit toute l'opération",
+   "confidence": 0.9,
+   "date": "1992-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVESTIGATED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "perquisition du siège du Crédit lyonnais du juge Eva Joly qui enquête alors sur une autre affaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "faute au mandat",
+   "evidence": "La faute au mandat, qui consiste à ne pas être loyal avec son client, en ne l'informant pas de la possibilité de vendre son affaire plus cher",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "interdiction pour le mandataire de se porter contrepartie",
+   "evidence": "L'interdiction pour le mandataire (la banque) de se porter contrepartie, c'est-à-dire d’acquérir elle-même le bien (Adidas) qu'elle est chargée de vendre pour le compte de son client (Bernard Tapie)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "faute au mandat",
+   "evidence": "ne l'informant pas [...] de la possibilité de vendre son affaire plus cher",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "interdiction pour le mandataire de se porter contrepartie",
+   "evidence": "qu'elle est chargée de vendre [...] pour le compte de son client (Bernard Tapie)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

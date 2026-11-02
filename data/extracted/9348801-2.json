@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la justice condamne en 2019 Patrick Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 27 mai 2020, en appel, [...] Patrick Balkany est condamné à 5 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "Le 30 juin 2021, la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la justice condamne en 2019 Isabelle Balkany [...] pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 27 mai 2020, en appel, [...] Isabelle Balkany est condamnée à 4 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "Le 30 juin 2021, la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "Dans le cadre du second volet de l'affaire relatif à l'accusation de blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

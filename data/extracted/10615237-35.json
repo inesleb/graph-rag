@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Ladreit de Lacharrière",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  },
+  {
+   "name": "Légion d’honneur",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "trafic d’influence",
+   "type": "Offense"
+  },
+  {
+   "name": "manquement aux obligations déclaratives",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon a perçu [...] un prêt sans intérêts de 50 000 € sans que ce dernier ne soit mentionné dans la déclaration",
+   "confidence": 0.95,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "manquement aux obligations déclaratives",
+   "evidence": "Ce prêt [...] serait visé par la justice pour manquement aux obligations déclaratives",
+   "confidence": 0.85,
+   "date": "2017-01-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "trafic d’influence",
+   "evidence": "Ce prêt pourrait aussi nourrir les soupçons de trafic d’influence",
+   "confidence": 0.75,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Légion d’honneur",
+   "evidence": "sur rapport de François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Ladreit de Lacharrière",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon a perçu [...] de la part de l’homme d’affaires Marc Ladreit de Lacharrière, un prêt sans intérêts de 50 000 €",
+   "confidence": 0.95,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "manquement aux obligations déclaratives",
+   "evidence": "Ce prêt [...] serait visé par la justice pour manquement aux obligations déclaratives",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "trafic d’influence",
+   "evidence": "Ce prêt pourrait aussi nourrir les soupçons de trafic d’influence",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "D’après le Canard enchaîné daté du 8 mars",
+   "confidence": 1.0,
+   "date": "2017-03-08",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

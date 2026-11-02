@@ -1,0 +1,156 @@
+{
+ "entities": [
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Augustin Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Havas",
+   "type": "Company"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "EY",
+   "type": "Company"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Business France",
+   "evidence": "\"au vu des premiers éléments recueillis dans le cadre de l'enquête préliminaire\" menée par l'office central de lutte contre la corruption",
+   "confidence": 0.9,
+   "date": "2017-07-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Affaire Business France",
+   "evidence": "ouvre une information judiciaire pour favoritisme et recel de favoritisme",
+   "confidence": 0.95,
+   "date": "2017-07-07",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "Muriel Pénicaud affirme n'avoir rien à se reprocher",
+   "confidence": 0.8,
+   "date": "2017-07-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Augustin Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Havas",
+   "evidence": "Augustin Pénicaud, neveu de Muriel, travaille chez Havas",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Business France",
+   "evidence": "Le Canard enchaîné [...] renforce les soupçons de favoritisme",
+   "confidence": 0.9,
+   "date": "2016-09-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EY",
+   "type": "REVEALED",
+   "target": "Affaire Business France",
+   "evidence": "publication par Le Canard enchaîné du second audit du cabinet EY",
+   "confidence": 0.9,
+   "date": "2016-09-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Business France",
+   "evidence": "Le Monde apporte de nouveaux éléments d’un \"dérapage\" que Muriel Pénicaud n’a pu ignorer",
+   "confidence": 0.85,
+   "date": "2017-07-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "information judiciaire pour favoritisme",
+   "confidence": 1.0,
+   "date": "2017-07-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "information judiciaire pour [...] recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-07-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "l'ancienne directrice adjointe de Business France et principale collaboratrice de la ministre Muriel Pénicaud",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "l'ancienne directrice adjointe de Business France et principale collaboratrice de la ministre Muriel Pénicaud",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

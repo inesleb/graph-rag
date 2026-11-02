@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Prison de la Santé",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "la justice condamne en 2019 Patrick Balkany [...] à une peine de quatre ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "la justice condamne en 2019 Isabelle Balkany [...] à trois ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "la cour d'appel de Paris confirme le jugement prononcé en première instance. Elle condamne Patrick Balkany à quatre ans d'emprisonnement",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "la cour d'appel de Paris confirme le jugement prononcé en première instance. Elle condamne Isabelle Balkany à trois ans d'emprisonnement",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "dans le cadre du premier volet de l'affaire relatif à l'accusation de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "dans le cadre du premier volet de l'affaire relatif à l'accusation de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "dans le cadre du premier volet de l'affaire relatif à l'accusation de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "dans le cadre du premier volet de l'affaire relatif à l'accusation de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Prison de la Santé",
+   "evidence": "Patrick Balkany est incarcéré à la prison de la Santé à Paris",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Fraude fiscale",
+   "evidence": "dans le cadre du premier volet de l'affaire relatif à l'accusation de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

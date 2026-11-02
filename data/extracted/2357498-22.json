@@ -1,0 +1,82 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal de Grande Instance de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'accord prévoyait... rupture de l'accord est envoyée à Bernard Tapie le 17 mai 1994.",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le Crédit Lyonnais attend six semaines... saisie conservatoire au domicile de Bernard Tapie",
+   "confidence": 0.95,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Crédit Lyonnais",
+   "evidence": "L'accord prévoyait... accord de mars 1994",
+   "confidence": 0.85,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie saisit dès le 30 mai la justice, en demande d'exécution forcée",
+   "confidence": 0.8,
+   "date": "1994-05-30",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Tribunal de Grande Instance de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le Tribunal de Grande Instance de Paris lui donne tort par un jugement du 23 novembre 1994",
+   "confidence": 1.0,
+   "date": "1994-11-23",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Tribunal de Grande Instance de Paris",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le Tribunal de Grande Instance de Paris lui donne tort",
+   "confidence": 0.95,
+   "date": "1994-11-23",
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

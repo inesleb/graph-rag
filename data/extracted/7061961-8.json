@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Étienne Mougeotte",
+   "type": "Person"
+  },
+  {
+   "name": "Opinion Way",
+   "type": "Company"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "LCI",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Claude Guéant, alors secrétaire général de l'Élysée",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Claude Guéant [...] déclare : « On commande des sondages [...] »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "REVEALED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Il estime par ailleurs qu'« il n'y a absolument aucune nécessité » d'ouvrir une enquête sur la politique de commande des sondages par l'Élysée.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Étienne Mougeotte",
+   "type": "WORKED_FOR",
+   "target": "Le Figaro",
+   "evidence": "Étienne Mougeotte, directeur des rédactions du Figaro",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Étienne Mougeotte",
+   "type": "WORKED_FOR",
+   "target": "TF1",
+   "evidence": "ancien directeur de TF1",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Figaro",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "ces études sont [...] publiées dans la presse, sans différence notable : [...] Le Figaro",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "LCI",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "ces études sont [...] publiées dans la presse, [...] LCI",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Étienne Mougeotte",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Étienne Mougeotte [...] assure payer les sondages que son quotidien commandait à Opinion Way",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Société des rédacteurs du Figaro",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "la société des rédacteurs du titre lui demande de « mettre immédiatement un terme à ce type de 'coproduction' (avec OpinionWay) qui nuit gravement à la crédibilité des titres du groupe »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Opinion Way",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Étienne Mougeotte [...] assure payer les sondages que son quotidien commandait à Opinion Way",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

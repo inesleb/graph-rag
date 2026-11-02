@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour la majorité présidentielle",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Levallois-Perret",
+   "type": "Institution"
+  },
+  {
+   "name": "5e circonscription des Hauts-de-Seine",
+   "type": "Institution"
+  },
+  {
+   "name": "Hauts-de-Seine",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement pour la République",
+   "evidence": "Il est membre du Rassemblement pour la République (RPR), dont il est un des fondateurs",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Union pour la majorité présidentielle",
+   "evidence": "Il est membre [...] puis de l'Union pour la majorité présidentielle",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "qui devient peu après l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "et enfin du parti Les Républicains (LR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Levallois-Perret",
+   "evidence": "Il exerce [...] la fonction de maire de Levallois-Perret",
+   "confidence": 1.0,
+   "date": "1983-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Levallois-Perret",
+   "evidence": "Il exerce [...] la fonction de maire de Levallois-Perret",
+   "confidence": 1.0,
+   "date": "2001-2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "5e circonscription des Hauts-de-Seine",
+   "evidence": "il est plusieurs fois élu député de la 5e circonscription des Hauts-de-Seine",
+   "confidence": 1.0,
+   "date": "1988-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Hauts-de-Seine",
+   "evidence": "il est conseiller général des Hauts-de-Seine",
+   "confidence": 1.0,
+   "date": "1982-1988",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

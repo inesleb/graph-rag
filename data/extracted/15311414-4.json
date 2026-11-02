@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Bastien Lachaud",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "L'Ère du Peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Radio France",
+   "type": "Media"
+  },
+  {
+   "name": "Commission des comptes de campagne",
+   "type": "Institution"
+  },
+  {
+   "name": "prêt illicite de main-d'œuvre",
+   "type": "Offense"
+  },
+  {
+   "name": "faux",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "tentative d'escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bastien Lachaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "\"Bastien Lachaud, député de La France insoumise, est mis en examen pour « prêt illicite de main-d'œuvre, faux, escroquerie et tentative d'escroquerie » dans le cadre de l'enquête sur les comptes de campagne de Jean-Luc Mélenchon en 2017\"",
+   "confidence": 1.0,
+   "date": "2021-09-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bastien Lachaud",
+   "type": "WORKED_FOR",
+   "target": "L'Ère du Peuple",
+   "evidence": "\"Il était alors salarié de l'association L'Ère du Peuple\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Ère du Peuple",
+   "type": "CONCERNS",
+   "target": "prêt illicite de main-d'œuvre",
+   "evidence": "\"prêt illicite de main-d'œuvre\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "escroquerie",
+   "evidence": "\"soupçonnée d'avoir surévalué auprès de la Commission des comptes de campagne les dépenses de rémunération\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"soupçonnée d'avoir surévalué [...] afin de bénéficier du remboursement de la somme majorée\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "\"enquête sur les comptes de campagne de Jean-Luc Mélenchon en 2017\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Radio France",
+   "type": "REVEALED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "\"selon Radio France\"",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

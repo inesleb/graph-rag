@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Cazeneuve",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Association des Contribuables de Levallois-Perret (ACLP92)",
+   "type": "Institution"
+  },
+  {
+   "name": "Ministère de l’Intérieur",
+   "type": "Institution"
+  },
+  {
+   "name": "Commune de Levallois-Perret",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "corruption passive",
+   "evidence": "les élus Balkany n’ont plus « l’autorité morale nécessaire à leurs fonctions » après les révélations de leurs mises en examen pour corruption passive",
+   "confidence": 0.9,
+   "date": "2015-05-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de corruption",
+   "evidence": "les élus Balkany n’ont plus « l’autorité morale nécessaire à leurs fonctions » après les révélations de leurs mises en examen pour [...] blanchiment de corruption",
+   "confidence": 0.9,
+   "date": "2015-05-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "les élus Balkany n’ont plus « l’autorité morale nécessaire à leurs fonctions » après les révélations de leurs mises en examen pour [...] blanchiment de fraude fiscale",
+   "confidence": 0.9,
+   "date": "2015-05-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Association des Contribuables de Levallois-Perret (ACLP92)",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "l’association des Contribuables de Levallois-Perret écrit [...] pour lui demander de révoquer Patrick Balkany de sa fonction de maire [...] après les révélations de leurs mises en examen",
+   "confidence": 0.95,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Association des Contribuables de Levallois-Perret (ACLP92)",
+   "type": "WORKED_FOR",
+   "target": "Commune de Levallois-Perret",
+   "evidence": "l’association des Contribuables de Levallois-Perret écrit au ministre de l’intérieur [...] pour lui demander de révoquer Patrick Balkany de sa fonction de maire de la commune de Levallois-Perret",
+   "confidence": 0.95,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Commune de Levallois-Perret",
+   "evidence": "l’association [...] demande de révoquer Patrick Balkany de sa fonction de maire de la commune de Levallois-Perret",
+   "confidence": 0.95,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Cazeneuve",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l’Intérieur",
+   "evidence": "l’association écrit au ministre de l’intérieur, Bernard Cazeneuve",
+   "confidence": 0.95,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Patrick Balkany",
+   "evidence": "les révélations de leurs mises en examen pour corruption passive, blanchiment de corruption et blanchiment de fraude fiscale",
+   "confidence": 0.95,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Isabelle Balkany",
+   "evidence": "les élus Balkany n’ont plus « l’autorité morale nécessaire à leurs fonctions »",
+   "confidence": 0.85,
+   "date": "2015-05-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

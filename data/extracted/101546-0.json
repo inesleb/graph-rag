@@ -1,0 +1,178 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Olympique de Marseille",
+   "type": "Company"
+  },
+  {
+   "name": "Groupe Bernard Tapie",
+   "type": "Company"
+  },
+  {
+   "name": "La Provence",
+   "type": "Media"
+  },
+  {
+   "name": "Corse-Matin",
+   "type": "Media"
+  },
+  {
+   "name": "La Vie claire",
+   "type": "Company"
+  },
+  {
+   "name": "Parti radical de gauche",
+   "type": "Party"
+  },
+  {
+   "name": "Gouvernement Bérégovoy",
+   "type": "Institution"
+  },
+  {
+   "name": "Député des Bouches-du-Rhône",
+   "type": "Institution"
+  },
+  {
+   "name": "Député européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseiller général des Bouches-du-Rhône",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "propriétaire d'Adidas",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Olympique de Marseille",
+   "evidence": "propriétaire de l'Olympique de Marseille",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Groupe Bernard Tapie",
+   "evidence": "gérant du Groupe Bernard Tapie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "La Provence",
+   "evidence": "propriétaire du Groupe La Provence, qui édite le journal du même nom",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Corse-Matin",
+   "evidence": "propriétaire de Corse-Matin",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "La Vie claire",
+   "evidence": "présente son équipe cycliste La Vie claire",
+   "confidence": 1.0,
+   "date": "1984",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Parti radical de gauche",
+   "evidence": "engagé en politique en tant que radical de gauche",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Bérégovoy",
+   "evidence": "ministre de la Ville au sein du gouvernement Bérégovoy",
+   "confidence": 1.0,
+   "date": "1990s",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Député des Bouches-du-Rhône",
+   "evidence": "député des Bouches-du-Rhône à deux reprises",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Député européen",
+   "evidence": "député européen (sa liste obtient 12 % aux élections de 1994)",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Conseiller général des Bouches-du-Rhône",
+   "evidence": "conseiller général des Bouches-du-Rhône",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Sa carrière politique s’arrête en raison de ses ennuis judiciaires",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

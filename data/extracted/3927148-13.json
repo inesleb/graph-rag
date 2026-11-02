@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Lionel Jospin",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Direction des constructions navales",
+   "type": "Institution"
+  },
+  {
+   "name": "DGSE",
+   "type": "Institution"
+  },
+  {
+   "name": "Attentat du 8 mai 2002 à Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Lionel Jospin",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle française de 2002",
+   "evidence": "Lors de l’élection présidentielle française de 2002, Lionel Jospin est éliminé au premier tour.",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle française de 2002",
+   "evidence": "Jacques Chirac est réélu face à Jean-Marie Le Pen.",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle française de 2002",
+   "evidence": "Jacques Chirac est réélu face à Jean-Marie Le Pen.",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Direction des constructions navales",
+   "type": "INVOLVED_IN",
+   "target": "Attentat du 8 mai 2002 à Karachi",
+   "evidence": "onze employés et sous-traitants de la Direction des constructions navales [...] meurent dans un attentat-suicide, à Karachi",
+   "confidence": 1.0,
+   "date": "2002-05-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "DGSE",
+   "type": "INVESTIGATED",
+   "target": "Attentat du 8 mai 2002 à Karachi",
+   "evidence": "Au printemps 2002, alors que la justice enquêtait sur la piste islamiste, des agents de la DGSE se seraient chargés de « mesures de rétorsion »",
+   "confidence": 0.7,
+   "date": "2002",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Attentat du 8 mai 2002 à Karachi",
+   "type": "CONCERNS",
+   "target": "Terrorisme",
+   "evidence": "Un fanatique avait lancé sa Toyota remplie d’explosifs contre le bus",
+   "confidence": 0.9,
+   "date": "2002-05-08",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Penelope Fillon",
+   "evidence": "L'affaire connaît un grand retentissement et contribue à l'échec de François Fillon à l'élection présidentielle.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "François Fillon",
+   "evidence": "L'affaire connaît un grand retentissement et contribue à l'échec de François Fillon à l'élection présidentielle.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Penelope Fillon est condamnée en appel en 2022 pour détournements de fonds publics et abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "peine validée par la Cour de cassation en 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

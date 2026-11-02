@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Bruno Revel",
+   "type": "Person"
+  },
+  {
+   "name": "Serge Roques",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le procès en appel à la barre.",
+   "confidence": 1.0,
+   "date": "2023-11-08",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "son avocat plaide sa relaxe",
+   "confidence": 0.9,
+   "date": "2023-12-01",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "condamné à la peine maximale d’un an ferme le 30 septembre 2021 en première instance",
+   "confidence": 1.0,
+   "date": "2021-09-30",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Bruno Revel",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "les avocats généraux Bruno Revel et Serge Roques",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Serge Roques",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "les avocats généraux Bruno Revel et Serge Roques",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le procès commence le 8 novembre 2023 devant la cour d'appel de Paris",
+   "confidence": 1.0,
+   "date": "2023-11-08",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

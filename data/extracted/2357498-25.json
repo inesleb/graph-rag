@@ -1,0 +1,156 @@
+{
+ "entities": [
+  {
+   "name": "André Bercoff",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Yves Haberer",
+   "type": "Person"
+  },
+  {
+   "name": "Jean Peyrelevade",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Rocard",
+   "type": "Person"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "BT Finance",
+   "type": "Company"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "André Bercoff",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "« exécution » banco-judiciaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "André Bercoff",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le but de la manœuvre était double : assurer à l'État l'impunité dans la vente d'Adidas",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "André Bercoff",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "débarrasser la classe politique d'un encombrant intrus",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Yves Haberer",
+   "type": "WORKED_FOR",
+   "target": "Crédit lyonnais",
+   "evidence": "le président Jean-Yves Haberer a été placé par les socialistes",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "son successeur Jean Peyrelevade est un ami proche de Michel Rocard et ennemi politique proclamé de Bernard Tapie",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "WORKED_FOR",
+   "target": "Crédit lyonnais",
+   "evidence": "son successeur Jean Peyrelevade",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parti socialiste (PS)",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la proximité politique des dirigeants du Crédit Lyonnais avec les dirigeants du PS",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "REVEALED",
+   "target": "Bernard Tapie",
+   "evidence": "les dirigeants du Crédit lyonnais auraient été chargés de saper l'image de Bernard Tapie",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "REVEALED",
+   "target": "Bernard Tapie",
+   "evidence": "désigner Bernard Tapie comme l'un des principaux responsables des pertes de la banque",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "BT Finance",
+   "evidence": "captation des actions BT Finance grâce à la mise en faillite du groupe Tapie",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la loi de la faillite en France frappe d'inéligibilité Bernard Tapie, pour sept ans",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

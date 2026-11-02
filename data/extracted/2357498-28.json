@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Robert Louis-Dreyfus",
+   "type": "Person"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Citibank",
+   "type": "Company"
+  },
+  {
+   "name": "Citistar",
+   "type": "Company"
+  },
+  {
+   "name": "Gilberte Beaux",
+   "type": "Person"
+  },
+  {
+   "name": "Groupe Tapie",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Autre étrangeté selon Bernard Tapie : il existe une option donnée aux acheteurs...",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Louis-Dreyfus",
+   "type": "WORKED_FOR",
+   "target": "Adidas",
+   "evidence": "Robert Louis-Dreyfus qui prend le contrôle d'Adidas.",
+   "confidence": 1.0,
+   "date": "1994-12-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Louis-Dreyfus",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le pari du redressement d'Adidas que joue Robert Louis-Dreyfus...",
+   "confidence": 0.7,
+   "date": "1993-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilberte Beaux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Gilberte Beaux faisant partie du tour de table des investisseurs...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Groupe Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les bénéficiaires de la plus-value entre les 2 milliards versés au Groupe Tapie...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Citibank",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "dont les actions sont détenues par... Citibank et Citistar.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Citistar",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "dont les actions sont détenues par des sociétés offshores, Citibank et Citistar.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

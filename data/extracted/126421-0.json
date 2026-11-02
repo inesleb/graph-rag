@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Organisation communiste internationaliste",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste",
+   "type": "Party"
+  },
+  {
+   "name": "Front de gauche",
+   "type": "Party"
+  },
+  {
+   "name": "Parti de gauche",
+   "type": "Party"
+  },
+  {
+   "name": "Parti communiste français",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Organisation communiste internationaliste",
+   "evidence": "Membre de l'Organisation communiste internationaliste (OCI) de 1972 à 1976",
+   "confidence": 1.0,
+   "date": "1972-1976",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Parti socialiste",
+   "evidence": "il entre ensuite au Parti socialiste (PS)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Parti de gauche",
+   "evidence": "il part fonder le Parti de gauche (PG)",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "il est le fondateur et la figure principale du parti La France insoumise (LFI)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Front de gauche",
+   "evidence": "Sous les couleurs du Front de gauche, coalition qui réunit notamment le PG et le Parti communiste français (PCF)",
+   "confidence": 1.0,
+   "date": "2009-2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Parti socialiste",
+   "evidence": "conseiller municipal de Massy en 1983, conseiller général de l'Essonne en 1985 et sénateur en 1986",
+   "confidence": 1.0,
+   "date": "1983-1986",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Parti socialiste",
+   "evidence": "ministre délégué à l'Enseignement professionnel de 2000 à 2002, dans le gouvernement Jospin",
+   "confidence": 1.0,
+   "date": "2000-2002",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

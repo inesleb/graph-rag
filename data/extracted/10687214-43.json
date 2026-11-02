@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Sophie Montel",
+   "type": "Person"
+  },
+  {
+   "name": "Aymeric Chauprade",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Van Houtte",
+   "type": "Person"
+  },
+  {
+   "name": "Huguette Fatna",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophie Montel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Sophie Montel, qui a quitté en 2017 le FN, est auditionnée, comme « suspect libre »",
+   "confidence": 0.9,
+   "date": "2018-06-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "REVEALED",
+   "target": "Aymeric Chauprade",
+   "evidence": "Sophie Montel confirme les propos d'Aymeric Chauprade qui affirmait que Marine Le Pen a demandé aux élus du parti de retenir un seul assistant parlementaire",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen a demandé aux élus du parti de retenir un seul assistant parlementaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "WORKED_FOR",
+   "target": "Marine Le Pen",
+   "evidence": "Marine Le Pen a demandé [...] afin de permettre à son collaborateur Charles Van Houtte de choisir les autres",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "REVEALED",
+   "target": "Charles Van Houtte",
+   "evidence": "Charles Van Houtte lui a demandé de prendre comme assistante Huguette Fatna",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Sophie Montel, qui a quitté en 2017 le FN",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophie Montel",
+   "type": "INVESTIGATED",
+   "target": "Office central de lutte contre la corruption et les infractions financières et fiscales",
+   "evidence": "Sophie Montel est auditionnée [...] par les policiers de l'office central de lutte contre la corruption",
+   "confidence": 0.95,
+   "date": "2018-06-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Huguette Fatna",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Charles Van Houtte lui a demandé de prendre comme assistante Huguette Fatna",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

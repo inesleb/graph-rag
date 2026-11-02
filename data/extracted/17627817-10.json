@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Brest",
+   "type": "Institution"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "prise illégale d'intérêts",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet de Brest",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "l'affaire est classée sans suite par le parquet de Brest",
+   "confidence": 1.0,
+   "date": "2017-10-13",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "les infractions d'abus de confiance [...] ne sont pas avérées",
+   "confidence": 0.9,
+   "date": "2017-10-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "escroquerie",
+   "evidence": "les infractions [...] d'escroquerie ne sont pas avérées",
+   "confidence": 0.9,
+   "date": "2017-10-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "prise illégale d'intérêts",
+   "evidence": "l'infraction de prise illégale d'intérêts [...] est de toute façon prescrite",
+   "confidence": 0.95,
+   "date": "2017-10-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

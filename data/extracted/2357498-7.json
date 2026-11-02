@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal correctionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet général",
+   "type": "Institution"
+  },
+  {
+   "name": "Complicité d'escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Tribunal correctionnel",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le tribunal correctionnel prononce une relaxe générale le 9 juillet 2019",
+   "confidence": 1.0,
+   "date": "2019-07-09",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Le parquet de Paris fait appel de ce premier jugement",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet général",
+   "type": "INDICTED_IN",
+   "target": "Complicité d'escroquerie",
+   "evidence": "le parquet général requiert une peine de cinq ans de prison avec sursis et 300.000 euros d'amende pour « complicité d'escroquerie »",
+   "confidence": 1.0,
+   "date": "2021-06",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Parquet général",
+   "type": "INDICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "le parquet général requiert une peine de cinq ans de prison avec sursis et 300.000 euros d'amende pour « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2021-06",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Affaibli par son cancer, Bernard Tapie n'est pas en mesure de se présenter aux dernières audiences",
+   "confidence": 0.9,
+   "date": "2021-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Son décès, le 3 octobre 2021, met fin à l'action publique le concernant",
+   "confidence": 1.0,
+   "date": "2021-10-03",
+   "stage": null,
+   "final": true
+  }
+ ]
+}

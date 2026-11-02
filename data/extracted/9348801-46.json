@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "État",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient les peines de prison",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation maintient les peines de prison",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "inéligibilité",
+   "evidence": "les dix ans d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "inéligibilité",
+   "evidence": "les dix ans d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "amende",
+   "evidence": "les 100 000 euros d’amende",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "amende",
+   "evidence": "les 100 000 euros d’amende",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "saisie de biens",
+   "evidence": "la saisie de l’usufruit du moulin de Cossy",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "saisie de biens",
+   "evidence": "la saisie de l’usufruit du moulin de Cossy",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "annule les 400 000 euros de dommages-intérêts accordés à l’État",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "renvoie vers un nouveau procès pour statuer à nouveau sur ce point",
+   "confidence": 1.0,
+   "date": "2024-05-07",
+   "stage": "cassation",
+   "final": null
+  }
+ ]
+}

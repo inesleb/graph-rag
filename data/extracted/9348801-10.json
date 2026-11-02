@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Éric Dupond-Moretti",
+   "type": "Person"
+  },
+  {
+   "name": "Antoine Vey",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "Le 13 septembre 2019, Patrick Balkany est condamné pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment",
+   "evidence": "Le 18 octobre 2019, Patrick Balkany est de nouveau condamné pour blanchiment",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "Patrick Balkany est en revanche relaxé pour le volet de la corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "condamné dans la même affaire",
+   "confidence": 0.9,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "également condamnée dans la même affaire",
+   "confidence": 0.9,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "maire",
+   "evidence": "ainsi empêché d'exercer ses fonctions de maire",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "maire",
+   "evidence": "il est remplacé [...] par sa première adjointe, son épouse",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "WORKED_FOR",
+   "target": "Patrick Balkany",
+   "evidence": "Éric Dupond-Moretti, son avocat",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Antoine Vey",
+   "type": "WORKED_FOR",
+   "target": "Patrick Balkany",
+   "evidence": "Antoine Vey, l’un de ses avocats",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

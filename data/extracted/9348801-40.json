@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de fraude fiscale aggravée",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraude fiscale aggravée",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour blanchiment de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2018-07-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraude fiscale aggravée",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour blanchiment de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2018-07-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "fraude fiscale",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "blanchiment de fraude fiscale aggravée",
+   "evidence": "le couple Balkany est renvoyé devant le tribunal correctionnel pour blanchiment de fraude fiscale aggravée",
+   "confidence": 1.0,
+   "date": "2018-07-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

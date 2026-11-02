@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Mazars",
+   "type": "Company"
+  },
+  {
+   "name": "Vandorne",
+   "type": "Company"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Nanterre",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil d'administration de Renault",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "11 millions d’euros de dépenses personnelles au profit de l’ex-PDG",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "voyages personnels avec les avions de la société, montre Cartier et bijoux, invitations personnelles au Festival de Cannes",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renault-Nissan BV",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "11 millions d’euros de dépenses non justifiées chez RNBV entre 2009 et 2018",
+   "confidence": 0.95,
+   "date": "2009-2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mazars",
+   "type": "INVESTIGATED",
+   "target": "Renault-Nissan BV",
+   "evidence": "Un audit du cabinet Mazars [...] révèle 11 millions d’euros de dépenses non justifiées chez RNBV",
+   "confidence": 0.95,
+   "date": "2019-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mazars",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Un audit du cabinet Mazars [...] révèle 11 millions d’euros de dépenses personnelles au profit de l’ex-PDG",
+   "confidence": 0.95,
+   "date": "2019-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil d'administration de Renault",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le CA de Renault en a été informé le 4 juin 2019",
+   "confidence": 0.9,
+   "date": "2019-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "un exemplaire du rapport a été transmis [...] au parquet national financier",
+   "confidence": 0.9,
+   "date": "2019-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Nanterre",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "un exemplaire du rapport a été transmis [...] au parquet de Nanterre",
+   "confidence": 0.9,
+   "date": "2019-06-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renault",
+   "type": "MEMBER_OF",
+   "target": "Renault-Nissan BV",
+   "evidence": "faible contrôle financier de Renault et Nissan sur leur filiale commune",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "MEMBER_OF",
+   "target": "Renault-Nissan BV",
+   "evidence": "faible contrôle financier de Renault et Nissan sur leur filiale commune",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

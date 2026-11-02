@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Robert Bourgi",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Debré",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Stefanini",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Ordre national de la Légion d'honneur",
+   "type": "Institution"
+  },
+  {
+   "name": "Barreau (ordre des avocats)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi a déclaré [...] avoir tendu un piège à Fillon pour se venger",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "ses propos « violents » sur Fillon",
+   "confidence": 0.9,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "WORKED_FOR",
+   "target": "Barreau (ordre des avocats)",
+   "evidence": "Robert Bourgi est suspendu du barreau par ses pairs",
+   "confidence": 1.0,
+   "date": "2019-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "WORKED_FOR",
+   "target": "Ordre national de la Légion d'honneur",
+   "evidence": "Robert Bourgi est suspendu de l'Ordre national de la Légion d'honneur",
+   "confidence": 1.0,
+   "date": "2019-03-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon bénéficie d'un non-lieu du délit de « trafic d’influence »",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bernard Debré",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "une parole de Bernard Debré [...] suggérant de ne pas l'impliquer dans les affaires africaines",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "trafic d’influence",
+   "evidence": "non-lieu du délit de « trafic d’influence »",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

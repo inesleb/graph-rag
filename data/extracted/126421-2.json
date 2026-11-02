@@ -1,0 +1,17 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Institut La Boétie",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

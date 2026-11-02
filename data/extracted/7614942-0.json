@@ -1,0 +1,148 @@
+{
+ "entities": [
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bismuth",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de violation du secret professionnel",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "École nationale de la magistrature",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Bordeaux",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "École nationale de la magistrature",
+   "evidence": "Ancien directeur de l'École nationale de la magistrature",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour d'appel de Bordeaux",
+   "evidence": "procureur général près la cour d'appel de Bordeaux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour de cassation",
+   "evidence": "premier avocat général près la Cour de cassation",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INDICTED_IN",
+   "target": "Affaire Bismuth",
+   "evidence": "Mis en examen dans l'« affaire Bismuth »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONCERNS",
+   "target": "Affaire Bismuth",
+   "evidence": "Mis en examen dans l'« affaire Bismuth »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bismuth",
+   "evidence": "Mis en examen dans l'« affaire Bismuth »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "qui implique l'ancien président de la République, Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "corruption passive",
+   "evidence": "condamné en 2021 [...] pour corruption passive",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "recel de violation du secret professionnel",
+   "evidence": "condamné [...] pour [...] recel de violation du secret professionnel",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bismuth",
+   "evidence": "condamné en 2021 à trois ans de prison [...] dans l'« affaire Bismuth »",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bismuth",
+   "evidence": "la peine est confirmée en appel en mai 2023",
+   "confidence": 1.0,
+   "date": "2023-05",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

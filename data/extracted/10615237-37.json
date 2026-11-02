@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Robert Bourgi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Monte Paschi",
+   "type": "Company"
+  },
+  {
+   "name": "Arnys",
+   "type": "Company"
+  },
+  {
+   "name": "Journal du dimanche",
+   "type": "Media"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon se serait fait offrir depuis 2012 des costumes...",
+   "confidence": 0.9,
+   "date": "2012-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Journal du dimanche",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Le Journal du dimanche révèle le 12 mars que François Fillon...",
+   "confidence": 1.0,
+   "date": "2017-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi est identifié comme la personne ayant offert pour 13 000 € de costumes.",
+   "confidence": 0.95,
+   "date": "2016-12-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "Robert Bourgi est identifié comme la personne ayant offert... (contexte implicite de lien avec Fillon)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Monte Paschi",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "13 000 payés par chèque de la banque italienne Monte Paschi.",
+   "confidence": 0.9,
+   "date": "2017-02-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Arnys",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "achetés à la boutique de luxe Arnys...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "montant [...] excédant le seuil légal autorisé",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "35 500 en liquide (montant contesté)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Selon les informateurs du Monde, les enquêteurs ont trouvé...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

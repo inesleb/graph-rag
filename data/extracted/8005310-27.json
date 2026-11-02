@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Tidona",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Guillaume Lambert",
+   "type": "Person"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Complément d'enquête",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Il tente alors de dissuader Thierry Tidona, militant UMP partie civile dans l'affaire Bygmalion\"",
+   "confidence": 0.95,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "\"Thierry Tidona, militant UMP\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Nicolas Sarkozy se dit « déterminé à connaître la vérité » mais il reconnaît qu'il y a bien eu une « combine »\"",
+   "confidence": 0.95,
+   "date": "2014-11-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guillaume Lambert",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "\"Son directeur de campagne, Guillaume Lambert\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "\"Nicolas Sarkozy avait assuré ne pas se souvenir de cette note\"",
+   "confidence": 0.9,
+   "date": "2015-09",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "\"une note de l'expert-comptable pointant un risque de dépassement du plafond des dépenses de campagne\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

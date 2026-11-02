@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Nissan",
+   "evidence": "La plainte de Nissan mentionne également des donations...",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "La plainte de Nissan mentionne également des donations...",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

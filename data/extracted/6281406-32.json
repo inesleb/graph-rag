@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Saïf al-Islam Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Béchir Saleh",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Radio France internationale",
+   "type": "Media"
+  },
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Saïf al-Islam Kadhafi réitère ses accusations contre Nicolas Sarkozy, concernant cette transaction",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Il rappelle qu’il avait transmis en 2018 son témoignage au juge Serge Tournaire",
+   "confidence": 0.85,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Saïf al-Islam Kadhafi",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "des valises d'argent ont été remises à Claude Guéant par l’intermédiaire d’Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "des valises d'argent ont été remises à Claude Guéant par l’intermédiaire d’Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Saleh",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "l'argent étant transmis par Béchir Saleh",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "des valises d'argent ont été remises à Claude Guéant par l’intermédiaire d’Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Radio France internationale",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "ces accusations [...] rapportées par Radio France internationale",
+   "confidence": 0.85,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

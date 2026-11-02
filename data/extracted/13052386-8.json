@@ -1,0 +1,48 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Crise financière de 2008",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Crise financière de 2008",
+   "evidence": "une troisième enquête judiciaire est ouverte au Japon, où Carlos Ghosn est accusé d'« abus de confiance aggravé » : il aurait transféré à Nissan des pertes essuyées sur un investissement financier personnel en 2008.",
+   "confidence": 0.9,
+   "date": "2018-12-20",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Nissan",
+   "evidence": "il aurait transféré à Nissan des pertes essuyées sur un investissement financier personnel en 2008.",
+   "confidence": 0.85,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crise financière de 2008",
+   "type": "CONCERNS",
+   "target": "Carlos Ghosn",
+   "evidence": "pertes personnelles sur des produits dérivés financiers pour quatorze millions d'euros consécutive à la crise financière de 2008.",
+   "confidence": 0.95,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

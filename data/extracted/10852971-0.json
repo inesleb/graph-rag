@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Alexis Kohler",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Société Générale",
+   "type": "Company"
+  },
+  {
+   "name": "Mediterranean Shipping Company (MSC)",
+   "type": "Company"
+  },
+  {
+   "name": "Prise illégale d'intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption passive",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexis Kohler",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "Directeur de cabinet d'Emmanuel Macron au ministère de l'Économie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexis Kohler",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "secrétaire général de l'Élysée en mai 2017",
+   "confidence": 1.0,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexis Kohler",
+   "type": "WORKED_FOR",
+   "target": "Société Générale",
+   "evidence": "devient directeur général adjoint de la Société Générale",
+   "confidence": 1.0,
+   "date": "2025-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexis Kohler",
+   "type": "INDICTED_IN",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "mis en examen pour prise illégale d'intérêts",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexis Kohler",
+   "type": "INDICTED_IN",
+   "target": "Trafic d'influence",
+   "evidence": "mis en examen pour trafic d'influence",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexis Kohler",
+   "type": "INDICTED_IN",
+   "target": "Corruption passive",
+   "evidence": "mis en examen pour corruption passive",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Prise illégale d'intérêts",
+   "type": "CONCERNS",
+   "target": "Mediterranean Shipping Company (MSC)",
+   "evidence": "conflits d'intérêts avec l'entreprise Mediterranean Shipping Company (MSC)",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Trafic d'influence",
+   "type": "CONCERNS",
+   "target": "Mediterranean Shipping Company (MSC)",
+   "evidence": "conflits d'intérêts avec l'entreprise Mediterranean Shipping Company (MSC)",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Corruption passive",
+   "type": "CONCERNS",
+   "target": "Mediterranean Shipping Company (MSC)",
+   "evidence": "conflits d'intérêts avec l'entreprise Mediterranean Shipping Company (MSC)",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

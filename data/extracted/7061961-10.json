@@ -1,0 +1,56 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Strauss-Kahn",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Les documents établissent à 9,4 millions d'euros la facture des centaines d'enquêtes commandées sous la présidence de Nicolas Sarkozy.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Emmanuelle Mignon",
+   "evidence": "Le parquet de Paris classe la plainte sans suite au motif que [...] Emmanuelle Mignon « n'a juridiquement aucun pouvoir en propre »",
+   "confidence": 0.9,
+   "date": "2023-11-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Le 2 novembre, le parquet de Paris classe la plainte sans suite",
+   "confidence": 1.0,
+   "date": "2023-11-02",
+   "stage": null,
+   "final": true
+  }
+ ]
+}

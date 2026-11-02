@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Revue des deux Mondes",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "employée entre 1998 et 2013 en tant qu'attachée parlementaire de François Fillon",
+   "confidence": 1.0,
+   "date": "1998-2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Revue des deux Mondes",
+   "evidence": "comme collaboratrice à la Revue des deux Mondes",
+   "confidence": 1.0,
+   "date": "1998-2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "la question de son éventuelle implication privée étant au cœur de l’affaire Fillon",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Penelope Fillon",
+   "evidence": "Début 2017, Le Canard enchaîné révèle qu'elle a été employée entre 1998 et 2013",
+   "confidence": 1.0,
+   "date": "2017-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "provocquent l'ouverture d'une enquête pour soupçon de « détournement de fonds publics, abus de biens sociaux et recel de ces délits »",
+   "confidence": 0.8,
+   "date": "2017",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "soupçon de « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "soupçon de « abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "soupçon de « recel de ces délits »",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

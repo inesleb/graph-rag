@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Alain Bauer",
+   "type": "Person"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des espions",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alain Bauer",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "Alain Bauer dit être intervenu auprès de Renault à la demande de l’État",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alain Bauer",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des espions",
+   "evidence": "Alain Bauer est mandaté en 2011 pour auditer la direction de la sécurité de Renault après l'affaire des espions",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

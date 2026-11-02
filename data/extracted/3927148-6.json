@@ -1,0 +1,162 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahman el-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Mercor Finance",
+   "type": "Company"
+  },
+  {
+   "name": "DCN (Direction des constructions navales)",
+   "type": "Company"
+  },
+  {
+   "name": "Heine",
+   "type": "Company"
+  },
+  {
+   "name": "Asif Ali Zardari",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Ziad Takieddine et Abdul Rahman el-Assir prennent leur rôle en tant qu’intermédiaires.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdul Rahman el-Assir",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Ziad Takieddine et Abdul Rahman el-Assir prennent leur rôle en tant qu’intermédiaires.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "REVEALED",
+   "target": "Ziad Takieddine",
+   "evidence": "Ziad Takieddine et Abdul Rahman el-Assir ont été recommandés par Renaud Donnedieu de Vabres",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "WORKED_FOR",
+   "target": "François Léotard",
+   "evidence": "Renaud Donnedieu de Vabres, chef de cabinet de François Léotard",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "leurs commissions, versées à la société Mercor Finance, représentent 216 millions de francs",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdul Rahman el-Assir",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "leurs commissions, versées à la société Mercor Finance, représentent 216 millions de francs",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mercor Finance",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "leurs commissions, versées à la société Mercor Finance, représentent 216 millions de francs",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "DCN (Direction des constructions navales)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Entre la DCN et Mercor Finance, les fonds transitaient par la société Heine",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Heine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Entre la DCN et Mercor Finance, les fonds transitaient par la société Heine",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Asif Ali Zardari",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Ces commissions ont été reversées aux patrimoines personnels des acheteurs, par exemple le président pakistanais Asif Ali Zardari",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "commissions reversées aux patrimoines personnels des acheteurs",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "85 % de leurs frais [...] versés au cours de la première année et non de façon progressive",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

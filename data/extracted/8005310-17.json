@@ -1,0 +1,180 @@
+{
+ "entities": [
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alves",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Eric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "Fabienne Liadzé",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "complicité d’usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité d’escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité de financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "complicité d’usage de faux",
+   "evidence": "Bastien Millot est reconnu coupable de complicité d’usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "complicité d’escroquerie",
+   "evidence": "Bastien Millot est reconnu coupable de complicité d’escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "complicité de financement illégal de campagne électorale",
+   "evidence": "Bastien Millot est reconnu coupable de complicité de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Bastien Millot est reconnu coupable de complicité d’usage de faux, complicité d’escroquerie et complicité de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "CONVICTED_IN",
+   "target": "complicité de faux",
+   "evidence": "Guy Alves est reconnu coupable de complicité de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "CONVICTED_IN",
+   "target": "usage de faux",
+   "evidence": "Guy Alves est reconnu coupable d’usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "CONVICTED_IN",
+   "target": "escroquerie",
+   "evidence": "Guy Alves est reconnu coupable d’escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "CONVICTED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "Guy Alves est reconnu coupable de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Guy Alves",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Guy Alves est reconnu coupable de complicité de faux, d’usage de faux, d’escroquerie et de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Franck Attal",
+   "type": "CONVICTED_IN",
+   "target": "usage de faux",
+   "evidence": "Franck Attal est reconnu coupable des faits d’usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Franck Attal",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Franck Attal est reconnu coupable des faits d’usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Eric Cesari",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Eric Cesari est condamné à trois ans de prison",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Fabienne Liadzé",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Fabienne Liadzé est condamnée à trois ans de prison",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

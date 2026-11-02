@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale aggravé",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany",
+   "confidence": 0.9,
+   "date": "2021-06-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany",
+   "confidence": 0.9,
+   "date": "2021-06-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "ordonne un nouveau procès concernant le quantum des peines",
+   "confidence": 0.8,
+   "date": "2021-06-30",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

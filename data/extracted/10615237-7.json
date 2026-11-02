@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Joulaud",
+   "type": "Person"
+  },
+  {
+   "name": "Jeanne Robinson-Behre",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Crépu",
+   "type": "Person"
+  },
+  {
+   "name": "Revue des Deux Mondes",
+   "type": "Media"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Penelope Fillon",
+   "evidence": "Penelope Fillon aurait été rémunérée environ 500 000 euros bruts pour un emploi d'assistante parlementaire",
+   "confidence": 0.95,
+   "date": "1998-2002, 2012, 2002-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Penelope Fillon",
+   "evidence": "Mme Fillon aurait perçu 100 000 euros comme conseillère littéraire à la Revue des Deux Mondes",
+   "confidence": 0.95,
+   "date": "2012-05–2013-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "un emploi d'assistante parlementaire de son mari, de 1998 à 2002 et en 2012",
+   "confidence": 1.0,
+   "date": "1998-2002, 2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Marc Joulaud",
+   "evidence": "un emploi d'assistante parlementaire de son suppléant, Marc Joulaud, de 2002 à 2007",
+   "confidence": 1.0,
+   "date": "2002-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Revue des Deux Mondes",
+   "evidence": "Mme Fillon aurait perçu 100 000 euros comme conseillère littéraire",
+   "confidence": 0.8,
+   "date": "2012-05–2013-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "L'affaire commence avec l'article du Canard enchaîné du 25 janvier 2017",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "INVESTIGATED",
+   "target": "Jeanne Robinson-Behre",
+   "evidence": "Le Canard enchaîné déclare avoir interrogé une assistante de Marc Joulaud, Jeanne Robinson-Behre",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jeanne Robinson-Behre",
+   "type": "REVEALED",
+   "target": "Penelope Fillon",
+   "evidence": "« Je n'ai jamais travaillé avec elle, je n'ai pas d'info à ce sujet. Je ne la connaissais que comme femme de ministre. »",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "INVESTIGATED",
+   "target": "Michel Crépu",
+   "evidence": "Le Canard enchaîné déclare avoir interrogé le directeur de la Revue des Deux Mondes de l'époque, Michel Crépu",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Crépu",
+   "type": "REVEALED",
+   "target": "Penelope Fillon",
+   "evidence": "Penelope Fillon a bien « signé deux ou peut-être trois notes de lecture » mais qu'il n'a jamais eu « la moindre trace de ce qui pourrait ressembler à un travail de conseiller littéraire. »",
+   "confidence": 1.0,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

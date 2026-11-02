@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Inspection générale de l'administration",
+   "type": "Institution"
+  },
+  {
+   "name": "USEPPM",
+   "type": "Institution"
+  },
+  {
+   "name": "Reconstruire le commun",
+   "type": "Institution"
+  },
+  {
+   "name": "SOS Racisme",
+   "type": "Institution"
+  },
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "INVESTIGATED",
+   "target": "Fonds Marianne",
+   "evidence": "Un second rapport de la même inspection est commandé pour fin juin 2023 et doit couvrir l'ensemble des associations bénéficiaires du fonds.",
+   "confidence": 0.9,
+   "date": "2023-07-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "REVEALED",
+   "target": "USEPPM",
+   "evidence": "les plus grands bénéficiaires du fonds, l’USEPPM et Reconstruire le commun, avaient profité d’un « fléchage (…) en amont du processus »",
+   "confidence": 0.95,
+   "date": "2023-07-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "REVEALED",
+   "target": "Reconstruire le commun",
+   "evidence": "les plus grands bénéficiaires du fonds, l’USEPPM et Reconstruire le commun, avaient profité d’un « fléchage (…) en amont du processus »",
+   "confidence": 0.95,
+   "date": "2023-07-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "INVOLVED_IN",
+   "target": "SOS Racisme",
+   "evidence": "SOS Racisme a été écartée au dernier moment sur demande de Mme Schiappa, « à la suite d’une polémique, par voie de presse, entre la ministre déléguée et le président de l’association »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de l'administration",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "l’objectif premier du fonds Marianne, à savoir l’émergence de nouveaux acteurs dans le champ du contre-discours républicain, n’a à l’évidence pas été atteint",
+   "confidence": 0.95,
+   "date": "2023-07-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

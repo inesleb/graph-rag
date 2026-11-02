@@ -1,0 +1,190 @@
+{
+ "entities": [
+  {
+   "name": "Tractabel",
+   "type": "Company"
+  },
+  {
+   "name": "Machkevitch",
+   "type": "Person"
+  },
+  {
+   "name": "Armand De Decker",
+   "type": "Person"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Faux",
+   "type": "Offense"
+  },
+  {
+   "name": "Blanchiment",
+   "type": "Offense"
+  },
+  {
+   "name": "Association de malfaiteurs",
+   "type": "Offense"
+  },
+  {
+   "name": "Rétrocommissions",
+   "type": "Offense"
+  },
+  {
+   "name": "Parquet général (Belgique)",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal correctionnel (Belgique)",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Vif",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Trio kazakh",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "Le trio est accusé d'avoir agi comme agents occultes et d'avoir reçu 50 millions d'euros de rétrocommissions dans le cadre de l'achat par Tractabel...",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "INVOLVED_IN",
+   "target": "Rétrocommissions",
+   "evidence": "Le trio est accusé [...] d'avoir reçu 50 millions d'euros de rétrocommissions...",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "INDICTED_IN",
+   "target": "Faux",
+   "evidence": "En mars 2007, la justice belge inculpe le trio [...] pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "INDICTED_IN",
+   "target": "Blanchiment",
+   "evidence": "En mars 2007, la justice belge inculpe le trio [...] pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs",
+   "evidence": "En mars 2007, la justice belge inculpe le trio [...] pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Machkevitch",
+   "type": "INDICTED_IN",
+   "target": "Faux",
+   "evidence": "En mars 2007, la justice belge inculpe [...] la femme et les deux filles de Machkevitch pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Machkevitch",
+   "type": "INDICTED_IN",
+   "target": "Blanchiment",
+   "evidence": "En mars 2007, la justice belge inculpe [...] la femme et les deux filles de Machkevitch pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Machkevitch",
+   "type": "INDICTED_IN",
+   "target": "Association de malfaiteurs",
+   "evidence": "En mars 2007, la justice belge inculpe [...] la femme et les deux filles de Machkevitch pour faux, blanchiment et association de malfaiteurs.",
+   "confidence": 0.95,
+   "date": "2007-03",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "INDICTED_IN",
+   "target": "Kazakhgate",
+   "evidence": "Après quatre ans de batailles judiciaires, Chodiev et ses co-inculpés font appel d'une renvoi en tribunal correctionnel...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Trio kazakh",
+   "type": "ACQUITTED_IN",
+   "target": "Kazakhgate",
+   "evidence": "17 juin 2011, Chodiev et ses co-inculpés concluent avec le parquet une transaction qui met fin aux poursuites.",
+   "confidence": 0.95,
+   "date": "2011-06-17",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "L'ancien président du Sénat et ministre d'État Armand De Decker est soupçonné d'avoir participé à un réseau d'influence visant à accélérer les travaux parlementaires...",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet général (Belgique)",
+   "type": "CONCERNS",
+   "target": "Kazakhgate",
+   "evidence": "Le Parquet général est saisi.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tribunal correctionnel (Belgique)",
+   "type": "CONCERNS",
+   "target": "Kazakhgate",
+   "evidence": "Chodiev et ses co-inculpés font appel d'une renvoi en tribunal correctionnel...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Vif",
+   "type": "REVEALED",
+   "target": "Kazakhgate",
+   "evidence": "Toutefois, selon Le Vif le montant effectivement transigé n'est que de 3,5 millions d'euros...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Administration fiscale française",
+   "type": "Institution"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Administration fiscale française",
+   "type": "INVESTIGATED",
+   "target": "Carlos Ghosn",
+   "evidence": "L'administration fiscale française a lancé à l'été 2019 un contrôle fiscal sur ce point.",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Administration fiscale française",
+   "type": "REVEALED",
+   "target": "Carlos Ghosn",
+   "evidence": "À titre conservatoire, il a saisi en juillet 2019 13 millions d’euros de biens en France, comportant un appartement dans le 16e arrondissement de Paris, une maison à L'Étang-la-Ville (Yvelines) et un compte bancaire contenant ses actions chez Renault.",
+   "confidence": 0.9,
+   "date": "2019-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

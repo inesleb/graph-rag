@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Marc Joulaud",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Jeanne Robinson-Behre",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard Enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement",
+   "evidence": "François Fillon, nommé au gouvernement",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Joulaud",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "Marc Joulaud, député-maire de Sablé-sur-Sarthe, a remplacé en juillet 2002 à son siège de député François Fillon",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Joulaud",
+   "type": "WORKED_FOR",
+   "target": "Sablé-sur-Sarthe",
+   "evidence": "Marc Joulaud, député-maire de Sablé-sur-Sarthe",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Marc Joulaud",
+   "evidence": "Il a employé Penelope Fillon comme collaboratrice parlementaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "ne la connaissait que comme femme de ministre",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jeanne Robinson-Behre",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Jeanne Robinson-Behre [...] auditionnée par les enquêteurs",
+   "confidence": 0.9,
+   "date": "2023-02-01",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Penelope Fillon aurait dit [...] aux policiers",
+   "confidence": 0.8,
+   "date": "2023-02-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Le Canard Enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Jeanne Robinson-Behre, ancienne assistante parlementaire de Joulaud, répondant à une question du Canard Enchaîné",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Le 6 février, Le Monde affirme avoir bénéficié de confidences des enquêteurs",
+   "confidence": 1.0,
+   "date": "2023-02-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Philippe de Veyrac",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "\"les agissements de certains élus ne sont pas compatibles avec l’image d'un élu de la République\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe de Veyrac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "\"les agissements de certains élus ne sont pas compatibles avec l’image d'un élu de la République\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe de Veyrac",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "\"Je veux mettre un peu de propreté... dans ma famille [politique]\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe de Veyrac",
+   "type": "INVOLVED_IN",
+   "target": "Les Républicains",
+   "evidence": "\"Je vous demande ainsi qu'aux instances nationales de bien vouloir tirer toutes les conséquences nécessaires sur le cas de Monsieur Patrick Balkany\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe de Veyrac",
+   "type": "INVOLVED_IN",
+   "target": "Patrick Balkany",
+   "evidence": "\"les agissements de certains élus ne sont pas compatibles avec l’image d'un élu de la République\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe de Veyrac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "\"les agissements terribles, certes marginaux, mais dévastateurs pour les militants, les élus et plus largement la République\"",
+   "confidence": 0.9,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "\"Nicolas Sarkozy, président du parti Les Républicains\"",
+   "confidence": 1.0,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "\"les époux Balkany sont toujours membres du parti\"",
+   "confidence": 1.0,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "\"les époux Balkany sont toujours membres du parti\"",
+   "confidence": 1.0,
+   "date": "2015-10-17",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

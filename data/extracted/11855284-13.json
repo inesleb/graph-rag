@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Taha Bouhafs",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Europe 1",
+   "type": "Media"
+  },
+  {
+   "name": "IGPN",
+   "type": "Institution"
+  },
+  {
+   "name": "Éric Morvan",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-France Monéger-Guyimarc'h",
+   "type": "Person"
+  },
+  {
+   "name": "Police nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Taha Bouhafs",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Le journaliste Taha Bouhafs assiste à la scène, la filme et diffuse le jour même cette vidéo sur les réseaux sociaux.",
+   "confidence": 1.0,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Taha Bouhafs",
+   "type": "REVEALED",
+   "target": "Alexandre Benalla",
+   "evidence": "Il publie ensuite le 2 mai des photographies d'Alexandre Benalla dans d'autres manifestations en émettant l'hypothèse qu'il s'agit d'un policier.",
+   "confidence": 0.9,
+   "date": "2018-05-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla arrive alors dans le champ de la vidéo, il relève le jeune homme et le frappe « à plusieurs reprises ».",
+   "confidence": 1.0,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "C'est cette vidéo dont les services de l'État ont connaissance les 1er et 2 mai.",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "IGPN",
+   "type": "INVESTIGATED",
+   "target": "Affaires Benalla",
+   "evidence": "Elle est toutefois transmise par voie anonyme le 3 mai, à 2 h 13, sur une plateforme de signalement de l'IGPN.",
+   "confidence": 0.8,
+   "date": "2018-05-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "IGPN",
+   "type": "ACQUITTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Cette vidéo est prise sous un angle ne permettant pas de mettre en évidence des violences avérées.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": "investigation",
+   "final": false
+  },
+  {
+   "source": "Marie-France Monéger-Guyimarc'h",
+   "type": "ACQUITTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "la vidéo ne fait pas apparaître de violences illégitimes (bien qu'il soit noté des gestes « mal maîtrisés »), partant de l'hypothèse que les actes sont effectués par un représentant des forces de l'ordre - ce que n'est pas Alexandre Benalla.",
+   "confidence": 0.7,
+   "date": null,
+   "stage": "investigation",
+   "final": false
+  },
+  {
+   "source": "Europe 1",
+   "type": "CONCERNS",
+   "target": "Affaires Benalla",
+   "evidence": "selon certains médias) sans qu'il soit possible, selon Europe 1, de déterminer si cela est volontaire",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

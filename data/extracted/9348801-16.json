@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d’appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Moulin de Cossy",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La justice ordonne en août 2015 la saisie du Moulin de Cossy, que les élus des Hauts-de-Seine occupaient depuis trente ans.",
+   "confidence": 0.9,
+   "date": "2015-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "La justice ordonne en août 2015 la saisie du Moulin de Cossy, que les élus des Hauts-de-Seine occupaient depuis trente ans.",
+   "confidence": 0.9,
+   "date": "2015-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "L'annulation de cette peine annulant l'ensemble des peines, le 25 octobre 2022, une nouvelle audience se tient devant la cour d’appel de Paris.",
+   "confidence": 0.8,
+   "date": "2022-10-25",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "L'annulation de cette peine annulant l'ensemble des peines, le 25 octobre 2022, une nouvelle audience se tient devant la cour d’appel de Paris.",
+   "confidence": 0.8,
+   "date": "2022-10-25",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Cour d’appel de Paris",
+   "evidence": "La décision de la cour d’appel de Paris rendue en mai 2020 engendre la confiscation du moulin de Cossy.",
+   "confidence": 0.7,
+   "date": "2020-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Cour d’appel de Paris",
+   "evidence": "La décision de la cour d’appel de Paris rendue en mai 2020 engendre la confiscation du moulin de Cossy.",
+   "confidence": 0.7,
+   "date": "2020-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Cour de cassation",
+   "evidence": "Le couple saisit la Cour de cassation qui leur donne raison, estimant que cette décision priverait leurs enfants de leur droit de nus-propriétaires.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "MEMBER_OF",
+   "target": "Cour de cassation",
+   "evidence": "Le couple saisit la Cour de cassation qui leur donne raison, estimant que cette décision priverait leurs enfants de leur droit de nus-propriétaires.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Moulin de Cossy",
+   "evidence": "Patrick Balkany affirme quelques jours plus tard qu'il allait former un pourvoi en cassation afin de contester la décision de justice portant sur le moulin de Cossy.",
+   "confidence": 0.85,
+   "date": "2023-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Moulin de Cossy",
+   "evidence": "Patrick Balkany affirme quelques jours plus tard qu'il allait former un pourvoi en cassation afin de contester la décision de justice portant sur le moulin de Cossy.",
+   "confidence": 0.85,
+   "date": "2023-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d’appel de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "La décision de la cour d’appel de Paris rendue en mai 2020 engendre la confiscation du moulin de Cossy.",
+   "confidence": 0.9,
+   "date": "2020-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "CONCERNS",
+   "target": "Affaire Balkany",
+   "evidence": "Le couple saisit la Cour de cassation qui leur donne raison, estimant que cette décision priverait leurs enfants de leur droit de nus-propriétaires.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

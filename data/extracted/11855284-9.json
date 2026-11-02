@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Compagnies républicaines de sécurité (CRS)",
+   "type": "Institution"
+  },
+  {
+   "name": "Brigade d'information de la voie publique (BIVP)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"un jeune homme tiré par les CRS, qui l’empoignent par les pieds et les bras et le maintiennent au sol. L’homme identifié comme étant Alexandre Benalla accourt et empoigne très vivement l’individu\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"Il l’agrippe par son blouson et porte la paume ouverte de sa main sur sa tête afin de le maîtriser\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"une unité de CRS procède à l'interpellation du couple, apparemment à la demande d'Alexandre Benalla\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"le major Philippe Mizerski est resté passif\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"il ne concevait de faire la moindre observation à celui qui était, à ses yeux, un personnage de première importance\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Compagnies républicaines de sécurité (CRS)",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"une unité de CRS procède à l'interpellation du couple, menant l'homme à subir des coups par plusieurs CRS\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brigade d'information de la voie publique (BIVP)",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"Le couple est finalement remis à la Brigade d'information de la voie publique (BIVP)\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

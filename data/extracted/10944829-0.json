@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Emplois fictifs",
+   "type": "Offense"
+  },
+  {
+   "name": "Délit",
+   "type": "Offense"
+  },
+  {
+   "name": "Contribuable européen",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Emplois fictifs",
+   "evidence": "des soupçons d'emplois fictifs concernant les assistants parlementaires",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Délit",
+   "evidence": "cela correspondrait à des emplois fictifs [...] constituant un délit",
+   "confidence": 0.85,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "MEMBER_OF",
+   "target": "En marche",
+   "evidence": "principal allié d'En marche",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Elle fait également suite à l'affaire des assistants parlementaires européens du Front national",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "durant les premiers mois de la présidence d'Emmanuel Macron alors que le MoDem, principal allié d'En marche",
+   "confidence": 0.8,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

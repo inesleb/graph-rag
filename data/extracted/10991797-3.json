@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Havas",
+   "type": "Company"
+  },
+  {
+   "name": "APCO",
+   "type": "Company"
+  },
+  {
+   "name": "Publicis",
+   "type": "Company"
+  },
+  {
+   "name": "Madame Bothy-Chesneau",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "délit de favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "EY",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"la mise en concurrence n’a pas eu lieu concomitamment entre les trois prestataires contactés\"",
+   "confidence": 0.9,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"le périmètre du marché a semble-t-il été modifié\"",
+   "confidence": 0.9,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"l'absence de réservation de crédits budgétaires dans le budget French Tech 2016\"",
+   "confidence": 0.9,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"il n’y a eu aucun bon de commande, aucun devis réalisé, aucun contrat signé, aucune facture\"",
+   "confidence": 0.9,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "CONCERNS",
+   "target": "délit de favoritisme",
+   "evidence": "\"susceptible d’engager la responsabilité pénale (délit de favoritisme) des auteurs\"",
+   "confidence": 0.9,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Madame Bothy-Chesneau",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "\"Madame Bothy-Chesneau (la directrice de communication de Business France)\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"Madame Bothy-Chesneau n'avait initialement pas envisagé de mettre en concurrence l'agence de presse (Havas)\"",
+   "confidence": 0.9,
+   "date": "2016-09-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Business France",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"Business France devra choisir (Havas) idéalement\"",
+   "confidence": 0.9,
+   "date": "2015-12-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "APCO",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"APCO s'est porté candidat\"",
+   "confidence": 0.8,
+   "date": "2015-12-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EY",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"Le cabinet EY édite un rapport\"",
+   "confidence": 1.0,
+   "date": "2016-07-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "Yannick Jadot",
+   "type": "Person"
+  },
+  {
+   "name": "Gouvernement français",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "En janvier 2021, une première polémique éclate lorsque Le Canard enchaîné révèle que la logistique du plan de vaccination... a été sous-traitée à McKinsey.",
+   "confidence": 1.0,
+   "date": "2021-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gouvernement français",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "Le rôle de McKinsey dans la gestion de la pandémie de Covid-19 en France en 2020 a été jugé déterminant par le gouvernement français en ce qui concerne la campagne de vaccination.",
+   "confidence": 0.9,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Yannick Jadot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "Yannick Jadot demande une transparence complète sur la nature des contrats passés entre le gouvernement et la firme.",
+   "confidence": 0.8,
+   "date": "2021-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "la logistique du plan de vaccination... a été sous-traitée à McKinsey.",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

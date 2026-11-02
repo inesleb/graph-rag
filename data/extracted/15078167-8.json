@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Loi Thévenoud",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Bouzou",
+   "type": "Person"
+  },
+  {
+   "name": "Augustin Landier",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Xavier Niel",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Arnault",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Dimitri Gore-Coty",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Noël Barrot",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Bouzou",
+   "evidence": "divers économistes réputés, parmi lesquels Nicolas Bouzou et Augustin Landier, ont été rémunérés par Uber",
+   "confidence": 0.95,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "Augustin Landier",
+   "evidence": "divers économistes réputés, parmi lesquels Nicolas Bouzou et Augustin Landier, ont été rémunérés par Uber",
+   "confidence": 0.95,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre-Dimitri Gore-Coty",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "Pierre-Dimitri Gore-Coty, le directeur général du groupe Uber en Europe de l’Ouest",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Loi Thévenoud",
+   "evidence": "la loi Thévenoud réglemente l’activité des VTC",
+   "confidence": 0.85,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Xavier Niel",
+   "evidence": "Des investisseurs comme Xavier Niel [...] sont également approchés pour leur pouvoir d'influence",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Bernard Arnault",
+   "evidence": "Des investisseurs comme Xavier Niel et Bernard Arnault sont également approchés pour leur pouvoir d'influence",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre-Dimitri Gore-Coty",
+   "type": "REVEALED",
+   "target": "Uber",
+   "evidence": "« Nous n'avons pas besoin de leur argent en soi. Mais ils pourraient être des alliés utiles pour gagner la France »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Noël Barrot",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "le nouveau ministre du numérique Jean-Noël Barrot",
+   "confidence": 0.95,
+   "date": "2022-07-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Jean-Noël Barrot",
+   "evidence": "le nouveau ministre du numérique Jean-Noël Barrot est déchargé par décret des dossiers concernant Uber, sa sœur occupant le poste de directrice de la communication de cette entreprise",
+   "confidence": 0.95,
+   "date": "2022-07-22",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

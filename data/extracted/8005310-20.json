@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Sébastien Borivent",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Briand",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Nicolas Sarkozy et treize autres personnes font appel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Bastien Millot et Sébastien Borivent car ces derniers n’ont fait appel que sur les intérêts civils",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Sébastien Borivent",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Bastien Millot et Sébastien Borivent car ces derniers n’ont fait appel que sur les intérêts civils",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Philippe Briand",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Philippe Briand qui n'a pas fait appel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

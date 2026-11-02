@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "Samuel Paty",
+   "type": "Person"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marlène Schiappa",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "\"c’est l’administration qui a épluché les dossiers et proposé des ventilations que mon cabinet et moi avons évidemment validées\"",
+   "confidence": 0.9,
+   "date": "2022-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "rejette toute accusation de favoritisme et dément son implication dans le choix des bénéficiaires",
+   "confidence": 0.95,
+   "date": "2023-04-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Sifaoui",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "affirme avoir touché un salaire en contrepartie d'un travail de façon parfaitement régulière",
+   "confidence": 0.85,
+   "date": "2023-04-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Sifaoui",
+   "type": "INDICTED_IN",
+   "target": "dénonciation calomnieuse",
+   "evidence": "a porté plainte pour dénonciation calomnieuse",
+   "confidence": 0.9,
+   "date": "2023-04-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Famille de Samuel Paty",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "estiment que son assassinat a été instrumentalisé",
+   "confidence": 0.8,
+   "date": "2023-04-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

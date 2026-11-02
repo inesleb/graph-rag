@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "François Hollande",
+   "evidence": "il fait partie de l'équipe de sécurité de la campagne de François Hollande",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "engagé comme directeur de la sûreté et de la sécurité d'En marche durant la campagne présidentielle en 2017",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "engagé comme chargé de mission par le cabinet présidentiel",
+   "confidence": 1.0,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Cet événement est le point de départ de l'affaire Benalla",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "CONVICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "condamné en 2021 en première instance, et en 2023 en appel à trois ans d’emprisonnement dont un an ferme sous bracelet électronique",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "CONVICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "condamné en 2021 en première instance, et en 2023 en appel à trois ans d’emprisonnement dont un an ferme sous bracelet électronique",
+   "confidence": 1.0,
+   "date": "2023",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "CONVICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Sa condamnation à un an de prison ferme est définitivement confirmée en juin 2024",
+   "confidence": 1.0,
+   "date": "2024-06",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Jean-François Étienne des Rosaies",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Armand De Decker",
+   "type": "Person"
+  },
+  {
+   "name": "Patokh Chodiev",
+   "type": "Person"
+  },
+  {
+   "name": "Nursultan Nazarbaïev",
+   "type": "Person"
+  },
+  {
+   "name": "Stefaan De Clerck",
+   "type": "Person"
+  },
+  {
+   "name": "Didier Reynders",
+   "type": "Person"
+  },
+  {
+   "name": "Steven Vanackere",
+   "type": "Person"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-François Étienne des Rosaies",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "conseiller du président français Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2011-06-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Étienne des Rosaies",
+   "type": "WORKED_FOR",
+   "target": "Claude Guéant",
+   "evidence": "un mail [...] envoyé [...] à l’assistante personnelle du ministre français de l’Intérieur, Claude Guéant",
+   "confidence": 0.9,
+   "date": "2011-06-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "« PR », acronyme du Président de la République française",
+   "confidence": 0.9,
+   "date": "2011-06-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "« pour résoudre cette affaire, un texte de loi a été voté [...] organisé et suscité par Armand De Decker »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INVOLVED_IN",
+   "target": "Patokh Chodiev",
+   "evidence": "« un texte de loi [...] organisé et suscité par Armand De Decker [...] en faveur de son ami » Patokh Chodiev",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stefaan De Clerck",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "« les chefs d’inculpation ont été annulés [...] par Stefaan De Clerck »",
+   "confidence": 1.0,
+   "date": "2011-06-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nursultan Nazarbaïev",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "« le président kazakh Nazarbaïev avait sollicité le « PR » [...] en faveur de son ami » Patokh Chodiev",
+   "confidence": 0.9,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stefaan De Clerck",
+   "type": "WORKED_FOR",
+   "target": "Ministère de la Justice (Belgique)",
+   "evidence": "Stefaan De Clerck (CD&V), ministre de la Justice",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Didier Reynders",
+   "type": "WORKED_FOR",
+   "target": "Ministère des Finances (Belgique)",
+   "evidence": "Didier Reynders (MR), ministre des Finances",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Steven Vanackere",
+   "type": "WORKED_FOR",
+   "target": "Ministère des Affaires étrangères (Belgique)",
+   "evidence": "Steven Vanackere (CD&V), ministre des Affaires étrangères",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

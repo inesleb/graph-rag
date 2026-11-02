@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Christine Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "Penelope Fillon",
+   "evidence": "soupçon d'emploi fictif de Penelope Fillon comme assistante parlementaire",
+   "confidence": 0.9,
+   "date": "2017-01-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Affaire Fillon",
+   "evidence": "elle « a été la collaboratrice de François Fillon »",
+   "confidence": 0.85,
+   "date": "2017-01-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "elle « a été la collaboratrice de François Fillon »",
+   "confidence": 0.85,
+   "date": "2017-01-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Kelly",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "Christine Kelly [...] exprime ses doutes sur l'emploi de Penelope Fillon",
+   "confidence": 0.9,
+   "date": "2017-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "la presse, s'appuyant sur les déclarations du Canard enchaîné, évoque un soupçon",
+   "confidence": 0.95,
+   "date": "2017-01-24",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

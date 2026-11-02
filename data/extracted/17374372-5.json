@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Alstom S.A.",
+   "type": "Company"
+  },
+  {
+   "name": "Pierucci",
+   "type": "Person"
+  },
+  {
+   "name": "Kron",
+   "type": "Person"
+  },
+  {
+   "name": "DoJ (Department of Justice)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Pots-de-vin",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Alstom",
+   "type": "INVESTIGATED",
+   "target": "DoJ (Department of Justice)",
+   "evidence": "la justice américaine enquête sur la corruption d'Alstom depuis 2010",
+   "confidence": 0.95,
+   "date": "2010",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierucci",
+   "type": "INDICTED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Pierucci est mis en examen en novembre 2012",
+   "confidence": 1.0,
+   "date": "2012-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Kron",
+   "type": "CONVICTED_IN",
+   "target": "Pots-de-vin",
+   "evidence": "Kron [...] a [...] plaidé coupable en décembre 2014, d’avoir payé 75 millions de dollars de pots-de-vin",
+   "confidence": 1.0,
+   "date": "2014-12",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Kron",
+   "type": "WORKED_FOR",
+   "target": "Alstom S.A.",
+   "evidence": "Kron « a, au nom d'Alstom S.A. qu’il dirigeait depuis 2003",
+   "confidence": 1.0,
+   "date": "2003",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierucci",
+   "type": "INVOLVED_IN",
+   "target": "Pots-de-vin",
+   "evidence": "Pierucci est mis en cause pour avoir été mis en copie de courriels, sans dénoncer ses collègues, dans le cadre de versements de pots-de-vins",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Pots-de-vin",
+   "evidence": "la très grande majorité de ces pots-de-vin ayant été payés pendant son mandat de PDG",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "versements de pots-de-vins, auprès de consultants proches des décisionnaires acquéreurs des turbines Arabelle",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

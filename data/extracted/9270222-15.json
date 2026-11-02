@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "James Giffen",
+   "type": "Person"
+  },
+  {
+   "name": "Nazarbaïev",
+   "type": "Person"
+  },
+  {
+   "name": "Nurlan Balgimbayev",
+   "type": "Person"
+  },
+  {
+   "name": "Mobil Oil Company",
+   "type": "Company"
+  },
+  {
+   "name": "John Brian Williams",
+   "type": "Person"
+  },
+  {
+   "name": "Procureur de New York",
+   "type": "Institution"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Violation de la loi anti-corruption de 1977",
+   "type": "Offense"
+  },
+  {
+   "name": "Évasion fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Comptes bancaires illégaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "James Giffen",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "Les procureurs de l'État de New York accusent l'homme d'affaires James Giffen d'avoir payé des pots-de-vin dans l'entourage du président Nazarbaïev",
+   "confidence": 0.9,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "James Giffen",
+   "type": "INVOLVED_IN",
+   "target": "Trafic d'influence",
+   "evidence": "James Giffen est accusé d'avoir payé des pots-de-vin dans l'entourage du président Nazarbaïev et à l'ancien premier ministre du Kazakhstan",
+   "confidence": 0.9,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "James Giffen",
+   "type": "INDICTED_IN",
+   "target": "Violation de la loi anti-corruption de 1977",
+   "evidence": "James Giffen a été poursuivi par le Procureur de New York pour violation de la loi anti-corruption de 1977",
+   "confidence": 1.0,
+   "date": "2003",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "James Giffen",
+   "type": "INDICTED_IN",
+   "target": "Comptes bancaires illégaux",
+   "evidence": "James Giffen est accusé d'avoir créé des comptes bancaires illégaux en Suisse",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "John Brian Williams",
+   "type": "INDICTED_IN",
+   "target": "Évasion fiscale",
+   "evidence": "Le Procureur de New York a également mis en examen John Brian Williams, ancien cadre de la Mobil Oil Company, pour évasion fiscale",
+   "confidence": 1.0,
+   "date": "2003",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "James Giffen",
+   "type": "WORKED_FOR",
+   "target": "Mobil Oil Company",
+   "evidence": "John Brian Williams, ancien cadre de la Mobil Oil Company",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kazakhgate",
+   "type": "CONCERNS",
+   "target": "Trafic d'influence",
+   "evidence": "James Giffen est accusé d'avoir payé des pots-de-vin pour obtenir des contrats",
+   "confidence": 0.8,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

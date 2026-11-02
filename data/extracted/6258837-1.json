@@ -1,0 +1,48 @@
+{
+ "entities": [
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"Elle est mise en examen en octobre 2023 pour « complicité de favoritisme » dans le cadre de l'affaire Business France\"",
+   "confidence": 1.0,
+   "date": "2023-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"liée à l'organisation d'une soirée à Las Vegas en 2016\"",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"à la demande d’Emmanuel Macron, alors ministre de l’Économie\"",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

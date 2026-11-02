@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Béchir Salah Béchir",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Libyan African Portfolio (LAP)",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Béchir Salah Béchir",
+   "type": "WORKED_FOR",
+   "target": "Mouammar Kadhafi",
+   "evidence": "En 2006, Béchir Salah Béchir est le directeur de cabinet de Mouammar Kadhafi",
+   "confidence": 1.0,
+   "date": "2006",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Béchir Salah Béchir",
+   "type": "WORKED_FOR",
+   "target": "Libyan African Portfolio (LAP)",
+   "evidence": "En 2006, [...] dirige le Libyan African Portfolio (LAP)",
+   "confidence": 1.0,
+   "date": "2006",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

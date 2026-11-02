@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "fraude fiscale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "fraude fiscale",
+   "evidence": "Patrick Balkany est condamné à quatre ans de prison ferme pour fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany est condamné dans le premier volet du procès",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

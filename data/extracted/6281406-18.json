@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Mahmoud Jibril",
+   "type": "Person"
+  },
+  {
+   "name": "Rami El Obeidi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bachar el-Assad",
+   "type": "Person"
+  },
+  {
+   "name": "Gérard Longuet",
+   "type": "Person"
+  },
+  {
+   "name": "Comité national de transition libyen (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mahmoud Jibril",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "En septembre 2012, Mahmoud Jibril affirme que c'est un agent de l'étranger, probablement français, qui aurait tué Kadhafi",
+   "confidence": 0.8,
+   "date": "2012-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rami El Obeidi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "cette version est reprise par Rami El Obeidi",
+   "confidence": 0.8,
+   "date": "2012-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachar el-Assad",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "que Bachar el-Assad aurait prêté main-forte aux Français pour localiser Kadhafi",
+   "confidence": 0.6,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérard Longuet",
+   "type": "WORKED_FOR",
+   "target": "Ministère de la Défense (France)",
+   "evidence": "Gérard Longuet, ministre de la Défense français à l'époque des faits",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gérard Longuet",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Gérard Longuet [...] dément catégoriquement que Kadhafi ait pu être tué par un agent français",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

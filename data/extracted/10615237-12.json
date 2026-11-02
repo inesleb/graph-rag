@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Pénélope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Joël Le Theule",
+   "type": "Person"
+  },
+  {
+   "name": "Valéry Giscard d'Estaing",
+   "type": "Person"
+  },
+  {
+   "name": "François Mitterrand",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pénélope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "Penelope Fillon aurait été rémunérée par l'Assemblée nationale dès 1982, au titre de chargée de mission.",
+   "confidence": 0.8,
+   "date": "1982",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pénélope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Ministère inconnu (État)",
+   "evidence": "Elle aurait été embauchée le 1er avril 1980 comme « personnel non titulaire de l’État » pour un ministère « inconnu »",
+   "confidence": 0.7,
+   "date": "1980-04-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Joël Le Theule",
+   "evidence": "quand François Fillon était chef de cabinet adjoint du ministre de la Défense de Valéry Giscard d'Estaing, Joël Le Theule.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Pénélope Fillon",
+   "evidence": "Mediapart annonce le 10 avril 2017 que Penelope Fillon aurait été rémunérée par l'Assemblée nationale dès 1982",
+   "confidence": 1.0,
+   "date": "2017-04-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Pénélope Fillon",
+   "evidence": "Le Canard enchaîné révèle que Penelope Fillon aurait commencé à travailler dès 1980",
+   "confidence": 1.0,
+   "date": "2017-04-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "L'entourage de François Fillon apporte aussitôt un démenti formel à cette allégation",
+   "confidence": 0.9,
+   "date": "2017-04-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

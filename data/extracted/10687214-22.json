@@ -1,0 +1,58 @@
+{
+ "entities": [
+  {
+   "name": "Louis Aliot",
+   "type": "Person"
+  },
+  {
+   "name": "Laurent Salles",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Laurent Salles",
+   "type": "WORKED_FOR",
+   "target": "Louis Aliot",
+   "evidence": "De juillet 2014 à février 2015, Laurent Salles est assistant parlementaire du député européen Louis Aliot.",
+   "confidence": 1.0,
+   "date": "2014-07–2015-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Louis Aliot refuse de se rendre à une convocation de la police dans le cadre de cette affaire.",
+   "confidence": 0.9,
+   "date": "2017-06-22",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Il est mis en examen pour abus de confiance le 22 décembre 2017, mise en examen requalifiée en « détournements de fonds publics » le 25 octobre 2018.",
+   "confidence": 1.0,
+   "date": "2017-12-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "mise en examen requalifiée en « détournements de fonds publics » le 25 octobre 2018.",
+   "confidence": 1.0,
+   "date": "2018-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

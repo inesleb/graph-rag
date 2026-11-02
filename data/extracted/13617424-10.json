@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "violation du secret professionnel",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "le tribunal reconnaît les trois prévenus coupables de corruption (active pour Nicolas Sarkozy)",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "le tribunal reconnaît les trois prévenus coupables de corruption (active pour Nicolas Sarkozy et Thierry Herzog) et de trafic d'influence",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "CONVICTED_IN",
+   "target": "violation du secret professionnel",
+   "evidence": "condamnés [...] à une interdiction d'exercer la profession d'avocat pendant cinq ans pour Thierry Herzog pour violation du secret professionnel",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "le tribunal reconnaît les trois prévenus coupables de corruption (passive pour Gilbert Azibert)",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "le tribunal reconnaît les trois prévenus coupables de corruption",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "le tribunal reconnaît les trois prévenus coupables [...] de trafic d'influence",
+   "confidence": 1.0,
+   "date": "2021-03-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

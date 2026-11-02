@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "SOFMA",
+   "type": "Company"
+  },
+  {
+   "name": "Ministère des Finances",
+   "type": "Institution"
+  },
+  {
+   "name": "Convention de l'OCDE contre la corruption",
+   "type": "Affair"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "SOFMA",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Le versement de « commissions » à des agents publics étrangers... via des sociétés écrans.",
+   "confidence": 0.9,
+   "date": "2000-2001",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SOFMA",
+   "type": "INVOLVED_IN",
+   "target": "Corruption",
+   "evidence": "Le versement de « commissions » à des agents publics étrangers... autorisé en France jusqu’à l’entrée en vigueur de la Convention de l'OCDE contre la corruption en 2000.",
+   "confidence": 0.95,
+   "date": "2000",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SOFMA",
+   "type": "WORKED_FOR",
+   "target": "État",
+   "evidence": "La société française d’exportation de matériel militaire et aéronautique (SOFMA), société appartenant à l’État...",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SOFMA",
+   "type": "REVEALED",
+   "target": "Libération",
+   "evidence": "Des éléments révélés par le journal Libération montrent que les versements...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "SOFMA",
+   "type": "CONCERNS",
+   "target": "Ministère des Finances",
+   "evidence": "Les montants sont connus et déclarés au ministère des Finances.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

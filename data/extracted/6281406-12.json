@@ -1,0 +1,21 @@
+{
+ "entities": [
+  {
+   "name": "Organisation des Nations unies (ONU)",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil de sécurité des Nations unies",
+   "type": "Institution"
+  },
+  {
+   "name": "Résolution 1973",
+   "type": "Affair"
+  },
+  {
+   "name": "Intervention militaire en Libye (2011)",
+   "type": "Affair"
+  }
+ ],
+ "relations": []
+}

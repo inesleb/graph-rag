@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Justice japonaise",
+   "type": "Institution"
+  },
+  {
+   "name": "Police japonaise",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Sous le coup de quatre inculpations au Japon pour malversations financières",
+   "confidence": 1.0,
+   "date": "2019-04-25",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est libéré par la justice japonaise en échange d'une caution",
+   "confidence": 1.0,
+   "date": "2019-04-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "Des agents d’une société privée auraient été mandatés par Nissan pour le suivre en permanence",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Justice japonaise",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn est assigné à résidence, avec interdiction de quitter le Japon",
+   "confidence": 1.0,
+   "date": "2019-04-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Police japonaise",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "L'entrée et la sortie de sa villa sont surveillées par caméra par la police pour éviter son départ à l'étranger",
+   "confidence": 1.0,
+   "date": "2019-04-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "malversations financières",
+   "evidence": "Sous le coup de quatre inculpations au Japon pour malversations financières",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

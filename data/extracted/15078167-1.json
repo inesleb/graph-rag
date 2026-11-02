@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Mark MacGann",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Guardian",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mark MacGann",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "\"La fuite d'information rassemble 18 giga-octets de données...\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "WORKED_FOR",
+   "target": "Uber",
+   "evidence": "\"Mark MacGann, ancien responsable du lobbying d’Uber pour l’Europe de l’Ouest, l’Afrique et le Moyen-Orient\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "REVEALED",
+   "target": "Le Guardian",
+   "evidence": "\"contacte les journalistes du Guardian en décembre 2021\"",
+   "confidence": 1.0,
+   "date": "2021-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "\"Ce dont j’essayais de convaincre les gouvernements... se trouve être vraiment affreux, injuste et mensonger\"",
+   "confidence": 0.9,
+   "date": "2022-07-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

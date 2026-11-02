@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Eurocopter",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "l'entourage du président français Nicolas Sarkozy est suspecté d'avoir influencé le processus législatif belge",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Eurocopter",
+   "type": "CONCERNS",
+   "target": "Kazakhgate",
+   "evidence": "Un marché de plusieurs centaines de millions d’euros, portant sur l’achat de 45 hélicoptères du groupe Eurocopter",
+   "confidence": 0.85,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

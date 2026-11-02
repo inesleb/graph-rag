@@ -1,0 +1,214 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Arnaud Claude",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Aubry",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Tribunal correctionnel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Prison de la Santé",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "1er mai 2019 : après avoir publié un long message sur Facebook, Isabelle Balkany fait une tentative de suicide.",
+   "confidence": 0.9,
+   "date": "2019-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "13 mai 2019 : le procès s'ouvre au tribunal correctionnel de Paris.",
+   "confidence": 0.95,
+   "date": "2019-05-13",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Fraude fiscale",
+   "evidence": "13 septembre 2019 : Patrick Balkany est condamné à quatre ans de prison ferme, pour fraude fiscale.",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont condamnés pour le blanchiment de fraude fiscale à respectivement à 5 et 4 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont condamnés pour le blanchiment de fraude fiscale à respectivement à 5 et 4 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Corruption",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont relaxés de l'accusation de corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Corruption",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont relaxés de l'accusation de corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Arnaud Claude",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Arnaud Claude et Jean-Pierre Aubry sont condamnés à 3 ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Arnaud Claude et Jean-Pierre Aubry sont condamnés à 3 ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Alexandre Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Alexandre Balkany, le fils du couple, à 6 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "11 décembre 2019 : le procès pour fraude fiscale s'ouvre à la cour d'appel de Paris.",
+   "confidence": 0.95,
+   "date": "2019-12-11",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "11 décembre 2019 : le procès pour fraude fiscale s'ouvre à la cour d'appel de Paris.",
+   "confidence": 0.95,
+   "date": "2019-12-11",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Prison de la Santé",
+   "evidence": "13 septembre 2019 : Patrick Balkany est incarcéré à la prison de la Santé.",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Fraude fiscale",
+   "evidence": "13 septembre 2019 : Patrick Balkany est condamné à quatre ans de prison ferme, pour fraude fiscale.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont condamnés pour le blanchiment de fraude fiscale",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "18 octobre 2019 : Patrick et Isabelle Balkany sont relaxés de l'accusation de corruption",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

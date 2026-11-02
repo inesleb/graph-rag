@@ -1,0 +1,210 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Louis Aliot",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "OLAF",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "« près de 137 000 euros qui auraient été détournés à des fins personnelles » par Marine Le Pen",
+   "confidence": 0.9,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "« près de 137 000 euros qui auraient été détournés à des fins personnelles »",
+   "confidence": 0.9,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "INVESTIGATED",
+   "target": "Marine Le Pen",
+   "evidence": "Un autre rapport de l'OLAF est communiqué au parquet de Paris le 11 mars 2022",
+   "confidence": 0.95,
+   "date": "2022-03-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "INVESTIGATED",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "INVESTIGATED",
+   "target": "Louis Aliot",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "INVESTIGATED",
+   "target": "Bruno Gollnisch",
+   "evidence": "Trois anciens eurodéputés, Jean-Marie Le Pen, Louis Aliot et Bruno Gollnisch, sont également visés par le rapport.",
+   "confidence": 0.8,
+   "date": "2022-03-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "« près de 137 000 euros qui auraient été détournés à des fins personnelles »",
+   "confidence": 0.95,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "OLAF",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "par Marine Le Pen, lorsqu'elle siégeait au Parlement européen entre 2004 et 2017",
+   "confidence": 0.9,
+   "date": "2004-01-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Marine Le Pen",
+   "evidence": "Un autre rapport de l'OLAF est communiqué au parquet de Paris le 11 mars 2022",
+   "confidence": 0.95,
+   "date": "2022-03-11",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Un autre rapport de l'OLAF est communiqué au parquet de Paris le 11 mars 2022 selon Mediapart",
+   "confidence": 0.95,
+   "date": "2022-03-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Jordan Bardella ajoute que son parti compte déposer plainte",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Jordan Bardella ajoute que son parti compte déposer plainte",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jordan Bardella ajoute que son parti compte déposer plainte",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "CDR (Consortium de Réalisation)",
+   "type": "Institution"
+  },
+  {
+   "name": "Président du Tribunal de Commerce (non nommé)",
+   "type": "Person"
+  },
+  {
+   "name": "État (France)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie ne manquera pas de relever...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Président du Tribunal de Commerce (non nommé)",
+   "type": "WORKED_FOR",
+   "target": "État (France)",
+   "evidence": "le Président du Tribunal de Commerce... a été nommé quelques mois plus tard, par l'État à la tête du CDR",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Président du Tribunal de Commerce (non nommé)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Il n'y a qu'en France qu'on peut voir ça. Vous faire juger par un homme qui sait que quelques mois plus tard il vous aura pour adversaire (NDLR : CDR vs Bernard Tapie sur la revente d'Adidas)",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "État (France)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'État est tellement sûr de son impunité qu'il ne se cache même pas",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "l'organisme de défaisance du Crédit Lyonnais, ayant été créé pour récupérer les dossiers à risques du Crédit Lyonnais après la faillite de celui-ci",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

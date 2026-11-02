@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Hélène de Yougoslavie",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Smadja",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Desseigne",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Philippe Couzi",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Mathieu Duhamel",
+   "type": "Person"
+  },
+  {
+   "name": "Nicola Johnson",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire du 1 % logement",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Bazire",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "directeur du cabinet du premier ministre Édouard Balladur",
+   "confidence": 1.0,
+   "date": "1993",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "collaborateur de Nicolas Sarkozy à la mairie de Neuilly puis au ministère du budget (entre 1994 et 1995)",
+   "confidence": 1.0,
+   "date": "1994-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Smadja",
+   "type": "INVOLVED_IN",
+   "target": "Affaire du 1 % logement",
+   "evidence": "mis en cause [...] dans l'affaire du 1 % logement",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire du 1 % logement",
+   "evidence": "mis en cause, comme Thierry Gaubert, dans l'affaire du 1 % logement",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

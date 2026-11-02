@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Baghdadi al-Mahmoudi",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bachir Saleh",
+   "type": "Person"
+  },
+  {
+   "name": "Me Mabrouk Korchid",
+   "type": "Person"
+  },
+  {
+   "name": "Me Marcel Ceccaldi",
+   "type": "Person"
+  },
+  {
+   "name": "Me Mehdi Bouaouaja",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d’appel de Tunis",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Baghdadi al-Mahmoudi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Oui, en tant que premier ministre, j’ai moi-même supervisé le dossier du financement de la campagne de Sarkozy depuis Tripoli\"",
+   "confidence": 1.0,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Baghdadi al-Mahmoudi",
+   "type": "INVOLVED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "\"des fonds ont été transférés en Suisse, et Nicolas Sarkozy était reconnaissant pour cette aide libyenne\"",
+   "confidence": 0.9,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Nicolas Sarkozy était reconnaissant pour cette aide libyenne, et n’a cessé de le répéter à certains intermédiaires\"",
+   "confidence": 0.8,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Me Mabrouk Korchid",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Les propos de l'ex-premier ministre sont confirmés par Me Mabrouk Korchid\"",
+   "confidence": 1.0,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Me Mehdi Bouaouaja",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Oui, en tant que Premier ministre, j’ai moi-même supervisé le dossier du financement de la campagne de Sarkozy depuis Tripoli\"",
+   "confidence": 1.0,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Me Marcel Ceccaldi",
+   "type": "CONCERNS",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"l’ex-chef du gouvernement libyen ferait l’objet de « pressions » pour livrer les secrets bancaires de l’ancien régime\"",
+   "confidence": 0.7,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "\"financement de la campagne de Sarkozy\"",
+   "confidence": 1.0,
+   "date": "2011-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

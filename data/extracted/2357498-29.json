@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Robert Louis-Dreyfus",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Crédit lyonnais",
+   "type": "WORKED_FOR",
+   "target": "Bernard Tapie",
+   "evidence": "\"vendue en 1993 pour 2,08 milliards de francs par le Crédit lyonnais pour le compte de Bernard Tapie\"",
+   "confidence": 1.0,
+   "date": "1993",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"pour le compte de Bernard Tapie\" et contexte financier",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"Crédit lyonnais a assumé le risque financier de l'opération\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Louis-Dreyfus",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"l'option serait levée par Robert Louis-Dreyfus\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

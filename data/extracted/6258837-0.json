@@ -1,0 +1,186 @@
+{
+ "entities": [
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Dassault Systèmes",
+   "type": "Company"
+  },
+  {
+   "name": "Danone",
+   "type": "Company"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Orange",
+   "type": "Company"
+  },
+  {
+   "name": "SNCF",
+   "type": "Institution"
+  },
+  {
+   "name": "Aéroports de Paris",
+   "type": "Company"
+  },
+  {
+   "name": "Gouvernement Philippe I",
+   "type": "Institution"
+  },
+  {
+   "name": "Gouvernement Philippe II",
+   "type": "Institution"
+  },
+  {
+   "name": "Gouvernement Castex",
+   "type": "Institution"
+  },
+  {
+   "name": "Élisabeth Borne",
+   "type": "Person"
+  },
+  {
+   "name": "Organisation de coopération et de développement économiques (OCDE)",
+   "type": "Institution"
+  },
+  {
+   "name": "Organisation internationale du travail (OIT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Gilbert Houngbo",
+   "type": "Person"
+  },
+  {
+   "name": "Togo",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Dassault Systèmes",
+   "evidence": "directrice générale adjointe de Dassault Systèmes (2002-2008)",
+   "confidence": 1.0,
+   "date": "2002-2008",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Danone",
+   "evidence": "directrice générale des ressources humaines du groupe Danone (2008-2014)",
+   "confidence": 1.0,
+   "date": "2008-2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "directrice générale jusqu'en 2017",
+   "confidence": 1.0,
+   "date": "2014-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Orange",
+   "evidence": "siège dans différents conseils d'administration d'entreprises (Orange)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "SNCF",
+   "evidence": "siège dans différents conseils d'administration d'entreprises (la SNCF)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Aéroports de Paris",
+   "evidence": "siège dans différents conseils d'administration d'entreprises (Aéroports de Paris)",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Philippe I",
+   "evidence": "Ministre du Travail de mai 2017 à juillet 2020 dans les gouvernements Philippe I et II",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Philippe II",
+   "evidence": "Ministre du Travail de mai 2017 à juillet 2020 dans les gouvernements Philippe I et II",
+   "confidence": 1.0,
+   "date": "2017-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Élisabeth Borne",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement Castex",
+   "evidence": "remplacée dans le gouvernement Castex par Élisabeth Borne",
+   "confidence": 1.0,
+   "date": "2020-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Organisation de coopération et de développement économiques (OCDE)",
+   "evidence": "nommée ambassadrice, représentante permanente de la France auprès de l'OCDE",
+   "confidence": 1.0,
+   "date": "2020-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Houngbo",
+   "type": "WORKED_FOR",
+   "target": "Organisation internationale du travail (OIT)",
+   "evidence": "battue par le Togolais Gilbert Houngbo",
+   "confidence": 0.9,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Organisation internationale du travail (OIT)",
+   "evidence": "candidate à la direction de l'OIT mais est battue",
+   "confidence": 0.9,
+   "date": "2021",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

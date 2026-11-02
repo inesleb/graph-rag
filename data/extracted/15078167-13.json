@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Boris Johnson",
+   "type": "Person"
+  },
+  {
+   "name": "Transport for London (TfL)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "\"Les « Uber Files » révèlent que le plan pour tenter d’influencer le maire de Londres, Boris Johnson",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Boris Johnson",
+   "evidence": "\"Nous avons besoin de relayer une image plus positive d’Uber auprès de Boris, par des gens en qui il a confiance et qu’il respecte.\"",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Transport for London (TfL)",
+   "evidence": "\"Les cibles : ... le régulateur, Transport for London (TfL)\"",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

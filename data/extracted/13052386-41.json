@@ -1,0 +1,134 @@
+{
+ "entities": [
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Rachida Dati",
+   "type": "Person"
+  },
+  {
+   "name": "Alain Bauer",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Paul Baduel",
+   "type": "Person"
+  },
+  {
+   "name": "Alliance Renault-Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Maghreb",
+   "type": "Institution"
+  },
+  {
+   "name": "Proche-Orient",
+   "type": "Institution"
+  },
+  {
+   "name": "Cabinet Mazars",
+   "type": "Company"
+  },
+  {
+   "name": "Parquet national financier (PNF)",
+   "type": "Institution"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Dénonciation calomnieuse",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Renault-Nissan BV",
+   "type": "WORKED_FOR",
+   "target": "Rachida Dati",
+   "evidence": "Rachida Dati a été rémunéré 900 000 euros d’honoraires entre 2010 et 2012 pour conseiller l’Alliance Renault-Nissan",
+   "confidence": 1.0,
+   "date": "2010-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renault-Nissan BV",
+   "type": "WORKED_FOR",
+   "target": "Alain Bauer",
+   "evidence": "Renault-Nissan BV a également distribué 20 millions d’euros par an d'honoraires, en particulier à Rachida Dati et Alain Bauer",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Alliance Renault-Nissan",
+   "evidence": "Rachida Dati a été rémunéré 900 000 euros d’honoraires entre 2010 et 2012 pour conseiller l’Alliance Renault-Nissan sur son développement au Maghreb et au Proche-Orient",
+   "confidence": 1.0,
+   "date": "2010-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Paul Baduel",
+   "type": "INDICTED_IN",
+   "target": "Corruption",
+   "evidence": "Maitre Jean-Paul Baduel, avocat d’une actionnaire de Renault depuis 2006, a déposé une plainte en avril 2019 pour corruption",
+   "confidence": 0.8,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Paul Baduel",
+   "type": "INDICTED_IN",
+   "target": "Abus de biens sociaux",
+   "evidence": "Maitre Jean-Paul Baduel [...] a déposé une plainte en avril 2019 pour corruption et abus de biens sociaux",
+   "confidence": 0.8,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INDICTED_IN",
+   "target": "Parquet national financier (PNF)",
+   "evidence": "Ses bureaux ont été perquisitionnés fin 2019 par les trois juges d’instruction du PNF",
+   "confidence": 0.9,
+   "date": "2019-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INDICTED_IN",
+   "target": "Dénonciation calomnieuse",
+   "evidence": "Mme Dati a porté plainte pour dénonciation calomnieuse en juin 2019",
+   "confidence": 0.9,
+   "date": "2019-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Cabinet Mazars",
+   "type": "CONCERNS",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le rapport du cabinet Mazars s’interroge sur les factures non détaillées émises par l’avocate",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

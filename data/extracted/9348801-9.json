@@ -1,0 +1,158 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale aggravée",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption passive",
+   "type": "Offense"
+  },
+  {
+   "name": "Prise illégale d’intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick Balkany en correctionnelle pour « blanchiment de fraude fiscale aggravée »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Corruption passive",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick Balkany [...] pour « corruption passive »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Prise illégale d’intérêts",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick Balkany [...] pour « prise illégale d’intérêts »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick, Isabelle et Alexandre Balkany en correctionnelle pour « blanchiment de fraude fiscale aggravée »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick, Isabelle et Alexandre Balkany en correctionnelle pour « blanchiment de fraude fiscale aggravée »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 22 février 2018, le couple Balkany est renvoyé au tribunal correctionnel",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le 22 février 2018, le couple Balkany est renvoyé au tribunal correctionnel",
+   "confidence": 1.0,
+   "date": "2018-02-22",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Alexandre Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Dans ses réquisitions rendues le 14 mars, le parquet national financier demande que Patrick et Isabelle Balkany, ainsi qu'Alexandre, soient de nouveau renvoyés en correctionnelle",
+   "confidence": 1.0,
+   "date": "2018-03-14",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick, Isabelle et Alexandre Balkany en correctionnelle",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale aggravée",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick, Isabelle et Alexandre Balkany en correctionnelle pour « blanchiment de fraude fiscale aggravée »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Corruption passive",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick Balkany [...] pour « corruption passive »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Prise illégale d’intérêts",
+   "evidence": "Le 21 juillet 2017, le parquet national financier renvoie Patrick Balkany [...] pour « prise illégale d’intérêts »",
+   "confidence": 1.0,
+   "date": "2017-07-21",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

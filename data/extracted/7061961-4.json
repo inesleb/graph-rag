@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Patrick Buisson, conseiller officieux de Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Patrick Buisson, conseiller officieux de Nicolas Sarkozy demande, selon ses affirmations, pour la première fois à encadrer ses prestations de manière plus transparente",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

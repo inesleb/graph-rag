@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Office européen de lutte antifraude (Olaf)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Charles Van Houtte",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Légier",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Thierry Légier est le garde du corps de Jean-Marie Le Pen depuis 1992",
+   "confidence": 1.0,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "WORKED_FOR",
+   "target": "Marine Le Pen",
+   "evidence": "Thierry Légier est le garde du corps [...] de Marine Le Pen à partir de 2011",
+   "confidence": 1.0,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen a reconnu avoir salarié fictivement Thierry Légier pour « régulariser » des salaires précédents",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Office européen de lutte antifraude (Olaf)",
+   "evidence": "Marine Le Pen a reconnu avoir salarié fictivement Thierry Légier [...] or cette dernière et l'Olaf réfutent cette justification",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Thierry Légier est mis en examen le 18 avril 2018 pour « recel d'abus de confiance »",
+   "confidence": 1.0,
+   "date": "2018-04-18",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "REVEALED",
+   "target": "Thierry Légier",
+   "evidence": "Charles Van Houtte [...] indique [...] que Thierry Légier « était garde du corps de la famille Le Pen et non pas assistant parlementaire »",
+   "confidence": 1.0,
+   "date": "2017-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Thierry Légier est placé en garde à vue le 22 février 2017, mais ressort sans mise en examen dans un premier temps",
+   "confidence": 0.9,
+   "date": "2017-02-22",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel d'abus de confiance",
+   "evidence": "Thierry Légier est mis en examen le 18 avril 2018 pour « recel d'abus de confiance »",
+   "confidence": 1.0,
+   "date": "2018-04-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

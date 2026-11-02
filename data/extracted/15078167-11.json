@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Sophie Bernard",
+   "type": "Person"
+  },
+  {
+   "name": "Olivier Dussopt",
+   "type": "Person"
+  },
+  {
+   "name": "La République en Marche (LREM)",
+   "type": "Party"
+  },
+  {
+   "name": "Benjamin Haddad",
+   "type": "Person"
+  },
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophie Bernard",
+   "type": "REVEALED",
+   "target": "Uber",
+   "evidence": "il n'y aurait pas eu création d'emplois mais déplacement d'un emploi précaire vers un autre",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Dussopt",
+   "type": "WORKED_FOR",
+   "target": "gouvernement",
+   "evidence": "son ministre du travail Olivier Dussopt plaide pour une présomption d'indépendance",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Olivier Dussopt",
+   "type": "MEMBER_OF",
+   "target": "gouvernement",
+   "evidence": "son ministre du travail Olivier Dussopt plaide pour une présomption d'indépendance",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Benjamin Haddad",
+   "type": "MEMBER_OF",
+   "target": "La République en Marche (LREM)",
+   "evidence": "Benjamin Haddad (LREM) pense au contraire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Benjamin Haddad",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "Il n'y a eu ni compromission, ni « deal » secret, ni conflit d'intérêts, ni contreparties",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Benjamin Haddad",
+   "type": "REVEALED",
+   "target": "Uber Files",
+   "evidence": "politisation du rapport par la rapporteure",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Afrique du Sud",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "CONCERNS",
+   "target": "Afrique du Sud",
+   "evidence": "Les dossiers révèlent qu'après avoir expliqué que les paiements par espèces pour les taxis devaient être interdits en Afrique du Sud pour des raisons de sécurité",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

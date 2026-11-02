@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Alstom",
+   "type": "Affair"
+  },
+  {
+   "name": "Department of Justice (DoJ)",
+   "type": "Institution"
+  },
+  {
+   "name": "Foreign Corrupt Practices Act (FCPA)",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Alstom",
+   "type": "CONCERNS",
+   "target": "Foreign Corrupt Practices Act (FCPA)",
+   "evidence": "La corruption reposant sur des pots-de-vins versés en dollars américains (USD), cela rend éligible la justice américaine (le DoJ) apte à intervenir... sous couvert du FCPA",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Alstom",
+   "type": "INVESTIGATED",
+   "target": "Department of Justice (DoJ)",
+   "evidence": "Voir aussi : page du DoJ relative à l'affaire Alstom et Indictment",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

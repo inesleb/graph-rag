@@ -1,0 +1,148 @@
+{
+ "entities": [
+  {
+   "name": "Rachida Dati",
+   "type": "Person"
+  },
+  {
+   "name": "Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Anne Hidalgo",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "GDF Suez",
+   "type": "Company"
+  },
+  {
+   "name": "France Télécom",
+   "type": "Company"
+  },
+  {
+   "name": "Azerbaïdjan",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Républicains",
+   "evidence": "tête de liste des Républicains aux élections municipales de 2020",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "WORKED_FOR",
+   "target": "Conseil de Paris",
+   "evidence": "présidente du principal groupe d'opposition au Conseil de Paris",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Dans l'affaire Carlos Ghosn, elle est renvoyée en correctionnelle en 2025",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "renvoyée en correctionnelle [...] pour « corruption et trafic d'influence passifs »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "renvoyée en correctionnelle [...] pour « corruption et trafic d'influence passifs »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "conflits d’intérêts",
+   "evidence": "D'autres conflits d’intérêts sont relevés, concernant des rémunérations non déclarées",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "GDF Suez",
+   "evidence": "rémunérations non déclarées liées à GDF Suez",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "France Télécom",
+   "evidence": "rémunérations non déclarées liées à [...] France Télécom",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "lobbying illégal",
+   "evidence": "évoquant une possible activité de lobbying illégale",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "corruption",
+   "evidence": "elle est également accusée de corruption en raison de ses prises de position",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rachida Dati",
+   "type": "INVOLVED_IN",
+   "target": "Azerbaïdjan",
+   "evidence": "pour sa proximité avec le régime autoritaire d'Azerbaïdjan",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

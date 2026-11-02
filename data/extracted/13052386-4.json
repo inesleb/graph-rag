@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Cour de Tokyo",
+   "type": "Institution"
+  },
+  {
+   "name": "Hari Nada",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan Zi-A Capital BV",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn a cherché à compenser une perte de revenu survenue à partir de 2009, chez Nissan",
+   "confidence": 0.9,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "une perte de revenu survenue [...] chez Nissan",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn affirme son innocence. [...] les documents incriminés concernant sa rémunération étaient personnels",
+   "confidence": 0.95,
+   "date": "2019-01-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "MEMBER_OF",
+   "target": "Nissan Zi-A Capital BV",
+   "evidence": "ancien bras droit de Ghosn et administrateur de Nissan Zi-A Capital BV",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hari Nada",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "le procureur s'appuie sur les déclarations d'un « repenti » et « lanceur d'alerte »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hari Nada",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "vice-président de Nissan, ancien bras droit de Ghosn",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de Tokyo",
+   "type": "INVESTIGATED",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Lors d’une audition devant la Cour de Tokyo le 8 janvier 2019",
+   "confidence": 0.95,
+   "date": "2019-01-08",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

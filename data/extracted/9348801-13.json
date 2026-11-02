@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Tracfin",
+   "type": "Institution"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Getrust",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment d'argent",
+   "type": "Offense"
+  },
+  {
+   "name": "Financement illégal",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Tracfin",
+   "type": "REVEALED",
+   "target": "Getrust",
+   "evidence": "Tracfin met en évidence que cette villa appartient à une cascade de sociétés écrans domiciliées en Suisse... Il s’agirait de la société « Getrust »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Getrust",
+   "evidence": "Tracfin soupçonne Patrick Balkany d’avoir utilisé une société suisse pour injecter discrètement des fonds dans les années 1990.",
+   "confidence": 0.85,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Tracfin soupçonne Patrick Balkany d’avoir utilisé une société suisse pour injecter discrètement des fonds...",
+   "confidence": 0.9,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment d'argent",
+   "evidence": "L’origine initiale des fonds utilisés pour acheter cette propriété n’est pas claire...",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Financement illégal",
+   "evidence": "Tracfin soupçonne Patrick Balkany d’avoir utilisé une société suisse pour injecter discrètement des fonds...",
+   "confidence": 0.85,
+   "date": "1990",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

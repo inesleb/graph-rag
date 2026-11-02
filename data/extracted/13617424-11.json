@@ -1,0 +1,160 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy est condamné à trois ans de prison dont un ferme sous surveillance électronique",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Thierry Herzog à la même peine assortie de trois ans d'interdiction d’exercer son métier",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Gilbert Azibert à trois ans de prison dont un ferme",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Le Parquet national financier également, ouvrant la possibilité à la cour d'appel de prononcer une peine plus lourde",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Cour d'appel de Paris",
+   "evidence": "Le procès devant la cour d'appel de Paris se tient du 5 au 16 décembre 2022",
+   "confidence": 1.0,
+   "date": "2022-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Cour d'appel de Paris",
+   "evidence": "Le procès devant la cour d'appel de Paris se tient du 5 au 16 décembre 2022",
+   "confidence": 1.0,
+   "date": "2022-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Cour d'appel de Paris",
+   "evidence": "Le procès devant la cour d'appel de Paris se tient du 5 au 16 décembre 2022",
+   "confidence": 1.0,
+   "date": "2022-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "les trois condamnés interjettent appel de la décision",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "les trois condamnés interjettent appel de la décision",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "les trois condamnés interjettent appel de la décision",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L'ensemble des défendeurs décident de se pourvoir en cassation",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L'ensemble des défendeurs décident de se pourvoir en cassation",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L'ensemble des défendeurs décident de se pourvoir en cassation",
+   "confidence": 1.0,
+   "date": "2023-05-17",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

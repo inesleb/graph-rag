@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Catherine Griset",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Charles Van Houtte",
+   "type": "Person"
+  },
+  {
+   "name": "Front National",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "sa mise en examen pour abus de confiance et complicité d'abus de confiance dans l'affaire des assistants parlementaires européens",
+   "confidence": 1.0,
+   "date": "2017-06-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "la mise en examen de Marine Le Pen est requalifiée en « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Front National",
+   "evidence": "en sa qualité de présidente du FN",
+   "confidence": 1.0,
+   "date": "2014-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Catherine Griset",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Outre le dossier pour Catherine Griset",
+   "confidence": 1.0,
+   "date": "2009-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "le dossier pour [...] son garde du corps Thierry Légier",
+   "confidence": 1.0,
+   "date": "2009-2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles Van Houtte",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Charles Van Houtte [...] indique aux enquêteurs que Catherine Griset « n'a pas exercé ses fonctions d'assistant accrédité à temps plein »",
+   "confidence": 1.0,
+   "date": "2017-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Parlement européen",
+   "evidence": "le préjudice du Parlement européen est réévalué à 5 millions d'euros",
+   "confidence": 1.0,
+   "date": "2012-04-01–2017-04-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

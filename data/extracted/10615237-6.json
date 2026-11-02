@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "François Fillon",
+   "evidence": "portant sur des soupçons d'emplois fictifs concernant des membres de la famille de François Fillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "candidat de la droite et du centre",
+   "confidence": 0.85,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

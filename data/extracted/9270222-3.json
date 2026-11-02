@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Patokh Chodiev",
+   "type": "Person"
+  },
+  {
+   "name": "Serge Kubla",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Kayser",
+   "type": "Person"
+  },
+  {
+   "name": "Seabeco Belgium",
+   "type": "Company"
+  },
+  {
+   "name": "Le Soir",
+   "type": "Media"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Mouvement Réformateur (MR)",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Seabeco Belgium",
+   "type": "CONCERNS",
+   "target": "Kazakhgate",
+   "evidence": "une société écran dédiée aux opérations financières de l'ex-KGB",
+   "confidence": 0.9,
+   "date": "1991",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patokh Chodiev",
+   "type": "INVOLVED_IN",
+   "target": "Seabeco Belgium",
+   "evidence": "Cette constitution de sociétés amène en Belgique trois hommes d'affaires: Patokh Chodiev, Alexandre Machkevitch et Alijan Ibragimov",
+   "confidence": 0.95,
+   "date": "1991",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patokh Chodiev",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "accusé d'avoir reçu l'aide de Serge Kubla",
+   "confidence": 0.85,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Serge Kubla",
+   "type": "MEMBER_OF",
+   "target": "Mouvement Réformateur (MR)",
+   "evidence": "bourgmestre de Waterloo (MR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Serge Kubla",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "accusé d'avoir reçu l'aide de Serge Kubla",
+   "confidence": 0.85,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Soir",
+   "type": "REVEALED",
+   "target": "Seabeco Belgium",
+   "evidence": "selon le quotidien Le Soir, une société écran dédiée aux opérations financières de l'ex-KGB",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Kayser",
+   "type": "INVESTIGATED",
+   "target": "Kazakhgate",
+   "evidence": "L'enquêteur en chef de l'affaire, Jean-François Kayser, a également déclaré que «il n'y a pas de preuve au dossier de l'intervention physique de M. Kubla avec M. Vandewalle»",
+   "confidence": 0.9,
+   "date": "2017-01",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

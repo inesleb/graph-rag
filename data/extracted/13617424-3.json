@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Paul Bismuth",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bettencourt",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Herzog",
+   "type": "WORKED_FOR",
+   "target": "Paul Bismuth",
+   "evidence": "Thierry Herzog achète à Nice deux cartes SIM prépayées au nom de Paul Bismuth.",
+   "confidence": 0.9,
+   "date": "2014-01-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bettencourt",
+   "evidence": "la saisie des agendas privés et officiels de Nicolas Sarkozy, au cours de l'enquête Bettencourt",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bettencourt",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Ces agendas intéressent les juges pour plusieurs autres affaires dont celle concernant l’arbitrage Tapie - Crédit lyonnais.",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bettencourt",
+   "evidence": "la Cour de cassation doit dire si la saisie des agendas privés et officiels de Nicolas Sarkozy, au cours de l'enquête Bettencourt, était licite ou non.",
+   "confidence": 0.95,
+   "date": "2014-01-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

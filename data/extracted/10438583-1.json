@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Nouvelle Union populaire écologique et sociale (NUPES)",
+   "type": "Party"
+  },
+  {
+   "name": "Adrien Quatennens",
+   "type": "Person"
+  },
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Hamas",
+   "type": "Institution"
+  },
+  {
+   "name": "Israël",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "La France insoumise",
+   "type": "WORKED_FOR",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "LFI soutient à nouveau la candidature de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "MEMBER_OF",
+   "target": "Nouvelle Union populaire écologique et sociale (NUPES)",
+   "evidence": "LFI s'allie avec d'autres partis de gauche pour former la NUPES",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "Adrien Quatennens",
+   "evidence": "polémiques internes [...] en raison d'affaires touchant Adrien Quatennens",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "Sophia Chikirou",
+   "evidence": "polémiques internes [...] en raison d'affaires touchant [...] Sophia Chikirou",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "Hamas",
+   "evidence": "prises de parole de plusieurs cadres insoumis à la suite des attentats du Hamas en Israël le 7 octobre 2023",
+   "confidence": 0.9,
+   "date": "2023-10-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "CONCERNS",
+   "target": "Israël",
+   "evidence": "prises de parole [...] à la suite des attentats du Hamas en Israël le 7 octobre 2023",
+   "confidence": 0.9,
+   "date": "2023-10-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

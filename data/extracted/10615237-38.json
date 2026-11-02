@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Robert Bourgi",
+   "type": "Person"
+  },
+  {
+   "name": "François Mitterrand",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Moscovici",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "trafic d'influence",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "un réquisitoire supplétif contre X pour « trafic d'influence »",
+   "confidence": 1.0,
+   "date": "2024-03-16",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "ces cadeaux ont été faits [...] en lien avec le mandat de député de Paris de François Fillon",
+   "confidence": 0.9,
+   "date": "2024-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "trafic d'influence",
+   "evidence": "ces cadeaux [...] en lien avec le mandat de député de Paris de François Fillon, ce qui constituerait alors un délit",
+   "confidence": 0.9,
+   "date": "2024-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon affirme avoir rendu les costumes",
+   "confidence": 1.0,
+   "date": "2024-03-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi confirme",
+   "confidence": 1.0,
+   "date": "2024-03-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi [...] évoque François Mitterrand et Pierre Moscovici, et ajoute que « d'autres hommes politiques ont reçu des cadeaux du même ordre »",
+   "confidence": 0.9,
+   "date": "2024-03-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Robert Bourgi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Robert Bourgi dément l'existence de toute contrepartie",
+   "confidence": 1.0,
+   "date": "2024-03-24",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

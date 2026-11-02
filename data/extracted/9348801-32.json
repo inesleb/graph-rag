@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  },
+  {
+   "name": "Procureur de la République financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Sous-évaluation d'actifs",
+   "type": "Offense"
+  },
+  {
+   "name": "Omission de biens mobiliers et immobiliers",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "« Après instruction des dossiers de Patrick Balkany... »",
+   "confidence": 1.0,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "« ...et Isabelle Balkany... »",
+   "confidence": 1.0,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Sous-évaluation d'actifs",
+   "evidence": "« ...doute sérieux quant à l’exhaustivité... sous-évaluation manifeste de certains actifs... »",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Omission de biens mobiliers et immobiliers",
+   "evidence": "« ...doute sérieux... omission de biens mobiliers et immobiliers... »",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Sous-évaluation d'actifs",
+   "evidence": "« ...doute sérieux quant à l’exhaustivité... sous-évaluation manifeste de certains actifs... »",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Omission de biens mobiliers et immobiliers",
+   "evidence": "« ...doute sérieux... omission de biens mobiliers et immobiliers... »",
+   "confidence": 0.9,
+   "date": "2015-05-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique",
+   "type": "REVEALED",
+   "target": "Affaire Balkany",
+   "evidence": "« ...la Haute Autorité estime... doute sérieux... »",
+   "confidence": 1.0,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Haute Autorité pour la transparence de la vie publique",
+   "type": "WORKED_FOR",
+   "target": "Procureur de la République financier",
+   "evidence": "« ...a jugé nécessaire de porter... à la connaissance du procureur de la République financier... »",
+   "confidence": 1.0,
+   "date": "2015-05-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

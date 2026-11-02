@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Jeanne",
+   "type": "Affair"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen et le Front national sont inquiétés dans cette affaire",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Jeanne",
+   "evidence": "Marine Le Pen et le Front national sont inquiétés dans cette affaire, dans l'affaire Jeanne",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marine Le Pen est reconnue coupable et condamnée, en mars 2025, à 4 ans de prison dont 2 ans ferme sous bracelet électronique",
+   "confidence": 1.0,
+   "date": "2025-03",
+   "stage": "first_instance",
+   "final": false
+  }
+ ]
+}

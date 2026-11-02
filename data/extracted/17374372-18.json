@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Kron",
+   "type": "Person"
+  },
+  {
+   "name": "General Electric",
+   "type": "Company"
+  },
+  {
+   "name": "Mitsubishi",
+   "type": "Company"
+  },
+  {
+   "name": "Siemens",
+   "type": "Company"
+  },
+  {
+   "name": "Alstom",
+   "type": "Company"
+  },
+  {
+   "name": "Bouygues",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Kron",
+   "type": "WORKED_FOR",
+   "target": "Alstom",
+   "evidence": "La décision de Patrick Kron s'appuie donc sur...",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "General Electric",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "GE entre directement en contact avec l'actionnaire Bouygues, pour lui racheter sa participation.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "General Electric",
+   "type": "INVOLVED_IN",
+   "target": "Alstom",
+   "evidence": "La balance penche donc en faveur de la vente par Alstom, selon Patrick Kron.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mitsubishi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "General Electric, Mitsubishi et Siemens rattrapent Alstom dans la compétitivité...",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Siemens",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "Cette offre de GE entraîne un attrait de la part de Siemens.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bouygues",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Alstom",
+   "evidence": "GE entre directement en contact avec l'actionnaire Bouygues, pour lui racheter sa participation.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

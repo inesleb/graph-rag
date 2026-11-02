@@ -1,0 +1,188 @@
+{
+ "entities": [
+  {
+   "name": "Claude Thévenet",
+   "type": "Person"
+  },
+  {
+   "name": "Direction de la Surveillance du territoire",
+   "type": "Institution"
+  },
+  {
+   "name": "Direction centrale du renseignement intérieur (DCNI)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Al-Qaïda",
+   "type": "Institution"
+  },
+  {
+   "name": "Asif Zaheer",
+   "type": "Person"
+  },
+  {
+   "name": "Mohammad Rizwan",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Trévidic",
+   "type": "Person"
+  },
+  {
+   "name": "Yves Jannier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Louis Bruguière",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Ricard",
+   "type": "Person"
+  },
+  {
+   "name": "Gérard-Philippe Menayas",
+   "type": "Person"
+  },
+  {
+   "name": "Haute Cour du Sind",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Thévenet",
+   "type": "WORKED_FOR",
+   "target": "Direction de la Surveillance du territoire",
+   "evidence": "Claude Thévenet, ancien de la Direction de la Surveillance du territoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Thévenet",
+   "type": "WORKED_FOR",
+   "target": "Direction centrale du renseignement intérieur (DCNI)",
+   "evidence": "recruté par la DCN pour enquêter",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Thévenet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Son rapport « Nautilus » [...] conclut que l’attentat est lié à l’arrêt du versement des commissions.",
+   "confidence": 0.9,
+   "date": "2002-09-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Direction centrale du renseignement intérieur (DCNI)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Un autre document, rédigé par Gérard-Philippe Menayas (ancien directeur financier de la DCNI) donne la même version.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Al-Qaïda",
+   "evidence": "Dans un premier temps, l’attentat est attribué à Al-Qaïda.",
+   "confidence": 0.9,
+   "date": "2002-05-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Louis Bruguière",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "une information judiciaire est ouverte en France et diligentée par Jean-Louis Bruguière",
+   "confidence": 1.0,
+   "date": "2002-05-27",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-François Ricard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "une information judiciaire est ouverte en France et diligentée par Jean-François Ricard",
+   "confidence": 1.0,
+   "date": "2002-05-27",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marc Trévidic",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "les juges antiterroristes Marc Trévidic [...] reprennent l’instruction de l’affaire",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Yves Jannier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "les juges antiterroristes [...] Yves Jannier reprennent l’instruction de l’affaire",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Asif Zaheer",
+   "type": "CONVICTED_IN",
+   "target": "condamnation à mort",
+   "evidence": "Asif Zaheer [...] est condamné à mort",
+   "confidence": 1.0,
+   "date": "2003-06-30",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Mohammad Rizwan",
+   "type": "CONVICTED_IN",
+   "target": "condamnation à mort",
+   "evidence": "Mohammad Rizwan [...] est condamné à mort",
+   "confidence": 1.0,
+   "date": "2003-06-30",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Asif Zaheer",
+   "type": "ACQUITTED_IN",
+   "target": "condamnation à mort",
+   "evidence": "les deux hommes sont remis en liberté par la Haute Cour du Sind",
+   "confidence": 1.0,
+   "date": "2009-05-05",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Mohammad Rizwan",
+   "type": "ACQUITTED_IN",
+   "target": "condamnation à mort",
+   "evidence": "les deux hommes sont remis en liberté par la Haute Cour du Sind",
+   "confidence": 1.0,
+   "date": "2009-05-05",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

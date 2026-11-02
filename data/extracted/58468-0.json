@@ -1,0 +1,230 @@
+{
+ "entities": [
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "association de malfaiteurs",
+   "type": "Offense"
+  },
+  {
+   "name": "Tribunal correctionnel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Brice Hortefeux",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement pour la République",
+   "evidence": "Membre du RPR",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "puis de LR",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "WORKED_FOR",
+   "target": "ministre délégué aux Collectivités territoriales",
+   "evidence": "ministre délégué aux Collectivités territoriales de 2005 à 2007",
+   "confidence": 1.0,
+   "date": "2005-2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "WORKED_FOR",
+   "target": "ministre de l'Immigration",
+   "evidence": "ministre de l'Immigration de 2007 à 2009",
+   "confidence": 1.0,
+   "date": "2007-2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "WORKED_FOR",
+   "target": "ministre du Travail, des Relations sociales et de la Solidarité",
+   "evidence": "ministre du Travail, des Relations sociales et de la Solidarité en 2009",
+   "confidence": 1.0,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "WORKED_FOR",
+   "target": "ministre de l'Intérieur et de l'Outre-mer",
+   "evidence": "ministre de l'Intérieur et de l'Outre-mer de 2009 à 2011",
+   "confidence": 1.0,
+   "date": "2009-2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Dans le cadre de l'affaire Sarkozy-Kadhafi",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "CONVICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "reconnu coupable d'association de malfaiteurs",
+   "confidence": 1.0,
+   "date": "2025-09",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INDICTED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "jugé [...] pour « complicité de financement illégal de campagne électorale »",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INDICTED_IN",
+   "target": "association de malfaiteurs",
+   "evidence": "jugé [...] pour « complicité de financement illégal de campagne électorale » et « association de malfaiteurs »",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "proche de Nicolas Sarkozy",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "jugé [...] avec notamment Nicolas Sarkozy",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Claude Guéant",
+   "evidence": "jugé [...] avec notamment [...] Claude Guéant",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Thierry Herzog",
+   "evidence": "jugé [...] avec notamment Nicolas Sarkozy, Claude Guéant et Thierry Gaubert",
+   "confidence": 0.9,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "jugé [...] pour « complicité de financement illégal de campagne électorale »",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "association de malfaiteurs",
+   "evidence": "jugé [...] pour « association de malfaiteurs »",
+   "confidence": 1.0,
+   "date": "2025-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tribunal correctionnel de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Brice Hortefeux",
+   "evidence": "condamné [...] par le tribunal correctionnel de Paris",
+   "confidence": 1.0,
+   "date": "2025-09",
+   "stage": "first_instance",
+   "final": false
+  }
+ ]
+}

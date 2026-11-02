@@ -1,0 +1,158 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Les Femmes avec Fillon",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Bien public",
+   "type": "Media"
+  },
+  {
+   "name": "RTL",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "\"jusqu’à présent, je ne m’étais jamais impliquée dans la vie politique de mon mari\"",
+   "confidence": 0.9,
+   "date": "2016-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "MEMBER_OF",
+   "target": "Les Femmes avec Fillon",
+   "evidence": "\"s'étant mise en avant pour faire la promotion du mouvement Les Femmes avec Fillon\"",
+   "confidence": 1.0,
+   "date": "2016-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "« fuites à charge » de nombreux éléments de l'enquête dans la presse",
+   "confidence": 0.9,
+   "date": "2017-01-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVESTIGATED",
+   "target": "Parquet national financier",
+   "evidence": "« Le 30 janvier 2017, le couple Fillon est entendu par les enquêteurs du parquet national financier »",
+   "confidence": 1.0,
+   "date": "2017-01-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INVESTIGATED",
+   "target": "Assemblée nationale",
+   "evidence": "« Le 31 janvier, les enquêteurs sont à l'Assemblée nationale »",
+   "confidence": 1.0,
+   "date": "2017-01-31",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "RTL affirme que Penelope Fillon ne peut apporter aucune preuve sur un « travail réel »",
+   "confidence": 0.8,
+   "date": "2017-01-30",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« ne pouvant apporter aucun mail ou agenda de cette période ni la preuve de contacts avec les attachés parlementaires parisiens »",
+   "confidence": 0.9,
+   "date": "2017-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« les enquêteurs ne trouvent « aucune preuve matérielle de la réalité de son poste d'attachée parlementaire »",
+   "confidence": 1.0,
+   "date": "2017-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« Penelope Fillon n'a jamais eu de badge pour se déplacer dans l'Assemblée nationale, ni d'adresse électronique à son nom »",
+   "confidence": 1.0,
+   "date": "2017-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« Un contrat de travail a été trouvé, signé par Penelope Fillon. Elle ne se souvient pas d'avoir signé ou non des contrats de travail »",
+   "confidence": 0.9,
+   "date": "2017-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "RTL",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "« RTL affirme que Penelope Fillon ne peut apporter aucune preuve sur un « travail réel » »",
+   "confidence": 0.9,
+   "date": "2017-01-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« jusqu’à présent, je ne m’étais jamais impliquée dans la vie politique de mon mari »",
+   "confidence": 0.8,
+   "date": "2016-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

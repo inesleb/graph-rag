@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "François Molins",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "manœuvres délibérées destinées à tromper l'organe de contrôle",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la CNCCFP mentionne que 54 600 euros auraient été indument payés",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "INVESTIGATED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la CNCCFP mentionne que 54 600 euros auraient été indument payés",
+   "confidence": 0.95,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "REVEALED",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "la CNCCFP mentionne que 54 600 euros auraient été indument payés",
+   "confidence": 0.85,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "REVEALED",
+   "target": "manœuvres délibérées destinées à tromper l'organe de contrôle",
+   "evidence": "les surfacturations dénoncées tendent à faire sérieusement suspecter l'existence de manœuvres délibérées",
+   "confidence": 0.8,
+   "date": "2018-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "INVESTIGATED",
+   "target": "manœuvres délibérées destinées à tromper l'organe de contrôle",
+   "evidence": "les surfacturations dénoncées tendent à faire sérieusement suspecter l'existence de manœuvres délibérées",
+   "confidence": 0.8,
+   "date": "2018-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission nationale des comptes de campagne et des financements politiques",
+   "type": "REVEALED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la CNCCFP fait le 14 mars 2018 un signalement au parquet de Paris",
+   "confidence": 0.95,
+   "date": "2018-03-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Celui-ci ouvre une enquête préliminaire en avril",
+   "confidence": 0.95,
+   "date": "2018-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Molins",
+   "type": "WORKED_FOR",
+   "target": "Parquet de Paris",
+   "evidence": "François Molins, procureur de Paris, indique",
+   "confidence": 1.0,
+   "date": "2018-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

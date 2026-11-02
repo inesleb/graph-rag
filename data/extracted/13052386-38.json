@@ -1,0 +1,70 @@
+{
+ "entities": [
+  {
+   "name": "Renault-Nissan BV",
+   "type": "Company"
+  },
+  {
+   "name": "Renault",
+   "type": "Company"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Alliance Renault-Nissan-Mitsubishi",
+   "type": "Institution"
+  },
+  {
+   "name": "Jean-Dominique Senard",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Renault-Nissan BV",
+   "type": "MEMBER_OF",
+   "target": "Alliance Renault-Nissan-Mitsubishi",
+   "evidence": "société holding coiffant l'alliance de Renault et de Nissan",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Renault-Nissan BV",
+   "evidence": "Carlos Ghosn est soupçonné [...] d'avoir détourné [...] de l’Alliance Renault-Nissan (RNBV)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "soupçonné [...] d'avoir détourné à son profit plus de 40 millions d’euros",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Dominique Senard",
+   "type": "WORKED_FOR",
+   "target": "Renault",
+   "evidence": "nouveau président de Renault",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

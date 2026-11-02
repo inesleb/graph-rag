@@ -1,0 +1,68 @@
+{
+ "entities": [
+  {
+   "name": "François Mitterrand",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République (RPR)",
+   "type": "Party"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Aftab Shaban Mirani",
+   "type": "Person"
+  },
+  {
+   "name": "Benazir Bhutto",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement pour la République (RPR)",
+   "evidence": "Le Premier ministre depuis 1993, Édouard Balladur envisage de se présenter à l’élection présidentielle de 1995, alors que le candidat désigné par la droite (RPR) est Jacques Chirac.",
+   "confidence": 0.9,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "WORKED_FOR",
+   "target": "Édouard Balladur",
+   "evidence": "un contrat [...] est signé par François Léotard, ministre de la Défense du gouvernement Balladur",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Vente de sous-marins et de frégates",
+   "evidence": "un contrat prévoit la fourniture de trois sous-marins de classe Agosta au Pakistan",
+   "confidence": 1.0,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

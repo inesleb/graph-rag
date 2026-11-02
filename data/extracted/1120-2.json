@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Barnier",
+   "type": "Person"
+  },
+  {
+   "name": "Sébastien Lecornu",
+   "type": "Person"
+  },
+  {
+   "name": "Élections législatives anticipées",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Premier ministre",
+   "evidence": "Il devient Premier ministre en décembre 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INVOLVED_IN",
+   "target": "Élections législatives anticipées",
+   "evidence": "dans un contexte de crise politique à la suite d'élections législatives anticipées et du renversement de Michel Barnier",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "INVOLVED_IN",
+   "target": "Michel Barnier",
+   "evidence": "du renversement de Michel Barnier",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Maire de Pau",
+   "evidence": "il est remplacé par Sébastien Lecornu. Aux élections municipales de 2026 à Pau, sa liste est devancée par celle de la gauche, ce qui ne lui permet pas d'être réélu maire après douze ans de mandat",
+   "confidence": 0.95,
+   "date": "2026",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  },
+  {
+   "name": "Bernard Accoyer",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "\"qui n'était plus directeur général mais chargé de mission\" des Mutuelles de Bretagne",
+   "confidence": 1.0,
+   "date": "2017-05-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Accoyer",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Bernard Accoyer accuse Richard Ferrand de « conflit d'intérêts »",
+   "confidence": 1.0,
+   "date": "2017-05-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "a « déposé une première proposition de loi (…) visant à permettre aux mutuelles de mettre en place des réseaux de soins »",
+   "confidence": 1.0,
+   "date": "2017-05-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "SRC",
+   "evidence": "\"Cette proposition a été déposée par le président du groupe SRC et l'ensemble des députés qui le composent\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Haute Autorité pour la transparence de la vie publique",
+   "evidence": "la Haute Autorité pour la transparence de la vie publique (HATVP) avait connaissance de son emploi",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

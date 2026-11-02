@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Guillaume Lambert",
+   "type": "Person"
+  },
+  {
+   "name": "Franck Attal",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Alvès",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Chassat",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Guillaume Lambert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Guillaume Lambert, condamné à trois ans et demi de prison dont deux avec sursis en première instance, est finalement condamné à deux ans de prison dont 18 mois avec sursis",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Franck Attal",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Franck Attal, condamné à deux ans de prison dont un avec sursis en première instance, est finalement condamné à un an de prison avec sursis",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Guy Alvès",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Guy Alvès, condamné à deux ans de prison dont un avec sursis en première instance, est finalement condamné à dix-huit mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Pierre Chassat, condamné en première instance à trois ans de prison dont deux ans avec sursis, est finalement condamné à deux ans, dont 18 mois avec sursis",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

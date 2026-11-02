@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Jordan Bardella",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Jalkh",
+   "type": "Person"
+  },
+  {
+   "name": "Florian Philippot",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Jean-François Jalkh",
+   "evidence": "Jordan Bardella est assistant parlementaire du député européen FN Jean-François Jalkh",
+   "confidence": 1.0,
+   "date": "2015-02-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Front national",
+   "evidence": "il figure sur un organigramme du FN de février 2015 comme « chargé de mission »",
+   "confidence": 1.0,
+   "date": "2015-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Florian Philippot",
+   "evidence": "chargé de mission auprès de Florian Philippot, vice-président du parti",
+   "confidence": 1.0,
+   "date": "2015-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Jordan Bardella n'est pas juridiquement inquiété dans l'affaire des assistants parlementaires au Parlement européen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les collaborateurs FN au Parlement européen n'avaient pas toujours de « travail effectif »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Jordan Bardella",
+   "evidence": "Libération le qualifie de « plus que discret » à ce poste d'assistant parlementaire européen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

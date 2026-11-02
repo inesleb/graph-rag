@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Julien Odoul",
+   "type": "Person"
+  },
+  {
+   "name": "Mylène Troszczynski",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Julien Odoul",
+   "type": "WORKED_FOR",
+   "target": "Mylène Troszczynski",
+   "evidence": "D’octobre 2014 à juillet 2015, Julien Odoul est assistant parlementaire de l’eurodéputée Mylène Troszczynski",
+   "confidence": 1.0,
+   "date": "2014-10–2015-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Julien Odoul",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement national",
+   "evidence": "Il est par ailleurs « conseiller spécial » au sein du FN de Marine Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Julien Odoul",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En avril 2019, il est mis en examen pour recel de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "En avril 2019, il est mis en examen pour recel de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2019-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "En avril 2019, il est mis en examen pour recel de détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2019-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

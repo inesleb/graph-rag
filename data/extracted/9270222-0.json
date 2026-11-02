@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "Noursoultan Nazarbaïev",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Didier Reynders",
+   "type": "Person"
+  },
+  {
+   "name": "Juge Buresi",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Kazakhgate",
+   "type": "CONCERNS",
+   "target": "Noursoultan Nazarbaïev",
+   "evidence": "affaires politiques financières internationales impliquant l'entourage politique et familial du président kazakh",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kazakhgate",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Les ramifications de ce réseau d'influence remontent jusqu’à l'entourage de Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kazakhgate",
+   "type": "INVOLVED_IN",
+   "target": "Didier Reynders",
+   "evidence": "Les ramifications de ce réseau d'influence remontent jusqu’à l'entourage de Nicolas Sarkozy et Didier Reynders",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Kazakhgate",
+   "type": "INVESTIGATED",
+   "target": "Juge Buresi",
+   "evidence": "le dossier est toujours à l’instruction à Paris chez la juge Buresi",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

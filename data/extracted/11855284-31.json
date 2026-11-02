@@ -1,0 +1,24 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "Alexandre Benalla a reçu l'autorisation de porter une arme, mais seulement dans le quartier général d'Emmanuel Macron",
+   "confidence": 0.95,
+   "date": "2016-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

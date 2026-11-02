@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Ministère de l'économie",
+   "type": "Institution"
+  },
+  {
+   "name": "Anticor",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission d'accès aux documents administratifs",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Ministère de la Santé",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "En février 2021, Le Monde publie une longue enquête sur McKinsey & Company France qui révèle que son siège social est au Delaware (USA).",
+   "confidence": 1.0,
+   "date": "2021-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "L’entreprise n’y exerce aucune réelle activité — il s'agit d'une simple boîte aux lettres — mais ses revenus y sont déclarés.",
+   "confidence": 0.9,
+   "date": "2021-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "De son côté le Ministère de l'économie précise que McKinsey n'a pas payé d'impôt sur les sociétés en France entre 2011 et 2020.",
+   "confidence": 0.9,
+   "date": "2021-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Anticor",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "Le 17 mars 2021, Anticor saisit la Commission d'accès aux documents administratifs après qu'une demande de communication des documents relatifs aux marchés publics et aux délibérations n'a pas abouti.",
+   "confidence": 1.0,
+   "date": "2021-03-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "Le 19 octobre 2022, le Canard enchaîné révèle que des consultants de McKinsey ont signé de leur nom des papiers à en-tête du ministère de la Santé.",
+   "confidence": 1.0,
+   "date": "2022-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "des consultants de McKinsey ont signé de leur nom des papiers à en-tête du ministère de la Santé et ont court-circuité les chefs de service du ministère.",
+   "confidence": 0.95,
+   "date": "2022-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "détournement de procédures administratives",
+   "evidence": "des consultants de McKinsey ont signé de leur nom des papiers à en-tête du ministère de la Santé et ont court-circuité les chefs de service du ministère.",
+   "confidence": 0.8,
+   "date": "2022-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "optimisation fiscale agressive",
+   "evidence": "ses revenus y [Delaware] sont déclarés, ce qui lui permet de payer 175 $ d’impôts par an.",
+   "confidence": 0.9,
+   "date": "2021-02",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "iStrat",
+   "type": "Company"
+  },
+  {
+   "name": "Travis Kalanick",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "Trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "Manipulation de preuves",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Trafic d'influence",
+   "evidence": "Uber tente d'influencer le débat public en sa faveur.",
+   "confidence": 0.9,
+   "date": "2014-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "Travis Kalanick",
+   "evidence": "Uber, piloté par Travis Kalanick, installe ses services...",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "iStrat",
+   "evidence": "Uber a recours aux services de la société iStrat...",
+   "confidence": 1.0,
+   "date": "2014-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Manipulation de preuves",
+   "evidence": "la société américaine utilise en Belgique... le kill switch, manipulation qui permet de déconnecter les ordinateurs...",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "CONCERNS",
+   "target": "Affaire des écoutes",
+   "evidence": "Uber tente d'influencer le débat public en sa faveur.",
+   "confidence": 0.8,
+   "date": "2014-11",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

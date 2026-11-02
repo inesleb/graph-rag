@@ -1,0 +1,92 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "l’interdiction de sortie du territoire de Patrick Balkany est confirmée par la cour d'appel de Paris",
+   "confidence": 0.95,
+   "date": "2015-07-02",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "l’essentiel des avoirs patrimoniaux de Patrick Balkany (et de son épouse) sont domiciliés à l’étranger",
+   "confidence": 0.9,
+   "date": "2015-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "l’essentiel des avoirs patrimoniaux de Patrick Balkany (et de son épouse) sont domiciliés à l’étranger",
+   "confidence": 0.9,
+   "date": "2015-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany fait appel",
+   "confidence": 0.95,
+   "date": "2015-07-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le couple Balkany et ses deux enfants font appel des saisies pénales de biens",
+   "confidence": 0.9,
+   "date": "2015-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "le couple Balkany et ses deux enfants font appel des saisies pénales de biens",
+   "confidence": 0.9,
+   "date": "2015-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Balkany",
+   "evidence": "l’interdiction de sortie du territoire de Patrick Balkany est confirmée par la cour d'appel de Paris",
+   "confidence": 0.95,
+   "date": "2015-07-02",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

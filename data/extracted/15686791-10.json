@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Julien Marion",
+   "type": "Person"
+  },
+  {
+   "name": "Sonia Backès",
+   "type": "Person"
+  },
+  {
+   "name": "Sébastien Jallet",
+   "type": "Person"
+  },
+  {
+   "name": "Marlène Schiappa",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Sifaoui",
+   "type": "Person"
+  },
+  {
+   "name": "USEPPM",
+   "type": "Institution"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Julien Marion",
+   "type": "WORKED_FOR",
+   "target": "Sonia Backès",
+   "evidence": "directeur de cabinet de Sonia Backès",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sébastien Jallet",
+   "type": "WORKED_FOR",
+   "target": "Marlène Schiappa",
+   "evidence": "ancien directeur de cabinet de Marlène Schiappa",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "ce fiasco (…) relève pleinement de la responsabilité politique de la ministre",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mohamed Sifaoui",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "attribution de la subvention de 355 000 € à l'USEPPM de Mohamed Sifaoui",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marlène Schiappa",
+   "type": "INVOLVED_IN",
+   "target": "USEPPM",
+   "evidence": "accuse personnellement Marlène Schiappa",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "graves dysfonctionnements dans la mise en œuvre et le suivi du fonds Marianne",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fonds Marianne",
+   "type": "CONCERNS",
+   "target": "financement illégal ou opaque",
+   "evidence": "procédure de sélection opaque (des associations ayant bénéficié du fonds Marianne)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

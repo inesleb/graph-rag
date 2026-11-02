@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Mohamed Bin Issa Al Jaber",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Aubry",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Patrick Balkany est condamné à cinq ans ferme pour blanchiment",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "Patrick Balkany est relaxé pour corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Isabelle Balkany écope quant à elle de quatre ans de prison fermes",
+   "confidence": 0.9,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Mohamed Bin Issa Al Jaber",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "le parquet « n'a pas rapporté la preuve » du « pacte de corruption » [...] Mohamed Bin Issa Al Jaber est donc relaxé aussi",
+   "confidence": 0.9,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "Jean-Pierre Aubry [...] est relaxé aussi",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Jean-Pierre Aubry [...] est condamné pour blanchiment de fraude fiscale à trois ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Le délibéré du second volet, consacré aux délits de blanchiment de fraude fiscale et de corruption",
+   "confidence": 0.9,
+   "date": "2019-10-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "Le délibéré du second volet, consacré aux délits de blanchiment de fraude fiscale et de corruption",
+   "confidence": 0.9,
+   "date": "2019-10-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

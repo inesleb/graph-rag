@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Direction des constructions navales (DCN)",
+   "type": "Institution"
+  },
+  {
+   "name": "Naval Group",
+   "type": "Company"
+  },
+  {
+   "name": "DCN International",
+   "type": "Company"
+  },
+  {
+   "name": "Dominique Castellan",
+   "type": "Person"
+  },
+  {
+   "name": "Arabie saoudite",
+   "type": "Institution"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Direction des constructions navales (DCN)",
+   "type": "WORKED_FOR",
+   "target": "Dominique Castellan",
+   "evidence": "dirigée par Dominique Castellan entre 1991 et 2001",
+   "confidence": 1.0,
+   "date": "1991-2001",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Direction des constructions navales (DCN)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "La réalisation des contrats est confiée à la direction des constructions navales (DCN)",
+   "confidence": 0.9,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Direction des constructions navales (DCN)",
+   "type": "MEMBER_OF",
+   "target": "Naval Group",
+   "evidence": "aujourd’hui Naval Group",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "DCN International",
+   "type": "MEMBER_OF",
+   "target": "Direction des constructions navales (DCN)",
+   "evidence": "La réalisation des contrats est confiée à la direction des constructions navales (DCN), alors organisme public (aujourd’hui Naval Group). Le contrat est signé avec la filiale DCN International",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Arabie saoudite",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "En novembre 1994, le contrat « Sawari II » porte sur la fourniture à l'Arabie saoudite de frégates de classe La Fayette",
+   "confidence": 0.9,
+   "date": "1994",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Une troisième frégate vendue sous la présidence Chirac porte le total à 28 milliards",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Xavier Musca",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Giacometti",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics par un particulier",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "des notes signées de sa main qui atteste son implication dans le dossier",
+   "confidence": 0.9,
+   "date": "2015-06-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Patrick Buisson est mis en examen pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "abus de biens sociaux",
+   "evidence": "Patrick Buisson est mis en examen pour [...] abus de biens sociaux",
+   "confidence": 1.0,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics par un particulier",
+   "evidence": "Patrick Buisson est mis en examen pour [...] détournement de fonds publics par un particulier",
+   "confidence": 1.0,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Pierre Giacometti est mis en examen pour recel de favoritisme",
+   "confidence": 1.0,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Patrick Buisson est mis en examen pour recel de favoritisme, abus de biens sociaux et détournement de fonds publics par un particulier",
+   "confidence": 0.8,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Pierre Giacometti est mis en examen pour recel de favoritisme",
+   "confidence": 0.8,
+   "date": "2015-07-29",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Ces mises en examen seront confirmés par la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2016-06",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Ces mises en examen seront confirmés par la cour d'appel de Paris",
+   "confidence": 0.9,
+   "date": "2016-06",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Commission nationale des comptes de campagne",
+   "type": "Institution"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Event & Cie",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Bygmalion",
+   "evidence": "Mediapart indique avoir consulté la « comptabilité secrète » de Bygmalion",
+   "confidence": 1.0,
+   "date": "2014-06-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "différences entre les dépenses déclarées par Nicolas Sarkozy [...] pour les meetings de sa campagne",
+   "confidence": 0.9,
+   "date": "2014-06-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "différences entre les dépenses déclarées par Nicolas Sarkozy [...] pour les meetings de sa campagne",
+   "confidence": 0.95,
+   "date": "2014-06-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "58 fausses factures adressées à l'UMP par Event & Cie",
+   "confidence": 0.95,
+   "date": "2014-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Event & Cie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "58 fausses factures adressées à l'UMP par Event & Cie",
+   "confidence": 0.95,
+   "date": "2014-06-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "UMP",
+   "evidence": "dépenses déclarées par Nicolas Sarkozy à la Commission nationale des comptes de campagne pour les meetings de sa campagne",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

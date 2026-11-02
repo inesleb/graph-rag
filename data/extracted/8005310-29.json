@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Patrick de Carolis",
+   "type": "Person"
+  },
+  {
+   "name": "Bastien Millot",
+   "type": "Person"
+  },
+  {
+   "name": "Camille Pascal",
+   "type": "Person"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick de Carolis",
+   "type": "CONVICTED_IN",
+   "target": "Favoritisme",
+   "evidence": "condamne [...] pour avoir passé des contrats entachés de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-01-19",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bastien Millot",
+   "type": "CONVICTED_IN",
+   "target": "Favoritisme",
+   "evidence": "condamne [...] pour avoir passé des contrats entachés de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-01-19",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Camille Pascal",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Camille Pascal [...] est également condamnée",
+   "confidence": 0.9,
+   "date": "2017-01-19",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Bygmalion",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Bygmalion est également condamnée",
+   "confidence": 0.9,
+   "date": "2017-01-19",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Affaire Bygmalion",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "contrats entachés de favoritisme",
+   "confidence": 1.0,
+   "date": "2017-01-19",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

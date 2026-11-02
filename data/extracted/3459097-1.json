@@ -1,0 +1,102 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour un mouvement populaire (UMP)",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "En 2002, il rejoint l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Ministère des Affaires sociales, du Travail et de la Solidarité",
+   "evidence": "il se voit confier le ministère des Affaires sociales, du Travail et de la Solidarité",
+   "confidence": 1.0,
+   "date": "2002",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Éducation nationale",
+   "evidence": "En 2004, il devient ministre de l'Éducation nationale",
+   "confidence": 1.0,
+   "date": "2004",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Premier ministre",
+   "evidence": "il est nommé Premier ministre",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Député de Paris",
+   "evidence": "Après avoir été élu député à Paris",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "il est candidat à la présidence de l'UMP au congrès de l'UMP de 2012",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle de 2007",
+   "evidence": "À la suite de la victoire de Nicolas Sarkozy à l'élection présidentielle de 2007",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire (UMP)",
+   "evidence": "il conteste les résultats qui le donnent perdant face à Jean-François Copé",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

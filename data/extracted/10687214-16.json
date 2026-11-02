@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Wallerand de Saint-Just",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Front national",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "En décembre 2017, le Front national [...] est mis en examen pour complicité et recel d'abus de confiance",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "Le 23 octobre 2018, le parti [...] voit sa mise en examen requalifiée en « complicité de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le 23 octobre 2018, le parti (devenu Rassemblement national) voit sa mise en examen requalifiée",
+   "confidence": 0.9,
+   "date": "2018-10-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Wallerand de Saint-Just",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "son trésorier, Wallerand de Saint-Just, est mis en examen pour ce même motif",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "requalifiée en « complicité de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "mis en examen pour complicité et recel d'abus de confiance",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "mis en examen pour complicité et recel d'abus de confiance",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "complicité",
+   "evidence": "mis en examen pour complicité et recel d'abus de confiance",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

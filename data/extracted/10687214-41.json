@@ -1,0 +1,112 @@
+{
+ "entities": [
+  {
+   "name": "Gaël Nofri",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Brigade financière",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Lorrain de Saint Affrique",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gaël Nofri",
+   "type": "WORKED_FOR",
+   "target": "Marine Le Pen",
+   "evidence": "Gaël Nofri est un ancien conseiller de Marine Le Pen lors de l'élection présidentielle de 2012",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gaël Nofri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Gaël Nofri affirme avoir été victime d'une procédure abusive du FN ayant conduit à le salarier comme attaché parlementaire à son insu",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gaël Nofri",
+   "type": "INVOLVED_IN",
+   "target": "Front national",
+   "evidence": "Gaël Nofri affirme avoir été victime d'une procédure abusive du FN",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brigade financière",
+   "type": "REVEALED",
+   "target": "Gaël Nofri",
+   "evidence": "la brigade financière a découvert des fiches de paie à son nom",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gaël Nofri",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "Lorrain de Saint Affrique assure que Gaël Nofri a bien travaillé avec Jean-Marie Le Pen pour préparer les élections européennes de 2014",
+   "confidence": 0.8,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Selon Mediapart, la brigade financière a découvert des fiches de paie à son nom",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gaël Nofri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Gaël Nofri y est inscrit comme assistant parlementaire de l'eurodéputé Jean-Marie Le Pen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Parlement européen",
+   "type": "Institution"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "infraction à la probité",
+   "type": "Offense"
+  },
+  {
+   "name": "Bénédicte de Perthuis",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "\"il ne s'agissait pas d'erreurs administratives ou d'incompréhension par les députés de règles européennes confuses, mais de détournements\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "infraction à la probité",
+   "evidence": "\"jugement est conforme à la sévérité avec laquelle le législateur entend sanctionner cette infraction à la probité\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"système mis en place pour alléger les charges du parti\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "\"système mis en place pour alléger les charges du parti\" et \"contrats fictifs\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parlement européen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"faire prendre en charge par le Parlement européen le salaire des membres du RN\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bénédicte de Perthuis",
+   "type": "WORKED_FOR",
+   "target": "Parlement européen",
+   "evidence": "\"La présidente du tribunal\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Présidence de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Idriss Déby",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "Alexandre Benalla",
+   "evidence": "une polémique qui a éclaté après la révélation par Mediapart qu’Alexandre Benalla était toujours en possession de plusieurs passeports diplomatiques",
+   "confidence": 0.95,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Alexandre Benalla",
+   "evidence": "la révélation par Mediapart qu’Alexandre Benalla était toujours en possession de plusieurs passeports diplomatiques",
+   "confidence": 1.0,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Présidence de la République",
+   "evidence": "Alexandre Benalla était toujours en possession de plusieurs passeports diplomatiques, qu'il aurait dû rendre plusieurs mois auparavant",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Ces passeports lui ont notamment permis de rencontrer le président du Tchad, Idriss Déby",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla aurait également utilisé ces passeports diplomatiques au cours de différentes missions pour le compte de délégations étrangères",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Benalla indique alors s’être régulièrement entretenu avec Emmanuel Macron après son départ de l’Élysée",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Présidence de la République",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "la présidence de la République dément",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "CONVICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla est condamné le 5 novembre 2021 à trois ans de prison, dont un ferme",
+   "confidence": 1.0,
+   "date": "2021-11-05",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "CONVICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "la peine est confirmée en appel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

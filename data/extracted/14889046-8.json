@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Matthieu Aron",
+   "type": "Person"
+  },
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "Administration fiscale française",
+   "type": "Institution"
+  },
+  {
+   "name": "Delaware",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Matthieu Aron",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "\"le montage fiscal de McKinsey, qui rapatrie ses bénéfices dans le Delaware, est légal\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "\"McKinsey a utilisé les règles en vigueur, en conformité avec la loi\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "REVEALED",
+   "target": "Affaire McKinsey",
+   "evidence": "\"choqué [...] veut que toute multinationale paie des impôts là où elle travaille\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "CONCERNS",
+   "target": "Affaire McKinsey",
+   "evidence": "Contexte implicite du passage (montage fiscal et rapatriement de bénéfices)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "WORKED_FOR",
+   "target": "Administration fiscale française",
+   "evidence": "Implicite : vérification par l'administration fiscale des pratiques de McKinsey",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Delaware",
+   "evidence": "\"rapatrie ses bénéfices dans le Delaware\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

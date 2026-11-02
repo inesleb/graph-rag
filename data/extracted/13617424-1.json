@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Après dix ans de procédures, Nicolas Sarkozy [...] sont définitivement condamnés en 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Après dix ans de procédures, Thierry Herzog [...] sont définitivement condamnés en 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Après dix ans de procédures, Gilbert Azibert [...] sont définitivement condamnés en 2024",
+   "confidence": 1.0,
+   "date": "2024",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

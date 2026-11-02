@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Ismaël Emelien",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Strzoda",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Préfecture",
+   "type": "Institution"
+  },
+  {
+   "name": "Justice",
+   "type": "Institution"
+  },
+  {
+   "name": "BFM TV",
+   "type": "Media"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Lors de son entretien du 26 juillet 2018 au Monde, Alexandre Benalla explique qu'après le début de l'affaire, le 18 juillet",
+   "confidence": 1.0,
+   "date": "2018-07-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Alexandre Benalla affirme avoir remis ce CD à un « conseiller communication » de l'Élysée",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ismaël Emelien",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Selon la version de l'Élysée, il s'agit d'Ismaël Emelien, conseiller politique d'Emmanuel Macron",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Strzoda",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "Toujours selon la version de l'Élysée, le chef du cabinet présidentiel Patrick Strzoda",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "Affaire illégale de possession d'images de vidéosurveillance",
+   "evidence": "Il est alors établi qu'il est illégal qu'Alexandre Benalla soit entré en possession de ces images",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Strzoda",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Patrick Strzoda a alors des doutes sur l'origine de l'enregistrement et le fait parvenir à la préfecture",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Strzoda",
+   "type": "INVOLVED_IN",
+   "target": "Procédure de licenciement d'Alexandre Benalla",
+   "evidence": "ce dernier fait alors l'objet d'une procédure de licenciement par Patrick Strzoda",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Justice",
+   "type": "INVESTIGATED",
+   "target": "Alexandre Benalla",
+   "evidence": "un signalement est effectué auprès de la justice",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "Possession illégale d'images de vidéosurveillance",
+   "evidence": "Il est alors établi qu'il est illégal qu'Alexandre Benalla soit entré en possession de ces images",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "entities": [
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Paul Bismuth",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Bohnert",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Blachon",
+   "type": "Person"
+  },
+  {
+   "name": "Céline Guillet",
+   "type": "Person"
+  },
+  {
+   "name": "Jacqueline Laffont",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Haïk",
+   "type": "Person"
+  },
+  {
+   "name": "Hervé Temime",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "32e chambre correctionnelle du tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Gilbert Azibert est absent pour cause médicale.",
+   "confidence": 0.9,
+   "date": "2020-11-23",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Paul Bismuth",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Le vrai Paul Bismuth se constitue partie civile, avant de se retirer de l’affaire le lendemain.",
+   "confidence": 0.95,
+   "date": "2020-11-23",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean-François Bohnert",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "Les magistrats du parquet national financier Jean-François Bohnert",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Blachon",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "Les magistrats du parquet national financier Jean-Luc Blachon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Céline Guillet",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "Les magistrats du parquet national financier Céline Guillet",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "requièrent quatre ans de prison, dont deux avec sursis, à l’encontre des trois prévenus",
+   "confidence": 0.95,
+   "date": "2020-11-23",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Thierry Herzog",
+   "evidence": "requièrent quatre ans de prison, dont deux avec sursis, à l’encontre des trois prévenus, ainsi que cinq années d’interdiction professionnelle, à l’encontre de Thierry Herzog",
+   "confidence": 0.95,
+   "date": "2020-11-23",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jacqueline Laffont",
+   "type": "WORKED_FOR",
+   "target": "Pierre Haïk",
+   "evidence": "Nicolas Sarkozy est défendu par Jacqueline Laffont, épouse et associée de Pierre Haïk",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Hervé Temime",
+   "type": "WORKED_FOR",
+   "target": "Thierry Herzog",
+   "evidence": "Thierry Herzog est défendu par Hervé Temime",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "32e chambre correctionnelle du tribunal judiciaire de Paris",
+   "type": "CONCERNS",
+   "target": "Affaire des écoutes",
+   "evidence": "Le procès devant la 32e chambre correctionnelle du tribunal judiciaire de Paris",
+   "confidence": 1.0,
+   "date": "2020-11-23",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

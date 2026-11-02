@@ -1,0 +1,174 @@
+{
+ "entities": [
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahmam Al-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Castellan",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d’appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Chambre de l’instruction de la cour d'appel de Lyon",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal correctionnel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Ziad Takieddine",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Ziad Takieddine",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Thierry Gaubert",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Nicolas Bazire",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Abdul Rahmam Al-Assir",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Abdul Rahmam Al-Assir",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Renaud Donnedieu de Vabres",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle de Dominique Castellan",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "le parquet de Paris requiert le renvoi en correctionnelle",
+   "confidence": 1.0,
+   "date": "2014-05-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Nicolas Bazire fait appel de ce renvoi",
+   "confidence": 0.9,
+   "date": "2014-06-12",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Dominique Castellan fait appel de ce renvoi",
+   "confidence": 0.9,
+   "date": "2014-06-12",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Cour d’appel de Paris",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "le recours est rejeté le 18 juin 2015 par la cour d’appel de Paris",
+   "confidence": 1.0,
+   "date": "2015-06-18",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "la Cour de cassation annule cet arrêt et ordonne un réexamen",
+   "confidence": 1.0,
+   "date": "2016-02-10",
+   "stage": "cassation",
+   "final": null
+  },
+  {
+   "source": "Chambre de l’instruction de la cour d'appel de Lyon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "la chambre de l’instruction de la cour d'appel de Lyon renvoie devant le tribunal correctionnel les six personnes mises en cause",
+   "confidence": 1.0,
+   "date": "2017-01-20",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

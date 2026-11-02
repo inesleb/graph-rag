@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Laurent Simonin",
+   "type": "Person"
+  },
+  {
+   "name": "Yann Drouet",
+   "type": "Person"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Direction de l'ordre public et de la circulation (DOPC)",
+   "type": "Institution"
+  },
+  {
+   "name": "Préfecture de police",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Inspection générale de la police nationale (IGPN)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "chargé de mission à l'Élysée",
+   "confidence": 1.0,
+   "date": "2018-03-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Direction de l'ordre public et de la circulation (DOPC)",
+   "evidence": "a évoqué son souhait d'assister à un service d'ordre [...] auprès de M. Gibelin, directeur de l’ordre public et de la circulation",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "reçoit [...] un SMS [...] indiquant : « Le premier mai verra se dérouler une manifestation importante [...] »",
+   "confidence": 1.0,
+   "date": "2018-03-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Simonin",
+   "type": "WORKED_FOR",
+   "target": "Préfecture de police",
+   "evidence": "contrôleur général [...] chef-adjoint de l'état-major de la Direction de l'ordre public et de la circulation (DOPC) de la préfecture de police",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Simonin",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "envoie un SMS à Alexandre Benalla concernant une manifestation avec black bloc",
+   "confidence": 1.0,
+   "date": "2018-03-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Yann Drouet",
+   "type": "WORKED_FOR",
+   "target": "Préfecture de police",
+   "evidence": "préviens [...] Yann Drouet de ta venue pour que le préfet de police soit au courant",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "d'après Le Monde, Alexandre Benalla reçoit un SMS",
+   "confidence": 1.0,
+   "date": "2018-03-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de la police nationale (IGPN)",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Selon le rapport de l'IGPN, Alexandre Benalla a évoqué son souhait d'assister à un service d'ordre",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

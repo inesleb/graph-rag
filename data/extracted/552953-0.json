@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Histoire",
+   "evidence": "directeur général de la chaîne Histoire de 2007 à 2018",
+   "confidence": 1.0,
+   "date": "2007-2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "conseiller du président Nicolas Sarkozy de 2007 à 2012",
+   "confidence": 1.0,
+   "date": "2007-2012",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

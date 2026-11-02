@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal judiciaire de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d’appel de Paris",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la justice a rejeté la demande de Patrick Balkany visant à faire lever sa peine complémentaire d’inéligibilité",
+   "confidence": 0.9,
+   "date": "2025-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "inéligibilité",
+   "evidence": "le tribunal judiciaire de Paris a officiellement refusé sa requête",
+   "confidence": 0.95,
+   "date": "2025-02",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "inéligibilité",
+   "evidence": "la cour d’appel de Paris rejette à son tour la demande de relèvement de l’inéligibilité",
+   "confidence": 0.95,
+   "date": "2025-11-05",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

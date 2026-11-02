@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Mediapart publie le 12 mars 2012, une première note évoquant un éventuel financement de la précédente campagne du candidat Nicolas Sarkozy par Mouammar Kadhafi.",
+   "confidence": 0.8,
+   "date": "2012-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Le 28 avril 2012, Mediapart publie un second document qui serait une preuve de ce financement.",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "ce qui est illégal.",
+   "confidence": 0.95,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "financement de la précédente campagne du candidat Nicolas Sarkozy par Mouammar Kadhafi.",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "financement de la précédente campagne du candidat Nicolas Sarkozy par Mouammar Kadhafi.",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

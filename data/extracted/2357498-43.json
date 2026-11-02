@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Tribunal administratif",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel",
+   "type": "Institution"
+  },
+  {
+   "name": "Tribunal arbitral",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Tribunal administratif",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Les recours déposés devant le tribunal administratif sont déboutés, dans un jugement rendu public le 8 octobre 2009.",
+   "confidence": 1.0,
+   "date": "2009-10-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "l'indemnisation du préjudice moral n'avait nullement été exclue par la cour d'appel",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Tribunal arbitral",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le tribunal arbitral détermine le préjudice moral, dont la réparation est destinée en priorité à couvrir l’insuffisance d’actif dans le cadre de la liquidation judiciaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "comportement anormal de la banque à l’égard des époux Tapie",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "comportement anormal [...] à l’égard des époux Tapie",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

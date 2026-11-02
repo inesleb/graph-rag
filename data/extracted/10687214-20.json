@@ -1,0 +1,96 @@
+{
+ "entities": [
+  {
+   "name": "Micheline Bruna",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Légier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Fernand Le Rachinel",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Micheline Bruna",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "secrétaire et garde du corps de Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "WORKED_FOR",
+   "target": "Jean-Marie Le Pen",
+   "evidence": "secrétaire et garde du corps de Jean-Marie Le Pen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Micheline Bruna",
+   "type": "WORKED_FOR",
+   "target": "Fernand Le Rachinel",
+   "evidence": "assistants du député Fernand Le Rachinel",
+   "confidence": 0.8,
+   "date": "2004-11–2009-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Légier",
+   "type": "WORKED_FOR",
+   "target": "Fernand Le Rachinel",
+   "evidence": "assistants du député Fernand Le Rachinel",
+   "confidence": 0.8,
+   "date": "2004-11–2009-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Micheline Bruna",
+   "evidence": "Micheline Bruna et Thierry Légier [...] assistants du député Fernand Le Rachinel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Thierry Légier",
+   "evidence": "Micheline Bruna et Thierry Légier [...] assistants du député Fernand Le Rachinel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fernand Le Rachinel",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "qui affirme qu'ils n'ont jamais travaillé pour lui",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

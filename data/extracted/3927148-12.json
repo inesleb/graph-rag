@@ -1,0 +1,48 @@
+{
+ "entities": [
+  {
+   "name": "Lionel Jospin",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "OCDE",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Lionel Jospin",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "Le gouvernement se rend compte que le contrat n’est pas rentable mais décide de le poursuivre",
+   "confidence": 0.9,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "pour des questions d’engagement de la parole nationale et pour ne pas créer de controverses politiques",
+   "confidence": 0.8,
+   "date": "1997",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gouvernement français",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "En 2000, peu avant l’entrée en vigueur de la convention de l’OCDE, le gouvernement décide de verser en une seule fois la moitié des commissions restantes",
+   "confidence": 0.95,
+   "date": "2000",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

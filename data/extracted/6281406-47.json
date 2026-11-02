@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Bachir Salah",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil national de transition",
+   "type": "Institution"
+  },
+  {
+   "name": "Boris Boillon",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Interpol",
+   "type": "Institution"
+  },
+  {
+   "name": "Dominique de Villepin",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Paris Match",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bachir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "arrêté puis rapidement relâché par le Conseil national de transition à la chute du régime",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachir Salah",
+   "type": "WORKED_FOR",
+   "target": "Alexandre Djouhri",
+   "evidence": "exfiltré à destination de la France grâce à l’intervention [...] d’Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "séjourne en France entre la fin du conflit en Libye et mai 2012",
+   "confidence": 0.8,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachir Salah",
+   "type": "INDICTED_IN",
+   "target": "Notice rouge d'Interpol",
+   "evidence": "visé par une notice rouge d'Interpol (mandat d'arrêt international)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "exfiltré [...] via le jet privé [...] d’Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Boris Boillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "exfiltré [...] grâce à l’intervention de l’ambassadeur de France en Tunisie, Boris Boillon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachir Salah",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "rencontrait Dominique de Villepin et l'homme d'affaires Alexandre Djouhri",
+   "confidence": 0.9,
+   "date": "2012-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Selon Le Canard enchaîné, après avoir été arrêté puis rapidement relâché",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "À la suite des documents publiés par Mediapart",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Paris Match",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Paris Match qui le photographie à Paris le 2 mai 2012",
+   "confidence": 1.0,
+   "date": "2012-05-02",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

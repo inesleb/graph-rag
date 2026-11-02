@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Procureur de la République de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Dénonciation calomnieuse",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INDICTED_IN",
+   "target": "Dénonciation calomnieuse",
+   "evidence": "plainte de Nicolas Sarkozy vise à « intimider les journalistes »... du chef de dénonciation calomnieuse",
+   "confidence": 0.9,
+   "date": "2012-05-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "INDICTED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Mediapart dépose plainte... contre Nicolas Sarkozy et X... du chef de dénonciation calomnieuse",
+   "confidence": 1.0,
+   "date": "2012-05-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "WORKED_FOR",
+   "target": "Procureur de la République de Paris",
+   "evidence": "Mediapart dépose plainte... auprès du procureur de la République de Paris",
+   "confidence": 1.0,
+   "date": "2012-05-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "WORKED_FOR",
+   "target": "Procureur de la République de Paris",
+   "evidence": "Le 16 mai 2012, Mediapart dépose quarante-cinq pièces... auprès du procureur de la République de Paris",
+   "confidence": 1.0,
+   "date": "2012-05-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

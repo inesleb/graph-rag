@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Serge Tournaire",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Publihebdos",
+   "type": "Media"
+  },
+  {
+   "name": "Bibliothèque nationale de France",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Serge Tournaire",
+   "type": "INVESTIGATED",
+   "target": "Penelope Fillon",
+   "evidence": "une réquisition demande à ces journaux de fournir « tout article publié évoquant Mme Penelope Fillon »",
+   "confidence": 0.95,
+   "date": "2017-04-25",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Serge Tournaire",
+   "type": "INVESTIGATED",
+   "target": "Affaire Fillon",
+   "evidence": "une réquisition demande à ces journaux de fournir « tout article relatant sa participation à des événements locaux »",
+   "confidence": 0.95,
+   "date": "2017-04-25",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Publihebdos",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "le groupe de presse Publihebdos fait savoir au juge Tournaire « qu’il tient à la disposition de la justice sa collection d’archives »",
+   "confidence": 0.9,
+   "date": "2017-04-26",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Publihebdos",
+   "type": "WORKED_FOR",
+   "target": "Bibliothèque nationale de France",
+   "evidence": "rappelle qu’elles [les archives] sont publiques dans le cadre du dépôt légal, disponible auprès de la BNF",
+   "confidence": 0.9,
+   "date": "2017-04-26",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

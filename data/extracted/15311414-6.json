@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "L'Ère du peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Bastien Lachaud",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Mathilde Panot",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "faux",
+   "type": "Offense"
+  },
+  {
+   "name": "usage de faux",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "tentative d’escroquerie aggravée",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "L'Ère du peuple",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "L'association L'Ère du peuple est de nouveau mise en examen le 3 février 2022",
+   "confidence": 1.0,
+   "date": "2022-02-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "CONCERNS",
+   "target": "faux",
+   "evidence": "avec des chefs d’accusation aggravés : faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "CONCERNS",
+   "target": "usage de faux",
+   "evidence": "usage de faux",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "CONCERNS",
+   "target": "escroquerie",
+   "evidence": "escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "CONCERNS",
+   "target": "tentative d’escroquerie aggravée",
+   "evidence": "tentative d’escroquerie aggravée",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Lachaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "notamment une différence de 66 % entre le salaire en interne de Bastien Lachaud (déjà mis en examen)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Lachaud",
+   "type": "WORKED_FOR",
+   "target": "L'Ère du peuple",
+   "evidence": "le salaire en interne de Bastien Lachaud",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mathilde Panot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "une différence de 59 % pour Mathilde Panot",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "prestation facturée pour la campagne de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Cheynel",
+   "type": "Person"
+  },
+  {
+   "name": "Benazir Bhutto",
+   "type": "Person"
+  },
+  {
+   "name": "Jacques Oudin",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Jacques Chirac",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Laurent Touvet",
+   "type": "Person"
+  },
+  {
+   "name": "Roland Dumas",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Cheynel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Bernard Cheynel, intermédiaire en armement et proche de la Première ministre pakistanaise Benazir Bhutto informe [...] de possibles malversations visant à financer la campagne d'Édouard Balladur",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "un système de rétrocommissions sur le contrat de vente de sous-marins au Pakistan auquel a participé Ziad Takieddine",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Oudin",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement pour la République",
+   "evidence": "Jacques Oudin alors trésorier du Rassemblement pour la République",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "WORKED_FOR",
+   "target": "Rassemblement pour la République",
+   "evidence": "proche de Jacques Chirac",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Laurent Touvet",
+   "type": "MEMBER_OF",
+   "target": "Conseil constitutionnel",
+   "evidence": "dont fait partie Laurent Touvet",
+   "confidence": 1.0,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Roland Dumas",
+   "type": "MEMBER_OF",
+   "target": "Conseil constitutionnel",
+   "evidence": "Roland Dumas, alors président du Conseil constitutionnel",
+   "confidence": 1.0,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil constitutionnel",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "chargés d’examiner les comptes de campagne [...] rend un avis défavorable concernant ceux d’Édouard Balladur et de Jacques Chirac",
+   "confidence": 0.9,
+   "date": "1995",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "les comptes de campagne [...] sont au-delà du plafond",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jacques Chirac",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "les comptes de campagne [...] sont au-delà du plafond",
+   "confidence": 0.95,
+   "date": "1995",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "entities": [
+  {
+   "name": "Conseil national de transition (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Qatar",
+   "type": "Institution"
+  },
+  {
+   "name": "Al Jazeera",
+   "type": "Media"
+  }
+ ],
+ "relations": []
+}

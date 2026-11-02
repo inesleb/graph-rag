@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Djouhri",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Trafic d’influence actif",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Association de malfaiteurs",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Djouhri",
+   "type": "WORKED_FOR",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "il se rapproche de la droite politique française, en particulier de l'Union pour un mouvement populaire",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "WORKED_FOR",
+   "target": "Les Républicains",
+   "evidence": "il se rapproche [...] des Républicains",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "poursuivi dans le cadre du proces de l'affaire Sarkozy-Kadhafi",
+   "confidence": 1.0,
+   "date": "2025-09-25",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment aggravé",
+   "evidence": "reconnu coupable de blanchiment aggravé",
+   "confidence": 1.0,
+   "date": "2025-09-25",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "Trafic d’influence actif",
+   "evidence": "reconnu coupable de trafic d’influence actif",
+   "confidence": 1.0,
+   "date": "2025-09-25",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "Corruption",
+   "evidence": "reconnu coupable de corruption",
+   "confidence": 1.0,
+   "date": "2025-09-25",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Alexandre Djouhri",
+   "type": "CONVICTED_IN",
+   "target": "Association de malfaiteurs",
+   "evidence": "reconnu coupable d’association de malfaiteurs",
+   "confidence": 1.0,
+   "date": "2025-09-25",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Affaire Sarkozy-Kadhafi",
+   "type": "CONCERNS",
+   "target": "Financement illégal",
+   "evidence": "relative aux soupçons de financement libyen",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

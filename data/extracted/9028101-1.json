@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Valérie Pécresse",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Parti d'opposition parlementaire",
+   "evidence": "Les Républicains sont le principal parti d'opposition parlementaire",
+   "confidence": 1.0,
+   "date": "2015-2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "son candidat, François Fillon",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Parti de droite sous la Ve République",
+   "evidence": "un fait inédit pour un parti de droite sous la Ve République",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Première force d'opposition au Parlement",
+   "evidence": "le parti demeure la première force d'opposition au Parlement",
+   "confidence": 1.0,
+   "date": "2017-2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Valérie Pécresse",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "sa candidate, Valérie Pécresse",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Les Républicains",
+   "type": "MEMBER_OF",
+   "target": "Droite de gouvernement",
+   "evidence": "un score historiquement faible pour la droite de gouvernement",
+   "confidence": 0.9,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "Les Républicains",
+   "evidence": "le parti est devancé par le Rassemblement national (RN) en nombre de sièges",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

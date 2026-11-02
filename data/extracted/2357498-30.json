@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Jean Peyrelevade",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "\"dans son dos\", commettant deux fautes répréhensibles en droit",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "faute au mandat",
+   "evidence": "la faute au mandat, qui consiste à ne pas être loyal avec son client",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "interdiction pour le mandataire d'acquérir le bien pour son compte",
+   "evidence": "l'interdiction pour le mandataire (la banque) de se porter contrepartie, c'est-à-dire d'acquérir elle-même le bien (Adidas)",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "WORKED_FOR",
+   "target": "Crédit lyonnais",
+   "evidence": "Jean Peyrelevade, président du Crédit lyonnais de 1993 à 2003",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Jean Peyrelevade [...] étaye cette thèse devant la justice",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "REVEALED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "reconnaîtra en 1996 dans un entretien au journal le Monde un profit de 1,6 milliard de francs",
+   "confidence": 0.95,
+   "date": "1996",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le Crédit lyonnais va définitivement contester cette version des faits devant toutes les cours",
+   "confidence": 0.85,
+   "date": null,
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Claudine Bichara de Oliveira",
+   "type": "Person"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Alliance Renault-Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Claudine Bichara de Oliveira",
+   "type": "WORKED_FOR",
+   "target": "Alliance Renault-Nissan",
+   "evidence": "\"chargée, depuis mars 2013, de conseiller Nissan sur les « donations » que le groupe effectue\"",
+   "confidence": 0.95,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claudine Bichara de Oliveira",
+   "type": "WORKED_FOR",
+   "target": "Nissan",
+   "evidence": "\"conseillère » au sein d’un « global donation advisory council »\"",
+   "confidence": 0.9,
+   "date": "2003",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claudine Bichara de Oliveira",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "\"Or cette structure n'aurait jamais existé selon Nissan, créant ainsi un soupçon d'emploi fictif\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "\"une lettre en date de mars 2003, ne mentionnant pas leur lien de parenté, le PDG de l’Alliance Renault-Nissan l’informe de son nouveau titre\"",
+   "confidence": 0.8,
+   "date": "2003",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

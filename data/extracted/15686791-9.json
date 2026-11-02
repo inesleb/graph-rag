@@ -1,0 +1,216 @@
+{
+ "entities": [
+  {
+   "name": "Claude Raynal",
+   "type": "Person"
+  },
+  {
+   "name": "Christian Gravel",
+   "type": "Person"
+  },
+  {
+   "name": "Coexister",
+   "type": "Institution"
+  },
+  {
+   "name": "Civic Fab",
+   "type": "Institution"
+  },
+  {
+   "name": "Fraternité Générale",
+   "type": "Institution"
+  },
+  {
+   "name": "Conspiracy Watch",
+   "type": "Institution"
+  },
+  {
+   "name": "USEPPM",
+   "type": "Institution"
+  },
+  {
+   "name": "Cyril Karunagaran",
+   "type": "Person"
+  },
+  {
+   "name": "Ahlam Menouni",
+   "type": "Person"
+  },
+  {
+   "name": "Reconstruire le commun",
+   "type": "Institution"
+  },
+  {
+   "name": "Fonds Marianne",
+   "type": "Affair"
+  },
+  {
+   "name": "Sénat français",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission des Finances",
+   "type": "Institution"
+  },
+  {
+   "name": "Mission d'information",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission d'enquête",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Commission des Finances",
+   "type": "WORKED_FOR",
+   "target": "Mission d'information",
+   "evidence": "La Commission des Finances du Sénat français adopte [...] la création d'une mission d'information sur le fonds",
+   "confidence": 1.0,
+   "date": "2023-05-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mission d'information",
+   "type": "MEMBER_OF",
+   "target": "Commission d'enquête",
+   "evidence": "La commission d'enquête est menée par Claude Raynal",
+   "confidence": 0.9,
+   "date": "2023-05-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Raynal",
+   "type": "WORKED_FOR",
+   "target": "Commission d'enquête",
+   "evidence": "La commission d'enquête est menée par Claude Raynal",
+   "confidence": 1.0,
+   "date": "2023-05-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sénat français",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "les documents demandés n'ont ni grilles de notation, ni motivation écrite pour le choix des subventions attribuées",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "WORKED_FOR",
+   "target": "Commission d'enquête",
+   "evidence": "La première étape est une audition publique du préfet Christian Gravel le 16 mai",
+   "confidence": 1.0,
+   "date": "2023-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "REVEALED",
+   "target": "Coexister",
+   "evidence": "son approche est en lien avec des acteurs que nous ne considérons pas comme des défenseurs de la République",
+   "confidence": 0.8,
+   "date": "2023-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Gravel",
+   "type": "REVEALED",
+   "target": "Coexister",
+   "evidence": "Coexister a été écartée du processus de sélection en raison de son « positionnement […] explicitement en opposition avec la ligne gouvernementale »",
+   "confidence": 1.0,
+   "date": "2023-05-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Civic Fab",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "plusieurs associations bénéficiaires du fonds sont entendues : Civic Fab",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Fraternité Générale",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "plusieurs associations bénéficiaires du fonds sont entendues : Fraternité Générale",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conspiracy Watch",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "plusieurs associations bénéficiaires du fonds sont entendues : Conspiracy Watch",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "USEPPM",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "plusieurs associations bénéficiaires du fonds sont entendues : Cyril Karunagaran pour l'USEPPM",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cyril Karunagaran",
+   "type": "WORKED_FOR",
+   "target": "USEPPM",
+   "evidence": "Cyril Karunagaran pour l'USEPPM",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reconstruire le commun",
+   "type": "INVOLVED_IN",
+   "target": "Fonds Marianne",
+   "evidence": "plusieurs associations bénéficiaires du fonds sont entendues : Ahlam Menouni pour Reconstruire le commun",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ahlam Menouni",
+   "type": "WORKED_FOR",
+   "target": "Reconstruire le commun",
+   "evidence": "Ahlam Menouni pour Reconstruire le commun",
+   "confidence": 1.0,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cyril Karunagaran",
+   "type": "REVEALED",
+   "target": "Fonds Marianne",
+   "evidence": "Karunagaran confirme avoir reçu la garantie que la subvention serait accordée dès le début du processus de candidature",
+   "confidence": 0.9,
+   "date": "2023-05-30",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

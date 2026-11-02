@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Tracfin",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany avoue finalement aux enquêteurs qu’elle possède avec son mari la résidence « Pamplemousse » depuis 1997.",
+   "confidence": 0.95,
+   "date": "2014-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Les magistrats instructeurs les soupçonnent d'en avoir été propriétaires de fait et en font un élément du dossier de demande de levée de l’immunité parlementaire votée en mars 2015.",
+   "confidence": 0.85,
+   "date": "2015-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany avoue finalement aux enquêteurs qu’elle possède avec son mari la résidence « Pamplemousse » depuis 1997.",
+   "confidence": 0.95,
+   "date": "2014-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Tracfin",
+   "evidence": "Tracfin en a conclu qu’elle en était « ayant droit économique »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

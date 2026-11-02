@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Corinne Lepage",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Marielle de Sarnez",
+   "type": "Person"
+  },
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "change.org",
+   "type": "Institution"
+  },
+  {
+   "name": "Mains propres, plaidoyer pour la société civile au pouvoir",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Corinne Lepage",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "\"C’est ainsi que des assistants parlementaires servent en réalité le parti politique, et non le parlementaire…\"",
+   "confidence": 0.95,
+   "date": "2015-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Corinne Lepage",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate",
+   "evidence": "\"Lorsque j’ai été élue au Parlement européen en 2009, le MoDem avait exigé de moi qu’un de mes assistants parlementaires travaille au siège parisien.\"",
+   "confidence": 0.95,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marielle de Sarnez",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "\"Ainsi, durant cinq ans, la secrétaire particulière de François Bayrou a été payée… par l’enveloppe d’assistance parlementaire de Marielle de Sarnez, sur fonds européens\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Bayrou",
+   "type": "WORKED_FOR",
+   "target": "Mouvement démocrate",
+   "evidence": "\"la secrétaire particulière de François Bayrou\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "change.org",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "\"une pétition lancée sur la plateforme change.org demande que le Parquet national financier se saisisse du dossier des emplois fictifs au MoDem\"",
+   "confidence": 0.9,
+   "date": "2017-02-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "\"une pétition […] demande que le Parquet national financier se saisisse du dossier des emplois fictifs au MoDem\"",
+   "confidence": 0.85,
+   "date": "2017-02-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mains propres, plaidoyer pour la société civile au pouvoir",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "\"dans son livre Mains propres, plaidoyer pour la société civile au pouvoir paru en janvier 2015\"",
+   "confidence": 0.95,
+   "date": "2015-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "CONCERNS",
+   "target": "emplois fictifs",
+   "evidence": "\"recours à des emplois fictifs au sein du MoDem\" / \"emplois fictifs au MoDem\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

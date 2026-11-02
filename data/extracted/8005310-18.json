@@ -1,0 +1,226 @@
+{
+ "entities": [
+  {
+   "name": "Pierre Chassat",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Godet",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Blanchetier",
+   "type": "Person"
+  },
+  {
+   "name": "Marc Leblanc",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Escroquerie",
+   "type": "Offense"
+  },
+  {
+   "name": "Financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pierre Chassat",
+   "type": "CONVICTED_IN",
+   "target": "Abus de confiance",
+   "evidence": "condamné à trois ans de prison [...] pour abus de confiance",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "condamné [...] pour financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "CONVICTED_IN",
+   "target": "Escroquerie",
+   "evidence": "complicité d’escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre Chassat",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "Pierre Chassat est condamné [...]",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "expert-comptable de la campagne",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "a alerté à deux reprises [...] sur un probable dépassement du plafond",
+   "confidence": 1.0,
+   "date": "2012-03, 2012-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "condamné [...] pour financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "CONVICTED_IN",
+   "target": "Escroquerie",
+   "evidence": "a validé les comptes de campagne corrompus déposés devant le Conseil constitutionnel",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "Pierre Godet, l’expert-comptable de la campagne, [...] est condamné",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Blanchetier",
+   "type": "CONVICTED_IN",
+   "target": "Escroquerie",
+   "evidence": "condamnés [...] pour escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Philippe Blanchetier",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "complicité de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Philippe Blanchetier",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "Le trésorier Philippe Blanchetier [...] sont condamnés",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Leblanc",
+   "type": "CONVICTED_IN",
+   "target": "Escroquerie",
+   "evidence": "condamnés [...] pour escroquerie",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marc Leblanc",
+   "type": "CONVICTED_IN",
+   "target": "Financement illégal de campagne électorale",
+   "evidence": "complicité de financement illégal de campagne électorale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marc Leblanc",
+   "type": "CONCERNS",
+   "target": "Affaire Bygmalion",
+   "evidence": "l'expert-comptable Marc Leblanc [...] sont condamnés",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Godet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "a validé les comptes de campagne corrompus déposés devant le Conseil constitutionnel",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Blanchetier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "soupçonnés comme Pierre Godet d’avoir « parfaitement perçu le risque financier »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marc Leblanc",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "soupçonnés comme Pierre Godet d’avoir « parfaitement perçu le risque financier »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

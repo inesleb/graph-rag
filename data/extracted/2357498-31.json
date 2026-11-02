@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Consortium de réalisation (CDR)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal de commerce de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Montage frauduleux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie réclame 229 millions d'euros au Crédit Lyonnais ainsi qu'au Consortium de réalisation",
+   "confidence": 1.0,
+   "date": "1995-07-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie réclame 6,5 milliards de francs pour « montage frauduleux »",
+   "confidence": 1.0,
+   "date": "1998-10-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Consortium de réalisation (CDR)",
+   "type": "CONVICTED_IN",
+   "target": "Montage frauduleux",
+   "evidence": "le tribunal de commerce de Paris condamne le Consortium de réalisation à verser à Bernard Tapie une provision de 600 millions de francs",
+   "confidence": 1.0,
+   "date": "1996-11-07",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Tribunal de commerce de Paris",
+   "type": "CONCERNS",
+   "target": "Montage frauduleux",
+   "evidence": "Bernard Tapie réclame 6,5 milliards de francs pour « montage frauduleux »",
+   "confidence": 1.0,
+   "date": "1998-10-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "ACQUITTED_IN",
+   "target": "Montage frauduleux",
+   "evidence": "la cour d'appel de Paris annule la provision de 600 millions de francs",
+   "confidence": 1.0,
+   "date": "1998-10-12",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les avocats du Crédit Lyonnais parviennent à retarder le jugement en appel pendant neuf ans",
+   "confidence": 0.9,
+   "date": "1998-10-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

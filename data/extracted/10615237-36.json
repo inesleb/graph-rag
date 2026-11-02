@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Marc Ladreit de Lacharrière",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Penelope Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Haute Autorité pour la transparence de la vie publique (HATVP)",
+   "evidence": "déclaration en tant que candidat à l'élection présidentielle auprès de la HATVP",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Penelope Fillon",
+   "evidence": "don maquillé en prêt après le déclenchement de l'affaire Penelope Fillon",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Marc Ladreit de Lacharrière",
+   "evidence": "a reçu le 27 février 2017 un chèque de remboursement de 50 000 € de François Fillon",
+   "confidence": 1.0,
+   "date": "2017-02-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Le Canard enchaîné",
+   "evidence": "selon Le Canard enchaîné daté du 15 mars 2017",
+   "confidence": 1.0,
+   "date": "2017-03-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "don maquillé en prêt afin de limiter les dégâts judiciaires et politiques",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

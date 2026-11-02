@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Syndicat de la magistrature",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour européenne des droits de l'Homme",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "Tribunal correctionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Stasi",
+   "type": "Institution"
+  },
+  {
+   "name": "Loi Perben II",
+   "type": "Institution"
+  },
+  {
+   "name": "LOPPSI 2",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Thierry Herzog dénonce les écoutes judiciaires, qui sont selon lui illégales.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy se plaint alors que « le droit au respect de la vie privée est bafoué »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Loi Perben II",
+   "evidence": "Les médias notent que les écoutes ont été autorisées [...] votées alors qu'il était ministre de l'Intérieur",
+   "confidence": 0.9,
+   "date": "2004",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "LOPPSI 2",
+   "evidence": "Les médias notent que les écoutes ont été autorisées [...] votées alors qu'il était président",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "CONCERNS",
+   "target": "Affaire des écoutes",
+   "evidence": "La Cour de cassation valide le principe de ces écoutes en mars 2016.",
+   "confidence": 1.0,
+   "date": "2016-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour européenne des droits de l'Homme",
+   "type": "REVEALED",
+   "target": "Affaire des écoutes",
+   "evidence": "une jurisprudence [...] selon laquelle une retranscription d'écoutes peut être utilisée comme élément à charge",
+   "confidence": 0.8,
+   "date": "2016-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "La Cour de cassation rejette l'argument, laissant au tribunal correctionnel le soin de délibérer sur ce point.",
+   "confidence": 0.7,
+   "date": "2017",
+   "stage": "cassation",
+   "final": false
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Stasi",
+   "evidence": "il compare ces écoutes à celle de la Stasi.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Syndicat de la magistrature",
+   "type": "MEMBER_OF",
+   "target": "une des juges de l'affaire",
+   "evidence": "relevant notamment le fait que l'une des juges de l'affaire est membre du Syndicat de la magistrature",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

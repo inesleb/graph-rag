@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "École nationale d'administration",
+   "type": "Institution"
+  },
+  {
+   "name": "Rothschild & Cie",
+   "type": "Company"
+  },
+  {
+   "name": "Commission pour la libération de la croissance française",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "École nationale d'administration",
+   "evidence": "Sorti de l'École nationale d'administration (ENA) en 2004",
+   "confidence": 1.0,
+   "date": "2004",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Commission pour la libération de la croissance française",
+   "evidence": "il est nommé rapporteur adjoint de la commission pour la libération de la croissance française (« commission Attali »)",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Rothschild & Cie",
+   "evidence": "il rejoint la banque d'affaires Rothschild & Cie, dont il devient associé-gérant en 2010",
+   "confidence": 1.0,
+   "date": "2008",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

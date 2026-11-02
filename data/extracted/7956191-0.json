@@ -1,0 +1,42 @@
+{
+ "entities": [
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Copé",
+   "type": "Person"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "WORKED_FOR",
+   "target": "Jean-François Copé",
+   "evidence": "Directeur de cabinet de Jean-François Copé quand celui-ci était président de l'UMP",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "directeur-adjoint de la campagne présidentielle de Nicolas Sarkozy en 2012",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

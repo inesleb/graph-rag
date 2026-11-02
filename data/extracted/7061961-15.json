@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Sylvie Hubac",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "\"Tous les sondages ont toujours été commandés par le service d'information du gouvernement...\"",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "\"Il y a eu une enquête de la Cour des comptes sur ces pratiques qui a dit toutes les choses\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sylvie Hubac",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "\"La directrice de cabinet de François Hollande, Sylvie Hubac, a répondu dans un courrier...\"",
+   "confidence": 0.9,
+   "date": "2013-03-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "\"une perquisition a lieu le 4 avril 2013 au bureau et au domicile parisien de Patrick Buisson\"",
+   "confidence": 0.95,
+   "date": "2013-04-04",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  },
+  {
+   "name": "TF1",
+   "type": "Media"
+  },
+  {
+   "name": "France 24",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"50 millions d'euros… Pourquoi pas 100 ? Pour une campagne qui en vaut 20\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Ma campagne a été financée par les sous-marins pakistanais, par M. Kadhafi ou par Mme Bettencourt ?\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"faux, en tout cas impossible à authentifier\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "\"une officine financée par de riches amis de François Hollande\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "\"le journal est indépendant et financé par ses journalistes fondateurs\"",
+   "confidence": 0.9,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"grotesque\"",
+   "confidence": 0.9,
+   "date": "2012-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "\"site le plus menteur qui puisse exister dans toutes les civilisations possibles et imaginables\"",
+   "confidence": 0.9,
+   "date": "2012-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "\"ses journalistes d'\"animaux malades\"\"",
+   "confidence": 0.9,
+   "date": "2012-03-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parti socialiste (implied by 'l'opposition socialiste')",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"l'affaire « gravissime »\"",
+   "confidence": 0.8,
+   "date": "2012-04-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission des Finances",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie et les autres protagonistes sont entendus",
+   "confidence": 1.0,
+   "date": "2008-09-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Commission des Finances",
+   "evidence": "Bernard Tapie [...] sont entendus par les députés",
+   "confidence": 1.0,
+   "date": "2008-09-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

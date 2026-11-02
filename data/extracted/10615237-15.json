@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon tient une conférence de presse [...] pour répondre aux soupçons d'emplois fictifs de sa famille",
+   "confidence": 0.9,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "« travaillant avec [sa] femme [...] en tant que collaboratrice parlementaire »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "« soupçons d'emplois fictifs [...] lancés par Le Canard enchaîné »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "Affaire Fillon",
+   "evidence": "« il est honnête parce qu'il a respecté les lois » (en réponse aux soupçons)",
+   "confidence": 0.8,
+   "date": "2017-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVESTIGATED",
+   "target": "Parquet national financier",
+   "evidence": "« le parquet national financier n'était 'peut-être pas la bonne instance' pour conduire ces investigations »",
+   "confidence": 0.9,
+   "date": "2017-02-06",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

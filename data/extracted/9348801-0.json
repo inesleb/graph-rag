@@ -1,0 +1,128 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "Blanchiment",
+   "type": "Offense"
+  },
+  {
+   "name": "Corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Impôt de solidarité sur la fortune (ISF)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Fraude fiscale",
+   "evidence": "des sommes d'argent non déclarées détenues en Suisse dans les années 1980-1990 (délit de fraude fiscale)",
+   "confidence": 1.0,
+   "date": "1980-1990",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment",
+   "evidence": "soupçons de blanchiment de cette fraude fiscale par le biais de l’achat de biens immobiliers luxueux",
+   "confidence": 0.9,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Fraude fiscale",
+   "evidence": "une autre fraude fiscale pour la non déclaration au fisc de ces propriétés",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Corruption",
+   "evidence": "soupçons de corruption à l'encontre de Patrick Balkany",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "première adjointe au maire et député-maire Les Républicains de Levallois-Perret",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "Mairie de Levallois-Perret",
+   "evidence": "première adjointe au maire et député-maire [...] de Levallois-Perret",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "WORKED_FOR",
+   "target": "Mairie de Levallois-Perret",
+   "evidence": "député-maire [...] de Levallois-Perret",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "impliquant Isabelle et Patrick Balkany",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Corruption",
+   "evidence": "soupçons de corruption à l'encontre de Patrick Balkany",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

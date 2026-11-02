@@ -1,0 +1,106 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Ordre national de la Légion d'honneur",
+   "type": "Institution"
+  },
+  {
+   "name": "Ordre national du Mérite",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy porte le bracelet électronique entre le 7 février 2025 et le 14 mai 2025",
+   "confidence": 0.9,
+   "date": "2025-02-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy bénéficie d’une libération conditionnelle en raison de son âge",
+   "confidence": 0.85,
+   "date": "2025-05-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national de la Légion d'honneur",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national de la Légion d'honneur",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national de la Légion d'honneur",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national de la Légion d'honneur",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national de la Légion d'honneur",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national de la Légion d'honneur",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national du Mérite",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national du Mérite",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national du Mérite",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national du Mérite",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Ordre national du Mérite",
+   "evidence": "Nicolas Sarkozy, Gilbert Azibert et Thierry Herzog sont exclus de droit de l’ordre national du Mérite",
+   "confidence": 1.0,
+   "date": "2025-06-05",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

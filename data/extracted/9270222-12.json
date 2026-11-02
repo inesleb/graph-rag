@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Armand De Decker",
+   "type": "Person"
+  },
+  {
+   "name": "Kazakhgate",
+   "type": "Affair"
+  },
+  {
+   "name": "OCRC (Office central pour la répression de la corruption)",
+   "type": "Institution"
+  },
+  {
+   "name": "Fisc belge",
+   "type": "Institution"
+  },
+  {
+   "name": "Trio kazakh",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Armand De Decker",
+   "type": "INVOLVED_IN",
+   "target": "Kazakhgate",
+   "evidence": "l'avocat et ancien président du Sénat Armand de Decker aurait agi pour obtenir une loi sur la transaction pénale dont a bénéficié le trio kazakh",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "WORKED_FOR",
+   "target": "Trio kazakh",
+   "evidence": "Armand de Decker aurait perçu 741,846 euros d'honoraires pour son action auprès du trio kazakh",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INVESTIGATED",
+   "target": "OCRC (Office central pour la répression de la corruption)",
+   "evidence": "Une enquête de l’OCRC et du fisc belge serait ouverte",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INVESTIGATED",
+   "target": "Fisc belge",
+   "evidence": "Une enquête de l’OCRC et du fisc belge serait ouverte car cette somme n’aurait pas été correctement déclarée",
+   "confidence": 0.8,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "INDICTED_IN",
+   "target": "Kazakhgate",
+   "evidence": "les juridictions belges ont ouvert une information judiciaire",
+   "confidence": 0.9,
+   "date": "2014",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Armand De Decker",
+   "type": "ACQUITTED_IN",
+   "target": "Kazakhgate",
+   "evidence": "De Decker a déclaré [...] qu’il « conteste vigoureusement les faits qui me sont imputés »",
+   "confidence": 0.7,
+   "date": "2017-07-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Major Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Direction de l'ordre public et de la circulation (DOPC)",
+   "type": "Institution"
+  },
+  {
+   "name": "Inspection générale de la Police nationale (IGPN)",
+   "type": "Institution"
+  },
+  {
+   "name": "Paris-luttes",
+   "type": "Institution"
+  },
+  {
+   "name": "Comité d'action inter lycéen",
+   "type": "Institution"
+  },
+  {
+   "name": "Collectifs interfacs",
+   "type": "Institution"
+  },
+  {
+   "name": "Syndicat étudiant UNEF",
+   "type": "Institution"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Black bloc",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "relayé par [...] La France insoumise",
+   "confidence": 0.8,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla est équipé d’un casque à visière des forces de l'ordre, et dans un premier temps d'un brassard de police.",
+   "confidence": 1.0,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "WORKED_FOR",
+   "target": "La France insoumise",
+   "evidence": "chargé de sécurité à LREM",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Major Philippe Mizerski",
+   "type": "WORKED_FOR",
+   "target": "Direction de l'ordre public et de la circulation (DOPC)",
+   "evidence": "attaché à la Direction de l'ordre public et de la circulation (DOPC)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Paris-luttes",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Le rassemblement est organisé notamment par le site Paris-luttes",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Comité d'action inter lycéen",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "organisé notamment par [...] le Comité d'action inter lycéen",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Collectifs interfacs",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "organisé notamment par [...] les collectifs interfacs",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Syndicat étudiant UNEF",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "relayé par le syndicat étudiant UNEF",
+   "confidence": 0.9,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Black bloc",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "parmi lesquelles sont identifiés certains des membres du black bloc",
+   "confidence": 0.8,
+   "date": "2018-05-01",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

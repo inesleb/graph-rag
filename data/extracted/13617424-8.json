@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gilbert Azibert",
+   "type": "INDICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "le parquet national financier requiert le renvoi en correctionnelle de Gilbert Azibert",
+   "confidence": 1.0,
+   "date": "2017-10",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INDICTED_IN",
+   "target": "Gilbert Azibert",
+   "evidence": "le parquet national financier requiert le renvoi en correctionnelle de Gilbert Azibert",
+   "confidence": 1.0,
+   "date": "2017-10",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INDICTED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "le 29 mars 2018 par ordonnance de renvoi signée par les juges d’instruction",
+   "confidence": 1.0,
+   "date": "2018-03-29",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "Gilbert Azibert",
+   "evidence": "la Cour de cassation rejette les derniers recours",
+   "confidence": 1.0,
+   "date": "2019-06-19",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

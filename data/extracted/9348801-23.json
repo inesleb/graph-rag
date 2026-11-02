@@ -1,0 +1,180 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Arnaud Claude",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Pierre Aubry",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "blanchiment de fraude fiscale",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Prison de la Santé",
+   "type": "Institution"
+  },
+  {
+   "name": "Mairie de Levallois-Perret",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Patrick Balkany est condamné à 4 ans de prison et est immédiatement incarcéré à la Prison de la Santé",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Patrick Balkany est condamné respectivement à 5 ans de prison ferme pour le blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany écope de 3 ans de prison mais elle n'est pas incarcérée",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Isabelle Balkany est condamnée à 4 ans de prison ferme pour le blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "Les mis en cause sont relaxés de l'accusation de corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "corruption",
+   "evidence": "Les mis en cause sont relaxés de l'accusation de corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Arnaud Claude",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Arnaud Claude est condamné à 3 ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Jean-Pierre Aubry",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Jean-Pierre Aubry est condamné à 3 ans de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Alexandre Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Alexandre Balkany est condamné à 6 mois de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la cour d'appel de Paris ordonne la remise en liberté de Patrick Balkany",
+   "confidence": 1.0,
+   "date": "2020-02-12",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "Mairie de Levallois-Perret",
+   "evidence": "Isabelle Balkany peut assurer l’intérim à la mairie de Levallois-Perret",
+   "confidence": 1.0,
+   "date": "2019-09-13",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "blanchiment de fraude fiscale",
+   "evidence": "Patrick et Isabelle Balkany sont condamnés pour le blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "corruption",
+   "evidence": "Les mis en cause sont relaxés de l'accusation de corruption",
+   "confidence": 1.0,
+   "date": "2019-10-18",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

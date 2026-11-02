@@ -1,0 +1,120 @@
+{
+ "entities": [
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Wallerand de Saint-Just",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Van Ruymbeke",
+   "type": "Person"
+  },
+  {
+   "name": "Claire Thépaut",
+   "type": "Person"
+  },
+  {
+   "name": "Chambre de l'instruction de la cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Renaud Van Ruymbeke",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les juges d'instruction financiers chargés de l’enquête sur les soupçons d’emplois fictifs",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claire Thépaut",
+   "type": "INVESTIGATED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les juges d'instruction financiers chargés de l’enquête sur les soupçons d’emplois fictifs",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les soupçons d’emplois fictifs au Parlement européen",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Renaud Van Ruymbeke",
+   "type": "INVESTIGATED",
+   "target": "Rassemblement national",
+   "evidence": "les juges d'instruction financiers [...] demandent la saisie de deux millions d'euros d'aide publique",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claire Thépaut",
+   "type": "INVESTIGATED",
+   "target": "Rassemblement national",
+   "evidence": "les juges d'instruction financiers [...] demandent la saisie de deux millions d'euros d'aide publique",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "MEMBER_OF",
+   "target": "Wallerand de Saint-Just",
+   "evidence": "Wallerand de Saint-Just, trésorier du parti",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "WORKED_FOR",
+   "target": "Wallerand de Saint-Just",
+   "evidence": "Wallerand de Saint-Just, trésorier du parti",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "les soupçons d’emplois fictifs au Parlement européen",
+   "confidence": 1.0,
+   "date": "2018-06-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVESTIGATED",
+   "target": "Chambre de l'instruction de la cour d'appel de Paris",
+   "evidence": "Après examen de celui-ci le lundi 6 août, les magistrats de la chambre de l'instruction de la cour d'appel de Paris rendront leur décision le 26 septembre",
+   "confidence": 0.9,
+   "date": "2018-08-06",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

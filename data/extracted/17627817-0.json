@@ -1,0 +1,9 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": []
+}

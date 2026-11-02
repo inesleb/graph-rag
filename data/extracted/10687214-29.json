@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Conseil d’État",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "L'action publique concernant Jean-Marie Le Pen est déclarée éteinte du fait de sa mort",
+   "confidence": 1.0,
+   "date": "2025-01-07",
+   "stage": "unknown",
+   "final": true
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "le Conseil d’État rejette le recours de Marine Le Pen contre l’application immédiate de sa peine d’inéligibilité",
+   "confidence": 0.9,
+   "date": "2025-10-15",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Marine Le Pen objectait sa radiation des listes électorales",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "WORKED_FOR",
+   "target": "Conseil d’État",
+   "evidence": "Marine Le Pen [...] demandait au Conseil d’État de transmettre une question prioritaire de constitutionnalité",
+   "confidence": 0.8,
+   "date": "2025-10-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "le Conseil d’État rejette le recours de Marine Le Pen contre l’application immédiate de sa peine d’inéligibilité",
+   "confidence": 1.0,
+   "date": "2025-10-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil d’État",
+   "type": "INVESTIGATED",
+   "target": "Marine Le Pen",
+   "evidence": "le Conseil d’État rejette le recours de Marine Le Pen",
+   "confidence": 0.9,
+   "date": "2025-10-15",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil d’État",
+   "type": "REVEALED",
+   "target": "Conseil constitutionnel",
+   "evidence": "transmettre une question prioritaire de constitutionnalité (QPC) au Conseil constitutionnel",
+   "confidence": 0.85,
+   "date": "2025-10-15",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Conseil national de transition libyen (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Moustapha Abdel Jalil",
+   "type": "Person"
+  },
+  {
+   "name": "Othman Bensasi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Conseil national de transition libyen (CNT)",
+   "type": "CONCERNS",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"la lettre fausse et fabriquée\"",
+   "confidence": 0.8,
+   "date": "2012-05-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moustapha Abdel Jalil",
+   "type": "WORKED_FOR",
+   "target": "Conseil national de transition libyen (CNT)",
+   "evidence": "\"président du CNT\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Othman Bensasi",
+   "type": "WORKED_FOR",
+   "target": "Conseil national de transition libyen (CNT)",
+   "evidence": "\"directeur administratif du CNT\"",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moustapha Abdel Jalil",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Nous avons vu la lettre et nous n'avons retrouvé aucune référence à cette lettre dans les archives libyennes\"",
+   "confidence": 0.9,
+   "date": "2012-05-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Othman Bensasi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"un problème interne\"",
+   "confidence": 0.8,
+   "date": "2012-05-02",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

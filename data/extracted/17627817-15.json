@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Guy Delcourt",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Tian",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains (UMP)",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Commission de la Défense",
+   "evidence": "Richard Ferrand alors siégeant à la Commission de la Défense",
+   "confidence": 1.0,
+   "date": "2012-11-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Commission des Affaires sociales",
+   "evidence": "chaque fois qu'il en a eu besoin pour se rendre à la commission des Affaires sociales",
+   "confidence": 1.0,
+   "date": "2012-11-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "défend farouchement la gestion des mutuelles face au député UMP Dominique Tian",
+   "confidence": 0.9,
+   "date": "2012-11-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guy Delcourt",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "Guy Delcourt, député PS",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Dominique Tian",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains (UMP)",
+   "evidence": "député UMP Dominique Tian",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "examen des textes sur les mutuelles [...] débats sur le projet de loi rendant l’affiliation à une mutuelle obligatoire",
+   "confidence": 1.0,
+   "date": "2014-07",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

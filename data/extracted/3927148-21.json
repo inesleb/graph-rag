@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Hélène de Yougoslavie",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Brice Hortefeux",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Olivier Morice",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Menaces",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Thierry Gaubert",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Bazire",
+   "evidence": "Thierry Gaubert, adjoint de Nicolas Bazire à Bercy de 1993 à 1995",
+   "confidence": 1.0,
+   "date": "1993-1995",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "son ex-mari, Thierry Gaubert [...] allait régulièrement chercher des espèces en Suisse pour les remettre à ce dernier ; il était accompagné de Ziad Takieddine",
+   "confidence": 0.9,
+   "date": "2011-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "elle précise explicitement ce lien",
+   "confidence": 0.9,
+   "date": "2012-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Édouard Balladur",
+   "evidence": "Elle n’avait pas alors fait le rapprochement avec Édouard Balladur",
+   "confidence": 0.8,
+   "date": "2011-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "les policiers retrouvent un appel de Brice Hortefeux à Thierry Gaubert, pour le prévenir que sa femme « balançait beaucoup »",
+   "confidence": 0.9,
+   "date": "2011-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "INVOLVED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "« écœuré » par la « lâcheté des journalistes qui fracassent tous les amis de Sarkozy »",
+   "confidence": 0.9,
+   "date": "2011-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Brice Hortefeux",
+   "type": "CONVICTED_IN",
+   "target": "Menaces",
+   "evidence": "Le 22 novembre 2012, le tribunal correctionnel de Paris le condamne à 5 000 € d’amendes avec sursis pour ces menaces",
+   "confidence": 1.0,
+   "date": "2012-11-22",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Olivier Morice",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Olivier Morice (l’avocat des familles des victimes de l'attentat du 8 mai 2002 à Karachi)",
+   "confidence": 0.9,
+   "date": "2011-09",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

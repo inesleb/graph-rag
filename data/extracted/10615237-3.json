@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Haute Autorité pour la transparence de la vie publique",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon annonce [...] qu'il maintiendra sa candidature à la présidentielle même s'il est mis en examen.",
+   "confidence": 1.0,
+   "date": "2017-02-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INDICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "François Fillon est mis en examen le 14 mars 2017 pour « détournements de fonds publics », « complicité et recel de détournements de fonds publics », « complicité et recel d’abus de bien sociaux » et « manquements aux obligations de déclaration à la Haute Autorité pour la transparence de la vie publique »",
+   "confidence": 1.0,
+   "date": "2017-03-14",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVESTIGATED",
+   "target": "Affaire Fillon",
+   "evidence": "Sous la pression du parquet général de Paris, le parquet national financier ouvre une information judiciaire le 24 février 2017.",
+   "confidence": 1.0,
+   "date": "2017-02-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "François Fillon est mis en examen [...] pour « détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "complicité et recel de détournements de fonds publics",
+   "evidence": "François Fillon est mis en examen [...] pour « complicité et recel de détournements de fonds publics »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "complicité et recel d’abus de bien sociaux",
+   "evidence": "François Fillon est mis en examen [...] pour « complicité et recel d’abus de bien sociaux »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "manquements aux obligations de déclaration à la Haute Autorité pour la transparence de la vie publique",
+   "evidence": "François Fillon est mis en examen [...] pour « manquements aux obligations de déclaration à la Haute Autorité pour la transparence de la vie publique »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "L'enquête s'étend [...] à des accusations de « trafic d'influence »",
+   "confidence": 1.0,
+   "date": "2017-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "faux, usage de faux",
+   "evidence": "L'enquête s'étend [...] à des accusations de « faux, usage de faux »",
+   "confidence": 1.0,
+   "date": "2017-03-16",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Fillon",
+   "type": "CONCERNS",
+   "target": "escroquerie aggravée",
+   "evidence": "L'enquête s'étend [...] à des accusations de « escroquerie aggravée »",
+   "confidence": 1.0,
+   "date": "2017-03-16",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

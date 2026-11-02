@@ -1,0 +1,226 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Estoup",
+   "type": "Person"
+  },
+  {
+   "name": "Maurice Lantourne",
+   "type": "Person"
+  },
+  {
+   "name": "Christine Lagarde",
+   "type": "Person"
+  },
+  {
+   "name": "Stéphane Richard",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Rocchi",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Scemama",
+   "type": "Person"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "escroquerie en bande organisée",
+   "type": "Offense"
+  },
+  {
+   "name": "détournements de fonds",
+   "type": "Offense"
+  },
+  {
+   "name": "Établissement public de financement et de restructuration (EFPR)",
+   "type": "Institution"
+  },
+  {
+   "name": "Orange",
+   "type": "Company"
+  },
+  {
+   "name": "Comité de direction et de régulation (CDR)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "la cour d'appel de Paris valide les mises en examen pour « escroquerie en bande organisée » de Bernard Tapie",
+   "confidence": 1.0,
+   "date": "2015-01",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "la cour d'appel de Paris valide les mises en examen pour « escroquerie en bande organisée » de Pierre Estoup",
+   "confidence": 1.0,
+   "date": "2015-01",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Maurice Lantourne",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "la cour d'appel de Paris valide les mises en examen pour « escroquerie en bande organisée » de Maurice Lantourne",
+   "confidence": 1.0,
+   "date": "2015-01",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "détournements de fonds",
+   "evidence": "Bernard Tapie est mis en examen le 6 mai 2015 pour « détournements de fonds »",
+   "confidence": 1.0,
+   "date": "2015-05-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INDICTED_IN",
+   "target": "escroquerie en bande organisée",
+   "evidence": "Sa mise en examen pour « escroquerie en bande organisée » est validée par un arrêt de la cour de cassation",
+   "confidence": 1.0,
+   "date": "2016-01-20",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Dans le cadre de l'affaire d'arbitrage du litige concernant la vente d'Adidas",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les juges d’instruction décident de renvoyer devant le tribunal correctionnel, Bernard Tapie",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Maurice Lantourne",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les juges d’instruction décident de renvoyer devant le tribunal correctionnel, Maurice Lantourne",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les juges d’instruction décident de renvoyer devant le tribunal correctionnel, Christine Lagarde",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stéphane Richard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Stéphane Richard, président-directeur général d’Orange",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stéphane Richard",
+   "type": "WORKED_FOR",
+   "target": "Orange",
+   "evidence": "Stéphane Richard, président-directeur général d’Orange",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "les juges d’instruction décident de renvoyer devant le tribunal correctionnel, Pierre Estoup",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Rocchi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Jean-François Rocchi, ancien directeur du CDR",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-François Rocchi",
+   "type": "WORKED_FOR",
+   "target": "Comité de direction et de régulation (CDR)",
+   "evidence": "Jean-François Rocchi, ancien directeur du CDR",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Scemama",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Scemama, ancien président de l’Établissement public de financement et de restructuration (EFPR)",
+   "confidence": 1.0,
+   "date": "2017-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Scemama",
+   "type": "WORKED_FOR",
+   "target": "Établissement public de financement et de restructuration (EFPR)",
+   "evidence": "Bernard Scemama, ancien président de l’Établissement public de financement et de restructuration (EFPR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Bernard Tapie obtient de pouvoir se joindre à la plainte",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "obtient le 11 juillet 2008, par la décision d'un tribunal arbitral, la somme de 403 millions d'euros",
+   "confidence": 0.9,
+   "date": "2008-07-11",
+   "stage": null,
+   "final": false
+  }
+ ]
+}

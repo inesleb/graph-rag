@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Gilbert Azibert",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de révision de Monaco",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Roger",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Gilbert Azibert",
+   "type": "WORKED_FOR",
+   "target": "Cour de révision de Monaco",
+   "evidence": "Gilbert Azibert postule à un poste de conseiller à la Cour de révision de Monaco.",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilbert Azibert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Gilbert Azibert montre son intérêt dès janvier 2013, mais sa candidature est écartée.",
+   "confidence": 0.8,
+   "date": "2013-2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Figaro",
+   "type": "REVEALED",
+   "target": "Gilbert Azibert",
+   "evidence": "Le Figaro remarque que ce poste, basé à Paris, est peu rémunérateur.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Thierry Herzog évoque ce poste lors d’une discussion avec Nicolas Sarkozy sur sa ligne « secrète ».",
+   "confidence": 1.0,
+   "date": "2014-02-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy répond « Je l’aiderai » et déclare à son avocat « Je voulais te dire, pour que tu puisses le dire à Gilbert ».",
+   "confidence": 1.0,
+   "date": "2014-02-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Michel Roger",
+   "evidence": "Nicolas Sarkozy se rend à Monaco et déclare « Je voulais te dire [...] que j’ai rendez-vous à midi avec Michel Roger, le ministre d’État de Monaco. »",
+   "confidence": 0.9,
+   "date": "2014-02-24",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

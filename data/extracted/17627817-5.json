@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "name": "Alain Castel",
+   "type": "Person"
+  },
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Société civile immobilière (SCI)",
+   "type": "Institution"
+  },
+  {
+   "name": "Mutuelle de Bretagne",
+   "type": "Institution"
+  },
+  {
+   "name": "Conseil d'administration",
+   "type": "Institution"
+  },
+  {
+   "name": "Code de la mutualité",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alain Castel",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"Richard Ferrand allait louer l'immeuble à la mutuelle et il allait s'enrichir avec tous les travaux à la charge de celle-ci\"",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"la vraie question, c'est pourquoi Richard Ferrand n'a pas fait acheter l'immeuble par la mutuelle\"",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelle de Bretagne",
+   "evidence": "\"Richard Ferrand allait louer l'immeuble à la mutuelle\"",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"le procès-verbal [...] ne mentionne nulle part que Sandrine Doucen sera la gérante de la SCI\"",
+   "confidence": 0.9,
+   "date": "2011-01-25",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mutuelle de Bretagne",
+   "type": "CONCERNS",
+   "target": "Code de la mutualité",
+   "evidence": "\"toute convention à laquelle un administrateur ou un dirigeant opérationnel est indirectement intéressé [...] est soumise à l'autorisation préalable du conseil d'administration\"",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil d'administration",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "\"le procès-verbal de la réunion du conseil d'administration [...] ne mentionne nulle part que Sandrine Doucen sera la gérante de la SCI\"",
+   "confidence": 0.85,
+   "date": "2011-01-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

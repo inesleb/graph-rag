@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Matignon",
+   "type": "Institution"
+  },
+  {
+   "name": "François Falletti",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Édouard Balladur",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "les juges d’instruction rendent une ordonnance afin de se dessaisir de l’enquête concernant Édouard Balladur",
+   "confidence": 1.0,
+   "date": "2014-02-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "les juges d’instruction rendent une ordonnance afin de se dessaisir de l’enquête concernant Édouard Balladur et François Léotard",
+   "confidence": 1.0,
+   "date": "2014-02-06",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "WORKED_FOR",
+   "target": "Matignon",
+   "evidence": "ils soulignent le rôle prédominant de Matignon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "ils rejettent la thèse du financement de la campagne d’Édouard Balladur",
+   "confidence": 0.9,
+   "date": "2014-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "les commissions ainsi que leur mode de versement n’étaient absolument pas justifiés",
+   "confidence": 0.9,
+   "date": "2014-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "INVESTIGATED",
+   "target": "Cour de justice de la République",
+   "evidence": "seule la Cour de justice de la République pouvant instruire et juger les affaires concernant les ministres durant leurs fonctions",
+   "confidence": 1.0,
+   "date": "2014-02-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Falletti",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "le procureur général de Paris, François Falletti",
+   "confidence": 0.9,
+   "date": "2014-02-14",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Falletti",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "le procureur général de Paris, François Falletti, donne son feu vert à la saisine de la Cour de justice de la République",
+   "confidence": 1.0,
+   "date": "2014-02-14",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

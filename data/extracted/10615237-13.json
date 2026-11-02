@@ -1,0 +1,34 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "\"Depuis 1981, depuis ma première élection, elle m'a toujours accompagné dans ma vie publique\"",
+   "confidence": 1.0,
+   "date": "1981",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "\"un travail à temps complet d'assistante parlementaire\"",
+   "confidence": 0.9,
+   "date": "2017-01-26",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "entities": [
+  {
+   "name": "Commission des Lois du Sénat",
+   "type": "Institution"
+  },
+  {
+   "name": "Commission des Lois de l'Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "La République en Marche (LREM)",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains (LR)",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Présidence de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Groupement de sécurité de la présidence de la République (GSPR)",
+   "type": "Institution"
+  },
+  {
+   "name": "Préfecture de police",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "INVESTIGATED",
+   "target": "Affaires Benalla",
+   "evidence": "Les commissions des Lois du Sénat [...] obtiennent les prérogatives d'une commission d'enquête parlementaire sur la première affaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Commission des Lois de l'Assemblée nationale",
+   "type": "INVESTIGATED",
+   "target": "Affaires Benalla",
+   "evidence": "Les commissions des Lois [...] de l'Assemblée nationale [...] procèdent à un certain nombre d'auditions publiques",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Commission des Lois de l'Assemblée nationale",
+   "type": "MEMBER_OF",
+   "target": "La République en Marche (LREM)",
+   "evidence": "L'enquête de l'Assemblée nationale, dirigée par une majorité LREM",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains (LR)",
+   "evidence": "l'enquête du Sénat, dirigé à ce moment-là par une majorité LR",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "dirigé à ce moment-là par une majorité LR et PS",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "INVESTIGATED",
+   "target": "Présidence de la République",
+   "evidence": "auditions publiques [...] des cadres de la présidence de la République",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "INVESTIGATED",
+   "target": "Groupement de sécurité de la présidence de la République (GSPR)",
+   "evidence": "auditions publiques [...] du GSPR",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Commission des Lois du Sénat",
+   "type": "INVESTIGATED",
+   "target": "Préfecture de police",
+   "evidence": "auditions publiques [...] de la préfecture de police",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

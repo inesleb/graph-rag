@@ -1,0 +1,132 @@
+{
+ "entities": [
+  {
+   "name": "Jordan Bardella",
+   "type": "Person"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Dov Alfon",
+   "type": "Person"
+  },
+  {
+   "name": "Adelibe",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "recel",
+   "type": "Offense"
+  },
+  {
+   "name": "faux et usage",
+   "type": "Offense"
+  },
+  {
+   "name": "escroquerie",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Libération",
+   "type": "INDICTED_IN",
+   "target": "Jordan Bardella",
+   "evidence": "\"poursuivi en diffamation par Jordan Bardella pour le titre d'un article\"",
+   "confidence": 1.0,
+   "date": "2025-01-31",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Dov Alfon",
+   "type": "INDICTED_IN",
+   "target": "Jordan Bardella",
+   "evidence": "\"Seul le directeur de la publication, Dov Alfon, est visé\"",
+   "confidence": 1.0,
+   "date": "2025-01-31",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "INDICTED_IN",
+   "target": "Libération",
+   "evidence": "\"Jordan Bardella porte également plainte pour les articles...\"",
+   "confidence": 0.8,
+   "date": "2024",
+   "stage": "unknown",
+   "final": null
+  },
+  {
+   "source": "Adelibe",
+   "type": "INDICTED_IN",
+   "target": "Jordan Bardella",
+   "evidence": "\"Adelibe dépose une plainte contre Jordan Bardella pour détournement de fonds publics et recel, faux et usage ainsi qu'escroquerie\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "CONCERNS",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "\"accuse d'avoir occupé un emploi fictif d'assistant parlementaire européen\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "\"plainte contre Jordan Bardella pour détournement de fonds publics\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "CONCERNS",
+   "target": "recel",
+   "evidence": "\"plainte... pour détournement de fonds publics et recel\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "CONCERNS",
+   "target": "faux et usage",
+   "evidence": "\"plainte... pour faux et usage\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "CONCERNS",
+   "target": "escroquerie",
+   "evidence": "\"plainte... pour escroquerie\"",
+   "confidence": 1.0,
+   "date": "2025-03-27",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

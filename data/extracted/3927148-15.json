@@ -1,0 +1,180 @@
+{
+ "entities": [
+  {
+   "name": "Édouard Balladur",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Cazeneuve",
+   "type": "Person"
+  },
+  {
+   "name": "Yves Fromion",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Accoyer",
+   "type": "Person"
+  },
+  {
+   "name": "Juge Trévidic",
+   "type": "Person"
+  },
+  {
+   "name": "François Léotard",
+   "type": "Person"
+  },
+  {
+   "name": "Oussama ben Laden",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Al-Qaïda",
+   "type": "Institution"
+  },
+  {
+   "name": "L'Express",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Trafic d’influence",
+   "evidence": "les juges français expliquent aux familles que la piste politico-financière est « cruellement logique »",
+   "confidence": 0.8,
+   "date": "2009-06-18",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Édouard Balladur",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "démentie par Édouard Balladur",
+   "confidence": 0.9,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "qualifiée de « grotesque » par Nicolas Sarkozy",
+   "confidence": 0.9,
+   "date": "2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Cazeneuve",
+   "type": "WORKED_FOR",
+   "target": "Commission de la Défense nationale et des Forces armées",
+   "evidence": "une mission d’information de la commission de la Défense nationale et des Forces armées est menée par Bernard Cazeneuve",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Yves Fromion",
+   "type": "WORKED_FOR",
+   "target": "Commission de la Défense nationale et des Forces armées",
+   "evidence": "une mission d’information [...] menée par [...] Yves Fromion",
+   "confidence": 1.0,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Cazeneuve",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "une mission d’information [...] sur les « circonstances entourant l’attentat du 8 mai 2002 à Karachi »",
+   "confidence": 0.9,
+   "date": "2010",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Yves Fromion",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "une mission d’information [...] sur les « circonstances entourant l’attentat du 8 mai 2002 à Karachi »",
+   "confidence": 0.9,
+   "date": "2010",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Bernard Accoyer",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "le président de l’Assemblée nationale, Bernard Accoyer, refuse au juge Trévidic l’accès aux procès-verbaux d’audition de la mission d’information",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "INVESTIGATED",
+   "target": "Affaire Karachi",
+   "evidence": "auditionné par la mission le 24 novembre 2009",
+   "confidence": 1.0,
+   "date": "2009-11-24",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "François Léotard",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "considère la piste Al-Qaïda comme « peu probable » et penche plutôt pour « une vengeance de personnes n'ayant pas touché leur part de commissions »",
+   "confidence": 0.9,
+   "date": "2009-11-24",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "Al-Qaïda",
+   "evidence": "le rapport [...] privilégie la piste islamiste sans écarter les autres hypothèses",
+   "confidence": 0.8,
+   "date": "2010",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Oussama ben Laden",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "Oussama ben Laden a salué l’attentat le 19 novembre 2002",
+   "confidence": 0.9,
+   "date": "2002-11-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "L'Express",
+   "type": "REVEALED",
+   "target": "Affaire Karachi",
+   "evidence": "L'Express souligne par exemple qu’Oussama ben Laden a salué l’attentat le 19 novembre 2002",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

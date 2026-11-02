@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Blanchiment de fraude fiscale aggravé",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Préfet des Hauts-de-Seine",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la cour d'appel de Paris confirme le jugement prononcé en première instance pour le premier volet de l'affaire",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la cour d'appel de Paris confirme le jugement prononcé en première instance pour le premier volet de l'affaire",
+   "confidence": 1.0,
+   "date": "2020-03-04",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "Patrick Balkany est condamné à 5 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "Sa femme écope de 4 ans de prison ferme",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "la Cour de cassation confirme définitivement la culpabilité des Balkany pour blanchiment de fraude fiscale aggravé",
+   "confidence": 1.0,
+   "date": "2021-06-30",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le couple décide de ne pas former de pourvoi en cassation et est démis de ses mandats municipaux",
+   "confidence": 0.9,
+   "date": "2020-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Le couple décide de ne pas former de pourvoi en cassation et est démis de ses mandats municipaux",
+   "confidence": 0.9,
+   "date": "2020-03-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment de fraude fiscale aggravé",
+   "evidence": "procès en appel pour blanchiment de fraude fiscale",
+   "confidence": 1.0,
+   "date": "2020-05-27",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

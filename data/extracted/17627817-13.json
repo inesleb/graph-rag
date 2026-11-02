@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Mutuelles de Bretagne",
+   "type": "Company"
+  },
+  {
+   "name": "Jean-Louis Span",
+   "type": "Person"
+  },
+  {
+   "name": "Fédération Diversité Proximité mutualiste",
+   "type": "Institution"
+  },
+  {
+   "name": "Catherine Lemorton",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "Richard Ferrand est resté chargé de mission des Mutuelles de Bretagne, rémunéré 1 250 euros par mois",
+   "confidence": 1.0,
+   "date": "2012-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Richard Ferrand est resté chargé de mission des Mutuelles de Bretagne, rémunéré 1 250 euros par mois, pendant tout son mandat de député",
+   "confidence": 1.0,
+   "date": "2017-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Louis Span",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "« lors de l'adoption de la loi Le Roux sur les réseaux de soins mutualistes que Richard Ferrand endossait véritablement un rôle de lobbyiste »",
+   "confidence": 0.9,
+   "date": "2017-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Catherine Lemorton",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "les « liens d'intérêts qu'entretenait » M. Ferrand avec les Mutuelles de Bretagne",
+   "confidence": 0.9,
+   "date": "2017-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Le Monde révèle que Richard Ferrand est resté chargé de mission des Mutuelles de Bretagne",
+   "confidence": 1.0,
+   "date": "2017-05-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Le Canard enchaîné affirme que Richard Ferrand n'aurait « cessé de veiller aux intérêts de son employeur, les Mutuelles de Bretagne »",
+   "confidence": 0.9,
+   "date": "2017-06-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "proposition de loi PS visant « à permettre aux mutuelles de mettre en place des réseaux de soins »",
+   "confidence": 0.9,
+   "date": "2012-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "mandat de député",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

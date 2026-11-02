@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "André Vallini",
+   "type": "Person"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Gouvernement",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour des comptes",
+   "type": "Institution"
+  },
+  {
+   "name": "Matignon",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Groupe socialiste au Sénat",
+   "type": "Party"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Groupe socialiste au Sénat",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "son intention de demander la constitution d'une commission d'enquête parlementaire sur les sondages commandés par l'Élysée",
+   "confidence": 0.9,
+   "date": "2011-11-08",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "André Vallini",
+   "type": "WORKED_FOR",
+   "target": "Groupe socialiste au Sénat",
+   "evidence": "André Vallini, proche de François Hollande à l'initiative de cette demande",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "André Vallini",
+   "type": "MEMBER_OF",
+   "target": "Groupe socialiste au Sénat",
+   "evidence": "André Vallini, proche de François Hollande à l'initiative de cette demande",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Élysée",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "les sondages commandés par l'Élysée",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gouvernement",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "les sondages commandés par l'Élysée et le gouvernement",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour des comptes",
+   "type": "REVEALED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "un nouveau rapport de la Cour des comptes qui dévoile d'importantes dépenses en publicité, en sondages",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Matignon",
+   "type": "CONCERNS",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "dépenses [...] en consultations de Matignon",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Groupe socialiste au Sénat",
+   "type": "INVESTIGATED",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Cette demande restera sans suite car les commissions parlementaires d'enquête ne peuvent porter sur des faits ayant donné lieu à des poursuites judiciaires",
+   "confidence": 0.8,
+   "date": "2011-11-08",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

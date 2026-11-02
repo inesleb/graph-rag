@@ -1,0 +1,108 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Abdallah Senoussi",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire de l'attentat contre le DC10 d'UTA",
+   "type": "Affair"
+  },
+  {
+   "name": "Moussa Koussa",
+   "type": "Person"
+  },
+  {
+   "name": "Bachir Saleh",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "En 2018, dans un entretien à Mediapart, il revient sur l'affaire",
+   "confidence": 0.95,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire de l'attentat contre le DC10 d'UTA",
+   "evidence": "où ils ont parlé [...] du jugement par contumace dans l'affaire de l'attentat contre le DC10 d'UTA",
+   "confidence": 0.9,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "WORKED_FOR",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Guéant a indiqué au Guide qu’un seul responsable libyen disposait d’une maison en France",
+   "confidence": 0.95,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Guéant a indiqué au Guide [...] et mis à part une ou deux personnalités, comme le ministre du logement",
+   "confidence": 0.9,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mouammar Kadhafi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "le Guide avait demandé par ailleurs à Guéant de lui fournir la liste des Libyens naturalisés français",
+   "confidence": 0.95,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moussa Koussa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "il a mentionné Moussa Koussa – l’ancien chef des services secrets extérieurs",
+   "confidence": 0.9,
+   "date": "2005-10-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "En 2018, dans un entretien à Mediapart, il revient sur l'affaire",
+   "confidence": 0.95,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

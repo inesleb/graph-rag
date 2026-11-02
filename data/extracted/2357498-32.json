@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Burgelin",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Breton",
+   "type": "Person"
+  },
+  {
+   "name": "Consortium de réalisation (CDR)",
+   "type": "Company"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "État",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la cour d'appel de Paris à travers le médiateur Jean-François Burgelin autorise une médiation",
+   "confidence": 0.9,
+   "date": "2004-11-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la médiation échoue",
+   "confidence": 0.85,
+   "date": "2004-11-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "État",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "l'État, seul propriétaire du CDR",
+   "confidence": 0.95,
+   "date": "2004-11-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour d'appel de Paris",
+   "type": "CONVICTED_IN",
+   "target": "Consortium de réalisation (CDR)",
+   "evidence": "la cour d'appel condamne le Consortium de réalisation (CDR) à payer 135 millions d'euros à Bernard Tapie",
+   "confidence": 1.0,
+   "date": "2005-09-30",
+   "stage": "appeal",
+   "final": false
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "le préjudice de Bernard Tapie à 66 millions d'euros augmentés de l'inflation et de la hausse du titre Adidas",
+   "confidence": 0.95,
+   "date": "2005-09-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Breton",
+   "type": "WORKED_FOR",
+   "target": "État",
+   "evidence": "Thierry Breton, ministre des finances",
+   "confidence": 1.0,
+   "date": "2005-09-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Consortium de réalisation (CDR)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Thierry Breton annonce qu'il autorise le CDR à se pourvoir en cassation",
+   "confidence": 0.9,
+   "date": "2005-09-30",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la Cour de cassation, saisie par le CDR à la demande du gouvernement",
+   "confidence": 1.0,
+   "date": "2006-10-09",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Consortium de réalisation (CDR)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la Cour de cassation casse l'arrêt de la cour d'appel",
+   "confidence": 1.0,
+   "date": "2006-10-09",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la cour d'appel « n'avait pas caractérisé les éléments qui auraient permis d’établir [...] que le Crédit lyonnais était obligé par un contrat auquel il n’était pas partie »",
+   "confidence": 0.95,
+   "date": "2006-10-09",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

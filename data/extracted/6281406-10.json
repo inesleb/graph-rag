@@ -1,0 +1,13 @@
+{
+ "entities": [
+  {
+   "name": "Mouammar Kadhafi",
+   "type": "Person"
+  },
+  {
+   "name": "Jamahiriya arabe libyenne",
+   "type": "Institution"
+  }
+ ],
+ "relations": []
+}

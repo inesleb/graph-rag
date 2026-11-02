@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Baghdadi Ali al-Mahmoudi",
+   "type": "Person"
+  },
+  {
+   "name": "Moussa Koussa",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bachir Saleh",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Baghdadi Ali al-Mahmoudi",
+   "type": "REVEALED",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"Je confirme qu’il existe bien un document signé par Moussa Koussa et qu’un financement a bien été reçu par M. Sarkozy\"",
+   "confidence": 1.0,
+   "date": "2012-05-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Baghdadi Ali al-Mahmoudi",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"le montant de 50 millions d’euros est juste\"",
+   "confidence": 0.9,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Baghdadi Ali al-Mahmoudi",
+   "type": "REVEALED",
+   "target": "Mediapart",
+   "evidence": "\"Je confirme qu’il existe bien un document signé par Moussa Koussa\"",
+   "confidence": 1.0,
+   "date": "2012-05-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bachir Saleh",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "« pressions pour livrer les secrets bancaires de l’ancien régime »",
+   "confidence": 0.8,
+   "date": "2012-05-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Moussa Koussa",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "\"un document signé par Moussa Koussa\"",
+   "confidence": 1.0,
+   "date": "2007",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

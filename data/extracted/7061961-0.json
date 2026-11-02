@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Présidence de la République française",
+   "type": "Institution"
+  },
+  {
+   "name": "Favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Favoritisme",
+   "evidence": "pour favoritisme et détournement de fonds publics",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "pour favoritisme et détournement de fonds publics",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "INVOLVED_IN",
+   "target": "Présidence de la République française",
+   "evidence": "portant sur la commande d'études d'opinion par la présidence de la République française",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "WORKED_FOR",
+   "target": "Présidence de la République française",
+   "evidence": "au cours du mandat de Nicolas Sarkozy entre 2007 et 2012",
+   "confidence": 1.0,
+   "date": "2007-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "au cours du mandat de Nicolas Sarkozy entre 2007 et 2012",
+   "confidence": 1.0,
+   "date": "2007-2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "l'ancien président de la République étant protégé des poursuites judiciaires par son immunité constitutionnelle",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": true
+  }
+ ]
+}

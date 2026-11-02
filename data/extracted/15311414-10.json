@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Mediascop",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Radio France",
+   "type": "Media"
+  },
+  {
+   "name": "BFM-TV",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophia Chikirou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "interrogée [...] pour « escroquerie, abus de confiance, infraction à la législation des campagnes électorales et travail dissimulé »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "REVEALED",
+   "target": "Sophia Chikirou",
+   "evidence": "Jean-Luc Mélenchon apporte une « confiance totale » à Sophia Chikirou",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "WORKED_FOR",
+   "target": "Mediascop",
+   "evidence": "« Il n’y a aucun mystère dans les activités de Mme Chikirou à notre service. Nous avons choisi la personne la plus compétente, la plus brillante »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "REVEALED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "« il n’y a pas eu de surfacturation, Mediascop n’a pas surfacturé, il n’y a pas d’enrichissement personnel, il n’y a pas eu de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Radio France",
+   "type": "INVESTIGATED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "la cellule investigation de Radio France maintient ses affirmations de surfacturation",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "CONCERNS",
+   "target": "escroquerie",
+   "evidence": "interrogée [...] pour « escroquerie, abus de confiance, infraction à la législation des campagnes électorales et travail dissimulé »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "CONCERNS",
+   "target": "abus de confiance",
+   "evidence": "interrogée [...] pour « escroquerie, abus de confiance, infraction à la législation des campagnes électorales et travail dissimulé »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "CONCERNS",
+   "target": "infraction à la législation des campagnes électorales",
+   "evidence": "interrogée [...] pour « escroquerie, abus de confiance, infraction à la législation des campagnes électorales et travail dissimulé »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "CONCERNS",
+   "target": "travail dissimulé",
+   "evidence": "interrogée [...] pour « escroquerie, abus de confiance, infraction à la législation des campagnes électorales et travail dissimulé »",
+   "confidence": 1.0,
+   "date": "2018-10-19",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "CONCERNS",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "« il n’y a pas eu de surfacturation, Mediascop n’a pas surfacturé, il n’y a pas d’enrichissement personnel, il n’y a pas eu de détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": "2018-10-23",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

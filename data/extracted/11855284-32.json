@@ -1,0 +1,172 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "En marche",
+   "type": "Party"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Christian Guédon",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Yves Baratier",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Le Figaro",
+   "type": "Media"
+  },
+  {
+   "name": "MacronLeaks",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "En marche",
+   "evidence": "Alexandre Benalla est engagé comme responsable sécurité d'En marche",
+   "confidence": 1.0,
+   "date": "2016-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "se charge de protéger le candidat Macron lors des meetings et autres déplacements de campagne",
+   "confidence": 1.0,
+   "date": "2016-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "MEMBER_OF",
+   "target": "bande d'Alexandre",
+   "evidence": "il s'entoure d'un groupe, surnommé la « bande d'Alexandre » et comprenant Christian Guédon, Pierre-Yves Baratier et Vincent Crase",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christian Guédon",
+   "type": "MEMBER_OF",
+   "target": "bande d'Alexandre",
+   "evidence": "un groupe [...] et comprenant Christian Guédon, Pierre-Yves Baratier et Vincent Crase",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre-Yves Baratier",
+   "type": "MEMBER_OF",
+   "target": "bande d'Alexandre",
+   "evidence": "un groupe [...] et comprenant Christian Guédon, Pierre-Yves Baratier et Vincent Crase",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "MEMBER_OF",
+   "target": "bande d'Alexandre",
+   "evidence": "un groupe [...] et comprenant Christian Guédon, Pierre-Yves Baratier et Vincent Crase",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "REVEALED",
+   "target": "Le Monde",
+   "evidence": "D'après Le Monde, ce groupe forme une « équipe soudée qui ne quitte jamais le sillage » du candidat",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "REVEALED",
+   "target": "Le Figaro",
+   "evidence": "Selon Le Figaro, Alexandre Benalla et Vincent Crase veulent sécuriser le quartier général de campagne d'Emmanuel Macron",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "REVEALED",
+   "target": "Le Figaro",
+   "evidence": "Selon Le Figaro, Alexandre Benalla et Vincent Crase veulent sécuriser le quartier général de campagne d'Emmanuel Macron",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "REVEALED",
+   "target": "MacronLeaks",
+   "evidence": "Selon les MacronLeaks, des emails piratés, ils font faire un devis pour équiper le service d'ordre avec « un véritable attirail policier »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "REVEALED",
+   "target": "MacronLeaks",
+   "evidence": "Selon les MacronLeaks, des emails piratés, ils font faire un devis pour équiper le service d'ordre avec « un véritable attirail policier »",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla est engagé comme responsable sécurité d'En marche, et se charge de protéger le candidat Macron lors des meetings",
+   "confidence": 0.9,
+   "date": "2016-12-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla et Vincent Crase veulent sécuriser le quartier général de campagne d'Emmanuel Macron",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

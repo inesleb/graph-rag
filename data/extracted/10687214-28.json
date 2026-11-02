@@ -1,0 +1,164 @@
+{
+ "entities": [
+  {
+   "name": "Louis Aliot",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Bilde",
+   "type": "Person"
+  },
+  {
+   "name": "Mylène Troszczynski",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bay",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Fernand Le Rachinel",
+   "type": "Person"
+  },
+  {
+   "name": "Yann Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Timothée Houssin",
+   "type": "Person"
+  },
+  {
+   "name": "Marie Christine Arnautu",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Cochet",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Louis Aliot",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Louis Aliot, 18 mois d'emprisonnement dont 12 avec sursis, 30 000 euros d'amende et 3 ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Dominique Bilde",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Dominique Bilde, 18 mois d'emprisonnement dont 12 avec sursis, 30 000 euros d'amende et 3 ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Mylène Troszczynski",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Mylène Troszczynski et Nicolas Bay, 18 mois d'emprisonnement dont 12 avec sursis, 30 000 euros d'amende et 3 ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Mylène Troszczynski et Nicolas Bay, 18 mois d'emprisonnement dont 12 avec sursis, 30 000 euros d'amende et 3 ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Bruno Gollnisch, 3 ans de prison dont 2 ans avec sursis, 200 000 euros d'amende et 5 ans d'inéligibilité avec exécution provisoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Fernand Le Rachinel",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Fernand Le Rachinel, 2 ans de prison dont 1 an avec sursis, 100 000 euros d'amende et 5 ans d'inéligibilité avec exécution provisoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Yann Le Pen",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Yann Le Pen, 18 mois de prison avec sursis et deux ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Timothée Houssin",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Timothée Houssin, 10 mois de prison avec sursis, 10 000 euros d'amende et un an d'inéligibilité avec exécution provisoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Marie Christine Arnautu",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Marie Christine Arnautu, 18 mois de prison dont 12 avec sursis, 50 000 euros d'amende, 3 ans d'inéligibilité avec exécution provisoire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Philippe Cochet",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "à laquelle s'était joint Philippe Cochet, maire de Caluire",
+   "confidence": 0.8,
+   "date": "2025-03-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil constitutionnel",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Le Conseil constitutionnel rejette le 28 mars 2025 la QPC d'un élu mahorais, validant la possibilité de prononcer une peine d'inéligibilité avec exécution provisoire",
+   "confidence": 0.9,
+   "date": "2025-03-28",
+   "stage": null,
+   "final": true
+  }
+ ]
+}

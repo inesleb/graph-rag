@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie Finance",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Crédit lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "la banque ne se contente pas d'établir un plan visant à capter à son profit la plus-value devant revenir à Bernard Tapie",
+   "confidence": 0.95,
+   "date": "1992",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "WORKED_FOR",
+   "target": "Bernard Tapie Finance",
+   "evidence": "En devenant à terme propriétaire unique de BT Finance, la société qui possède Adidas au jour de la signature du mémorandum",
+   "confidence": 0.9,
+   "date": "1992-12-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "REVEALED",
+   "target": "Bernard Tapie",
+   "evidence": "elle exige [...] un moyen d'éviter tout recours possible par Bernard Tapie dans le futur",
+   "confidence": 0.9,
+   "date": "1992-12-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit lyonnais",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "elle utilise pour cela le mémorandum qu'elle fait signer à Bernard Tapie en même temps que la vente d'Adidas",
+   "confidence": 0.95,
+   "date": "1992-12-12",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

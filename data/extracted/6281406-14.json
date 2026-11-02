@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard-Henri Lévy",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil national de transition (CNT)",
+   "type": "Institution"
+  },
+  {
+   "name": "Total",
+   "type": "Company"
+  },
+  {
+   "name": "Vinci",
+   "type": "Company"
+  },
+  {
+   "name": "EADS",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Sarkozy-Kadhafi",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard-Henri Lévy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Bernard-Henri Lévy, intermédiaire entre le président français et les insurgés",
+   "confidence": 0.9,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "Nicolas Sarkozy aurait exhorté les Libyens à réserver 35 % de leur industrie pétrolière à des entreprises françaises",
+   "confidence": 0.85,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Conseil national de transition (CNT)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "ils « avaient une dette envers la France au vu de son soutien précoce »",
+   "confidence": 0.8,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Total",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "des cadres de Total [...] auraient compté parmi les passagers des vols humanitaires",
+   "confidence": 0.75,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vinci",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "des cadres de Vinci [...] auraient compté parmi les passagers des vols humanitaires",
+   "confidence": 0.75,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "EADS",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Sarkozy-Kadhafi",
+   "evidence": "des cadres de l'EADS [...] auraient compté parmi les passagers des vols humanitaires",
+   "confidence": 0.75,
+   "date": "2011",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

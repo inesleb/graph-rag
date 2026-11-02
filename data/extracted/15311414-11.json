@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Mediascop",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "financement illégal de campagne électorale",
+   "type": "Offense"
+  },
+  {
+   "name": "juges d’instruction",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Sophia Chikirou",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "En août 2022, elle est convoquée en vue d’une possible mise en examen",
+   "confidence": 0.8,
+   "date": "2022-08",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Mediascop",
+   "type": "CONCERNS",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "la rentabilité de la société Mediascop a bénéficié de façon exagérée de la campagne présidentielle de 2017",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediascop",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "en livrant des prestations de communication d’un montant total de 1 161 000 € à l’association de financement de la campagne de Jean-Luc Mélenchon",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "WORKED_FOR",
+   "target": "Mediascop",
+   "evidence": "Sophia Chikirou s'est versée plus de 135 000 € de salaires et dividendes pour dix mois de campagne",
+   "confidence": 1.0,
+   "date": "2016-09–2017-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Mélenchon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Sophia Chikirou a perçu 28 200 € de Jean-Luc Mélenchon",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INVOLVED_IN",
+   "target": "financement illégal de campagne électorale",
+   "evidence": "a déposé 17 850 € en espèces sur son compte bancaire",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "juges d’instruction",
+   "type": "INVESTIGATED",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Un rapport d’expertise rendu aux juges d’instruction",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

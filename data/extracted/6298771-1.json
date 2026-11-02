@@ -1,0 +1,114 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Mouvement des citoyens",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste (PS)",
+   "type": "Party"
+  },
+  {
+   "name": "François Hollande",
+   "type": "Person"
+  },
+  {
+   "name": "En marche (EM)",
+   "type": "Party"
+  },
+  {
+   "name": "Front national (FN)",
+   "type": "Party"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuel Macron",
+   "type": "MEMBER_OF",
+   "target": "Mouvement des citoyens",
+   "evidence": "Proche du Mouvement des citoyens",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "MEMBER_OF",
+   "target": "Parti socialiste (PS)",
+   "evidence": "puis du Parti socialiste (PS) de 2006 à 2009",
+   "confidence": 0.9,
+   "date": "2006-2009",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "François Hollande",
+   "evidence": "Hollande le nomme après sa victoire secrétaire général adjoint de son cabinet",
+   "confidence": 1.0,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Économie, de l'Industrie et du Numérique",
+   "evidence": "Emmanuel Macron est nommé ministre de l'Économie, de l'Industrie et du Numérique",
+   "confidence": 1.0,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "MEMBER_OF",
+   "target": "En marche (EM)",
+   "evidence": "il fonde son propre mouvement politique, En marche (EM)",
+   "confidence": 1.0,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Élection présidentielle de 2017",
+   "evidence": "Il se présente à l'élection présidentielle de 2017. Il l'emporte au second tour",
+   "confidence": 1.0,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Front national (FN)",
+   "evidence": "face à la candidate du Front national (FN)",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "INVOLVED_IN",
+   "target": "Front national (FN)",
+   "evidence": "bénéficiant d'un « front républicain » face à la candidate du Front national (FN)",
+   "confidence": 0.8,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

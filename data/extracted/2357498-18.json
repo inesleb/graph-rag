@@ -1,0 +1,94 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "BTF SA",
+   "type": "Company"
+  },
+  {
+   "name": "Bernard Tapie Finances GmbH",
+   "type": "Company"
+  },
+  {
+   "name": "Adidas",
+   "type": "Company"
+  },
+  {
+   "name": "Gilberte Beaux",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Crédit Lyonnais",
+   "type": "CONCERNS",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "il s'agit pour la banque de préserver la valeur du gage que représente le seul actif de BTF SA",
+   "confidence": 0.9,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Crédit Lyonnais",
+   "type": "INVOLVED_IN",
+   "target": "Bernard Tapie Finances GmbH",
+   "evidence": "via sa filiale à 78 % Bernard Tapie Finances Gmbh",
+   "confidence": 0.95,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Gilberte Beaux",
+   "type": "MEMBER_OF",
+   "target": "BTF",
+   "evidence": "la principale dirigeante du groupe BTF",
+   "confidence": 0.9,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Bernard Tapie Finances GmbH",
+   "evidence": "sa filiale à 78 % Bernard Tapie Finances Gmbh",
+   "confidence": 0.95,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "BTF SA",
+   "evidence": "le seul actif de BTF SA",
+   "confidence": 0.9,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Adidas",
+   "evidence": "Bernard Tapie refuse de conserver une part minoritaire dans Adidas",
+   "confidence": 0.85,
+   "date": "1992-11-17",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

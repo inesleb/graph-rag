@@ -1,0 +1,24 @@
+{
+ "entities": [
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Pascal Prache",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet national financier",
+   "type": "WORKED_FOR",
+   "target": "Pascal Prache",
+   "evidence": "Le PNF est actuellement dirigé par le magistrat Pascal Prache.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

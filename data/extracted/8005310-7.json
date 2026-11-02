@@ -1,0 +1,192 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Bygmalion",
+   "type": "Affair"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "UMP",
+   "type": "Party"
+  },
+  {
+   "name": "Bygmalion",
+   "type": "Company"
+  },
+  {
+   "name": "Event & Cie",
+   "type": "Company"
+  },
+  {
+   "name": "Jérôme Lavrilleux",
+   "type": "Person"
+  },
+  {
+   "name": "Guillaume Lambert",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Cesari",
+   "type": "Person"
+  },
+  {
+   "name": "faux",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  },
+  {
+   "name": "Parquet de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Le Journal du dimanche",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Affaire Bygmalion",
+   "evidence": "une enquête préliminaire pour faux, abus de confiance et abus de biens sociaux est ouverte par le parquet de Paris",
+   "confidence": 1.0,
+   "date": "2014-03-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Parquet de Paris",
+   "type": "INVESTIGATED",
+   "target": "Event & Cie",
+   "evidence": "Event & Cie fait l'objet d'une enquête préliminaire pour « faux, abus de biens sociaux et abus de confiance »",
+   "confidence": 1.0,
+   "date": "2014-05",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Libération révèle que l'UMP a payé, pendant la campagne de Nicolas Sarkozy en 2012, 20 millions d'euros à Bygmalion",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "abus de confiance",
+   "evidence": "certains des événements rétribués n'ont jamais eu lieu",
+   "confidence": 0.9,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "faux",
+   "evidence": "l'UMP aurait donné des dates et des noms pour des conventions supposées être réelles, afin de rédiger les factures litigieuses",
+   "confidence": 0.8,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "UMP",
+   "type": "INVOLVED_IN",
+   "target": "abus de biens sociaux",
+   "evidence": "le dépassement des comptes de campagne de Nicolas Sarkozy s'élèverait à 11 millions",
+   "confidence": 0.8,
+   "date": "2012",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "CONCERNS",
+   "target": "faux",
+   "evidence": "une double facturation au sein de la société Bygmalion",
+   "confidence": 0.9,
+   "date": "2014-06-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bygmalion",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "une double facturation au sein de la société Bygmalion",
+   "confidence": 0.9,
+   "date": "2014-06-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Event & Cie",
+   "type": "CONCERNS",
+   "target": "faux",
+   "evidence": "une double facturation au sein de la société Bygmalion et de sa filiale Event & Cie",
+   "confidence": 0.9,
+   "date": "2014-06-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Event & Cie",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "une double facturation au sein de la société Bygmalion et de sa filiale Event & Cie",
+   "confidence": 0.9,
+   "date": "2014-06-01",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jérôme Lavrilleux",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Jérôme Lavrilleux affirme que Guillaume Lambert et Éric Cesari ont participé à la « ventilation des comptes »",
+   "confidence": 0.8,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Guillaume Lambert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Jérôme Lavrilleux affirme que Guillaume Lambert et Éric Cesari ont participé à la « ventilation des comptes »",
+   "confidence": 0.8,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Cesari",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Jérôme Lavrilleux affirme que Guillaume Lambert et Éric Cesari ont participé à la « ventilation des comptes »",
+   "confidence": 0.8,
+   "date": "2014",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

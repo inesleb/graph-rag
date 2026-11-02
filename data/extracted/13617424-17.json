@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "Christiane Taubira",
+   "type": "Person"
+  },
+  {
+   "name": "Garde des Sceaux",
+   "type": "Institution"
+  },
+  {
+   "name": "Deuxième gouvernement Ayrault",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des écoutes",
+   "type": "REVEALED",
+   "target": "Nicolas Sarkozy",
+   "evidence": "écoutes de l’ancien président",
+   "confidence": 1.0,
+   "date": "2014-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Deuxième gouvernement Ayrault",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Plusieurs membres du deuxième gouvernement Ayrault sont mis au courant des écoutes",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christiane Taubira",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "La garde des Sceaux Christiane Taubira déclare en mars 2014 qu’elle n’avait pas d’information, ce qui s’est révélé faux",
+   "confidence": 0.8,
+   "date": "2014-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christiane Taubira",
+   "type": "WORKED_FOR",
+   "target": "Garde des Sceaux",
+   "evidence": "La garde des Sceaux Christiane Taubira",
+   "confidence": 1.0,
+   "date": "2014-03",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

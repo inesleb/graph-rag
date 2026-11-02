@@ -1,0 +1,136 @@
+{
+ "entities": [
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Alain Juppé",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Fillon",
+   "type": "Affair"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Russie",
+   "type": "Institution"
+  },
+  {
+   "name": "Ukraine",
+   "type": "Institution"
+  },
+  {
+   "name": "Vladimir Poutine",
+   "type": "Person"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "pour l'emploi fictif de son épouse, Penelope Fillon",
+   "confidence": 0.9,
+   "date": "2017",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "des révélations successives de la presse conduisant à l'« affaire Fillon »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Détournement de fonds publics",
+   "evidence": "il est condamné en appel à cinq ans d’inéligibilité [...] pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2025-06",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "il est condamné en appel à cinq ans d’inéligibilité [...] pour détournement de fonds publics pour l'emploi fictif de son épouse, Penelope Fillon",
+   "confidence": 1.0,
+   "date": "2025-06",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "Penelope Fillon qui est également condamnée",
+   "confidence": 0.95,
+   "date": "2025-06",
+   "stage": "appeal",
+   "final": true
+  },
+  {
+   "source": "François Fillon",
+   "type": "WORKED_FOR",
+   "target": "Russie",
+   "evidence": "devient membre du conseil d’administration de deux sociétés russes",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Ukraine",
+   "evidence": "Cette situation provoque la controverse à la suite de l'invasion de l'Ukraine par la Russie",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "primaire présidentielle de la droite et du centre de 2016",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "François Fillon",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "condamné [...] pour détournement de fonds publics",
+   "confidence": 1.0,
+   "date": "2025-06",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

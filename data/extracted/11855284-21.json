@@ -1,0 +1,138 @@
+{
+ "entities": [
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Iskandar Makhmudov",
+   "type": "Person"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "La République en Marche (LREM)",
+   "type": "Party"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "L'affaire Benalla rebondit le 31 janvier 2019, lorsqu'un article de Fabrice Arfi et deux autres journalistes du site Mediapart est publié",
+   "confidence": 0.95,
+   "date": "2019-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "La République en Marche (LREM)",
+   "evidence": "alors qu’ils sont encore en poste [...] chez LREM",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Élysée",
+   "evidence": "alors qu’ils sont encore en poste à l'Élysée et chez LREM",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Iskandar Makhmudov",
+   "evidence": "Alexandre Benalla et son ami Vincent Crase ont noué des relations d’affaires — notamment avec un oligarque russe, l’homme d’affaires Iskandar Makhmudov",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Iskandar Makhmudov",
+   "evidence": "Alexandre Benalla et son ami Vincent Crase ont noué des relations d’affaires — notamment avec un oligarque russe, l’homme d’affaires Iskandar Makhmudov",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INDICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "les enregistrements d'une conversation entre les deux hommes tenue le 26 juillet 2018, quelques jours après leur mise en examen",
+   "confidence": 0.95,
+   "date": "2018-07-26",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INDICTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "les enregistrements d'une conversation entre les deux hommes tenue le 26 juillet 2018, quelques jours après leur mise en examen",
+   "confidence": 0.95,
+   "date": "2018-07-26",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Benalla revendique le soutien total du président de la République",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "un article de Fabrice Arfi et deux autres journalistes du site Mediapart est publié avec plusieurs enregistrements audio qui révèlent",
+   "confidence": 0.95,
+   "date": "2019-01-31",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Cour de cassation",
+   "type": "ACQUITTED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "La Cour de cassation refuse d'invalider ces enregistrements",
+   "confidence": 0.85,
+   "date": "2020-12-01",
+   "stage": "cassation",
+   "final": true
+  }
+ ]
+}

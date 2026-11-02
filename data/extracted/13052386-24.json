@@ -1,0 +1,48 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Renault-Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Carlos Ghosn plaide non-coupable à tous les chefs d'accusation japonais qui pèsent sur lui.",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "WORKED_FOR",
+   "target": "Renault-Nissan",
+   "evidence": "une task-force s'est constituée contre l'ancien PDG de Renault-Nissan",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INDICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "le parquet de Tokyo envisage de nouvelles poursuites contre Ghosn",
+   "confidence": 0.8,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

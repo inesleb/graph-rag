@@ -1,0 +1,20 @@
+{
+ "entities": [
+  {
+   "name": "Marc Leblanc",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marc Leblanc",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Bygmalion",
+   "evidence": "Marc Leblanc : 2 ans avec sursis, 30 000 euros d'amende.",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

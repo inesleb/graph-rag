@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"Alexandre Benalla et Vincent Crase se sont comportés comme des policiers avant la scène de la Contrescarpe\"",
+   "confidence": 0.9,
+   "date": "2018-07-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "\"Alexandre Benalla et Vincent Crase se sont comportés comme des policiers avant la scène de la Contrescarpe\"",
+   "confidence": 0.9,
+   "date": "2018-07-27",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "WORKED_FOR",
+   "target": "Emmanuel Macron",
+   "evidence": "\"ne fait strictement rien à cet endroit et sur personne\" (implicite : contexte de l'affaire Benalla liée à l'Élysée)",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "\"Libération publie une autre vidéo...\"",
+   "confidence": 1.0,
+   "date": "2018-07-27",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

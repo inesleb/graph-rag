@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Inspection générale de la police nationale (IGPN)",
+   "type": "Institution"
+  },
+  {
+   "name": "TF1",
+   "type": "Media"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla, se détache alors, poussant énergiquement une jeune femme.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "« si on est très honnête, si on regarde la vidéo, il y a des gestes qui sont vigoureux, mais il n'y a aucun coup qui est porté par moi sur le manifestant »",
+   "confidence": 0.9,
+   "date": "2018-07-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Vincent Crase désigne le couple à Alexandre Benalla.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "aidé par Philippe Mizerski, à s'asseoir sur le trottoir.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de la police nationale (IGPN)",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "Pour l'IGPN : « Alexandre Benalla, se détache alors, poussant énergiquement une jeune femme. Il la tient ainsi qu’y procèdent traditionnellement les policiers interpellateurs sans lui porter de coups »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "TF1",
+   "type": "REVEALED",
+   "target": "Affaires Benalla",
+   "evidence": "selon une interview sur TF1 le 28 juillet",
+   "confidence": 0.9,
+   "date": "2018-07-28",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "entities": [
+  {
+   "name": "Emmanuelle Mignon",
+   "type": "Person"
+  },
+  {
+   "name": "Claude Guéant",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Buisson",
+   "type": "Person"
+  },
+  {
+   "name": "Publifact",
+   "type": "Company"
+  },
+  {
+   "name": "Publi-Opinion",
+   "type": "Company"
+  },
+  {
+   "name": "Jean-Michel Goudard",
+   "type": "Person"
+  },
+  {
+   "name": "Julien Vaulpré",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Giacometti",
+   "type": "Person"
+  },
+  {
+   "name": "No Com",
+   "type": "Company"
+  },
+  {
+   "name": "Ipsos",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire des sondages de l'Élysée",
+   "type": "Affair"
+  },
+  {
+   "name": "favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "détournement de fonds publics par négligence",
+   "type": "Offense"
+  },
+  {
+   "name": "recel de favoritisme",
+   "type": "Offense"
+  },
+  {
+   "name": "abus de biens sociaux",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Emmanuelle Mignon [...] pour « favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Emmanuelle Mignon",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics par négligence",
+   "evidence": "Emmanuelle Mignon [...] pour « détournement de fonds publics par négligence »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Claude Guéant pour « favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Claude Guéant",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics par négligence",
+   "evidence": "Claude Guéant [...] pour « détournement de fonds publics par négligence »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Patrick Buisson [...] pour « recel de favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "Patrick Buisson [...] pour « détournement de fonds publics »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "INDICTED_IN",
+   "target": "abus de biens sociaux",
+   "evidence": "Patrick Buisson [...] pour « abus de biens sociaux »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Publifact",
+   "evidence": "Patrick Buisson aux côtés de ses sociétés Publifact",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Buisson",
+   "type": "WORKED_FOR",
+   "target": "Publi-Opinion",
+   "evidence": "Patrick Buisson aux côtés de ses sociétés [...] Publi-Opinion",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Michel Goudard",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Jean-Michel Goudard [...] pour « favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Michel Goudard",
+   "type": "INDICTED_IN",
+   "target": "Affaire des sondages de l'Élysée",
+   "evidence": "Les poursuites contre Jean-Michel Goudard prennent fin avec son décès",
+   "confidence": 0.9,
+   "date": "2020-11-03",
+   "stage": null,
+   "final": true
+  },
+  {
+   "source": "Julien Vaulpré",
+   "type": "INDICTED_IN",
+   "target": "favoritisme",
+   "evidence": "Julien Vaulpré pour « favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Giacometti",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Pierre Giacometti [...] pour « recel de favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "No Com",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Pierre Giacometti et sa société [...] No Com [...] pour « recel de favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ipsos",
+   "type": "INDICTED_IN",
+   "target": "recel de favoritisme",
+   "evidence": "Ipsos pour « recel de favoritisme »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "favoritisme",
+   "evidence": "Emmanuelle Mignon et Claude Guéant pour « favoritisme »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "Patrick Buisson [...] pour « détournement de fonds publics »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "recel de favoritisme",
+   "evidence": "Patrick Buisson, Pierre Giacometti, No Com, et Ipsos pour « recel de favoritisme »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des sondages de l'Élysée",
+   "type": "CONCERNS",
+   "target": "abus de biens sociaux",
+   "evidence": "Patrick Buisson [...] pour « abus de biens sociaux »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

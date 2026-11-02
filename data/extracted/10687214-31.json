@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Bruno Gollnisch",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Marie-Suzanne Le Quéau",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Marine Le Pen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "recours [...] de Marine Le Pen",
+   "confidence": 0.9,
+   "date": "2025-04-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bruno Gollnisch",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "recours [...] de Bruno Gollnisch",
+   "confidence": 0.9,
+   "date": "2025-04-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Rassemblement national",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "recours [...] du parti",
+   "confidence": 0.9,
+   "date": "2025-04-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marie-Suzanne Le Quéau",
+   "type": "WORKED_FOR",
+   "target": "Cour d'appel de Paris",
+   "evidence": "procureure générale près la cour d'appel",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "Marine Le Pen",
+   "evidence": "Le procès en appel se déroule du 13 janvier au 11 février 2026",
+   "confidence": 0.8,
+   "date": "2026-01-13",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

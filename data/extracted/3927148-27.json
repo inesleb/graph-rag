@@ -1,0 +1,252 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Karachi",
+   "type": "Affair"
+  },
+  {
+   "name": "Ziad Takieddine",
+   "type": "Person"
+  },
+  {
+   "name": "Abdul Rahman Al-Assir",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bazire",
+   "type": "Person"
+  },
+  {
+   "name": "Renaud Donnedieu de Vabres",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Gaubert",
+   "type": "Person"
+  },
+  {
+   "name": "Dominique Castellan",
+   "type": "Person"
+  },
+  {
+   "name": "Tribunal correctionnel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Nicolas Baïetto",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Karachi",
+   "type": "CONCERNS",
+   "target": "volet financier",
+   "evidence": "Le procès, qui concerne le volet financier de l'affaire",
+   "confidence": 1.0,
+   "date": "2019-10-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Le procès, qui concerne le volet financier de l'affaire, se tient... Ziad Takieddine se rétracte des aveux faits durant l’enquête",
+   "confidence": 0.9,
+   "date": "2019-10-07",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Abdul Rahman Al-Assir",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Ziad Takieddine et son associé Abdul Rahman Al-Assir à cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Nicolas Bazire et Renaud Donnedieu de Vabres à cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Nicolas Bazire et Renaud Donnedieu de Vabres à cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Thierry Gaubert à quatre ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Dominique Castellan à trois ans dont un avec sursis",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (5 ans)",
+   "evidence": "Ziad Takieddine et son associé Abdul Rahman Al-Assir à cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Abdul Rahman Al-Assir",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (5 ans)",
+   "evidence": "Ziad Takieddine et son associé Abdul Rahman Al-Assir à cinq ans de prison",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (5 ans dont 2 avec sursis)",
+   "evidence": "Nicolas Bazire et Renaud Donnedieu de Vabres à cinq ans de prison dont deux avec sursis",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (5 ans dont 2 avec sursis)",
+   "evidence": "Nicolas Bazire et Renaud Donnedieu de Vabres à cinq ans de prison dont deux avec sursis",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (4 ans dont 2 avec sursis)",
+   "evidence": "Thierry Gaubert à quatre ans de prison dont deux avec sursis",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "CONVICTED_IN",
+   "target": "peine de prison (3 ans dont 1 avec sursis)",
+   "evidence": "Dominique Castellan à trois ans dont un avec sursis",
+   "confidence": 1.0,
+   "date": "2020-06-15",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Nicolas Baïetto",
+   "type": "WORKED_FOR",
+   "target": "Parquet national financier",
+   "evidence": "Le procureur Nicolas Baïetto requiert de 18 mois ferme à sept ans de prison ferme",
+   "confidence": 0.9,
+   "date": "2019-10",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "INVOLVED_IN",
+   "target": "Abdul Rahman Al-Assir",
+   "evidence": "Ziad Takieddine et son associé Abdul Rahman Al-Assir",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ziad Takieddine",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bazire",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Renaud Donnedieu de Vabres",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Thierry Gaubert",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Dominique Castellan",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Abdul Rahman Al-Assir",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Karachi",
+   "evidence": "Les six accusés, tous condamnés, ont fait appel",
+   "confidence": 0.8,
+   "date": "2020-06-15",
+   "stage": "appeal",
+   "final": null
+  }
+ ]
+}

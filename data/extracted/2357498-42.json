@@ -1,0 +1,118 @@
+{
+ "entities": [
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Parti socialiste",
+   "type": "Party"
+  },
+  {
+   "name": "Charles de Courson",
+   "type": "Person"
+  },
+  {
+   "name": "Christine Lagarde",
+   "type": "Person"
+  },
+  {
+   "name": "Consortium de réalisation (CDR)",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "Commission des Finances",
+   "type": "Institution"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mouvement démocrate",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "différents recours sont engagés par les responsables du Modem",
+   "confidence": 0.9,
+   "date": "2008-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Parti socialiste",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "différents recours sont engagés [...] par le PS",
+   "confidence": 0.9,
+   "date": "2008-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Charles de Courson",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "différents recours sont engagés [...] par le député Charles de Courson",
+   "confidence": 0.9,
+   "date": "2008-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "La décision de la ministre des Finances, Christine Lagarde, de ne pas s’opposer à la décision du Consortium de réalisation (CDR)",
+   "confidence": 0.95,
+   "date": "2008-08",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christine Lagarde",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Économie et des Finances",
+   "evidence": "La décision de la ministre des Finances, Christine Lagarde",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Consortium de réalisation (CDR)",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "La décision du Consortium de réalisation (CDR) de recourir à l'arbitrage",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Commission des Finances",
+   "type": "INVESTIGATED",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "À la suite de ces recours, la Commission des Finances à l'Assemblée nationale entend tous les protagonistes de l'affaire",
+   "confidence": 0.9,
+   "date": "2008-09",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Assemblée nationale",
+   "type": "MEMBER_OF",
+   "target": "Commission des Finances",
+   "evidence": "Commission des Finances à l'Assemblée nationale",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

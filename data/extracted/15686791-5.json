@@ -1,0 +1,126 @@
+{
+ "entities": [
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Reconstruire le commun",
+   "type": "Institution"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Hidalgo",
+   "type": "Person"
+  },
+  {
+   "name": "La France insoumise",
+   "type": "Party"
+  },
+  {
+   "name": "Détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "Abus de confiance",
+   "type": "Offense"
+  },
+  {
+   "name": "Infraction à la législation du Code électoral sur les modalités de financement des campagnes électorales",
+   "type": "Offense"
+  },
+  {
+   "name": "Élysée",
+   "type": "Institution"
+  },
+  {
+   "name": "Matignon",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Mediapart",
+   "type": "INVESTIGATED",
+   "target": "Reconstruire le commun",
+   "evidence": "Mediapart enquête sur la deuxième structure la plus financée, Reconstruire le commun",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reconstruire le commun",
+   "type": "CONCERNS",
+   "target": "Détournement de fonds publics",
+   "evidence": "Anne Hidalgo [...] dépose plainte contre X pour détournement de fonds publics",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reconstruire le commun",
+   "type": "CONCERNS",
+   "target": "Abus de confiance",
+   "evidence": "Anne Hidalgo [...] dépose plainte contre X pour [...] abus de confiance",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reconstruire le commun",
+   "type": "CONCERNS",
+   "target": "Infraction à la législation du Code électoral sur les modalités de financement des campagnes électorales",
+   "evidence": "Anne Hidalgo [...] dépose plainte contre X pour [...] infraction à la législation du Code électoral sur les modalités de financement des campagnes électorales",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Reconstruire le commun",
+   "type": "CONCERNS",
+   "target": "Emmanuel Macron",
+   "evidence": "association [...] semble avoir utilisé les fonds pour produire des contenus politiques critiquant les opposants à Emmanuel Macron",
+   "confidence": 0.8,
+   "date": "2022",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "La France insoumise",
+   "type": "INVOLVED_IN",
+   "target": "Anne Hidalgo",
+   "evidence": "les socialistes déposent une proposition de commission d’enquête",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Élysée",
+   "type": "REVEALED",
+   "target": "Reconstruire le commun",
+   "evidence": "Ni l’Élysée ni Matignon ne réagissent",
+   "confidence": 0.6,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Matignon",
+   "type": "REVEALED",
+   "target": "Reconstruire le commun",
+   "evidence": "Ni l’Élysée ni Matignon ne réagissent",
+   "confidence": 0.6,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

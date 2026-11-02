@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Pierre Estoup",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "CDR",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Pierre Estoup",
+   "type": "WORKED_FOR",
+   "target": "Bernard Tapie",
+   "evidence": "Pierre Estoup a reçu 42 % de ses honoraires en travaillant pour les avocats de Bernard Tapie.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Pierre Estoup",
+   "evidence": "il lui a consacré en 1998 une dédicace où il l'assurait de son « immense reconnaissance »",
+   "confidence": 0.9,
+   "date": "1998",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "CDR",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "L'arbitrage fait l'objet d'un recours en révision pour manœuvre frauduleuse intenté par le CDR.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INDICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "Pierre Estoup a omis de mentionner les liens qui le liaient à l'avocat de Bernard Tapie.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Pierre Estoup",
+   "type": "INDICTED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "il a même signé une fausse déclaration d'indépendance où il a affirmé ne pas être lié à un des partis en présence.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

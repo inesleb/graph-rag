@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Travis Kalanick",
+   "type": "Person"
+  },
+  {
+   "name": "Consortium international des journalistes d'investigation",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Uber Files",
+   "type": "REVEALED",
+   "target": "Uber",
+   "evidence": "Les Uber Files sont plus de 124 000 documents confidentiels révélant comment l’entreprise américaine Uber",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "WORKED_FOR",
+   "target": "Travis Kalanick",
+   "evidence": "lorsque la multinationale était dirigée par Travis Kalanick",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Uber",
+   "type": "INVOLVED_IN",
+   "target": "Uber Files",
+   "evidence": "Les Uber Files sont plus de 124 000 documents confidentiels révélant comment l’entreprise américaine Uber",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Consortium international des journalistes d'investigation",
+   "type": "INVESTIGATED",
+   "target": "Uber Files",
+   "evidence": "L'enquête journalistique est lancée à partir de ces documents par le Consortium international des journalistes d'investigation",
+   "confidence": 1.0,
+   "date": "2022-07-10",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

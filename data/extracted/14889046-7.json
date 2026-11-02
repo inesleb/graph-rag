@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "McKinsey & Company",
+   "type": "Company"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire McKinsey",
+   "type": "Affair"
+  },
+  {
+   "name": "Gouvernement",
+   "type": "Institution"
+  },
+  {
+   "name": "Administration",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "McKinsey & Company",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement",
+   "evidence": "McKinsey a travaillé sur « l'avenir du métier d'enseignant »",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "Influence des cabinets de conseil sur l'action publique",
+   "evidence": "Les opposants politiques d'Emmanuel Macron se saisissent de l'« affaire McKinsey » et parlent d'un « scandale d'État »",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire McKinsey",
+   "type": "CONCERNS",
+   "target": "Perte de compétences de l'administration",
+   "evidence": "les parlementaires [...] reprochent au gouvernement [...] la perte de compétences de l'administration découlant de ces recours",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Affaire McKinsey",
+   "evidence": "Certaines critiques visent en particulier McKinsey, dénonçant son influence importante au sein du gouvernement",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "McKinsey & Company",
+   "type": "INVOLVED_IN",
+   "target": "Évasion fiscale",
+   "evidence": "dénonçant [...] son évasion fiscale",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

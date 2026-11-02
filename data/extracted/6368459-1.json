@@ -1,0 +1,104 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "François de Rugy",
+   "type": "Person"
+  },
+  {
+   "name": "Assemblée nationale",
+   "type": "Institution"
+  },
+  {
+   "name": "Mélanie Thomin",
+   "type": "Person"
+  },
+  {
+   "name": "NUPES-PS",
+   "type": "Party"
+  },
+  {
+   "name": "Raymond Forni",
+   "type": "Person"
+  },
+  {
+   "name": "Armand Marrast",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  },
+  {
+   "name": "Prise illégale d'intérêts",
+   "type": "Offense"
+  },
+  {
+   "name": "Cour de cassation",
+   "type": "Institution"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Conseil constitutionnel",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Assemblée nationale",
+   "evidence": "il succède à François de Rugy à la présidence de l'Assemblée nationale",
+   "confidence": 1.0,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "il est mis en examen pour prise illégale d'intérêts dans l'affaire dite « des Mutuelles de Bretagne »",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "CONCERNS",
+   "target": "Prise illégale d'intérêts",
+   "evidence": "mis en examen pour prise illégale d'intérêts dans l'affaire dite « des Mutuelles de Bretagne »",
+   "confidence": 1.0,
+   "date": "2019",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des Mutuelles de Bretagne",
+   "type": "INVESTIGATED",
+   "target": "Cour de cassation",
+   "evidence": "la Cour de cassation confirme la prescription des faits",
+   "confidence": 1.0,
+   "date": "2022",
+   "stage": "cassation",
+   "final": true
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Conseil constitutionnel",
+   "evidence": "il est proposé comme président du Conseil constitutionnel par Emmanuel Macron",
+   "confidence": 1.0,
+   "date": "2025",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

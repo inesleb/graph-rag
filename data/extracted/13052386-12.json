@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "name": "Greg Kelly",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  },
+  {
+   "name": "Nissan",
+   "type": "Company"
+  },
+  {
+   "name": "Toshiaki Ohnuma",
+   "type": "Person"
+  },
+  {
+   "name": "Hari Nada",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Greg Kelly",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Procès - M. Kelly a refusé de plaider coupable et risque jusqu’à dix ans de prison.",
+   "confidence": 0.95,
+   "date": "2020-09-15",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Greg Kelly plaide non-coupable.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Greg Kelly",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le 2 mars 2022, il a été condamné à six mois de prison avec sursis.",
+   "confidence": 1.0,
+   "date": "2022-03-02",
+   "stage": "first_instance",
+   "final": false
+  },
+  {
+   "source": "Toshiaki Ohnuma",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Toshiaki Ohnuma et Hari Nada y ont été entendus.",
+   "confidence": 0.85,
+   "date": "2020-09-15",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Hari Nada",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Toshiaki Ohnuma et Hari Nada y ont été entendus.",
+   "confidence": 0.85,
+   "date": "2020-09-15",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Nissan",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Le groupe Nissan qui plaidait coupable a été condamné à une amende de 200 millions de yens.",
+   "confidence": 0.95,
+   "date": "2022-03-02",
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

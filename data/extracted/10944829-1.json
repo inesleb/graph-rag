@@ -1,0 +1,188 @@
+{
+ "entities": [
+  {
+   "name": "François Bayrou",
+   "type": "Person"
+  },
+  {
+   "name": "Michel Mercier",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Luc Bennahmias",
+   "type": "Person"
+  },
+  {
+   "name": "Janelly Fourtou",
+   "type": "Person"
+  },
+  {
+   "name": "Bernard Lehideux",
+   "type": "Person"
+  },
+  {
+   "name": "Anne Laperrouze",
+   "type": "Person"
+  },
+  {
+   "name": "Alexandre Nardella",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Jacques Jégou",
+   "type": "Person"
+  },
+  {
+   "name": "Union pour la démocratie française",
+   "type": "Party"
+  },
+  {
+   "name": "Mouvement démocrate",
+   "type": "Party"
+  },
+  {
+   "name": "Stéphane Thérou",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre-Emmanuel Portheret",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "François Bayrou",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "François Bayrou est relaxé",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Michel Mercier",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Michel Mercier [...] est condamné à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean-Luc Bennahmias",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Jean-Luc Bennahmias [...] est condamné à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Janelly Fourtou",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Janelly Fourtou [...] est condamnée à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Bernard Lehideux",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Bernard Lehideux [...] est condamné à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Anne Laperrouze",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Anne Laperrouze [...] est condamnée à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Alexandre Nardella",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Alexandre Nardella [...] est condamné à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Jean-Jacques Jégou",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Jean-Jacques Jégou [...] est condamné à des peines de prison avec sursis",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Union pour la démocratie française",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "L'Union pour la démocratie française [...] est condamnée à des amendes",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Mouvement démocrate",
+   "type": "CONVICTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "le MoDem est condamné à des amendes",
+   "confidence": 1.0,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Le parquet fait appel des relaxes",
+   "confidence": 0.9,
+   "date": "2024-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Stéphane Thérou",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Le parquet fait appel des relaxes de [...] Stéphane Thérou",
+   "confidence": 0.9,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Pierre-Emmanuel Portheret",
+   "type": "ACQUITTED_IN",
+   "target": "Affaire des assistants parlementaires du Mouvement démocrate au Parlement européen",
+   "evidence": "Le parquet fait appel des relaxes de [...] Pierre-Emmanuel Portheret",
+   "confidence": 0.9,
+   "date": "2024-02",
+   "stage": "first_instance",
+   "final": null
+  }
+ ]
+}

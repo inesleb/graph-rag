@@ -1,0 +1,62 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Philippe Mizerski",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Alexandre Benalla et Philippe Mizerski se tiennent derrière [Vincent Crase]... Alexandre Benalla et Vincent Crase... agrippe un manifestant... c'est ce dernier qui fait une clé de bras au manifestant pour le maîtriser.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Vincent Crase... arrête leur progression... tient par les bras une troisième personne... agrippe un manifestant... désigne un jeune homme aux gants rouges et lance « il nous a caillassés, lui ! »",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Philippe Mizerski",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Philippe Mizerski et Alexandre Benalla se tiennent derrière [Vincent Crase]... Philippe Mizerski et Alexandre Benalla, agrippe un manifestant.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaires Benalla",
+   "type": "CONCERNS",
+   "target": "violences contre des manifestants",
+   "evidence": "Deux manifestants affirment le 28 juillet que des violences sont commises... Alexandre Benalla et Vincent Crase... agrippe un manifestant qui crie... c'est ce dernier qui fait une clé de bras au manifestant pour le maîtriser.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

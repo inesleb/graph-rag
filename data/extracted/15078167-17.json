@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Union nationale des taxis",
+   "type": "Institution"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Mark MacGann",
+   "type": "Person"
+  },
+  {
+   "name": "Uber",
+   "type": "Company"
+  },
+  {
+   "name": "Affaire Uber Files",
+   "type": "Affair"
+  },
+  {
+   "name": "trafic d'influence",
+   "type": "Offense"
+  },
+  {
+   "name": "prise illégale d'intérêts",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Union nationale des taxis",
+   "type": "INDICTED_IN",
+   "target": "Emmanuel Macron",
+   "evidence": "Le syndicat de taxis UNT annonce [...] qu'il va déposer plainte contre Emmanuel Macron, pour trafic d'influence et prise illégale d'intérêts.",
+   "confidence": 1.0,
+   "date": "2022-07-20",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Uber Files",
+   "evidence": "Mark MacGann est auditionné [...] par la commission d’enquête parlementaire.",
+   "confidence": 0.9,
+   "date": "2023-03-23",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Uber Files",
+   "type": "CONCERNS",
+   "target": "trafic d'influence",
+   "evidence": "Le lanceur d’alerte a [...] appelé la France à soutenir la directive européenne sur les travailleurs des plateformes. Il est revenu sur les tactiques utilisées par l’entreprise dans les années 2010 pour contourner la loi sur le transport de personnes.",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Uber Files",
+   "type": "CONCERNS",
+   "target": "prise illégale d'intérêts",
+   "evidence": "« armé des milliards de dollars [...] vous pouvez proposer des courses à des prix incroyables, décorrélés de toute réalité économique – on appelle ça le dumping »",
+   "confidence": 0.7,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mark MacGann",
+   "type": "INVOLVED_IN",
+   "target": "Uber",
+   "evidence": "Il est revenu sur les tactiques utilisées par l’entreprise dans les années 2010 pour contourner la loi sur le transport de personnes.",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

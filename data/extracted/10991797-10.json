@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Christophe Castaner",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "EY (Ernst & Young)",
+   "type": "Company"
+  },
+  {
+   "name": "RTL",
+   "type": "Media"
+  },
+  {
+   "name": "Libération",
+   "type": "Media"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"le fait qu'elle ait tenté d'étouffer cette affaire en gardant l’audit d’EY pour elle\"",
+   "confidence": 0.9,
+   "date": "2017-06-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"où on parle quand même juste d'un dépassement d'un seuil de marché public\"",
+   "confidence": 0.85,
+   "date": "2017-07-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Christophe Castaner",
+   "type": "WORKED_FOR",
+   "target": "Gouvernement français",
+   "evidence": "\"le porte-parole du gouvernement\"",
+   "confidence": 1.0,
+   "date": "2017-07-04",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Libération",
+   "type": "REVEALED",
+   "target": "Affaire Business France",
+   "evidence": "\"à la suite des révélations du journal Libération\"",
+   "confidence": 1.0,
+   "date": "2017-06-28",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire Business France",
+   "evidence": "\"s'il y avait une mise en examen... où on parle... d'un dépassement d'un seuil de marché public\"",
+   "confidence": 0.7,
+   "date": "2017-07-04",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

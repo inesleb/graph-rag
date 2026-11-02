@@ -1,0 +1,80 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "Affair"
+  },
+  {
+   "name": "Jean-Luc Mélenchon",
+   "type": "Person"
+  },
+  {
+   "name": "Bastien Lachaud",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Pierre Oprandi",
+   "type": "Person"
+  },
+  {
+   "name": "L'Ère du peuple",
+   "type": "Institution"
+  },
+  {
+   "name": "Sophia Chikirou",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "type": "CONCERNS",
+   "target": "Jean-Luc Mélenchon",
+   "evidence": "affaire politico-financière française [...] impliquant des proches de Jean-Luc Mélenchon",
+   "confidence": 0.9,
+   "date": "2018",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bastien Lachaud",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Le député Bastien Lachaud [...] est mis en examen en 2021",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Pierre Oprandi",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "Marie-Pierre Oprandi [...] est mise en examen en 2021",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "L'Ère du peuple",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "l'association L'Ère du peuple est mise en examen en 2021",
+   "confidence": 1.0,
+   "date": "2021",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Sophia Chikirou",
+   "type": "INDICTED_IN",
+   "target": "Affaire des comptes de campagne de Jean-Luc Mélenchon en 2017",
+   "evidence": "La députée Sophia Chikirou est mise en examen en septembre 2024",
+   "confidence": 1.0,
+   "date": "2024-09",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

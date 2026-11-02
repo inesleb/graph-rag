@@ -1,0 +1,76 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "Cour d'appel de Paris",
+   "type": "Institution"
+  },
+  {
+   "name": "Blanchiment aggravé de fraude fiscale",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Patrick Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "la cour d'appel révoque le placement sous bracelet électronique des Balkany, à la suite d'une centaine d'infractions, et ordonne leur placement en détention.",
+   "confidence": 0.9,
+   "date": "2022-02-03",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "Isabelle Balkany fait une tentative de suicide en avalant des barbituriques.",
+   "confidence": 0.8,
+   "date": "2022-02-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "ACQUITTED_IN",
+   "target": "Blanchiment aggravé de fraude fiscale",
+   "evidence": "Patrick Balkany sort de prison. Il bénéficie d'un aménagement de peine.",
+   "confidence": 0.85,
+   "date": "2022-08-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "une nouvelle audience se tient devant la cour d’appel de Paris dans le but de réexaminer les sanctions du couple pour blanchiment aggravé de fraude fiscale.",
+   "confidence": 0.95,
+   "date": "2022-10-25",
+   "stage": "appeal",
+   "final": null
+  },
+  {
+   "source": "Patrick Balkany",
+   "type": "CONCERNS",
+   "target": "Blanchiment aggravé de fraude fiscale",
+   "evidence": "une nouvelle audience se tient [...] pour blanchiment aggravé de fraude fiscale.",
+   "confidence": 0.9,
+   "date": "2022-10-25",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

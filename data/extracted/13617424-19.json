@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Éric Dupond-Moretti",
+   "type": "Person"
+  },
+  {
+   "name": "Inspection générale de la Justice",
+   "type": "Institution"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Cour de justice de la République",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "WORKED_FOR",
+   "target": "gouvernement Castex",
+   "evidence": "Éric Dupond-Moretti, devenu entretemps ministre de la Justice du gouvernement Castex",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Inspection générale de la Justice",
+   "type": "INVESTIGATED",
+   "target": "Affaire des écoutes",
+   "evidence": "après la remise d’un rapport de l’Inspection générale de la Justice qui ne trouve aucune illégalité ni faute grave",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "INDICTED_IN",
+   "target": "Cour de justice de la République",
+   "evidence": "une enquête puis d’un procès à la Cour de justice de la République dans laquelle le ministre est mis en examen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": "first_instance",
+   "final": null
+  },
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "ACQUITTED_IN",
+   "target": "Cour de justice de la République",
+   "evidence": "le ministre est mis en examen avant d’être relaxé",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "first_instance",
+   "final": true
+  }
+ ]
+}

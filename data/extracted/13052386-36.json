@@ -1,0 +1,84 @@
+{
+ "entities": [
+  {
+   "name": "Carlos Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Anthony Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Carole Ghosn",
+   "type": "Person"
+  },
+  {
+   "name": "Shogun",
+   "type": "Company"
+  },
+  {
+   "name": "Beauty Yacht PTY",
+   "type": "Company"
+  },
+  {
+   "name": "Îles Vierges britanniques",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire Carlos Ghosn",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "Ces fonds occultes aurait été investis dans deux affaires familiales des Ghosn",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Shogun",
+   "evidence": "celle du fils, Anthony Ghosn la start-up Shogun",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carlos Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Beauty Yacht PTY",
+   "evidence": "celle de l’épouse, Carole Ghosn Beauty Yacht PTY",
+   "confidence": 0.95,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Beauty Yacht PTY",
+   "type": "MEMBER_OF",
+   "target": "Îles Vierges britanniques",
+   "evidence": "Beauty Yacht PTY est basée aux Îles Vierges britanniques",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Carole Ghosn",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Carlos Ghosn",
+   "evidence": "C’est à propos de Beauty Yacht PTY que Carole Ghosn est entendue à Tokyo le 11 avril 2019",
+   "confidence": 0.9,
+   "date": "2019-04-11",
+   "stage": "investigation",
+   "final": null
+  }
+ ]
+}

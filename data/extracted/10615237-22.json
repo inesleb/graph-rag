@@ -1,0 +1,90 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "France 2",
+   "type": "Media"
+  },
+  {
+   "name": "Envoyé spécial",
+   "type": "Media"
+  },
+  {
+   "name": "France Info",
+   "type": "Media"
+  },
+  {
+   "name": "Sunday Telegraph",
+   "type": "Media"
+  },
+  {
+   "name": "François Fillon",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Fillon",
+   "evidence": "\"enquête sur Penelope Fillon annoncée « en grande pompe »\"",
+   "confidence": 0.9,
+   "date": "2017-02-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Envoyé spécial",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"Y sont présentés des extraits de l'interview de Penelope Fillon\"",
+   "confidence": 0.95,
+   "date": "2017-02-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France 2",
+   "type": "MEMBER_OF",
+   "target": "Envoyé spécial",
+   "evidence": "\"l'émission Envoyé spécial de France 2\"",
+   "confidence": 1.0,
+   "date": "2017-02-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "France Info",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"Envoyé spécial a rendu visible [...] l'intégralité de l'interview\"",
+   "confidence": 0.85,
+   "date": "2017-02-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "François Fillon",
+   "evidence": "\"épouse du nouveau premier ministre français\"",
+   "confidence": 1.0,
+   "date": "2017-02-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sunday Telegraph",
+   "type": "REVEALED",
+   "target": "Affaire Fillon",
+   "evidence": "\"interview de Penelope Fillon [...] par le Sunday Telegraph\"",
+   "confidence": 0.9,
+   "date": "2007-05",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

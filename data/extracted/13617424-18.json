@@ -1,0 +1,148 @@
+{
+ "entities": [
+  {
+   "name": "Nicolas Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Thierry Herzog",
+   "type": "Person"
+  },
+  {
+   "name": "Claire Thépaut",
+   "type": "Person"
+  },
+  {
+   "name": "Patricia Simon",
+   "type": "Person"
+  },
+  {
+   "name": "Parquet national financier",
+   "type": "Institution"
+  },
+  {
+   "name": "Affaire des écoutes",
+   "type": "Affair"
+  },
+  {
+   "name": "Le Point",
+   "type": "Media"
+  },
+  {
+   "name": "Éric Dupond-Moretti",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "Nicolas Sarkozy est présumé savoir que sa ligne principale était écoutée.",
+   "confidence": 0.9,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "violation du secret de l’instruction",
+   "evidence": "volet de violation du secret de l’instruction",
+   "confidence": 1.0,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Claire Thépaut",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L’information judiciaire ouverte en février 2014 par les juges Claire Thépaut et Patricia Simon",
+   "confidence": 1.0,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Patricia Simon",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L’information judiciaire ouverte en février 2014 par les juges Claire Thépaut et Patricia Simon",
+   "confidence": 1.0,
+   "date": "2014-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "ACQUITTED_IN",
+   "target": "Nicolas Sarkozy",
+   "evidence": "Ce volet se conclut par un non-lieu.",
+   "confidence": 1.0,
+   "date": "2014-02",
+   "stage": "first_instance",
+   "final": true
+  },
+  {
+   "source": "Parquet national financier",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "une enquête préliminaire est ouverte par le PNF",
+   "confidence": 1.0,
+   "date": "2014-03-03",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "CONCERNS",
+   "target": "violation du secret de l’instruction",
+   "evidence": "exclusivement sur les faits de violation du secret de l’instruction",
+   "confidence": 1.0,
+   "date": "2014-03-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Nicolas Sarkozy",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "soupçonnée d’avoir prévenu Nicolas Sarkozy",
+   "confidence": 0.85,
+   "date": "2014-03-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Thierry Herzog",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "soupçonnée d’avoir prévenu [...] Thierry Herzog",
+   "confidence": 0.85,
+   "date": "2014-03-03",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des écoutes",
+   "type": "REVEALED",
+   "target": "Le Point",
+   "evidence": "Cette enquête ne sera révélée, par Le Point, qu’en juin 2020.",
+   "confidence": 1.0,
+   "date": "2020-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Éric Dupond-Moretti",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des écoutes",
+   "evidence": "L’avocat Éric Dupond-Moretti, dont les factures détaillées ont été disséquées",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

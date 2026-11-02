@@ -1,0 +1,152 @@
+{
+ "entities": [
+  {
+   "name": "Isabelle Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Patrick Balkany",
+   "type": "Person"
+  },
+  {
+   "name": "Rassemblement pour la République",
+   "type": "Party"
+  },
+  {
+   "name": "Union pour un mouvement populaire",
+   "type": "Party"
+  },
+  {
+   "name": "Les Républicains",
+   "type": "Party"
+  },
+  {
+   "name": "Affaire Balkany",
+   "type": "Affair"
+  },
+  {
+   "name": "déclarations mensongères",
+   "type": "Offense"
+  },
+  {
+   "name": "blanchiment de fraudes fiscales",
+   "type": "Offense"
+  },
+  {
+   "name": "corruption",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement pour la République",
+   "evidence": "Membre du Rassemblement pour la République (RPR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Union pour un mouvement populaire",
+   "evidence": "puis de l'Union pour un mouvement populaire (UMP)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "MEMBER_OF",
+   "target": "Les Républicains",
+   "evidence": "et enfin du parti Les Républicains (LR)",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "conseillère générale des Hauts-de-Seine",
+   "evidence": "conseillère générale et vice-présidente du conseil général des Hauts-de-Seine pendant 23 ans, entre 1988 et 2011",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "maire de Levallois-Perret",
+   "evidence": "première adjointe au maire de Levallois-Perret, Patrick Balkany, son époux, pendant 19 ans, de 2001 à 2020",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "À partir de 2013, Isabelle Balkany et son mari sont poursuivis dans l'affaire judiciaire qui porte leur nom",
+   "confidence": 1.0,
+   "date": "2013",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "déclarations mensongères",
+   "evidence": "pour plusieurs chefs d'accusations, dont déclarations mensongères",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "blanchiment de fraudes fiscales",
+   "evidence": "blanchiment de fraudes fiscales",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "INDICTED_IN",
+   "target": "corruption",
+   "evidence": "corruption",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "WORKED_FOR",
+   "target": "maire de Levallois-Perret",
+   "evidence": "elle se voit confier la fonction de maire à titre intérimaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Isabelle Balkany",
+   "type": "CONVICTED_IN",
+   "target": "Affaire Balkany",
+   "evidence": "elle est condamnée en appel à trois ans de prison ferme et dix ans d'inéligibilité",
+   "confidence": 1.0,
+   "date": "2020",
+   "stage": "appeal",
+   "final": true
+  }
+ ]
+}

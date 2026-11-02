@@ -1,0 +1,38 @@
+{
+ "entities": [
+  {
+   "name": "Penelope Fillon",
+   "type": "Person"
+  },
+  {
+   "name": "Revue des Deux Mondes",
+   "type": "Media"
+  },
+  {
+   "name": "Michel Crépu",
+   "type": "Person"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Penelope Fillon",
+   "type": "WORKED_FOR",
+   "target": "Revue des Deux Mondes",
+   "evidence": "Penelope Fillon aurait été rémunérée comme « conseiller littéraire » de la Revue des Deux Mondes de mai 2012 à décembre 2013",
+   "confidence": 0.95,
+   "date": "2012-05–2013-12",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Michel Crépu",
+   "type": "WORKED_FOR",
+   "target": "Revue des Deux Mondes",
+   "evidence": "Le directeur de la revue à l'époque des faits, Michel Crépu",
+   "confidence": 1.0,
+   "date": "2012–2013",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

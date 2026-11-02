@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "name": "Florian Philippot",
+   "type": "Person"
+  },
+  {
+   "name": "Ferial Mostefai",
+   "type": "Person"
+  },
+  {
+   "name": "Thomas Laval",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Florian Philippot",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "Florian Philippot, intervient comme témoin assisté dans cette affaire",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Florian Philippot",
+   "type": "WORKED_FOR",
+   "target": "Ferial Mostefai",
+   "evidence": "Ferial Mostefai l’une de ses assistantes accusée d’emploi fictif",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Florian Philippot",
+   "type": "REVEALED",
+   "target": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "evidence": "il demande [...] la rédaction d’un rapport laissant penser qu’il a été écrit par Ferial Mostefai",
+   "confidence": 0.9,
+   "date": "2016",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Florian Philippot",
+   "type": "REVEALED",
+   "target": "Ferial Mostefai",
+   "evidence": "le document est daté du 6 mars 2015 et comprend des copiés collés de fiches Wikipédia [...] ce qui atteste l'antidatage du document",
+   "confidence": 0.95,
+   "date": "2015-03-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Florian Philippot",
+   "type": "WORKED_FOR",
+   "target": "Thomas Laval",
+   "evidence": "Thomas Laval un de ses collaborateurs",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

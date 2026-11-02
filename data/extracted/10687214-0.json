@@ -1,0 +1,178 @@
+{
+ "entities": [
+  {
+   "name": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "Affair"
+  },
+  {
+   "name": "Front national",
+   "type": "Party"
+  },
+  {
+   "name": "Rassemblement national",
+   "type": "Party"
+  },
+  {
+   "name": "Marine Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-Marie Le Pen",
+   "type": "Person"
+  },
+  {
+   "name": "Wallerand de Saint-Just",
+   "type": "Person"
+  },
+  {
+   "name": "Nicolas Bay",
+   "type": "Person"
+  },
+  {
+   "name": "Julien Odoul",
+   "type": "Person"
+  },
+  {
+   "name": "Louis Aliot",
+   "type": "Person"
+  },
+  {
+   "name": "Jordan Bardella",
+   "type": "Person"
+  },
+  {
+   "name": "Jean-François Jalkh",
+   "type": "Person"
+  },
+  {
+   "name": "détournement de fonds publics",
+   "type": "Offense"
+  },
+  {
+   "name": "complicité pour détournement de fonds publics",
+   "type": "Offense"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "détournement de fonds publics",
+   "evidence": "une affaire politique et judiciaire portant sur des détournements de fonds publics",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire des assistants parlementaires du Front national au Parlement européen",
+   "type": "CONCERNS",
+   "target": "complicité pour détournement de fonds publics",
+   "evidence": "détournement de fonds publics ou complicité pour ce délit",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment Marine Le Pen [...] mises en examen par la justice française",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment [...] Jean-Marie Le Pen [...] mises en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Wallerand de Saint-Just",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment [...] Wallerand de Saint-Just [...] mises en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Nicolas Bay",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment [...] Nicolas Bay [...] mises en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Julien Odoul",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment [...] Julien Odoul [...] mises en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Louis Aliot",
+   "type": "INDICTED_IN",
+   "target": "détournement de fonds publics",
+   "evidence": "figurent notamment [...] Louis Aliot [...] mises en examen",
+   "confidence": 1.0,
+   "date": null,
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Front national",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Front national (FN) (devenu le « Rassemblement national » (RN))",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Marine Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Rassemblement national",
+   "evidence": "Certains députés européens RN ont employé des assistants parlementaires [...] Marine Le Pen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean-Marie Le Pen",
+   "type": "MEMBER_OF",
+   "target": "Front national",
+   "evidence": "Front national (FN) [...] Jean-Marie Le Pen",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jordan Bardella",
+   "type": "WORKED_FOR",
+   "target": "Jean-François Jalkh",
+   "evidence": "Jordan Bardella, bien qu'assistant parlementaire en 2015 de l'eurodéputé RN Jean-François Jalkh",
+   "confidence": 1.0,
+   "date": "2015",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

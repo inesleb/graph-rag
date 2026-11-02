@@ -1,0 +1,66 @@
+{
+ "entities": [
+  {
+   "name": "Bernard Tapie",
+   "type": "Person"
+  },
+  {
+   "name": "Crédit Lyonnais",
+   "type": "Company"
+  },
+  {
+   "name": "Jean Peyrelevade",
+   "type": "Person"
+  },
+  {
+   "name": "Affaire Tapie - Crédit lyonnais",
+   "type": "Affair"
+  },
+  {
+   "name": "BTF",
+   "type": "Company"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "Affaire Tapie - Crédit lyonnais",
+   "evidence": "un mémorandum pour l'ensemble de ses autres affaires, qui prévoit la vente une à une de ses autres entreprises",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "WORKED_FOR",
+   "target": "Crédit Lyonnais",
+   "evidence": "le solde devant servir à constituer avec le Crédit Lyonnais un fonds de gestion privé",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Jean Peyrelevade",
+   "type": "WORKED_FOR",
+   "target": "Crédit Lyonnais",
+   "evidence": "avant la nomination de Jean Peyrelevade à la tête du Crédit Lyonnais (novembre 1993)",
+   "confidence": 1.0,
+   "date": "1993-11",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Bernard Tapie",
+   "type": "INVOLVED_IN",
+   "target": "BTF",
+   "evidence": "notamment le retrait de bourse de BTF",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}

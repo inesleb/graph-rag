@@ -1,0 +1,110 @@
+{
+ "entities": [
+  {
+   "name": "Richard Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Sandrine Doucen",
+   "type": "Person"
+  },
+  {
+   "name": "Louise Ferrand",
+   "type": "Person"
+  },
+  {
+   "name": "Le Canard enchaîné",
+   "type": "Media"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Affaire des Mutuelles de Bretagne",
+   "type": "Affair"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Richard Ferrand",
+   "type": "WORKED_FOR",
+   "target": "Mutuelles de Bretagne",
+   "evidence": "s'il était directeur général de l'établissement mutualiste à l'époque",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En mai 2017 à la suite des révélations du Canard enchaîné, Richard Ferrand déclare que l'opération n'a « rien d'illégal »",
+   "confidence": 0.95,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "MEMBER_OF",
+   "target": "Conseil d'administration des Mutuelles de Bretagne",
+   "evidence": "il ne siégeait pas à son conseil d'administration",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "les statuts de la SCI mis à jour en février 2017, qu'un Pacs aurait été conclu entre Richard Ferrand et sa compagne en janvier 2014",
+   "confidence": 0.85,
+   "date": "2017-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Sandrine Doucen",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "l'entreprise de sa compagne offrait « le meilleur prix » parmi les réponses à l'appel d'offres",
+   "confidence": 0.8,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Mediapart",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Mediapart révèle « les statuts de la SCI mis à jour en février 2017, qu'un Pacs aurait été conclu entre Richard Ferrand et sa compagne »",
+   "confidence": 0.95,
+   "date": "2017-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Richard Ferrand",
+   "type": "INVOLVED_IN",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "Louise Ferrand, la fille du couple, née en 2004, est détentrice de la SCI à 1 %",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Le Canard enchaîné",
+   "type": "REVEALED",
+   "target": "Affaire des Mutuelles de Bretagne",
+   "evidence": "En mai 2017 à la suite des révélations du Canard enchaîné",
+   "confidence": 0.95,
+   "date": "2017-05",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "entities": [
+  {
+   "name": "Alexandre Benalla",
+   "type": "Person"
+  },
+  {
+   "name": "Chokri Wakrim",
+   "type": "Person"
+  },
+  {
+   "name": "Marie-Élodie Poitout",
+   "type": "Person"
+  },
+  {
+   "name": "Iskandar Makhmudov",
+   "type": "Person"
+  },
+  {
+   "name": "Vincent Crase",
+   "type": "Person"
+  },
+  {
+   "name": "Ariane Chemin",
+   "type": "Person"
+  },
+  {
+   "name": "Affaires Benalla",
+   "type": "Affair"
+  },
+  {
+   "name": "Mediapart",
+   "type": "Media"
+  },
+  {
+   "name": "Le Monde",
+   "type": "Media"
+  },
+  {
+   "name": "Direction générale de la sécurité intérieure (DGSI)",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Alexandre Benalla",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "En février 2019, le journal Libération affirme qu'un ami de Benalla, Chokri Wakrim...",
+   "confidence": 0.9,
+   "date": "2019-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Chokri Wakrim",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "Chokri Wakrim, en couple avec Marie-Élodie Poitout, alors cheffe de la sécurité du Premier ministre, est la personne ayant déplacé le coffre-fort de Benalla...",
+   "confidence": 0.9,
+   "date": "2019-02",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Chokri Wakrim",
+   "type": "INVESTIGATED",
+   "target": "Affaires Benalla",
+   "evidence": "il est convoqué comme témoin dans le cadre de l'enquête concernant la conversation diffusée par Mediapart.",
+   "confidence": 0.95,
+   "date": "2019-02",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Marie-Élodie Poitout",
+   "type": "INVOLVED_IN",
+   "target": "Affaires Benalla",
+   "evidence": "selon Marie-Élodie Poitout, Chokri Wakrim est présent chez elle ainsi qu'Alexandre Benalla le jour où la conversation est enregistrée.",
+   "confidence": 0.9,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Chokri Wakrim",
+   "type": "INVOLVED_IN",
+   "target": "Iskandar Makhmudov",
+   "evidence": "D'après Libération, Chokri Wakrim est impliqué dans un contrat de sécurité des propriétés de l'oligarque russe Iskandar Makhmudov",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Vincent Crase",
+   "type": "WORKED_FOR",
+   "target": "Iskandar Makhmudov",
+   "evidence": "contrat qui est signé par une société gérée à l'époque par Vincent Crase.",
+   "confidence": 0.85,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Ariane Chemin",
+   "type": "INDICTED_IN",
+   "target": "Affaire de révélation de l'identité d'un membre des unités des forces spéciales",
+   "evidence": "l'ouverture d'une enquête pour « révélation de l'identité d'un membre des unités des forces spéciales » à la suite d'un dépôt de plainte de Chokri Wakrim",
+   "confidence": 0.95,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Ariane Chemin",
+   "type": "INVESTIGATED",
+   "target": "Direction générale de la sécurité intérieure (DGSI)",
+   "evidence": "Ariane Chemin [...] est convoquée par la DGSI.",
+   "confidence": 0.95,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Le Monde",
+   "type": "INVESTIGATED",
+   "target": "Direction générale de la sécurité intérieure (DGSI)",
+   "evidence": "le président du directoire du journal Le Monde est convoqué par la DGSI.",
+   "confidence": 0.95,
+   "date": "2019-04",
+   "stage": "investigation",
+   "final": null
+  },
+  {
+   "source": "Affaire de révélation de l'identité d'un membre des unités des forces spéciales",
+   "type": "CONCERNS",
+   "target": "Chokri Wakrim",
+   "evidence": "l'ouverture d'une enquête pour « révélation de l'identité d'un membre des unités des forces spéciales » à la suite d'un dépôt de plainte de Chokri Wakrim",
+   "confidence": 0.95,
+   "date": "2019-04",
+   "stage": null,
+   "final": null
+  }
+ ]
+}

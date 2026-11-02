@@ -1,0 +1,124 @@
+{
+ "entities": [
+  {
+   "name": "Affaire Business France",
+   "type": "Affair"
+  },
+  {
+   "name": "Business France",
+   "type": "Institution"
+  },
+  {
+   "name": "Muriel Pénicaud",
+   "type": "Person"
+  },
+  {
+   "name": "Havas",
+   "type": "Company"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "Person"
+  },
+  {
+   "name": "Pierre Gattaz",
+   "type": "Person"
+  },
+  {
+   "name": "MEDEF",
+   "type": "Institution"
+  },
+  {
+   "name": "Frédéric Lefebvre",
+   "type": "Person"
+  },
+  {
+   "name": "Henri Seydoux",
+   "type": "Person"
+  },
+  {
+   "name": "Guillaume Sarkozy",
+   "type": "Person"
+  },
+  {
+   "name": "Éric Carreel",
+   "type": "Person"
+  },
+  {
+   "name": "Code des marchés publics",
+   "type": "Institution"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "Business France",
+   "evidence": "L'affaire Business France concerne la signature par Business France",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Muriel Pénicaud",
+   "type": "WORKED_FOR",
+   "target": "Business France",
+   "evidence": "dont Muriel Pénicaud était la directrice générale à l'époque des faits",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "Havas",
+   "evidence": "sans appel d’offres préalable, d'un contrat [...] avec la société Havas",
+   "confidence": 1.0,
+   "date": "2016-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "Emmanuel Macron",
+   "evidence": "à laquelle ont participé Emmanuel Macron",
+   "confidence": 1.0,
+   "date": "2016-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Emmanuel Macron",
+   "type": "WORKED_FOR",
+   "target": "Ministère de l'Économie, de l'Industrie et du Numérique",
+   "evidence": "Emmanuel Macron (à l'époque ministre de l'économie, de l'industrie et du numérique)",
+   "confidence": 1.0,
+   "date": "2016-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Pierre Gattaz",
+   "type": "WORKED_FOR",
+   "target": "MEDEF",
+   "evidence": "Pierre Gattaz (à l'époque président du MEDEF)",
+   "confidence": 1.0,
+   "date": "2016-01-06",
+   "stage": null,
+   "final": null
+  },
+  {
+   "source": "Affaire Business France",
+   "type": "CONCERNS",
+   "target": "Code des marchés publics",
+   "evidence": "Or, l'art.146 du Code des marchés publics impose alors un appel d'offres pour les marchés publics d'un montant de plus de 25 000 euros",
+   "confidence": 1.0,
+   "date": null,
+   "stage": null,
+   "final": null
+  }
+ ]
+}
